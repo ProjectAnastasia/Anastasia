@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# test-anastasia-container
+# test an anastasia container with exposed port and volume mounts
+
+mkdir -p /tmp/anastasia
+tar c config | tar x -C /tmp/anastasia
+tar c data | tar x -C /tmp/anastasia
+
+    # --link game_db:game_db \
+docker run \
+    --name=test_station \
+    --publish 7777:7777 \
+    --rm \
+    -v /tmp/anastasia/config:/anastasia/config:ro \
+    -v /tmp/anastasia/data:/anastasia/data \
+    anastasia:latest

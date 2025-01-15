@@ -1,0 +1,40 @@
+# .dockerignore
+# speed up `docker buildx` by ignoring the files listed here
+# note that files commented out are listed for completeness
+
+#_maps
+.archive
+.github
+.vscode
+bin
+#code
+#config
+#data
+#fonts
+#goon
+#html
+#icons
+#interface
+#sound
+SQL
+#strings
+#tgui
+tools
+#_build_dependencies.sh
+.dockerignore
+.editorconfig
+.gitignore
+#anastasia.dme
+CODE_OF_CONDUCT.md
+#COPYING
+Dockerfile
+dreamchecker.exe
+#librust_g.so
+#LICENSE
+#LICENSE-AGPL3.txt
+#LICENSE-CC-BY-NC-SA.txt
+#LICENSE-GPL3.txt
+#README.md
+rust_g.dll
+SpacemanDMM.toml
+TGS3.json

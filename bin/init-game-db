@@ -1,0 +1,39 @@
+#!/usr/bin/env bash
+# init-game-db
+# initialize a container image for the game database
+
+# generate some secure passwords
+CONTAINER_NAME="game_db"
+SQL_DATABASE="anastasia_gamedb"
+SQL_PASSWORD=$(dd if=/dev/urandom bs=1 count=32 2>/dev/null | base64 | head -c 32)
+SQL_ROOT_PASSWORD=$(dd if=/dev/urandom bs=1 count=32 2>/dev/null | base64 | head -c 32)
+SQL_USERNAME="ss13"
+SQL_VERSION="25"
+
+# create the container and import the game database schema
+docker run \
+    -e MARIADB_DATABASE="${SQL_DATABASE}" \
+    -e MARIADB_PASSWORD="${SQL_PASSWORD}" \
+    -e MARIADB_ROOT_PASSWORD="${SQL_ROOT_PASSWORD}" \
+    -e MARIADB_USER="${SQL_USERNAME}" \
+    --name="${CONTAINER_NAME}" \
+    --publish 3306:3306 \
+    -v ${PWD}/SQL:/docker-entrypoint-initdb.d:ro \
+    mariadb:latest &
+
+# move the old dbconfig.txt to a backup file just in case...
+if [ -f ${PWD}/config/dbconfig.txt ]; then
+    mv ${PWD}/config/dbconfig.txt ${PWD}/config/dbconfig.txt.bak$(date +%s)
+fi
+
+# generate an appropriate dbconfig.txt configuration file
+echo "# SQL_ROOT_PASSWORD ${SQL_ROOT_PASSWORD}" >> ${PWD}/config/dbconfig.txt
+echo "sql_enabled = true" >> ${PWD}/config/dbconfig.txt
+echo "sql_version = ${SQL_VERSION}" >> ${PWD}/config/dbconfig.txt
+echo "sql_address = \"${CONTAINER_NAME}\"" >> ${PWD}/config/dbconfig.txt
+echo "sql_port = 3306" >> ${PWD}/config/dbconfig.txt
+echo "sql_database = \"${SQL_DATABASE}\"" >> ${PWD}/config/dbconfig.txt
+echo "sql_username = \"${SQL_USERNAME}\"" >> ${PWD}/config/dbconfig.txt
+echo "sql_password = \"${SQL_PASSWORD}\"" >> ${PWD}/config/dbconfig.txt
+echo "async_query_timeout = 10" >> ${PWD}/config/dbconfig.txt
+echo "async_thread_limit = 50" >> ${PWD}/config/dbconfig.txt

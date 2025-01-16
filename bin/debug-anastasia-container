@@ -5,7 +5,7 @@
 docker run \
     --entrypoint bash \
     --interactive \
-    --name=debug_me \
+    --name debug_me \
     --rm \
     --tty \
     anastasia:latest

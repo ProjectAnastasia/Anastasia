@@ -2,15 +2,17 @@
 # test-anastasia-container
 # test an anastasia container with exposed port and volume mounts
 
-mkdir -p /tmp/anastasia
-tar c config | tar x -C /tmp/anastasia
-tar c data | tar x -C /tmp/anastasia
+VOLUME_ROOT="/tmp/anastasia-$(date +%s)"
 
-    # --link game_db:game_db \
+mkdir -p "${VOLUME_ROOT}"
+tar c config | tar x -C "${VOLUME_ROOT}"
+tar c data | tar x -C "${VOLUME_ROOT}"
+
 docker run \
+    --link game_db:game_db \
     --name=test_station \
     --publish 7777:7777 \
     --rm \
-    -v /tmp/anastasia/config:/anastasia/config:ro \
-    -v /tmp/anastasia/data:/anastasia/data \
+    -v ${VOLUME_ROOT}/config:/anastasia/config:ro \
+    -v ${VOLUME_ROOT}/data:/anastasia/data \
     anastasia:latest

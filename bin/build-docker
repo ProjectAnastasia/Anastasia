@@ -6,12 +6,12 @@
 GIT_HASH="$(git log | head -1 | awk -e '{print $2}' | head -c 12)"
 
 # build anastasia, and tag it as anastasia:GIT_HASH
-	# --no-cache \
+    # --no-cache \
 docker buildx build \
-	--file Dockerfile \
-	--platform linux/386 \
-	--tag anastasia:${GIT_HASH} \
-	.
+    --file Dockerfile \
+    --platform linux/386 \
+    --tag anastasia:${GIT_HASH} \
+    .
 
 # since we just built anastasia, tag it again as anastasia:latest
 docker image tag anastasia:${GIT_HASH} anastasia:latest

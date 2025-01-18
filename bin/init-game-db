@@ -8,7 +8,7 @@ SQL_DATABASE="anastasia_gamedb"
 SQL_PASSWORD=$(dd if=/dev/urandom bs=1 count=32 2>/dev/null | base64 | head -c 32)
 SQL_ROOT_PASSWORD=$(dd if=/dev/urandom bs=1 count=32 2>/dev/null | base64 | head -c 32)
 SQL_USERNAME="ss13"
-SQL_VERSION="25"
+SQL_VERSION="1"
 
 # create the container and import the game database schema
 docker run \

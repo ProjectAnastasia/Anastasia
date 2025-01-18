@@ -12,11 +12,17 @@ SET default_storage_engine = 'InnoDB';
 
 DROP TABLE IF EXISTS `2fa_secrets`;
 CREATE TABLE `2fa_secrets` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `ckey` varchar(50) NOT NULL,
   `secret` varchar(64) NOT NULL,
   `date_setup` datetime NOT NULL DEFAULT current_timestamp(),
   `last_time` datetime DEFAULT NULL,
-  PRIMARY KEY (`ckey`) USING BTREE
+  `date_created` datetime NOT NULL DEFAULT current_timestamp(),
+  `date_updated` datetime NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `uuid` uuid NOT NULL DEFAULT uuid(),
+  `version` int(11) NOT NULL DEFAULT 0,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY (`ckey`)
 );
 
 --
@@ -30,6 +36,10 @@ CREATE TABLE `admin` (
   `admin_rank` varchar(32) NOT NULL DEFAULT 'Administrator',
   `level` int(2) NOT NULL DEFAULT 0,
   `flags` int(16) NOT NULL DEFAULT 0,
+  `date_created` datetime NOT NULL DEFAULT current_timestamp(),
+  `date_updated` datetime NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `uuid` uuid NOT NULL DEFAULT uuid(),
+  `version` int(11) NOT NULL DEFAULT 0,
   PRIMARY KEY (`id`),
   KEY `ckey` (`ckey`)
 );
@@ -45,6 +55,10 @@ CREATE TABLE `admin_log` (
   `adminckey` varchar(32) NOT NULL,
   `adminip` varchar(18) NOT NULL,
   `log` mediumtext NOT NULL,
+  `date_created` datetime NOT NULL DEFAULT current_timestamp(),
+  `date_updated` datetime NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `uuid` uuid NOT NULL DEFAULT uuid(),
+  `version` int(11) NOT NULL DEFAULT 0,
   PRIMARY KEY (`id`),
   KEY `adminckey` (`adminckey`)
 );
@@ -80,6 +94,10 @@ CREATE TABLE `ban` (
   `unbanned_ckey` varchar(32) DEFAULT NULL,
   `unbanned_computerid` varchar(32) DEFAULT NULL,
   `unbanned_ip` varchar(32) DEFAULT NULL,
+  `date_created` datetime NOT NULL DEFAULT current_timestamp(),
+  `date_updated` datetime NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `uuid` uuid NOT NULL DEFAULT uuid(),
+  `version` int(11) NOT NULL DEFAULT 0,
   PRIMARY KEY (`id`),
   KEY `ckey` (`ckey`),
   KEY `computerid` (`computerid`),
@@ -98,6 +116,10 @@ CREATE TABLE `changelog` (
   `author` varchar(32) NOT NULL,
   `cl_type` enum('FIX','WIP','TWEAK','SOUNDADD','SOUNDDEL','CODEADD','CODEDEL','IMAGEADD','IMAGEDEL','SPELLCHECK','EXPERIMENT') NOT NULL,
   `cl_entry` text NOT NULL,
+  `date_created` datetime NOT NULL DEFAULT current_timestamp(),
+  `date_updated` datetime NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `uuid` uuid NOT NULL DEFAULT uuid(),
+  `version` int(11) NOT NULL DEFAULT 0,
   PRIMARY KEY (`id`)
 );
 
@@ -162,6 +184,10 @@ CREATE TABLE `characters` (
   `body_accessory` longtext NOT NULL,
   `gear` longtext NOT NULL,
   `autohiss` tinyint(1) NOT NULL,
+  `date_created` datetime NOT NULL DEFAULT current_timestamp(),
+  `date_updated` datetime NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `uuid` uuid NOT NULL DEFAULT uuid(),
+  `version` int(11) NOT NULL DEFAULT 0,
   PRIMARY KEY (`id`),
   KEY `ckey` (`ckey`)
 );
@@ -178,6 +204,10 @@ CREATE TABLE `connection_log` (
   `ip` varchar(32) NOT NULL,
   `computerid` varchar(32) NOT NULL,
   `result` enum('ESTABLISHED','DROPPED - IPINTEL','DROPPED - BANNED','DROPPED - INVALID') NOT NULL DEFAULT 'ESTABLISHED',
+  `date_created` datetime NOT NULL DEFAULT current_timestamp(),
+  `date_updated` datetime NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `uuid` uuid NOT NULL DEFAULT uuid(),
+  `version` int(11) NOT NULL DEFAULT 0,
   PRIMARY KEY (`id`),
   KEY `ckey` (`ckey`),
   KEY `ip` (`ip`),
@@ -199,6 +229,10 @@ CREATE TABLE `customuseritems` (
   `cuiReason` text DEFAULT NULL,
   `cuiPropAdjust` text DEFAULT NULL,
   `cuiJobMask` text NOT NULL,
+  `date_created` datetime NOT NULL DEFAULT current_timestamp(),
+  `date_updated` datetime NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `uuid` uuid NOT NULL DEFAULT uuid(),
+  `version` int(11) NOT NULL DEFAULT 0,
   PRIMARY KEY (`id`),
   KEY `cuiCKey` (`cuiCKey`)
 );
@@ -210,8 +244,7 @@ CREATE TABLE `customuseritems` (
 DROP TABLE IF EXISTS `db_metadata`;
 CREATE TABLE `db_metadata` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `sql_file` int(11) NOT NULL DEFAULT 0,
-  `sql_version` int(11) NOT NULL DEFAULT 25,
+  `sql_version` int(11) NOT NULL DEFAULT 0,
   `date_created` datetime NOT NULL DEFAULT current_timestamp(),
   `date_updated` datetime NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
   `uuid` uuid NOT NULL DEFAULT uuid(),
@@ -242,6 +275,10 @@ CREATE TABLE `death` (
   `brainloss` int(11) NOT NULL,
   `fireloss` int(11) NOT NULL,
   `oxyloss` int(11) NOT NULL,
+  `date_created` datetime NOT NULL DEFAULT current_timestamp(),
+  `date_updated` datetime NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `uuid` uuid NOT NULL DEFAULT uuid(),
+  `version` int(11) NOT NULL DEFAULT 0,
   PRIMARY KEY (`id`)
 );
 
@@ -251,13 +288,19 @@ CREATE TABLE `death` (
 
 DROP TABLE IF EXISTS `donators`;
 CREATE TABLE `donators` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `patreon_name` varchar(32) NOT NULL,
   `tier` int(2) DEFAULT NULL,
   `ckey` varchar(32) DEFAULT NULL COMMENT 'Manual Field',
   `start_date` datetime DEFAULT NULL,
   `end_date` datetime DEFAULT NULL,
   `active` tinyint(1) DEFAULT NULL,
-  PRIMARY KEY (`patreon_name`),
+  `date_created` datetime NOT NULL DEFAULT current_timestamp(),
+  `date_updated` datetime NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `uuid` uuid NOT NULL DEFAULT uuid(),
+  `version` int(11) NOT NULL DEFAULT 0,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY (`patreon_name`),
   KEY `ckey` (`ckey`)
 );
 
@@ -268,12 +311,15 @@ CREATE TABLE `donators` (
 DROP TABLE IF EXISTS `feedback`;
 CREATE TABLE `feedback` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
-  `datetime` datetime NOT NULL,
   `round_id` int(8) NOT NULL,
   `key_name` varchar(32) NOT NULL,
   `key_type` enum('text','amount','tally','nested tally','associative') NOT NULL,
-  `version` tinyint(3) unsigned NOT NULL,
+  `sqlversion` tinyint(3) unsigned NOT NULL,
   `json` longtext NOT NULL,
+  `date_created` datetime NOT NULL DEFAULT current_timestamp(),
+  `date_updated` datetime NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `uuid` uuid NOT NULL DEFAULT uuid(),
+  `version` int(11) NOT NULL DEFAULT 0,
   PRIMARY KEY (`id`)
 );
 
@@ -283,10 +329,16 @@ CREATE TABLE `feedback` (
 
 DROP TABLE IF EXISTS `ip2group`;
 CREATE TABLE `ip2group` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `ip` varchar(18) NOT NULL,
   `date` datetime NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
   `groupstr` varchar(32) NOT NULL DEFAULT '',
-  PRIMARY KEY (`ip`),
+  `date_created` datetime NOT NULL DEFAULT current_timestamp(),
+  `date_updated` datetime NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `uuid` uuid NOT NULL DEFAULT uuid(),
+  `version` int(11) NOT NULL DEFAULT 0,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY (`ip`),
   KEY `groupstr` (`groupstr`)
 );
 
@@ -296,10 +348,16 @@ CREATE TABLE `ip2group` (
 
 DROP TABLE IF EXISTS `ipintel`;
 CREATE TABLE `ipintel` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `ip` int(10) unsigned NOT NULL,
   `date` datetime NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
   `intel` double NOT NULL DEFAULT 0,
-  PRIMARY KEY (`ip`)
+  `date_created` datetime NOT NULL DEFAULT current_timestamp(),
+  `date_updated` datetime NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `uuid` uuid NOT NULL DEFAULT uuid(),
+  `version` int(11) NOT NULL DEFAULT 0,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY (`ip`)
 );
 
 --
@@ -318,6 +376,10 @@ CREATE TABLE `karma` (
   `isnegative` tinyint(1) DEFAULT NULL,
   `spenderip` text NOT NULL,
   `time` datetime NOT NULL,
+  `date_created` datetime NOT NULL DEFAULT current_timestamp(),
+  `date_updated` datetime NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `uuid` uuid NOT NULL DEFAULT uuid(),
+  `version` int(11) NOT NULL DEFAULT 0,
   PRIMARY KEY (`id`)
 );
 
@@ -331,6 +393,10 @@ CREATE TABLE `karmatotals` (
   `byondkey` varchar(30) NOT NULL,
   `karma` int(11) NOT NULL,
   `karmaspent` int(11) NOT NULL DEFAULT 0,
+  `date_created` datetime NOT NULL DEFAULT current_timestamp(),
+  `date_updated` datetime NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `uuid` uuid NOT NULL DEFAULT uuid(),
+  `version` int(11) NOT NULL DEFAULT 0,
   PRIMARY KEY (`id`),
   KEY `byondkey` (`byondkey`)
 );
@@ -345,6 +411,10 @@ CREATE TABLE `legacy_population` (
   `playercount` int(11) DEFAULT NULL,
   `admincount` int(11) DEFAULT NULL,
   `time` datetime NOT NULL,
+  `date_created` datetime NOT NULL DEFAULT current_timestamp(),
+  `date_updated` datetime NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `uuid` uuid NOT NULL DEFAULT uuid(),
+  `version` int(11) NOT NULL DEFAULT 0,
   PRIMARY KEY (`id`)
 );
 
@@ -361,6 +431,10 @@ CREATE TABLE `library` (
   `category` mediumtext NOT NULL,
   `ckey` varchar(32) NOT NULL,
   `flagged` int(11) NOT NULL,
+  `date_created` datetime NOT NULL DEFAULT current_timestamp(),
+  `date_updated` datetime NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `uuid` uuid NOT NULL DEFAULT uuid(),
+  `version` int(11) NOT NULL DEFAULT 0,
   PRIMARY KEY (`id`),
   KEY `ckey` (`ckey`),
   KEY `flagged` (`flagged`)
@@ -372,12 +446,18 @@ CREATE TABLE `library` (
 
 DROP TABLE IF EXISTS `memo`;
 CREATE TABLE `memo` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `ckey` varchar(32) NOT NULL,
   `memotext` text NOT NULL,
   `timestamp` datetime NOT NULL,
   `last_editor` varchar(32) DEFAULT NULL,
   `edits` text DEFAULT NULL,
-  PRIMARY KEY (`ckey`)
+  `date_created` datetime NOT NULL DEFAULT current_timestamp(),
+  `date_updated` datetime NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `uuid` uuid NOT NULL DEFAULT uuid(),
+  `version` int(11) NOT NULL DEFAULT 0,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY (`ckey`)
 );
 
 --
@@ -397,6 +477,10 @@ CREATE TABLE `notes` (
   `server` varchar(50) NOT NULL,
   `crew_playtime` mediumint(8) unsigned DEFAULT 0,
   `automated` tinyint(3) unsigned DEFAULT 0,
+  `date_created` datetime NOT NULL DEFAULT current_timestamp(),
+  `date_updated` datetime NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `uuid` uuid NOT NULL DEFAULT uuid(),
+  `version` int(11) NOT NULL DEFAULT 0,
   PRIMARY KEY (`id`),
   KEY `ckey` (`ckey`)
 );
@@ -407,9 +491,15 @@ CREATE TABLE `notes` (
 
 DROP TABLE IF EXISTS `oauth_tokens`;
 CREATE TABLE `oauth_tokens` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `ckey` varchar(32) NOT NULL,
   `token` varchar(32) NOT NULL,
-  PRIMARY KEY (`token`),
+  `date_created` datetime NOT NULL DEFAULT current_timestamp(),
+  `date_updated` datetime NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `uuid` uuid NOT NULL DEFAULT uuid(),
+  `version` int(11) NOT NULL DEFAULT 0,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY (`token`),
   KEY `ckey` (`ckey`)
 );
 
@@ -445,6 +535,10 @@ CREATE TABLE `player` (
   `parallax` tinyint(1) DEFAULT 8,
   `byond_date` date DEFAULT NULL,
   `2fa_status` enum('DISABLED','ENABLED_IP','ENABLED_ALWAYS') NOT NULL DEFAULT 'DISABLED',
+  `date_created` datetime NOT NULL DEFAULT current_timestamp(),
+  `date_updated` datetime NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `uuid` uuid NOT NULL DEFAULT uuid(),
+  `version` int(11) NOT NULL DEFAULT 0,
   PRIMARY KEY (`id`),
   UNIQUE KEY `ckey` (`ckey`),
   KEY `lastseen` (`lastseen`),
@@ -460,11 +554,17 @@ CREATE TABLE `player` (
 
 DROP TABLE IF EXISTS `playtime_history`;
 CREATE TABLE `playtime_history` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `ckey` varchar(32) NOT NULL,
   `date` date NOT NULL,
   `time_living` smallint(6) NOT NULL,
   `time_ghost` smallint(6) NOT NULL,
-  PRIMARY KEY (`ckey`,`date`)
+  `date_created` datetime NOT NULL DEFAULT current_timestamp(),
+  `date_updated` datetime NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `uuid` uuid NOT NULL DEFAULT uuid(),
+  `version` int(11) NOT NULL DEFAULT 0,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY (`ckey`,`date`)
 );
 
 --
@@ -473,10 +573,16 @@ CREATE TABLE `playtime_history` (
 
 DROP TABLE IF EXISTS `privacy`;
 CREATE TABLE `privacy` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `ckey` varchar(32) NOT NULL,
   `datetime` datetime NOT NULL,
   `consent` bit(1) NOT NULL,
-  PRIMARY KEY (`ckey`)
+  `date_created` datetime NOT NULL DEFAULT current_timestamp(),
+  `date_updated` datetime NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `uuid` uuid NOT NULL DEFAULT uuid(),
+  `version` int(11) NOT NULL DEFAULT 0,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY (`ckey`)
 );
 
 --
@@ -499,6 +605,10 @@ CREATE TABLE `round` (
   `shuttle_name` varchar(64) DEFAULT NULL,
   `map_name` varchar(32) DEFAULT NULL,
   `station_name` varchar(80) DEFAULT NULL,
+  `date_created` datetime NOT NULL DEFAULT current_timestamp(),
+  `date_updated` datetime NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `uuid` uuid NOT NULL DEFAULT uuid(),
+  `version` int(11) NOT NULL DEFAULT 0,
   PRIMARY KEY (`id`)
 );
 
@@ -508,9 +618,15 @@ CREATE TABLE `round` (
 
 DROP TABLE IF EXISTS `vpn_whitelist`;
 CREATE TABLE `vpn_whitelist` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `ckey` varchar(32) NOT NULL,
   `reason` text DEFAULT NULL,
-  PRIMARY KEY (`ckey`)
+  `date_created` datetime NOT NULL DEFAULT current_timestamp(),
+  `date_updated` datetime NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `uuid` uuid NOT NULL DEFAULT uuid(),
+  `version` int(11) NOT NULL DEFAULT 0,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY (`ckey`)
 );
 
 --
@@ -519,13 +635,19 @@ CREATE TABLE `vpn_whitelist` (
 
 DROP TABLE IF EXISTS `watch`;
 CREATE TABLE `watch` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `ckey` varchar(32) NOT NULL,
   `reason` mediumtext NOT NULL,
   `timestamp` datetime NOT NULL,
   `adminckey` varchar(32) NOT NULL,
   `last_editor` varchar(32) DEFAULT NULL,
   `edits` mediumtext DEFAULT NULL,
-  PRIMARY KEY (`ckey`)
+  `date_created` datetime NOT NULL DEFAULT current_timestamp(),
+  `date_updated` datetime NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `uuid` uuid NOT NULL DEFAULT uuid(),
+  `version` int(11) NOT NULL DEFAULT 0,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY (`ckey`)
 );
 
 --
@@ -538,6 +660,10 @@ CREATE TABLE `whitelist` (
   `ckey` varchar(32) NOT NULL,
   `job` mediumtext DEFAULT NULL,
   `species` mediumtext DEFAULT NULL,
+  `date_created` datetime NOT NULL DEFAULT current_timestamp(),
+  `date_updated` datetime NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `uuid` uuid NOT NULL DEFAULT uuid(),
+  `version` int(11) NOT NULL DEFAULT 0,
   PRIMARY KEY (`id`),
   KEY `ckey` (`ckey`)
 );

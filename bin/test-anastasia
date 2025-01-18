@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# test-anastasia-container
+# test-anastasia
 # test an anastasia container with exposed port and volume mounts
 
 VOLUME_ROOT="/tmp/anastasia-$(date +%s)"

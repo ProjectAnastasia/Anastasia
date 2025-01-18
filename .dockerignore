@@ -10,7 +10,6 @@ bin
 #code
 #config
 #data
-#fonts
 #goon
 #html
 #icons
@@ -19,7 +18,7 @@ bin
 SQL
 #strings
 #tgui
-tools
+#tools
 #_build_dependencies.sh
 .dockerignore
 .editorconfig

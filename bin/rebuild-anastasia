@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
-# build-docker
-# build a container image for anastasia
+# rebuild-anastasia
+# build a container image for anastasia, from scratch
 
 # get the first 12 characters of the commit hash from git as GIT_HASH
 GIT_HASH="$(git log | head -1 | awk -e '{print $2}' | head -c 12)"
 
 # build anastasia, and tag it as anastasia:GIT_HASH
-    # --no-cache \
 docker buildx build \
     --file Dockerfile \
+    --no-cache \
     --platform linux/386 \
     --tag anastasia:${GIT_HASH} \
     .

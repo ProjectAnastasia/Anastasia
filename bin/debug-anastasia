@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# debug-anastasia
+# create an anastasia container and run a bash shell
+
+docker run \
+    --entrypoint bash \
+    --interactive \
+    --name debug_me \
+    --rm \
+    --tty \
+    anastasia:latest

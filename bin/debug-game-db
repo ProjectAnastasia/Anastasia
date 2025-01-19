@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+# debug-game-db
+# run a MariaDB shell on the game database container
+
+if [ -f ${PWD}/config/dbconfig.txt ]; then
+    SQL_ROOT_PASSWORD=$(head -1 config/dbconfig.txt | awk -e '{print $3}')
+    echo "Password: ${SQL_ROOT_PASSWORD}"
+fi
+
+docker run \
+    --interactive \
+    --name gamedb-shell-$(date +%s) \
+    --network host \
+    --rm \
+    --tty=true \
+    mariadb:latest \
+    mariadb \
+    --host 127.0.0.1 \
+    --user root \
+    --password \
+    anastasia_gamedb

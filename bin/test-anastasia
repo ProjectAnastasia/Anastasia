@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# test-anastasia
+# test an anastasia container with exposed port and volume mounts
+
+VOLUME_ROOT="/tmp/anastasia-$(date +%s)"
+
+mkdir -p "${VOLUME_ROOT}"
+tar c config | tar x -C "${VOLUME_ROOT}"
+tar c data | tar x -C "${VOLUME_ROOT}"
+
+docker run \
+    --link game_db:game_db \
+    --name=test_station \
+    --publish 7777:7777 \
+    --rm \
+    -v ${VOLUME_ROOT}/config:/anastasia/config:ro \
+    -v ${VOLUME_ROOT}/data:/anastasia/data \
+    anastasia:latest

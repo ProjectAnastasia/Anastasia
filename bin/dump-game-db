@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+# dump-game-db
+# create a backup dump of the game database
+
+OUTPUT_FILE=${OUTPUT_FILE:="anastasia_gamedb_$(date +%Y%m%d_%H%M%S).sql"}
+SQL_DATABASE=${SQL_DATABASE:="anastasia_gamedb"}
+
+if [ -f ${PWD}/config/dbconfig.txt ]; then
+    SQL_ROOT_PASSWORD=$(head -1 config/dbconfig.txt | awk -e '{print $3}')
+    echo "Password: ${SQL_ROOT_PASSWORD}"
+fi
+
+    # --no-data \
+docker run \
+    --interactive \
+    --name gamedb-dump-$(date +%s) \
+    --network host \
+    --rm \
+    --tty=true \
+    mariadb:latest \
+    mariadb-dump \
+    --host 127.0.0.1 \
+    --user root \
+    -p${SQL_ROOT_PASSWORD} \
+    ${SQL_DATABASE} \
+    > "${OUTPUT_FILE}"

@@ -26,8 +26,8 @@ window.Byond = (function () {
   var hasOwn = Object.prototype.hasOwnProperty;
   // Basic checks to detect whether this page runs in BYOND
   var isByond = !!navigator.userAgent.match(/Trident\/(\d+).+?;/i)
-    && location.hostname === '127.0.0.1'
-    && location.pathname.indexOf('/tmp') === 0;
+    && location.hostname === '127.0.0.1';
+    // && location.pathname.indexOf('/tmp') === 0;
   // Makes a BYOND call.
   // See: https://secure.byond.com/docs/ref/skinparams.html
   Byond.call = function (path, params) {
@@ -146,7 +146,7 @@ A fatal exception has occurred at 002B:C562F1B7 in TGUI.
 The current application will be terminated.
 Please remain calm. Get to the nearest NTNet workstation
 and send the copy of the following stack trace to:
-<a target="_blank" style="color: white;" href="https://github.com/ParadiseSS13/Paradise">https://github.com/ParadiseSS13/Paradise</a>. Thank you for your cooperation.
+<a target="_blank" style="color: white;" href="https://github.com/ProjectAnastasia/Anastasia">https://github.com/ProjectAnastasia/Anastasia</a>. Thank you for your cooperation.
 </marquee>
 <div id="FatalError__stack" class="FatalError__stack"></div>
 <div class="FatalError__footer">

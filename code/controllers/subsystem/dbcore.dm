@@ -114,6 +114,23 @@ SUBSYSTEM_DEF(dbcore)
 		#endif
 		if(Connect())
 			SEND_TEXT(world.log, "Database connection established")
+			// now that we're connected, ask the database what DB schema it thinks it is
+			var/datum/db_query/select_db_metadata = SSdbcore.NewQuery("SELECT sql_version FROM db_metadata", list())
+			if(!select_db_metadata.warn_execute())
+				qdel(select_db_metadata)
+				log_sql("Failed query: SELECT sql_version FROM db_metadata")
+				return
+			var/sql_version = -1
+			while(select_db_metadata.NextRow())
+				sql_version = select_db_metadata.item[1]
+			qdel(select_db_metadata)
+			// if it doesn't match what the code requires, shut it all down
+			if(sql_version != SQL_VERSION)
+				GLOB.configuration.database.enabled = FALSE
+				schema_valid = FALSE
+				SSticker.ticker_going = FALSE
+				SEND_TEXT(world.log, "Database Schema Version Mismatch -- code:[SQL_VERSION] config:[GLOB.configuration.database.version] db:[sql_version]")
+				return FALSE
 		else
 			// log_sql() because then an error will be logged in the same place
 			log_sql("Your server failed to establish a connection with the database")

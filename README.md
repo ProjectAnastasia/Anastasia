@@ -1,51 +1,43 @@
-# Paradise
-[![CI](https://github.com/ParadiseSS13/Paradise/workflows/CI/badge.svg)](https://github.com/ParadiseSS13/Paradise/actions?query=workflow%3ACI)
-[![Render Nanomaps](https://github.com/ParadiseSS13/Paradise/workflows/Render%20Nanomaps/badge.svg)](https://github.com/ParadiseSS13/Paradise/actions?query=workflow%3A%22Render+Nanomaps%22)
-[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/paradisess13/paradise.svg)](http://isitmaintained.com/project/paradisess13/paradise "Average time to resolve an issue")
-[![Percentage of issues still open](http://isitmaintained.com/badge/open/paradisess13/paradise.svg)](http://isitmaintained.com/project/paradisess13/paradise "Percentage of issues still open")
+# Anastasia
+Anastasia is a modification of [Paradise](https://github.com/ParadiseSS13/Paradise)'s code for Space Station 13.
 
-[![forthebadge](http://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg)](http://forthebadge.com)
-[![forthebadge](http://forthebadge.com/images/badges/contains-technical-debt.svg)](http://forthebadge.com)
-[![forthebadge](http://forthebadge.com/images/badges/fuck-it-ship-it.svg)](http://forthebadge.com)
+We forked at [commit b0ca2e3](https://github.com/ParadiseSS13/Paradise/commit/b0ca2e366ac12c9d106255d2f584a3b441afd27d),
+when Paradise #15971: 'Revamps "Station AI" announcer' was merged into the Paradise codebase on Sep 6, 2021.
 
-# Useful Links
+Many changes unique to Anastasia are coming soon. Follow us on GitHub to stay
+in the loop on the latest changes.
 
-- [Discord](https://discordapp.com/invite/YJDsXFE)
-- [Documentation](https://codedocs.paradisestation.org)
-- [Website](https://www.paradisestation.org/)
+## Useful Links
 
-# Useful Documents
+- [Discord](https://discord.gg/QKAWNuJjUU)
+- Documentation -- COMING SOON
+- Website -- COMING SOON
 
-- [Autodocumentation Guide](.github/AUTODOC_GUIDE.md)
+## Useful Documents
+
+- Vision -- COMING SOON
 - [Code of Conduct](./CODE_OF_CONDUCT.md)
-- [Contribution Guide](.github/CONTRIBUTING.md)
-- [Installation Guide](.github/DOWNLOADING.md)
 
 ---
 
+## LICENSE
+Anastasia is licensed under the GNU Affero General Public License version 3.
 
-### LICENSE
+Please note that if you host a server using any code licensed under AGPL you
+are required to provide full source code to server users as well, including
+all addons and modifications that you have added to that code.
 
-Paradise is licensed under the GNU Affero General Public License version 3.
-As of 5th January 2015 any new contributions are licensed under the AGPL as well,
-if you wish to submit code under the GPL v3 then commits and files must be marked as such
-in comments. If you wish to use our code in a closed source manner you may use anything
-before commit 445615b8439bf606ff204a42c8e7b6b69d983255,
-which is licensed under GPL v3.
-The major change here is that if you host a server using any code licensed under AGPL you
-are required to provide full source code for your servers users as well,
-including addons and modifications you have made.
+See [Why the Affero GPL](https://www.gnu.org/licenses/why-affero-gpl.html)
+for more information.
 
-See [this](https://www.gnu.org/licenses/why-affero-gpl.html) for more information.
+All files located in the `goon`, `icons/goonstation`, or `sound/goonstation`
+directories, or any subdirectories of the aforementioned directories are
+licensed under the
+[Creative Commons 3.0 BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/3.0)
+license.  
+See: [LICENSE-CC-BY-NC-SA.txt](./LICENSE-CC-BY-NC-SA.txt)
 
-Any files located in the
-`Paradise/goon`,
-`Paradise/icons/goonstation`, or
-`Paradise/sound/goonstation`
-directories, or any subdirectories of mentioned directories are licensed under the
-Creative Commons 3.0 BY-NC-SA license
-(https://creativecommons.org/licenses/by-nc-sa/3.0)
-
-All other assets including icons and sound files are licensed under the
-Creative Commons 3.0 BY-SA license (https://creativecommons.org/licenses/by-sa/3.0/),
-unless otherwise indicated.
+All other assets, including icons and sound files, are licensed under the
+[Creative Commons 3.0 BY-SA](https://creativecommons.org/licenses/by-sa/3.0/)
+license unless otherwise indicated.  
+See: [LICENSE-CC-BY-SA.txt](./LICENSE-CC-BY-SA.txt)

@@ -2,7 +2,7 @@
 # README #
 ##########
 #
-# Paradise SS13 Config System
+# Anastasia SS13 Config System
 # This used to be 10+ different text files, now its all condensed into one toml file with sections and proper values
 # This is serialized to json on world load by RUSTG, and then handled inside BYOND
 # Editing this in an IDE such as VSCode is highly recommended so you can lint for errors
@@ -61,7 +61,7 @@ enable_localhost_autoadmin = false
 # +EVERYTHING (or +HOST or +ALL) = Simply gives you everything without having to type every flag
 # +SOUND (or +SOUNDS) = allows you to upload and play sounds
 # +SPAWN (or +CREATE) = mob transformations, spawning of most atoms including mobs
-# +MOD = Access to low level moderation tools. Not used in Paradise production
+# +MOD = Access to low level moderation tools. Not used in Anastasia production
 # +MENTOR = Access only to the Question's Ahelp and has little way of metagaming the game.
 # +PROCCALL = Access to call procs on anything. Be careful who you grant this too!
 # +VIEWRUNTIMES = Allows a player to view the runtimes of the server, but not use other debug verbs
@@ -147,11 +147,11 @@ sql_address = "127.0.0.1"
 # SQL server port
 sql_port = 3306
 # SQL server database name
-sql_database = "paradise_gamedb"
+sql_database = "anastasia_gamedb"
 # SQL server username
 sql_username = "root"
 # SQL server password
-sql_password = "please use something secure in a production environment"
+sql_password = "default passwords make the baby Nar'Sie cry"
 # Time in seconds for async queries to time out
 async_query_timeout = 10
 # How many threads is the async SQL engine allowed to open. 50 is normal. Trust me.
@@ -288,10 +288,10 @@ enabled_away_missions = [
 # General setup for the server (branding, options, etc)
 
 # Name for the server in the list
-server_name = "ParaCode Test"
+server_name = "Anastasia Test"
 # Tag line for the server. This appears as supplementary text
 # EG: The perfect mix of RP & action
-server_tag_line = "ParaCode Testing Server"
+server_tag_line = "On USSP station, RP & action are mixing you."
 # Server features. Shows in a newline
 server_features = "Medium RP, varied species/jobs."
 # Store bans in the database? If you are in production, you want this on
@@ -728,8 +728,8 @@ topic_ip_ratelimit_bypass = ["127.0.0.1"]
 # If you are in production you will want to tweak these to your servers
 # If you comment any of these out, they will be null ingame
 
-# Location of server resources. Used to offload sending the paradise.rsc from DD to a webserver
-# NOTE: This wants paradise.rsc inside a zip file, and it is HTTP ONLY. NO HTTPS
+# Location of server resources. Used to offload sending the anastasia.rsc from DreamDaemon to a webserver
+# NOTE: This wants anastasia.rsc inside a zip file, and it is HTTP ONLY. NO HTTPS
 #rsc_urls = ["http://www.paradisestation.org/windows/paradise.rsc.zip"]
 # Link URL to link forum accounts to ckeys. If set to an empty string, no link option will be offered
 # Token is appended right on the end, so set parameters as needed
@@ -746,7 +746,7 @@ wiki_url = "https://www.paradisestation.org/wiki"
 # Rules address
 rules_url = "https://www.paradisestation.org/rules"
 # Github address
-github_url = "https://github.com/ParadiseSS13/Paradise"
+github_url = "https://github.com/ProjectAnastasia/Anastasia"
 # Discord address
 #discord_url = "http://example.org"
 # Discord address (forum-based invite)

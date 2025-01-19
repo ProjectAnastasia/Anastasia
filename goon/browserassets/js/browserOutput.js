@@ -433,11 +433,11 @@ function setCookie(cname, cvalue, exdays) {
 	var d = new Date();
 	d.setTime(d.getTime() + (exdays*24*60*60*1000));
 	var expires = 'expires='+d.toUTCString();
-	document.cookie = "paradise-" + cname + '=' + cvalue + '; ' + expires + '; path=/';
+	document.cookie = "anastasia-" + cname + '=' + cvalue + '; ' + expires + '; path=/';
 }
 
 function getCookie(cname) {
-	var name = "paradise-" + cname + '=';
+	var name = "anastasia-" + cname + '=';
 	var ca = document.cookie.split(';');
 	for(var i=0; i < ca.length; i++) {
 	var c = ca[i];

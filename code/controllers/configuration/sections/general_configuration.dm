@@ -1,9 +1,9 @@
 /// Config holder for all general/misc things
 /datum/configuration_section/general_configuration
 	/// Server name for the BYOND hub
-	var/server_name = "Paradise Station"
+	var/server_name = "Anastasia"
 	/// Tagline for the hub entry
-	var/server_tag_line = "The perfect mix of RP & action"
+	var/server_tag_line = "On USSP station, RP & action are mixing you."
 	/// Server features in a newline
 	var/server_features = "Medium RP, varied species/jobs"
 	/// Should bans be stored in the DB

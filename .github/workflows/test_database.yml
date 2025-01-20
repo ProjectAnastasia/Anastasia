@@ -1,12 +1,12 @@
 # test_database.yml
-name: Test Workflow Call
+name: 'Test Database'
 
 on:
   workflow_call:
 
 jobs:
   test:
-    name: 'Test Database'
+    name: Database
     runs-on: ubuntu-latest
 
     services:

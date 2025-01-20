@@ -33,10 +33,12 @@ expect_not_empty() {
 # helper: run the query against the database
 query() {
     local sql_query="$1"
-    mariadb --batch --skip-column-names \
-    --host="mariadb" \
-    --user="root" \
+    mariadb \
+    --batch \
     --password="root" \
+    --port="3306" \
+    --skip-column-names \
+    --user="root" \
     "anastasia_gamedb" \
     -e "$sql_query"
 }

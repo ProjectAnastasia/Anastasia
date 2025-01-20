@@ -24,5 +24,5 @@ CREATE TABLE `bad_table` (
   `version` int(11) NOT NULL DEFAULT 0,
   -- PRIMARY KEY (`id`),
   -- UNIQUE KEY (`ckey`)
-  PRIMARY KEY (`ckey`),
+  PRIMARY KEY (`ckey`)
 );

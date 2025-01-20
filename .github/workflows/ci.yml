@@ -40,7 +40,7 @@ jobs:
           - 3306:3306
         volumes:
           - /home/runner/work/Anastasia/Anastasia/SQL:/docker-entrypoint-initdb.d
-        options: >
+        options: >-
           --health-cmd "mysqladmin ping"
           --health-interval 10s
           --health-retries 10

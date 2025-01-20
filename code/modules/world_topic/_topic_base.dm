@@ -1,8 +1,8 @@
 /datum/world_topic_handler
-	/// Key which invokes this topic
-	var/topic_key
-	/// Set this to TRUE if the topic handler needs an authorised comms key
-	var/requires_commskey = FALSE
+    /// Key which invokes this topic
+    var/topic_key
+    /// Set this to TRUE if the topic handler needs an authorised comms key
+    var/requires_commskey = FALSE
 
 
 /**
@@ -14,13 +14,13 @@
   * * input - The list of topic data, sent from [world/Topic]
   */
 /datum/world_topic_handler/proc/invoke(list/input)
-	SHOULD_NOT_OVERRIDE(TRUE)
-	var/authorised = (GLOB.configuration.system.topic_key && input["key"] == GLOB.configuration.system.topic_key) // No password means no comms, not any password
-	if(requires_commskey && !authorised)
-		// Try keep all returns in JSON unless absolutely necessary (?ping for example)
-		return(json_encode(list("error" = "Invalid Key")))
+    SHOULD_NOT_OVERRIDE(TRUE)
+    var/authorised = (GLOB.configuration.system.topic_key && input["key"] == GLOB.configuration.system.topic_key) // No password means no comms, not any password
+    if(requires_commskey && !authorised)
+        // Try keep all returns in JSON unless absolutely necessary (?ping for example)
+        return(json_encode(list("error" = "Invalid Key")))
 
-	return execute(input, authorised)
+    return execute(input, authorised)
 
 /**
   * Actually executes the user's topic
@@ -32,4 +32,4 @@
   * * key_valid - Has the user entered the correct auth key
   */
 /datum/world_topic_handler/proc/execute(list/input, key_valid = FALSE)
-	CRASH("execute() not implemented/overridden for [type]")
+    CRASH("execute() not implemented/overridden for [type]")

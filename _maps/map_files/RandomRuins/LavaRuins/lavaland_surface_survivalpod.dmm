@@ -7,8 +7,8 @@
 /area/lavaland/surface/outdoors)
 "c" = (
 /obj/structure/sign/mining/survival{
-	pixel_y = -32
-	},
+    pixel_y = -32
+    },
 /turf/simulated/floor/plating/asteroid/basalt/lava_land_surface,
 /area/lavaland/surface/outdoors)
 "d" = (
@@ -16,9 +16,9 @@
 /area/ruin/powered)
 "e" = (
 /obj/structure/sign/mining/survival{
-	dir = 4;
-	pixel_x = 32
-	},
+    dir = 4;
+    pixel_x = 32
+    },
 /turf/simulated/floor/plating/asteroid/basalt/lava_land_surface,
 /area/lavaland/surface/outdoors)
 "f" = (
@@ -36,9 +36,9 @@
 /area/ruin/powered)
 "i" = (
 /obj/structure/sign/mining/survival{
-	dir = 8;
-	pixel_x = -32
-	},
+    dir = 8;
+    pixel_x = -32
+    },
 /turf/simulated/floor/plating/asteroid/basalt/lava_land_surface,
 /area/lavaland/surface/outdoors)
 "j" = (
@@ -59,8 +59,8 @@
 /obj/item/bedsheet/black,
 /obj/structure/tubes,
 /obj/machinery/light/small{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/pod/dark,
 /area/ruin/powered)
 "n" = (
@@ -70,8 +70,8 @@
 "o" = (
 /obj/effect/decal/cleanable/blood,
 /mob/living/simple_animal/hostile/asteroid/goliath/beast{
-	health = 0
-	},
+    health = 0
+    },
 /turf/simulated/floor/plating/asteroid/basalt/lava_land_surface,
 /area/lavaland/surface/outdoors)
 "p" = (
@@ -81,9 +81,9 @@
 /area/ruin/powered)
 "q" = (
 /obj/effect/mob_spawn/human/miner/explorer{
-	brute_damage = 150;
-	oxy_damage = 50
-	},
+    brute_damage = 150;
+    oxy_damage = 50
+    },
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/blood/drip,
 /obj/effect/decal/cleanable/blood/tracks,
@@ -113,20 +113,20 @@
 /area/lavaland/surface/outdoors)
 "w" = (
 /obj/structure/sign/mining/survival{
-	pixel_y = 32
-	},
+    pixel_y = 32
+    },
 /turf/simulated/floor/plating/asteroid/basalt/lava_land_surface,
 /area/lavaland/surface/outdoors)
 "x" = (
 /obj/structure/sign/mining{
-	pixel_y = 32
-	},
+    pixel_y = 32
+    },
 /turf/simulated/floor/plating/asteroid/basalt/lava_land_surface,
 /area/lavaland/surface/outdoors)
 "y" = (
 /obj/effect/decal/cleanable/blood/tracks{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/plating/asteroid/basalt/lava_land_surface,
 /area/lavaland/surface/outdoors)
 

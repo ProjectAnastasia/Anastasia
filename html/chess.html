@@ -1,10 +1,10 @@
-	<script type="text/javascript">var hSrc = "[hsrc]"</script>
-	<script src="boardui.js"></script>
-	<script type="text/javascript">
-	    $(document).ready(function () {
-	        g_timeout = 1000;
-	        UINewGame();
-	    });
+    <script type="text/javascript">var hSrc = "[hsrc]"</script>
+    <script src="boardui.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            g_timeout = 1000;
+            UINewGame();
+        });
     </script>  
     <div align="center">
         <div>
@@ -19,13 +19,13 @@
         <div style="margin-top:5px;">
         <div id='board'></div> 
         <span id='output' style="display: none;"></span><br/> 
-	    <textarea cols='50' rows='6' id='PgnTextBox' style="display: none;"></textarea><br/>
+        <textarea cols='50' rows='6' id='PgnTextBox' style="display: none;"></textarea><br/>
         <div style="display: none;">
             <a id='AnalysisToggleLink' href="javascript:UIAnalyzeToggle()">Analysis: Off</a>
         </div>
-		<input id='FenTextBox' onchange="javascript:UIChangeFEN()" style="display: none;"/>
+        <input id='FenTextBox' onchange="javascript:UIChangeFEN()" style="display: none;"/>
         </div>
-		<div>
-			<a href="javascript:UIClose()">Close</a>
-		</div>
+        <div>
+            <a href="javascript:UIClose()">Close</a>
+        </div>
      </div> 

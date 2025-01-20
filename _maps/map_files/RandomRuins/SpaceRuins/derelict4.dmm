@@ -26,8 +26,8 @@
 /area/ruin/unpowered)
 "i" = (
 /obj/structure/window/reinforced{
-	dir = 8
-	},
+    dir = 8
+    },
 /obj/structure/chair/comfy/shuttle,
 /turf/simulated/floor/mineral/titanium/blue/airless,
 /area/ruin/unpowered)
@@ -41,8 +41,8 @@
 /area/ruin/unpowered)
 "l" = (
 /obj/structure/shuttle/engine/propulsion{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/plating/airless,
 /area/ruin/unpowered)
 "m" = (
@@ -51,8 +51,8 @@
 /area/ruin/unpowered)
 "n" = (
 /obj/structure/chair/comfy/shuttle{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/floor/plating/airless,
 /area/ruin/unpowered)
 "o" = (
@@ -66,23 +66,23 @@
 "q" = (
 /obj/item/shard,
 /obj/structure/chair/comfy/shuttle{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/floor/mineral/titanium/blue/airless,
 /area/ruin/unpowered)
 "r" = (
 /obj/structure/window/reinforced{
-	dir = 8
-	},
+    dir = 8
+    },
 /obj/structure/chair/comfy/shuttle{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/mineral/titanium/blue/airless,
 /area/ruin/unpowered)
 "s" = (
 /obj/structure/chair/comfy/shuttle{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/plating/airless,
 /area/ruin/unpowered)
 "t" = (

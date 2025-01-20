@@ -6,38 +6,38 @@
  * While active, a mob's `ClickOn` proc will redirect to the `InterceptClickOn()` proc instead.
  */
 /datum/click_intercept
-	/// A reference to the client which is assigned this click intercept datum.
-	var/client/holder = null
-	/// Any `obj/screen/buttons` the client is meant to receive when assigned this click intercept datum.
-	var/list/obj/screen/buttons = list()
+    /// A reference to the client which is assigned this click intercept datum.
+    var/client/holder = null
+    /// Any `obj/screen/buttons` the client is meant to receive when assigned this click intercept datum.
+    var/list/obj/screen/buttons = list()
 
 /datum/click_intercept/New(client/C)
-	create_buttons()
-	holder = C
-	holder.click_intercept = src
-	holder.show_popup_menus = FALSE
-	holder.screen += buttons
-	return ..()
+    create_buttons()
+    holder = C
+    holder.click_intercept = src
+    holder.show_popup_menus = FALSE
+    holder.screen += buttons
+    return ..()
 
 /datum/click_intercept/Destroy()
-	holder.screen -= buttons
-	holder.click_intercept = null
-	holder.show_popup_menus = TRUE
-	holder = null
-	QDEL_LIST(buttons)
-	return ..()
+    holder.screen -= buttons
+    holder.click_intercept = null
+    holder.show_popup_menus = TRUE
+    holder = null
+    QDEL_LIST(buttons)
+    return ..()
 
 /**
  * Called when you want to cancel a client's click intercept and return to normal clicking.
  */
 /datum/click_intercept/proc/quit()
-	qdel(src)
+    qdel(src)
 
 /**
  * Base proc, intended to be overriden. Code that adds datum specific buttons to the list of `buttons`, should go here.
  */
 /datum/click_intercept/proc/create_buttons()
-	return
+    return
 
 /**
  * Called in various mob's `ClickOn` procs, which happens when they click on an object in the world.
@@ -50,4 +50,4 @@
  * * object - the atom that was just clicked.
  */
 /datum/click_intercept/proc/InterceptClickOn(mob/user, params, atom/object)
-	return
+    return

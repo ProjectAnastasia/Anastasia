@@ -3,204 +3,204 @@
 // typecast every mob in the codebase correctly
 
 /mob/proc/Confused()
-	return
+    return
 
 /mob/proc/SetConfused()
-	return
+    return
 
 /mob/proc/AdjustConfused()
-	return
+    return
 
 
 /mob/proc/Dizzy()
-	return
+    return
 
 /mob/proc/SetDizzy()
-	return
+    return
 
 /mob/proc/AdjustDizzy()
-	return
+    return
 
 
 /mob/proc/Drowsy()
-	return
+    return
 
 /mob/proc/SetDrowsy()
-	return
+    return
 
 /mob/proc/AdjustDrowsy()
-	return
+    return
 
 
 /mob/proc/Drunk()
-	return
+    return
 
 /mob/proc/SetDrunk()
-	return
+    return
 
 /mob/proc/AdjustDrunk()
-	return
+    return
 
 
 /mob/proc/Druggy()
-	return
+    return
 
 /mob/proc/SetDruggy()
-	return
+    return
 
 /mob/proc/AdjustDruggy()
-	return
+    return
 
 
 /mob/proc/RestoreEars()
-	return
+    return
 
 /mob/proc/AdjustEarDamage()
-	return
+    return
 
 /mob/proc/EyeBlind()
-	return
+    return
 
 /mob/proc/SetEyeBlind()
-	return
+    return
 
 /mob/proc/AdjustEyeBlind()
-	return
+    return
 
 
 /mob/proc/EyeBlurry()
-	return
+    return
 
 /mob/proc/SetEyeBlurry()
-	return
+    return
 
 /mob/proc/AdjustEyeBlurry()
-	return
+    return
 
 
 /mob/proc/Hallucinate()
-	return
+    return
 
 /mob/proc/SetHallucinate()
-	return
+    return
 
 /mob/proc/AdjustHallucinate()
-	return
+    return
 
 
 /mob/proc/Jitter()
-	return
+    return
 
 /mob/proc/SetJitter()
-	return
+    return
 
 /mob/proc/AdjustJitter()
-	return
+    return
 
 
 /mob/proc/LoseBreath()
-	return
+    return
 
 /mob/proc/SetLoseBreath()
-	return
+    return
 
 /mob/proc/AdjustLoseBreath()
-	return
+    return
 
 
 /mob/proc/Paralyse()
-	return
+    return
 
 /mob/proc/SetParalysis()
-	return
+    return
 
 /mob/proc/AdjustParalysis()
-	return
+    return
 
 
 /mob/proc/Silence()
-	return
+    return
 
 /mob/proc/SetSilence()
-	return
+    return
 
 /mob/proc/AdjustSilence()
-	return
+    return
 
 
 /mob/proc/Sleeping()
-	return
+    return
 
 /mob/proc/SetSleeping()
-	return
+    return
 
 /mob/proc/AdjustSleeping()
-	return
+    return
 
 
 /mob/proc/Slowed()
-	return
+    return
 
 /mob/proc/SetSlowed()
-	return
+    return
 
 /mob/proc/AdjustSlowed()
-	return
+    return
 
 
 /mob/proc/Slur()
-	return
+    return
 
 /mob/proc/SetSlur()
-	return
+    return
 
 /mob/proc/AdjustSlur()
-	return
+    return
 
 /mob/proc/CultSlur()
-	return
+    return
 
 /mob/proc/SetCultSlur()
-	return
+    return
 
 /mob/proc/AdjustCultSlur()
-	return
+    return
 
 /mob/proc/Stun()
-	return
+    return
 
 /mob/proc/IsStunned()
-	return stunned
+    return stunned
 
 /mob/proc/SetStunned()
-	return
+    return
 
 /mob/proc/AdjustStunned()
-	return
+    return
 
 
 /mob/proc/Stuttering()
-	return
+    return
 
 /mob/proc/SetStuttering()
-	return
+    return
 
 /mob/proc/AdjustStuttering()
-	return
+    return
 
 
 /mob/proc/IsWeakened()
-	return weakened
+    return weakened
 
 /mob/proc/Weaken()
-	return
+    return
 
 /mob/proc/SetWeakened()
-	return
+    return
 
 /mob/proc/AdjustWeakened()
-	return
+    return
 
 /mob/proc/adjust_bodytemperature(amount, min_temp = 0, max_temp = INFINITY)
-	if(bodytemperature >= min_temp && bodytemperature <= max_temp)
-		bodytemperature = clamp(bodytemperature + amount, min_temp, max_temp)
+    if(bodytemperature >= min_temp && bodytemperature <= max_temp)
+        bodytemperature = clamp(bodytemperature + amount, min_temp, max_temp)

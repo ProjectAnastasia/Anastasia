@@ -20,7 +20,7 @@
 #define COMSIG_GLOB_LIVING_SAY_SPECIAL "!say_special"
 /// called by datum/cinematic/play() : (datum/cinematic/new_cinematic)
 #define COMSIG_GLOB_PLAY_CINEMATIC "!play_cinematic"
-	#define COMPONENT_GLOB_BLOCK_CINEMATIC (1<<0)
+    #define COMPONENT_GLOB_BLOCK_CINEMATIC (1<<0)
 /// ingame button pressed (/obj/machinery/button/button)
 #define COMSIG_GLOB_BUTTON_PRESSED "!button_pressed"
 
@@ -56,7 +56,7 @@
 ///from base of atom/attackby(): (/obj/item, /mob/living, params)
 #define COMSIG_PARENT_ATTACKBY "atom_attackby"
 ///Return this in response if you don't want afterattack to be called
-	#define COMPONENT_NO_AFTERATTACK (1<<0)
+    #define COMPONENT_NO_AFTERATTACK (1<<0)
 ///from base of atom/attack_hulk(): (/mob/living/carbon/human)
 #define COMSIG_ATOM_HULK_ATTACK "hulk_attack"
 ///from base of atom/animal_attack(): (/mob/user)
@@ -65,15 +65,15 @@
 #define COMSIG_PARENT_EXAMINE "atom_examine"
 ///from base of atom/get_examine_name(): (/mob, list/overrides)
 #define COMSIG_ATOM_GET_EXAMINE_NAME "atom_examine_name"
-	//Positions for overrides list
-	#define EXAMINE_POSITION_ARTICLE (1<<0)
-	#define EXAMINE_POSITION_BEFORE (1<<1)
-	//End positions
-	#define COMPONENT_EXNAME_CHANGED (1<<0)
+    //Positions for overrides list
+    #define EXAMINE_POSITION_ARTICLE (1<<0)
+    #define EXAMINE_POSITION_BEFORE (1<<1)
+    //End positions
+    #define COMPONENT_EXNAME_CHANGED (1<<0)
 ///from base of atom/update_icon(): ()
 #define COMSIG_ATOM_UPDATE_ICON "atom_update_icon"
-	#define COMSIG_ATOM_NO_UPDATE_ICON_STATE	(1<<0)
-	#define COMSIG_ATOM_NO_UPDATE_OVERLAYS		(1<<1)
+    #define COMSIG_ATOM_NO_UPDATE_ICON_STATE	(1<<0)
+    #define COMSIG_ATOM_NO_UPDATE_OVERLAYS		(1<<1)
 ///from base of atom/update_overlays(): (list/new_overlays)
 #define COMSIG_ATOM_UPDATE_OVERLAYS "atom_update_overlays"
 ///from base of atom/update_icon(): (signalOut, did_anything)
@@ -82,7 +82,7 @@
 #define COMSIG_ATOM_ENTERED "atom_entered"
 ///from base of atom/Exit(): (/atom/movable/exiting, /atom/newloc)
 #define COMSIG_ATOM_EXIT "atom_exit"
-	#define COMPONENT_ATOM_BLOCK_EXIT (1<<0)
+    #define COMPONENT_ATOM_BLOCK_EXIT (1<<0)
 ///from base of atom/Exited(): (atom/movable/exiting, atom/newloc)
 #define COMSIG_ATOM_EXITED "atom_exited"
 ///from base of atom/Bumped(): (/atom/movable)
@@ -111,7 +111,7 @@
 #define COMSIG_ATOM_SING_PULL "atom_sing_pull"
 ///from obj/machinery/bsa/full/proc/fire(): ()
 #define COMSIG_ATOM_BSA_BEAM "atom_bsa_beam_pass"
-	#define COMSIG_ATOM_BLOCKS_BSA_BEAM (1<<0)
+    #define COMSIG_ATOM_BLOCKS_BSA_BEAM (1<<0)
 ///from base of atom/set_light(): (l_range, l_power, l_color)
 #define COMSIG_ATOM_SET_LIGHT "atom_set_light"
 ///from base of atom/setDir(): (old_dir, new_dir)
@@ -122,16 +122,16 @@
 #define COMSIG_ATOM_HAS_GRAVITY "atom_has_gravity"
 ///from proc/get_rad_contents(): ()
 #define COMSIG_ATOM_RAD_PROBE "atom_rad_probe"
-	#define COMPONENT_BLOCK_RADIATION (1<<0)
+    #define COMPONENT_BLOCK_RADIATION (1<<0)
 ///from base of datum/radiation_wave/radiate(): (strength)
 #define COMSIG_ATOM_RAD_CONTAMINATING "atom_rad_contam"
-	#define COMPONENT_BLOCK_CONTAMINATION (1<<0)
+    #define COMPONENT_BLOCK_CONTAMINATION (1<<0)
 ///from base of datum/radiation_wave/check_obstructions(): (datum/radiation_wave, width)
 #define COMSIG_ATOM_RAD_WAVE_PASSING "atom_rad_wave_pass"
   #define COMPONENT_RAD_WAVE_HANDLED (1<<0)
 ///from internal loop in atom/movable/proc/CanReach(): (list/next)
 #define COMSIG_ATOM_CANREACH "atom_can_reach"
-	#define COMPONENT_BLOCK_REACH (1<<0)
+    #define COMPONENT_BLOCK_REACH (1<<0)
 ///from base of atom/screwdriver_act(): (mob/living/user, obj/item/I)
 #define COMSIG_ATOM_SCREWDRIVER_ACT "atom_screwdriver_act"
 ///from base of atom/wrench_act(): (mob/living/user, obj/item/I)
@@ -146,10 +146,10 @@
 #define COMSIG_ATOM_CROWBAR_ACT "atom_crowbar_act"
 ///from base of atom/analyser_act(): (mob/living/user, obj/item/I)
 #define COMSIG_ATOM_ANALYSER_ACT "atom_analyser_act"
-	#define COMPONENT_BLOCK_TOOL_ATTACK (1<<0)
+    #define COMPONENT_BLOCK_TOOL_ATTACK (1<<0)
 ///called when teleporting into a protected turf: (channel, turf/origin)
 #define COMSIG_ATOM_INTERCEPT_TELEPORT "intercept_teleport"
-	#define COMPONENT_BLOCK_TELEPORT (1<<0)
+    #define COMPONENT_BLOCK_TELEPORT (1<<0)
 ///called when an atom is added to the hearers on get_hearers_in_view(): (list/processing_list, list/hearers)
 #define COMSIG_ATOM_HEARER_IN_VIEW "atom_hearer_in_view"
 ///called when an atom starts orbiting another atom: (atom)
@@ -166,7 +166,7 @@
 #define COMSIG_ATOM_ATTACK_HAND "atom_attack_hand"
 ///from base of atom/attack_paw(): (mob/user)
 #define COMSIG_ATOM_ATTACK_PAW "atom_attack_paw"
-	#define COMPONENT_NO_ATTACK_HAND (1<<0)								//works on all 3.
+    #define COMPONENT_NO_ATTACK_HAND (1<<0)								//works on all 3.
 //This signal return value bitflags can be found in __DEFINES/misc.dm
 
 ///called for each movable in a turf contents on /turf/zImpact(): (atom/movable/A, levels)
@@ -186,7 +186,7 @@
 #define COMSIG_CLICK "atom_click"
 ///from base of atom/ShiftClick(): (/mob)
 #define COMSIG_CLICK_SHIFT "shift_click"
-	#define COMPONENT_ALLOW_EXAMINATE (1<<0) 							//Allows the user to examinate regardless of client.eye.
+    #define COMPONENT_ALLOW_EXAMINATE (1<<0) 							//Allows the user to examinate regardless of client.eye.
 ///from base of atom/CtrlClickOn(): (/mob)
 #define COMSIG_CLICK_CTRL "ctrl_click"
 ///from base of atom/AltClick(): (/mob)
@@ -195,7 +195,7 @@
 #define COMSIG_CLICK_CTRL_SHIFT "ctrl_shift_click"
 ///from base of atom/MouseDrop(): (/atom/over, /mob/user)
 #define COMSIG_MOUSEDROP_ONTO "mousedrop_onto"
-	#define COMPONENT_NO_MOUSEDROP (1<<0)
+    #define COMPONENT_NO_MOUSEDROP (1<<0)
 ///from base of atom/MouseDrop_T: (/atom/from, /mob/user)
 #define COMSIG_MOUSEDROPPED_ONTO "mousedropped_onto"
 
@@ -221,7 +221,7 @@
 
 ///from base of atom/movable/Moved(): (/atom)
 #define COMSIG_MOVABLE_PRE_MOVE "movable_pre_move"
-	#define COMPONENT_MOVABLE_BLOCK_PRE_MOVE (1<<0)
+    #define COMPONENT_MOVABLE_BLOCK_PRE_MOVE (1<<0)
 ///from base of atom/movable/Moved(): (/atom, dir)
 #define COMSIG_MOVABLE_MOVED "movable_moved"
 ///from base of atom/movable/Cross(): (/atom/movable)
@@ -232,15 +232,15 @@
 #define COMSIG_CROSSED_MOVABLE "crossed_movable"
 ///from base of atom/movable/Uncross(): (/atom/movable)
 #define COMSIG_MOVABLE_UNCROSS "movable_uncross"
-	#define COMPONENT_MOVABLE_BLOCK_UNCROSS (1<<0)
+    #define COMPONENT_MOVABLE_BLOCK_UNCROSS (1<<0)
 ///from base of atom/movable/Uncrossed(): (/atom/movable)
 #define COMSIG_MOVABLE_UNCROSSED "movable_uncrossed"
 ///from base of atom/movable/Bump(): (/atom)
 #define COMSIG_MOVABLE_BUMP "movable_bump"
 ///from base of atom/movable/throw_impact(): (/atom/hit_atom, /datum/thrownthing/throwingdatum)
 #define COMSIG_MOVABLE_IMPACT "movable_impact"
-	#define COMPONENT_MOVABLE_IMPACT_FLIP_HITPUSH (1<<0)				//if true, flip if the impact will push what it hits
-	#define COMPONENT_MOVABLE_IMPACT_NEVERMIND (1<<1)					//return true if you destroyed whatever it was you're impacting and there won't be anything for hitby() to run on
+    #define COMPONENT_MOVABLE_IMPACT_FLIP_HITPUSH (1<<0)				//if true, flip if the impact will push what it hits
+    #define COMPONENT_MOVABLE_IMPACT_NEVERMIND (1<<1)					//return true if you destroyed whatever it was you're impacting and there won't be anything for hitby() to run on
 ///from base of mob/living/hitby(): (mob/living/target, hit_zone)
 #define COMSIG_MOVABLE_IMPACT_ZONE "item_impact_zone"
 ///from base of atom/movable/buckle_mob(): (mob, force)
@@ -249,7 +249,7 @@
 #define COMSIG_MOVABLE_UNBUCKLE "unbuckle"
 ///from base of atom/movable/throw_at(): (list/args)
 #define COMSIG_MOVABLE_PRE_THROW "movable_pre_throw"
-	#define COMPONENT_CANCEL_THROW (1<<0)
+    #define COMPONENT_CANCEL_THROW (1<<0)
 ///from base of atom/movable/throw_at(): (datum/thrownthing, spin)
 #define COMSIG_MOVABLE_POST_THROW "movable_post_throw"
 ///from base of atom/movable/onTransitZ(): (old_z, new_z)
@@ -258,13 +258,13 @@
 #define COMSIG_MOVABLE_SECLUDED_LOCATION "movable_secluded"
 ///from base of atom/movable/Hear(): (proc args list(message, atom/movable/speaker, message_language, raw_message, radio_freq, list/spans, message_mode))
 #define COMSIG_MOVABLE_HEAR "movable_hear"
-	#define HEARING_MESSAGE 1
-	#define HEARING_SPEAKER 2
+    #define HEARING_MESSAGE 1
+    #define HEARING_SPEAKER 2
 //	#define HEARING_LANGUAGE 3
-	#define HEARING_RAW_MESSAGE 4
-	/* #define HEARING_RADIO_FREQ 5
-	#define HEARING_SPANS 6
-	#define HEARING_MESSAGE_MODE 7 */
+    #define HEARING_RAW_MESSAGE 4
+    /* #define HEARING_RADIO_FREQ 5
+    #define HEARING_SPANS 6
+    #define HEARING_MESSAGE_MODE 7 */
 
 ///called when the movable is added to a disposal holder object for disposal movement: (obj/structure/disposalholder/holder, obj/machinery/disposal/source)
 #define COMSIG_MOVABLE_DISPOSING "movable_disposing"
@@ -291,20 +291,20 @@
 #define COMSIG_MOB_MIDDLECLICKON "mob_middleclickon"
 ///from base of mob/AltClickOn(): (atom/A)
 #define COMSIG_MOB_ALTCLICKON "mob_altclickon"
-	#define COMSIG_MOB_CANCEL_CLICKON (1<<0)
+    #define COMSIG_MOB_CANCEL_CLICKON (1<<0)
 
 ///from base of obj/allowed(mob/M): (/obj) returns bool, if TRUE the mob has id access to the obj
 #define COMSIG_MOB_ALLOWED "mob_allowed"
 ///from base of mob/anti_magic_check(): (mob/user, magic, holy, tinfoil, chargecost, self, protection_sources)
 #define COMSIG_MOB_RECEIVE_MAGIC "mob_receive_magic"
-	#define COMPONENT_BLOCK_MAGIC (1<<0)
+    #define COMPONENT_BLOCK_MAGIC (1<<0)
 ///from base of mob/create_mob_hud(): ()
 #define COMSIG_MOB_HUD_CREATED "mob_hud_created"
 ///from base of atom/attack_hand(): (mob/user)
 #define COMSIG_MOB_ATTACK_HAND "mob_attack_hand"
 ///from base of /obj/item/attack(): (mob/M, mob/user)
 #define COMSIG_MOB_ITEM_ATTACK "mob_item_attack"
-	#define COMPONENT_ITEM_NO_ATTACK (1<<0)
+    #define COMPONENT_ITEM_NO_ATTACK (1<<0)
 ///from base of /mob/living/proc/apply_damage(): (damage, damagetype, def_zone)
 #define COMSIG_MOB_APPLY_DAMGE	"mob_apply_damage"
 ///from base of obj/item/afterattack(): (atom/target, mob/user, proximity_flag, click_parameters)
@@ -321,24 +321,24 @@
 #define COMSIG_MOB_UPDATE_SIGHT "mob_update_sight"
 ////from /mob/living/say(): ()
 #define COMSIG_MOB_SAY "mob_say"
-	#define COMPONENT_UPPERCASE_SPEECH (1<<0)
-	// used to access COMSIG_MOB_SAY argslist
-	#define SPEECH_MESSAGE 1
-	// #define SPEECH_BUBBLE_TYPE 2
-	#define SPEECH_SPANS 3
-	/* #define SPEECH_SANITIZE 4
-	#define SPEECH_LANGUAGE 5
-	#define SPEECH_IGNORE_SPAM 6
-	#define SPEECH_FORCED 7 */
+    #define COMPONENT_UPPERCASE_SPEECH (1<<0)
+    // used to access COMSIG_MOB_SAY argslist
+    #define SPEECH_MESSAGE 1
+    // #define SPEECH_BUBBLE_TYPE 2
+    #define SPEECH_SPANS 3
+    /* #define SPEECH_SANITIZE 4
+    #define SPEECH_LANGUAGE 5
+    #define SPEECH_IGNORE_SPAM 6
+    #define SPEECH_FORCED 7 */
 
 ///from /mob/say_dead(): (mob/speaker, message)
 #define COMSIG_MOB_DEADSAY "mob_deadsay"
-	#define MOB_DEADSAY_SIGNAL_INTERCEPT (1<<0)
+    #define MOB_DEADSAY_SIGNAL_INTERCEPT (1<<0)
 ///from /mob/living/emote(): ()
 #define COMSIG_MOB_EMOTE "mob_emote"
 ///from base of mob/swap_hand(): (obj/item)
 #define COMSIG_MOB_SWAP_HANDS "mob_swap_hands"
-	#define COMPONENT_BLOCK_SWAP (1<<0)
+    #define COMPONENT_BLOCK_SWAP (1<<0)
 
 // /mob/living signals
 
@@ -360,7 +360,7 @@
 #define COMSIG_LIVING_REGENERATE_LIMBS "living_regen_limbs"
 ///from base of /obj/item/bodypart/proc/attach_limb(): (new_limb, special) allows you to fail limb attachment
 #define COMSIG_LIVING_ATTACH_LIMB "living_attach_limb"
-	#define COMPONENT_NO_ATTACH (1<<0)
+    #define COMPONENT_NO_ATTACH (1<<0)
 ///sent from borg recharge stations: (amount, repairs)
 #define COMSIG_PROCESS_BORGCHARGER_OCCUPANT "living_charge"
 ///sent when a mob/login() finishes: (client)
@@ -382,10 +382,10 @@
 #define COMSIG_LIVING_STATUS_UNCONSCIOUS "living_unconscious"
 ///from base of mob/living/Sleeping() (amount, update, ignore)
 #define COMSIG_LIVING_STATUS_SLEEP "living_sleeping"
-	#define COMPONENT_NO_STUN (1<<0)									//For all of them
+    #define COMPONENT_NO_STUN (1<<0)									//For all of them
 ///from base of /mob/living/can_track(): (mob/user)
 #define COMSIG_LIVING_CAN_TRACK "mob_cantrack"
-	#define COMPONENT_CANT_TRACK (1<<0)
+    #define COMPONENT_CANT_TRACK (1<<0)
 
 // /mob/living/carbon signals
 
@@ -406,7 +406,7 @@
 
 // /mob/living/simple_animal/hostile signals
 #define COMSIG_HOSTILE_ATTACKINGTARGET "hostile_attackingtarget"
-	#define COMPONENT_HOSTILE_NO_ATTACK (1<<0)
+    #define COMPONENT_HOSTILE_NO_ATTACK (1<<0)
 
 // /obj signals
 
@@ -436,13 +436,13 @@
 #define COMSIG_ITEM_ATTACK "item_attack"
 ///from base of obj/item/attack_self(): (/mob)
 #define COMSIG_ITEM_ATTACK_SELF "item_attack_self"
-	#define COMPONENT_NO_INTERACT (1<<0)
+    #define COMPONENT_NO_INTERACT (1<<0)
 ///from base of obj/item/attack_obj(): (/obj, /mob)
 #define COMSIG_ITEM_ATTACK_OBJ "item_attack_obj"
-	#define COMPONENT_NO_ATTACK_OBJ (1<<0)
+    #define COMPONENT_NO_ATTACK_OBJ (1<<0)
 ///from base of obj/item/pre_attack(): (atom/target, mob/user, params)
 #define COMSIG_ITEM_PRE_ATTACK "item_pre_attack"
-	#define COMPONENT_NO_ATTACK (1<<0)
+    #define COMPONENT_NO_ATTACK (1<<0)
 ///from base of obj/item/afterattack(): (atom/target, mob/user, params)
 #define COMSIG_ITEM_AFTERATTACK "item_afterattack"
 ///from base of obj/item/attack_qdeleted(): (atom/target, mob/user, params)
@@ -459,7 +459,7 @@
 #define COMSIG_ITEM_IMBUE_SOUL "item_imbue_soul"
 ///called before marking an object for retrieval, checked in /obj/effect/proc_holder/spell/targeted/summonitem/cast() : (mob/user)
 #define COMSIG_ITEM_MARK_RETRIEVAL "item_mark_retrieval"
-	#define COMPONENT_BLOCK_MARK_RETRIEVAL (1<<0)
+    #define COMPONENT_BLOCK_MARK_RETRIEVAL (1<<0)
 ///from base of obj/item/hit_reaction(): (list/args)
 #define COMSIG_ITEM_HIT_REACT "item_hit_react"
 ///called on item when crossed by something (): (/atom/movable, mob/living/crossed)
@@ -468,10 +468,10 @@
 #define COMSIG_ITEM_MICROWAVE_ACT "microwave_act"
 ///from base of item/sharpener/attackby(): (amount, max)
 #define COMSIG_ITEM_SHARPEN_ACT "sharpen_act"
-	#define COMPONENT_BLOCK_SHARPEN_APPLIED (1<<0)
-	#define COMPONENT_BLOCK_SHARPEN_BLOCKED (1<<1)
-	#define COMPONENT_BLOCK_SHARPEN_ALREADY (1<<2)
-	#define COMPONENT_BLOCK_SHARPEN_MAXED (1<<3)
+    #define COMPONENT_BLOCK_SHARPEN_APPLIED (1<<0)
+    #define COMPONENT_BLOCK_SHARPEN_BLOCKED (1<<1)
+    #define COMPONENT_BLOCK_SHARPEN_ALREADY (1<<2)
+    #define COMPONENT_BLOCK_SHARPEN_MAXED (1<<3)
 ///from base of [/obj/item/proc/tool_check_callback]: (mob/living/user)
 #define COMSIG_TOOL_IN_USE "tool_in_use"
 ///from base of [/obj/item/proc/tool_start_check]: (mob/living/user)
@@ -488,7 +488,7 @@
 #define COMSIG_STRUCTURE_UNWRAPPED "structure_unwrapped"
 #define COMSIG_ITEM_UNWRAPPED "item_unwrapped"
 ///called when a wrapped up item is opened by hand
-	#define COMSIG_ITEM_SPLIT_VALUE  (1<<0)
+    #define COMSIG_ITEM_SPLIT_VALUE  (1<<0)
 ///called when getting the item's exact ratio for cargo's profit.
 #define COMSIG_ITEM_SPLIT_PROFIT "item_split_profits"
 ///called when getting the item's exact ratio for cargo's profit, without selling the item.
@@ -506,23 +506,23 @@
 #define COMSIG_IMPLANT_ACTIVATED "implant_activated"
 ///from base of /obj/item/implant/proc/implant(): (list/args)
 #define COMSIG_IMPLANT_IMPLANTING "implant_implanting"
-	#define COMPONENT_STOP_IMPLANTING (1<<0)
+    #define COMPONENT_STOP_IMPLANTING (1<<0)
 ///called on already installed implants when a new one is being added in /obj/item/implant/proc/implant(): (list/args, obj/item/implant/new_implant)
 #define COMSIG_IMPLANT_OTHER "implant_other"
-	//#define COMPONENT_STOP_IMPLANTING (1<<0) //The name makes sense for both
-	#define COMPONENT_DELETE_NEW_IMPLANT (1<<1)
-	#define COMPONENT_DELETE_OLD_IMPLANT (1<<2)
+    //#define COMPONENT_STOP_IMPLANTING (1<<0) //The name makes sense for both
+    #define COMPONENT_DELETE_NEW_IMPLANT (1<<1)
+    #define COMPONENT_DELETE_OLD_IMPLANT (1<<2)
 ///called on implants being implanted into someone with an uplink implant: (datum/component/uplink)
 #define COMSIG_IMPLANT_EXISTING_UPLINK "implant_uplink_exists"
-	//This uses all return values of COMSIG_IMPLANT_OTHER
+    //This uses all return values of COMSIG_IMPLANT_OTHER
 
 // /obj/item/pda signals
 
 ///called on pda when the user changes the ringtone: (mob/living/user, new_ringtone)
 #define COMSIG_PDA_CHANGE_RINGTONE "pda_change_ringtone"
-	#define COMPONENT_STOP_RINGTONE_CHANGE (1<<0)
+    #define COMPONENT_STOP_RINGTONE_CHANGE (1<<0)
 #define COMSIG_PDA_CHECK_DETONATE "pda_check_detonate"
-	#define COMPONENT_PDA_NO_DETONATE (1<<0)
+    #define COMPONENT_PDA_NO_DETONATE (1<<0)
 
 // /obj/item/radio signals
 
@@ -675,10 +675,10 @@
 #define COMSIG_NANITE_UI_DATA "nanite_ui_data"
 ///(datum/nanite_program/new_program, datum/nanite_program/source_program) Called when adding a program to a nanite component
 #define COMSIG_NANITE_ADD_PROGRAM "nanite_add_program"
-	///Installation successful
-	#define COMPONENT_PROGRAM_INSTALLED		(1<<0)
-	///Installation failed, but there are still nanites
-	#define COMPONENT_PROGRAM_NOT_INSTALLED	(1<<1)
+    ///Installation successful
+    #define COMPONENT_PROGRAM_INSTALLED		(1<<0)
+    ///Installation failed, but there are still nanites
+    #define COMPONENT_PROGRAM_NOT_INSTALLED	(1<<1)
 ///(datum/component/nanites, full_overwrite, copy_activation) Called to sync the target's nanites to a given nanite component
 #define COMSIG_NANITE_SYNC "nanite_sync"
 
@@ -715,7 +715,7 @@
 
 ///from base of datum/component/two_handed/proc/wield(mob/living/carbon/user): (/mob/user)
 #define COMSIG_TWOHANDED_WIELD "twohanded_wield"
-	#define COMPONENT_TWOHANDED_BLOCK_WIELD (1<<0)
+    #define COMPONENT_TWOHANDED_BLOCK_WIELD (1<<0)
 ///from base of datum/component/two_handed/proc/unwield(mob/living/carbon/user): (/mob/user)
 #define COMSIG_TWOHANDED_UNWIELD "twohanded_unwield"
 
@@ -723,7 +723,7 @@
 
 ///from base of datum/action/proc/Trigger(): (datum/action)
 #define COMSIG_ACTION_TRIGGER "action_trigger"
-	#define COMPONENT_ACTION_BLOCK_TRIGGER (1<<0)
+    #define COMPONENT_ACTION_BLOCK_TRIGGER (1<<0)
 
 //Xenobio hotkeys
 

@@ -3,5 +3,5 @@
     species_allowed = list("Kidan")
 
 /datum/sprite_accessory/body_markings/kidan/outline_kid
-	name = "Kidan Outline"
-	icon_state = "outline"
+    name = "Kidan Outline"
+    icon_state = "outline"

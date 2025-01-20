@@ -8,8 +8,8 @@
 /area/space/nearstation)
 "c" = (
 /obj/item/stack/cable_coil/cut{
-	amount = 1
-	},
+    amount = 1
+    },
 /turf/template_noop,
 /area/space/nearstation)
 "d" = (
@@ -19,8 +19,8 @@
 "e" = (
 /obj/structure/lattice,
 /obj/item/shard{
-	icon_state = "small"
-	},
+    icon_state = "small"
+    },
 /turf/template_noop,
 /area/space/nearstation)
 "f" = (
@@ -32,16 +32,16 @@
 "h" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced{
-	dir = 5;
-	max_integrity = 1e+007
-	},
+    dir = 5;
+    max_integrity = 1e+007
+    },
 /turf/simulated/floor/plating/airless,
 /area/derelict/teleporter)
 "i" = (
 /obj/structure/grille{
-	density = 0;
-	icon_state = "brokengrille"
-	},
+    density = 0;
+    icon_state = "brokengrille"
+    },
 /turf/simulated/floor/plating/airless,
 /area/derelict/teleporter)
 "j" = (
@@ -57,76 +57,76 @@
 /area/derelict/teleporter)
 "m" = (
 /turf/simulated/floor/plasteel/airless{
-	icon_state = "floorgrime"
-	},
+    icon_state = "floorgrime"
+    },
 /area/derelict/teleporter)
 "n" = (
 /obj/effect/landmark/damageturf,
 /obj/item/shard{
-	icon_state = "small"
-	},
+    icon_state = "small"
+    },
 /turf/simulated/floor/plasteel/airless{
-	icon_state = "floorgrime"
-	},
+    icon_state = "floorgrime"
+    },
 /area/derelict/teleporter)
 "o" = (
 /obj/machinery/light_construct/small{
-	dir = 1
-	},
+    dir = 1
+    },
 /obj/effect/landmark/damageturf,
 /obj/structure/filingcabinet/chestdrawer,
 /turf/simulated/floor/plasteel/airless{
-	dir = 8;
-	icon_state = "green"
-	},
+    dir = 8;
+    icon_state = "green"
+    },
 /area/derelict/teleporter)
 "p" = (
 /obj/machinery/light_construct/small{
-	dir = 4
-	},
+    dir = 4
+    },
 /obj/machinery/atmospherics/unary/portables_connector{
-	layer = 2
-	},
+    layer = 2
+    },
 /turf/simulated/floor/plasteel/airless{
-	icon_state = "floorgrime"
-	},
+    icon_state = "floorgrime"
+    },
 /area/derelict/teleporter)
 "q" = (
 /obj/structure/table,
 /obj/item/clipboard,
 /turf/simulated/floor/plasteel/airless{
-	dir = 8;
-	icon_state = "green"
-	},
+    dir = 8;
+    icon_state = "green"
+    },
 /area/derelict/teleporter)
 "r" = (
 /obj/machinery/computer/teleporter,
 /turf/simulated/floor/plasteel/airless{
-	icon_state = "dark"
-	},
+    icon_state = "dark"
+    },
 /area/derelict/teleporter)
 "s" = (
 /obj/machinery/teleport/station,
 /turf/simulated/floor/plasteel/airless{
-	icon_state = "floorgrime"
-	},
+    icon_state = "floorgrime"
+    },
 /area/derelict/teleporter)
 "t" = (
 /obj/machinery/teleport/hub,
 /turf/simulated/floor/plasteel/airless{
-	icon_state = "floorgrime"
-	},
+    icon_state = "floorgrime"
+    },
 /area/derelict/teleporter)
 "u" = (
 /obj/machinery/atmospherics/pipe/simple/visible{
-	dir = 5
-	},
+    dir = 5
+    },
 /turf/simulated/floor/plating/airless,
 /area/derelict/teleporter)
 "v" = (
 /obj/structure/door_assembly/door_assembly_ext{
-	name = "Broken External Airlock"
-	},
+    name = "Broken External Airlock"
+    },
 /turf/simulated/floor/plating/airless,
 /area/derelict/teleporter)
 "w" = (
@@ -136,31 +136,31 @@
 "x" = (
 /obj/structure/table,
 /obj/item/stock_parts/cell{
-	charge = 100;
-	maxcharge = 15000
-	},
+    charge = 100;
+    maxcharge = 15000
+    },
 /turf/simulated/floor/plasteel/airless{
-	dir = 8;
-	icon_state = "green"
-	},
+    dir = 8;
+    icon_state = "green"
+    },
 /area/derelict/teleporter)
 "y" = (
 /obj/effect/landmark/damageturf,
 /turf/simulated/floor/plasteel/airless{
-	icon_state = "floorgrime"
-	},
+    icon_state = "floorgrime"
+    },
 /area/derelict/teleporter)
 "z" = (
 /obj/effect/landmark/damageturf,
 /obj/item/twohanded/required/kirbyplants/dead{
-	desc = "A dead potted plant. Must have died from lack of EVA equipment.";
-	item_state = "plant-dead";
-	name = "potted plant"
-	},
+    desc = "A dead potted plant. Must have died from lack of EVA equipment.";
+    item_state = "plant-dead";
+    name = "potted plant"
+    },
 /turf/simulated/floor/plasteel/airless{
-	dir = 6;
-	icon_state = "green"
-	},
+    dir = 6;
+    icon_state = "green"
+    },
 /area/derelict/teleporter)
 "A" = (
 /obj/structure/sign/vacuum,
@@ -168,13 +168,13 @@
 /area/derelict/teleporter)
 "B" = (
 /obj/machinery/power/apc/noalarm{
-	dir = 0;
-	name = "Worn-out APC";
-	pixel_y = -24
-	},
+    dir = 0;
+    name = "Worn-out APC";
+    pixel_y = -24
+    },
 /turf/simulated/floor/plasteel/airless{
-	icon_state = "floorgrime"
-	},
+    icon_state = "floorgrime"
+    },
 /area/derelict/teleporter)
 
 (1,1,1) = {"

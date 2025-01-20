@@ -10,13 +10,13 @@
 /area/ruin/unpowered)
 "S" = (
 /obj/docking_port/stationary{
-	dir = 8;
-	dwidth = 8;
-	height = 20;
-	id = "freegolem_space";
-	name = "The middle of space";
-	width = 16
-	},
+    dir = 8;
+    dwidth = 8;
+    height = 20;
+    id = "freegolem_space";
+    name = "The middle of space";
+    width = 16
+    },
 /turf/template_noop,
 /area/template_noop)
 

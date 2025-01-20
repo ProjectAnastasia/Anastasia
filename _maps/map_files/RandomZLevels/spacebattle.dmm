@@ -10,28 +10,28 @@
 /area/awaymission/spacebattle/syndicate2)
 "ad" = (
 /obj/structure/shuttle/engine/propulsion{
-	dir = 1;
-	icon_state = "propulsion_r"
-	},
+    dir = 1;
+    icon_state = "propulsion_r"
+    },
 /turf/space,
 /area/awaymission/spacebattle/syndicate2)
 "ae" = (
 /obj/structure/shuttle/engine/propulsion{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/plating/airless,
 /area/awaymission/spacebattle/syndicate2)
 "af" = (
 /obj/structure/shuttle/engine/propulsion{
-	dir = 1;
-	icon_state = "propulsion_l"
-	},
+    dir = 1;
+    icon_state = "propulsion_l"
+    },
 /turf/space,
 /area/awaymission/spacebattle/syndicate2)
 "ai" = (
 /obj/structure/shuttle/engine/heater{
-	dir = 1
-	},
+    dir = 1
+    },
 /obj/structure/window/reinforced,
 /turf/simulated/floor/plating/airless,
 /area/awaymission/spacebattle/syndicate2)
@@ -61,8 +61,8 @@
 /area/awaymission/spacebattle/syndicate2)
 "ap" = (
 /obj/effect/landmark{
-	name = "awaystart"
-	},
+    name = "awaystart"
+    },
 /turf/simulated/floor/mineral/plastitanium/red,
 /area/awaymission/spacebattle/syndicate2)
 "aq" = (
@@ -93,22 +93,22 @@
 /area/awaymission/spacebattle/syndicate3)
 "aw" = (
 /obj/structure/shuttle/engine/propulsion{
-	dir = 1;
-	icon_state = "propulsion_r"
-	},
+    dir = 1;
+    icon_state = "propulsion_r"
+    },
 /turf/simulated/floor/plating/airless,
 /area/awaymission/spacebattle/syndicate3)
 "ax" = (
 /obj/structure/shuttle/engine/propulsion{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/plating/airless,
 /area/awaymission/spacebattle/syndicate3)
 "ay" = (
 /obj/structure/shuttle/engine/propulsion{
-	dir = 1;
-	icon_state = "propulsion_l"
-	},
+    dir = 1;
+    icon_state = "propulsion_l"
+    },
 /turf/simulated/floor/plating/airless,
 /area/awaymission/spacebattle/syndicate3)
 "aA" = (
@@ -118,8 +118,8 @@
 /area/awaymission/spacebattle/syndicate2)
 "aC" = (
 /obj/structure/shuttle/engine/heater{
-	dir = 1
-	},
+    dir = 1
+    },
 /obj/structure/window/reinforced,
 /turf/simulated/floor/plating/airless,
 /area/awaymission/spacebattle/syndicate3)
@@ -132,8 +132,8 @@
 /area/awaymission/spacebattle/syndicate3)
 "aF" = (
 /obj/effect/landmark{
-	name = "awaystart"
-	},
+    name = "awaystart"
+    },
 /turf/simulated/floor/mineral/plastitanium/red,
 /area/awaymission/spacebattle/syndicate3)
 "aH" = (
@@ -159,22 +159,22 @@
 /area/awaymission/spacebattle/syndicate1)
 "aP" = (
 /obj/structure/shuttle/engine/propulsion{
-	dir = 1;
-	icon_state = "propulsion_r"
-	},
+    dir = 1;
+    icon_state = "propulsion_r"
+    },
 /turf/simulated/floor/plating/airless,
 /area/awaymission/spacebattle/syndicate1)
 "aQ" = (
 /obj/structure/shuttle/engine/propulsion{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/plating/airless,
 /area/awaymission/spacebattle/syndicate1)
 "aR" = (
 /obj/structure/shuttle/engine/propulsion{
-	dir = 1;
-	icon_state = "propulsion_l"
-	},
+    dir = 1;
+    icon_state = "propulsion_l"
+    },
 /turf/simulated/floor/plating/airless,
 /area/awaymission/spacebattle/syndicate1)
 "aU" = (
@@ -183,29 +183,29 @@
 /area/awaymission/spacebattle/syndicate3)
 "aW" = (
 /obj/structure/shuttle/engine/heater{
-	dir = 1
-	},
+    dir = 1
+    },
 /obj/structure/window/reinforced,
 /turf/simulated/floor/plating/airless,
 /area/awaymission/spacebattle/syndicate1)
 "aX" = (
 /obj/structure/window/reinforced,
 /obj/structure/shuttle/engine/heater{
-	dir = 1
-	},
+    dir = 1
+    },
 /obj/structure/window/reinforced{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/plating/airless,
 /area/awaymission/spacebattle/syndicate2)
 "aY" = (
 /obj/structure/window/reinforced,
 /obj/structure/shuttle/engine/heater{
-	dir = 1
-	},
+    dir = 1
+    },
 /obj/structure/window/reinforced{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/floor/plating/airless,
 /area/awaymission/spacebattle/syndicate2)
 "aZ" = (
@@ -213,14 +213,14 @@
 /area/awaymission/spacebattle/syndicate1)
 "ba" = (
 /obj/structure/chair/comfy/shuttle{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/mineral/plastitanium/red,
 /area/awaymission/spacebattle/syndicate2)
 "bb" = (
 /obj/structure/chair/comfy/shuttle{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/floor/mineral/plastitanium/red,
 /area/awaymission/spacebattle/syndicate2)
 "bc" = (
@@ -229,16 +229,16 @@
 /area/awaymission/spacebattle/syndicate1)
 "bd" = (
 /obj/effect/landmark{
-	name = "awaystart"
-	},
+    name = "awaystart"
+    },
 /turf/simulated/floor/mineral/plastitanium/red,
 /area/awaymission/spacebattle/syndicate1)
 "be" = (
 /obj/machinery/porta_turret{
-	dir = 8;
-	emagged = 1;
-	installation = /obj/item/gun/energy/lasercannon
-	},
+    dir = 8;
+    emagged = 1;
+    installation = /obj/item/gun/energy/lasercannon
+    },
 /turf/simulated/floor/plating/airless,
 /area/awaymission/spacebattle/syndicate2)
 "bf" = (
@@ -265,17 +265,17 @@
 /area/awaymission/spacebattle/syndicate3)
 "bl" = (
 /obj/machinery/computer/pod{
-	id_tags = list("spacebattlepod3");
-	name = "Hull Door Control"
-	},
+    id_tags = list("spacebattlepod3");
+    name = "Hull Door Control"
+    },
 /turf/simulated/floor/mineral/plastitanium/red,
 /area/awaymission/spacebattle/syndicate2)
 "bm" = (
 /obj/machinery/door/poddoor{
-	icon_state = "pdoor1";
-	id_tag = "spacebattlepod3";
-	name = "Front Hull Door"
-	},
+    icon_state = "pdoor1";
+    id_tag = "spacebattlepod3";
+    name = "Front Hull Door"
+    },
 /turf/simulated/floor/plating,
 /area/awaymission/spacebattle/syndicate2)
 "bn" = (
@@ -303,10 +303,10 @@
 /area/awaymission/spacebattle/syndicate1)
 "bw" = (
 /obj/machinery/porta_turret{
-	dir = 8;
-	emagged = 1;
-	installation = /obj/item/gun/energy/lasercannon
-	},
+    dir = 8;
+    emagged = 1;
+    installation = /obj/item/gun/energy/lasercannon
+    },
 /turf/simulated/floor/plating/airless,
 /area/awaymission/spacebattle/syndicate3)
 "by" = (
@@ -320,10 +320,10 @@
 /area/awaymission/spacebattle/syndicate1)
 "bD" = (
 /obj/machinery/porta_turret{
-	dir = 8;
-	emagged = 1;
-	installation = /obj/item/gun/energy/lasercannon
-	},
+    dir = 8;
+    emagged = 1;
+    installation = /obj/item/gun/energy/lasercannon
+    },
 /turf/simulated/floor/plating/airless,
 /area/awaymission/spacebattle/syndicate1)
 "bE" = (
@@ -331,9 +331,9 @@
 /area/awaymission/spacebattle/cruiser)
 "bF" = (
 /obj/structure/shuttle/engine/propulsion{
-	dir = 1;
-	icon_state = "propulsion_r"
-	},
+    dir = 1;
+    icon_state = "propulsion_r"
+    },
 /turf/simulated/floor/plating/airless,
 /area/awaymission/spacebattle/cruiser)
 "bG" = (
@@ -342,19 +342,19 @@
 /area/awaymission/spacebattle/cruiser)
 "bH" = (
 /obj/structure/shuttle/engine/propulsion{
-	dir = 1;
-	icon_state = "propulsion_l"
-	},
+    dir = 1;
+    icon_state = "propulsion_l"
+    },
 /turf/simulated/floor/plating/airless,
 /area/awaymission/spacebattle/cruiser)
 "bK" = (
 /obj/structure/window/reinforced,
 /obj/structure/shuttle/engine/heater{
-	dir = 1
-	},
+    dir = 1
+    },
 /obj/structure/window/reinforced{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/plating/airless,
 /area/awaymission/spacebattle/cruiser)
 "bL" = (
@@ -363,23 +363,23 @@
 "bM" = (
 /obj/structure/window/reinforced,
 /obj/structure/shuttle/engine/heater{
-	dir = 1
-	},
+    dir = 1
+    },
 /obj/structure/window/reinforced{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/floor/plating/airless,
 /area/awaymission/spacebattle/cruiser)
 "bN" = (
 /obj/structure/chair/comfy/shuttle{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/mineral/plastitanium/red,
 /area/awaymission/spacebattle/cruiser)
 "bO" = (
 /obj/structure/chair/comfy/shuttle{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/floor/mineral/plastitanium/red,
 /area/awaymission/spacebattle/cruiser)
 "bP" = (
@@ -387,18 +387,18 @@
 /area/awaymission/spacebattle/cruiser)
 "bU" = (
 /obj/structure/shuttle/engine/propulsion{
-	dir = 4;
-	icon_state = "burst_l"
-	},
+    dir = 4;
+    icon_state = "burst_l"
+    },
 /turf/simulated/floor/plating/airless,
 /area/awaymission/spacebattle/cruiser)
 "bV" = (
 /obj/structure/shuttle/engine/heater{
-	dir = 8
-	},
+    dir = 8
+    },
 /obj/structure/window/reinforced{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/plating/airless,
 /area/awaymission/spacebattle/cruiser)
 "bX" = (
@@ -407,9 +407,9 @@
 /area/awaymission/spacebattle/cruiser)
 "bY" = (
 /obj/machinery/computer/pod{
-	id_tags = list("spacebattlepod");
-	name = "Hull Door Control"
-	},
+    id_tags = list("spacebattlepod");
+    name = "Hull Door Control"
+    },
 /turf/simulated/floor/mineral/plastitanium/red,
 /area/awaymission/spacebattle/cruiser)
 "bZ" = (
@@ -421,8 +421,8 @@
 /area/awaymission/spacebattle/cruiser)
 "cc" = (
 /obj/structure/shuttle/engine/propulsion{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/plating/airless,
 /area/awaymission/spacebattle/cruiser)
 "cd" = (
@@ -431,11 +431,11 @@
 /area/awaymission/spacebattle/cruiser)
 "cf" = (
 /obj/machinery/door/poddoor{
-	density = 0;
-	icon_state = "open";
-	id_tag = "spacebattlepod";
-	name = "Front Hull Door"
-	},
+    density = 0;
+    icon_state = "open";
+    id_tag = "spacebattlepod";
+    name = "Front Hull Door"
+    },
 /turf/simulated/floor/plating,
 /area/awaymission/spacebattle/cruiser)
 "ch" = (
@@ -458,8 +458,8 @@
 /area/awaymission/spacebattle/cruiser)
 "cl" = (
 /obj/effect/mob_spawn/human/engineer{
-	name = "Clay Dawson"
-	},
+    name = "Clay Dawson"
+    },
 /obj/effect/landmark/damageturf,
 /turf/simulated/floor/plasteel,
 /area/awaymission/spacebattle/cruiser)
@@ -470,8 +470,8 @@
 /area/awaymission/spacebattle/cruiser)
 "cn" = (
 /obj/effect/mob_spawn/human/engineer{
-	name = "Rosen Miller"
-	},
+    name = "Rosen Miller"
+    },
 /obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/plasteel,
 /area/awaymission/spacebattle/cruiser)
@@ -481,9 +481,9 @@
 /area/awaymission/spacebattle/cruiser)
 "cs" = (
 /obj/machinery/power/smes/magical{
-	desc = "A high-capacity superconducting magnetic energy storage (SMES) unit.";
-	name = "power storage unit"
-	},
+    desc = "A high-capacity superconducting magnetic energy storage (SMES) unit.";
+    name = "power storage unit"
+    },
 /turf/simulated/floor/plasteel,
 /area/awaymission/spacebattle/cruiser)
 "ct" = (
@@ -520,48 +520,48 @@
 /obj/structure/table/reinforced,
 /obj/item/reagent_containers/food/snacks/sausage,
 /turf/simulated/floor/plasteel{
-	icon_state = "cafeteria"
-	},
+    icon_state = "cafeteria"
+    },
 /area/awaymission/spacebattle/cruiser)
 "cA" = (
 /obj/structure/table/reinforced,
 /obj/item/reagent_containers/food/condiment/enzyme,
 /turf/simulated/floor/plasteel{
-	icon_state = "cafeteria"
-	},
+    icon_state = "cafeteria"
+    },
 /area/awaymission/spacebattle/cruiser)
 "cB" = (
 /obj/structure/table/reinforced,
 /obj/item/kitchen/knife,
 /turf/simulated/floor/plasteel{
-	icon_state = "cafeteria"
-	},
+    icon_state = "cafeteria"
+    },
 /area/awaymission/spacebattle/cruiser)
 "cC" = (
 /obj/structure/table/reinforced,
 /obj/item/kitchen/rollingpin,
 /turf/simulated/floor/plasteel{
-	icon_state = "cafeteria"
-	},
+    icon_state = "cafeteria"
+    },
 /area/awaymission/spacebattle/cruiser)
 "cD" = (
 /obj/structure/closet/secure_closet/freezer/kitchen,
 /turf/simulated/floor/plasteel{
-	icon_state = "cafeteria"
-	},
+    icon_state = "cafeteria"
+    },
 /area/awaymission/spacebattle/cruiser)
 "cE" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
 /turf/simulated/floor/plasteel{
-	icon_state = "cafeteria"
-	},
+    icon_state = "cafeteria"
+    },
 /area/awaymission/spacebattle/cruiser)
 "cF" = (
 /obj/structure/table/reinforced,
 /obj/machinery/kitchen_machine/microwave,
 /turf/simulated/floor/plasteel{
-	icon_state = "cafeteria"
-	},
+    icon_state = "cafeteria"
+    },
 /area/awaymission/spacebattle/cruiser)
 "cG" = (
 /obj/machinery/door/airlock/titanium,
@@ -585,14 +585,14 @@
 /area/awaymission/spacebattle/cruiser)
 "cL" = (
 /obj/effect/landmark{
-	name = "awaystart"
-	},
+    name = "awaystart"
+    },
 /turf/simulated/floor/plasteel,
 /area/awaymission/spacebattle/cruiser)
 "cM" = (
 /turf/simulated/floor/plasteel{
-	icon_state = "cafeteria"
-	},
+    icon_state = "cafeteria"
+    },
 /area/awaymission/spacebattle/cruiser)
 "cN" = (
 /obj/item/stack/sheet/metal,
@@ -600,36 +600,36 @@
 /area/awaymission/spacebattle/cruiser)
 "cP" = (
 /obj/effect/mob_spawn/human/engineer{
-	name = "Bill Sanchez"
-	},
+    name = "Bill Sanchez"
+    },
 /obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/plasteel,
 /area/awaymission/spacebattle/cruiser)
 "cQ" = (
 /obj/machinery/door/airlock/titanium,
 /turf/simulated/floor/plasteel{
-	icon_state = "cafeteria"
-	},
+    icon_state = "cafeteria"
+    },
 /area/awaymission/spacebattle/cruiser)
 "cR" = (
 /obj/structure/table/reinforced,
 /obj/item/reagent_containers/food/snacks/fries,
 /turf/simulated/floor/plasteel{
-	icon_state = "cafeteria"
-	},
+    icon_state = "cafeteria"
+    },
 /area/awaymission/spacebattle/cruiser)
 "cS" = (
 /obj/structure/table/reinforced,
 /obj/item/reagent_containers/food/snacks/soup/stew,
 /turf/simulated/floor/plasteel{
-	icon_state = "cafeteria"
-	},
+    icon_state = "cafeteria"
+    },
 /area/awaymission/spacebattle/cruiser)
 "cT" = (
 /obj/structure/table/reinforced,
 /turf/simulated/floor/plasteel{
-	icon_state = "cafeteria"
-	},
+    icon_state = "cafeteria"
+    },
 /area/awaymission/spacebattle/cruiser)
 "cU" = (
 /mob/living/simple_animal/hostile/syndicate/melee,
@@ -644,8 +644,8 @@
 /area/awaymission/spacebattle/cruiser)
 "cX" = (
 /turf/simulated/floor/plasteel{
-	icon_state = "bar"
-	},
+    icon_state = "bar"
+    },
 /area/awaymission/spacebattle/cruiser)
 "cY" = (
 /mob/living/simple_animal/hostile/syndicate/ranged/space,
@@ -653,28 +653,28 @@
 /area/awaymission/spacebattle/cruiser)
 "cZ" = (
 /obj/machinery/computer/pod{
-	id_tags = list("spacebattlepod2");
-	name = "Hull Door Control"
-	},
+    id_tags = list("spacebattlepod2");
+    name = "Hull Door Control"
+    },
 /turf/simulated/floor/mineral/plastitanium/red,
 /area/awaymission/spacebattle/cruiser)
 "db" = (
 /obj/machinery/shieldgen{
-	anchored = 1
-	},
+    anchored = 1
+    },
 /turf/simulated/floor/plating/airless,
 /area/awaymission/spacebattle/cruiser)
 "dc" = (
 /obj/structure/shuttle/engine/propulsion{
-	dir = 4;
-	icon_state = "propulsion_r"
-	},
+    dir = 4;
+    icon_state = "propulsion_r"
+    },
 /turf/simulated/floor/plating/airless,
 /area/awaymission/spacebattle/cruiser)
 "dd" = (
 /obj/effect/mob_spawn/human/engineer{
-	name = "John Locke"
-	},
+    name = "John Locke"
+    },
 /obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/plasteel,
 /area/awaymission/spacebattle/cruiser)
@@ -700,16 +700,16 @@
 /area/awaymission/spacebattle/cruiser)
 "dj" = (
 /obj/effect/mob_spawn/human/doctor{
-	name = "Daniel Kalla"
-	},
+    name = "Daniel Kalla"
+    },
 /obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/plasteel,
 /area/awaymission/spacebattle/cruiser)
 "dk" = (
 /obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/plasteel{
-	icon_state = "bar"
-	},
+    icon_state = "bar"
+    },
 /area/awaymission/spacebattle/cruiser)
 "dn" = (
 /obj/effect/mob_spawn/human/corpse/syndicatesoldier,
@@ -719,11 +719,11 @@
 /area/awaymission/spacebattle/cruiser)
 "do" = (
 /obj/machinery/door/poddoor{
-	density = 0;
-	icon_state = "open";
-	id_tag = "spacebattlepod2";
-	name = "Front Hull Door"
-	},
+    density = 0;
+    icon_state = "open";
+    id_tag = "spacebattlepod2";
+    name = "Front Hull Door"
+    },
 /turf/simulated/floor/plating,
 /area/awaymission/spacebattle/cruiser)
 "dr" = (
@@ -732,48 +732,48 @@
 /area/awaymission/spacebattle/cruiser)
 "du" = (
 /obj/effect/mob_spawn/human/cook{
-	name = "Nathaniel Waters"
-	},
+    name = "Nathaniel Waters"
+    },
 /obj/item/kitchen/knife/butcher,
 /obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/plasteel{
-	icon_state = "bar"
-	},
+    icon_state = "bar"
+    },
 /area/awaymission/spacebattle/cruiser)
 "dv" = (
 /obj/structure/chair,
 /turf/simulated/floor/plasteel{
-	icon_state = "bar"
-	},
+    icon_state = "bar"
+    },
 /area/awaymission/spacebattle/cruiser)
 "dw" = (
 /obj/structure/rack,
 /turf/simulated/floor/plasteel{
-	dir = 9;
-	icon_state = "red"
-	},
+    dir = 9;
+    icon_state = "red"
+    },
 /area/awaymission/spacebattle/cruiser)
 "dx" = (
 /turf/simulated/floor/plasteel{
-	dir = 1;
-	icon_state = "red"
-	},
+    dir = 1;
+    icon_state = "red"
+    },
 /area/awaymission/spacebattle/cruiser)
 "dy" = (
 /obj/effect/landmark{
-	name = "awaystart"
-	},
+    name = "awaystart"
+    },
 /turf/simulated/floor/plasteel{
-	dir = 1;
-	icon_state = "red"
-	},
+    dir = 1;
+    icon_state = "red"
+    },
 /area/awaymission/spacebattle/cruiser)
 "dz" = (
 /obj/structure/closet/secure_closet/security,
 /turf/simulated/floor/plasteel{
-	dir = 5;
-	icon_state = "red"
-	},
+    dir = 5;
+    icon_state = "red"
+    },
 /area/awaymission/spacebattle/cruiser)
 "dB" = (
 /obj/effect/decal/cleanable/blood,
@@ -793,21 +793,21 @@
 /area/awaymission/spacebattle/cruiser)
 "dJ" = (
 /obj/mecha/working/ripley/firefighter{
-	ruin_mecha = 1
-	},
+    ruin_mecha = 1
+    },
 /turf/simulated/floor/plating,
 /area/awaymission/spacebattle/cruiser)
 "dK" = (
 /obj/structure/closet/crate{
-	name = "Gold Crate"
-	},
+    name = "Gold Crate"
+    },
 /obj/item/mecha_parts/mecha_equipment/hydraulic_clamp,
 /turf/simulated/floor/plating,
 /area/awaymission/spacebattle/cruiser)
 "dL" = (
 /obj/structure/closet/crate{
-	name = "Gold Crate"
-	},
+    name = "Gold Crate"
+    },
 /obj/item/mecha_parts/mecha_equipment/drill,
 /turf/simulated/floor/plating,
 /area/awaymission/spacebattle/cruiser)
@@ -821,143 +821,143 @@
 /area/awaymission/spacebattle/cruiser)
 "dO" = (
 /obj/structure/chair{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/plasteel{
-	icon_state = "bar"
-	},
+    icon_state = "bar"
+    },
 /area/awaymission/spacebattle/cruiser)
 "dP" = (
 /obj/structure/table/reinforced,
 /obj/item/reagent_containers/food/condiment/peppermill,
 /turf/simulated/floor/plasteel{
-	icon_state = "bar"
-	},
+    icon_state = "bar"
+    },
 /area/awaymission/spacebattle/cruiser)
 "dQ" = (
 /obj/structure/table/reinforced,
 /turf/simulated/floor/plasteel{
-	icon_state = "bar"
-	},
+    icon_state = "bar"
+    },
 /area/awaymission/spacebattle/cruiser)
 "dR" = (
 /obj/structure/chair{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/floor/plasteel{
-	icon_state = "bar"
-	},
+    icon_state = "bar"
+    },
 /area/awaymission/spacebattle/cruiser)
 "dS" = (
 /obj/structure/rack,
 /turf/simulated/floor/plasteel{
-	dir = 8;
-	icon_state = "red"
-	},
+    dir = 8;
+    icon_state = "red"
+    },
 /area/awaymission/spacebattle/cruiser)
 "dT" = (
 /obj/structure/closet/secure_closet/security,
 /turf/simulated/floor/plasteel{
-	dir = 4;
-	icon_state = "red"
-	},
+    dir = 4;
+    icon_state = "red"
+    },
 /area/awaymission/spacebattle/cruiser)
 "dV" = (
 /obj/effect/mob_spawn/human/engineer/hardsuit{
-	name = "Andrew Thorn"
-	},
+    name = "Andrew Thorn"
+    },
 /obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/plating/airless,
 /area/awaymission/spacebattle/cruiser)
 "dX" = (
 /obj/machinery/porta_turret{
-	dir = 8;
-	emagged = 1;
-	installation = /obj/item/gun/energy/lasercannon
-	},
+    dir = 8;
+    emagged = 1;
+    installation = /obj/item/gun/energy/lasercannon
+    },
 /turf/simulated/floor/engine,
 /area/awaymission/spacebattle/cruiser)
 "ea" = (
 /obj/machinery/gateway{
-	dir = 9
-	},
+    dir = 9
+    },
 /turf/simulated/floor/plating,
 /area/awaymission/spacebattle/cruiser)
 "eb" = (
 /obj/machinery/gateway{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/plating,
 /area/awaymission/spacebattle/cruiser)
 "ec" = (
 /obj/machinery/gateway{
-	dir = 5
-	},
+    dir = 5
+    },
 /turf/simulated/floor/plating,
 /area/awaymission/spacebattle/cruiser)
 "ed" = (
 /obj/structure/closet/crate{
-	name = "Gold Crate"
-	},
+    name = "Gold Crate"
+    },
 /obj/item/mecha_parts/mecha_equipment/medical/syringe_gun,
 /turf/simulated/floor/plating,
 /area/awaymission/spacebattle/cruiser)
 "ee" = (
 /obj/structure/closet/crate{
-	name = "Gold Crate"
-	},
+    name = "Gold Crate"
+    },
 /obj/item/mecha_parts/mecha_equipment/repair_droid,
 /turf/simulated/floor/plating,
 /area/awaymission/spacebattle/cruiser)
 "ef" = (
 /mob/living/simple_animal/hostile/syndicate/melee,
 /turf/simulated/floor/plasteel{
-	icon_state = "bar"
-	},
+    icon_state = "bar"
+    },
 /area/awaymission/spacebattle/cruiser)
 "eg" = (
 /obj/structure/closet/l3closet/security,
 /turf/simulated/floor/plasteel{
-	dir = 4;
-	icon_state = "red"
-	},
+    dir = 4;
+    icon_state = "red"
+    },
 /area/awaymission/spacebattle/cruiser)
 "ej" = (
 /turf/simulated/floor/engine,
 /area/awaymission/spacebattle/cruiser)
 "ek" = (
 /obj/machinery/gateway{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/floor/plating,
 /area/awaymission/spacebattle/cruiser)
 "el" = (
 /obj/machinery/gateway/centeraway{
-	calibrated = 0
-	},
+    calibrated = 0
+    },
 /turf/simulated/floor/plating,
 /area/awaymission/spacebattle/cruiser)
 "em" = (
 /obj/machinery/gateway{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/plating,
 /area/awaymission/spacebattle/cruiser)
 "en" = (
 /obj/structure/chair{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/plasteel{
-	icon_state = "bar"
-	},
+    icon_state = "bar"
+    },
 /area/awaymission/spacebattle/cruiser)
 "eo" = (
 /turf/simulated/wall/mineral/plastitanium,
 /area/awaymission/spacebattle/syndicate4)
 "er" = (
 /obj/machinery/gateway{
-	dir = 10
-	},
+    dir = 10
+    },
 /turf/simulated/floor/plating,
 /area/awaymission/spacebattle/cruiser)
 "es" = (
@@ -966,26 +966,26 @@
 /area/awaymission/spacebattle/cruiser)
 "et" = (
 /obj/machinery/gateway{
-	dir = 6
-	},
+    dir = 6
+    },
 /turf/simulated/floor/plating,
 /area/awaymission/spacebattle/cruiser)
 "eu" = (
 /mob/living/simple_animal/hostile/syndicate/ranged/space,
 /turf/simulated/floor/plasteel{
-	icon_state = "bar"
-	},
+    icon_state = "bar"
+    },
 /area/awaymission/spacebattle/cruiser)
 "ev" = (
 /turf/simulated/floor/plasteel{
-	dir = 8;
-	icon_state = "red"
-	},
+    dir = 8;
+    icon_state = "red"
+    },
 /area/awaymission/spacebattle/cruiser)
 "ew" = (
 /obj/effect/mob_spawn/human/bridgeofficer{
-	name = "Davis Hume"
-	},
+    name = "Davis Hume"
+    },
 /obj/item/gun/projectile/shotgun/automatic/combat,
 /turf/simulated/floor/plasteel,
 /area/awaymission/spacebattle/cruiser)
@@ -995,29 +995,29 @@
 /area/awaymission/spacebattle/cruiser)
 "ey" = (
 /turf/simulated/floor/plasteel{
-	dir = 4;
-	icon_state = "red"
-	},
+    dir = 4;
+    icon_state = "red"
+    },
 /area/awaymission/spacebattle/cruiser)
 "eA" = (
 /obj/structure/table/reinforced,
 /turf/simulated/floor/plasteel{
-	dir = 9;
-	icon_state = "blue"
-	},
+    dir = 9;
+    icon_state = "blue"
+    },
 /area/awaymission/spacebattle/cruiser)
 "eB" = (
 /obj/structure/table/reinforced,
 /turf/simulated/floor/plasteel{
-	dir = 1;
-	icon_state = "blue"
-	},
+    dir = 1;
+    icon_state = "blue"
+    },
 /area/awaymission/spacebattle/cruiser)
 "eC" = (
 /obj/structure/table/reinforced,
 /turf/simulated/floor/plasteel{
-	icon_state = "bluefull"
-	},
+    icon_state = "bluefull"
+    },
 /area/awaymission/spacebattle/cruiser)
 "eE" = (
 /mob/living/simple_animal/hostile/syndicate/melee/space,
@@ -1025,8 +1025,8 @@
 /area/awaymission/spacebattle/cruiser)
 "eF" = (
 /obj/effect/mob_spawn/human/engineer/hardsuit{
-	name = "Peter West"
-	},
+    name = "Peter West"
+    },
 /obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/plating/airless,
 /area/awaymission/spacebattle/cruiser)
@@ -1039,9 +1039,9 @@
 /area/awaymission/spacebattle/syndicate4)
 "eK" = (
 /turf/simulated/floor/plasteel{
-	dir = 8;
-	icon_state = "blue"
-	},
+    dir = 8;
+    icon_state = "blue"
+    },
 /area/awaymission/spacebattle/cruiser)
 "eL" = (
 /obj/item/shield/energy,
@@ -1049,15 +1049,15 @@
 /area/awaymission/spacebattle/cruiser)
 "eM" = (
 /obj/structure/chair{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/plasteel,
 /area/awaymission/spacebattle/cruiser)
 "eN" = (
 /obj/machinery/computer/med_data,
 /turf/simulated/floor/plasteel{
-	icon_state = "bluefull"
-	},
+    icon_state = "bluefull"
+    },
 /area/awaymission/spacebattle/cruiser)
 "eP" = (
 /obj/machinery/sleeper,
@@ -1065,8 +1065,8 @@
 /area/awaymission/spacebattle/syndicate4)
 "eQ" = (
 /obj/structure/chair/comfy/shuttle{
-	dir = 1
-	},
+    dir = 1
+    },
 /mob/living/simple_animal/hostile/syndicate,
 /turf/simulated/floor/mineral/plastitanium/red,
 /area/awaymission/spacebattle/syndicate4)
@@ -1078,15 +1078,15 @@
 /obj/structure/table/reinforced,
 /obj/item/reagent_containers/food/condiment/saltshaker,
 /turf/simulated/floor/plasteel{
-	icon_state = "bar"
-	},
+    icon_state = "bar"
+    },
 /area/awaymission/spacebattle/cruiser)
 "eT" = (
 /obj/structure/table/reinforced,
 /obj/item/kitchen/utensil/fork,
 /turf/simulated/floor/plasteel{
-	icon_state = "bar"
-	},
+    icon_state = "bar"
+    },
 /area/awaymission/spacebattle/cruiser)
 "eU" = (
 /obj/effect/mob_spawn/human/corpse/syndicatesoldier,
@@ -1095,8 +1095,8 @@
 /area/awaymission/spacebattle/cruiser)
 "eV" = (
 /obj/effect/mob_spawn/human/bridgeofficer{
-	name = "Kurt Kliest"
-	},
+    name = "Kurt Kliest"
+    },
 /obj/item/gun/projectile/shotgun/automatic/combat,
 /obj/item/ammo_casing/shotgun,
 /turf/simulated/floor/plasteel,
@@ -1109,13 +1109,13 @@
 "eX" = (
 /obj/machinery/computer/crew,
 /turf/simulated/floor/plasteel{
-	icon_state = "bluefull"
-	},
+    icon_state = "bluefull"
+    },
 /area/awaymission/spacebattle/cruiser)
 "eY" = (
 /obj/effect/mob_spawn/human/engineer/hardsuit{
-	name = "Eric Abnett"
-	},
+    name = "Eric Abnett"
+    },
 /obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/plating/airless,
 /area/awaymission/spacebattle/cruiser)
@@ -1126,20 +1126,20 @@
 /area/awaymission/spacebattle/cruiser)
 "fa" = (
 /turf/simulated/floor/plasteel{
-	dir = 10;
-	icon_state = "red"
-	},
+    dir = 10;
+    icon_state = "red"
+    },
 /area/awaymission/spacebattle/cruiser)
 "fb" = (
 /turf/simulated/floor/plasteel{
-	icon_state = "red"
-	},
+    icon_state = "red"
+    },
 /area/awaymission/spacebattle/cruiser)
 "fc" = (
 /turf/simulated/floor/plasteel{
-	dir = 6;
-	icon_state = "red"
-	},
+    dir = 6;
+    icon_state = "red"
+    },
 /area/awaymission/spacebattle/cruiser)
 "fd" = (
 /obj/structure/closet/crate,
@@ -1152,17 +1152,17 @@
 /area/awaymission/spacebattle/cruiser)
 "ff" = (
 /obj/machinery/door/poddoor{
-	id_tag = "spacebattlestorage";
-	name = "Secure Storage"
-	},
+    id_tag = "spacebattlestorage";
+    name = "Secure Storage"
+    },
 /turf/simulated/floor/plasteel,
 /area/awaymission/spacebattle/cruiser)
 "fg" = (
 /mob/living/simple_animal/hostile/syndicate/ranged,
 /turf/simulated/floor/plasteel{
-	dir = 8;
-	icon_state = "blue"
-	},
+    dir = 8;
+    icon_state = "blue"
+    },
 /area/awaymission/spacebattle/cruiser)
 "fh" = (
 /obj/machinery/computer/security/telescreen,
@@ -1189,9 +1189,9 @@
 /area/awaymission/spacebattle/cruiser)
 "fm" = (
 /turf/simulated/floor/plasteel{
-	dir = 1;
-	icon_state = "blue"
-	},
+    dir = 1;
+    icon_state = "blue"
+    },
 /area/awaymission/spacebattle/cruiser)
 "fn" = (
 /obj/effect/mob_spawn/human/corpse/syndicatesoldier,
@@ -1200,60 +1200,60 @@
 /obj/item/ammo_casing/c10mm,
 /obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/plasteel{
-	dir = 1;
-	icon_state = "blue"
-	},
+    dir = 1;
+    icon_state = "blue"
+    },
 /area/awaymission/spacebattle/cruiser)
 "fo" = (
 /obj/item/ammo_casing/c10mm,
 /obj/item/ammo_casing/c10mm,
 /turf/simulated/floor/plasteel{
-	dir = 1;
-	icon_state = "blue"
-	},
+    dir = 1;
+    icon_state = "blue"
+    },
 /area/awaymission/spacebattle/cruiser)
 "fp" = (
 /obj/effect/mob_spawn/human/bridgeofficer{
-	name = "Walter Strider"
-	},
+    name = "Walter Strider"
+    },
 /obj/item/gun/projectile/shotgun/automatic/combat,
 /obj/item/ammo_casing/c10mm,
 /obj/item/ammo_casing/c10mm,
 /obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/plasteel{
-	dir = 1;
-	icon_state = "blue"
-	},
+    dir = 1;
+    icon_state = "blue"
+    },
 /area/awaymission/spacebattle/cruiser)
 "fq" = (
 /obj/item/ammo_casing/shotgun,
 /turf/simulated/floor/plasteel{
-	dir = 1;
-	icon_state = "bluecorner"
-	},
+    dir = 1;
+    icon_state = "bluecorner"
+    },
 /area/awaymission/spacebattle/cruiser)
 "fr" = (
 /obj/item/ammo_casing/a357,
 /obj/item/ammo_casing/a357,
 /obj/item/gun/projectile/revolver/mateba,
 /obj/effect/mob_spawn/human/corpse/syndicatecommando{
-	name = "Aaron Bowden"
-	},
+    name = "Aaron Bowden"
+    },
 /obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/plasteel,
 /area/awaymission/spacebattle/cruiser)
 "fs" = (
 /obj/structure/chair{
-	dir = 4
-	},
+    dir = 4
+    },
 /obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/plasteel,
 /area/awaymission/spacebattle/cruiser)
 "ft" = (
 /obj/machinery/computer/shuttle,
 /turf/simulated/floor/plasteel{
-	icon_state = "bluefull"
-	},
+    icon_state = "bluefull"
+    },
 /area/awaymission/spacebattle/cruiser)
 "fu" = (
 /obj/machinery/bsa/full/east,
@@ -1281,33 +1281,33 @@
 /area/awaymission/spacebattle/cruiser)
 "fH" = (
 /turf/simulated/floor/plasteel{
-	dir = 0;
-	icon_state = "blue"
-	},
+    dir = 0;
+    icon_state = "blue"
+    },
 /area/awaymission/spacebattle/cruiser)
 "fI" = (
 /obj/item/ammo_casing/c10mm,
 /obj/item/ammo_casing/c10mm,
 /turf/simulated/floor/plasteel{
-	dir = 0;
-	icon_state = "blue"
-	},
+    dir = 0;
+    icon_state = "blue"
+    },
 /area/awaymission/spacebattle/cruiser)
 "fJ" = (
 /obj/item/ammo_casing/shotgun,
 /obj/item/ammo_casing/c10mm,
 /obj/item/ammo_casing/c10mm,
 /turf/simulated/floor/plasteel{
-	dir = 0;
-	icon_state = "blue"
-	},
+    dir = 0;
+    icon_state = "blue"
+    },
 /area/awaymission/spacebattle/cruiser)
 "fK" = (
 /obj/item/ammo_casing/shotgun,
 /turf/simulated/floor/plasteel{
-	dir = 0;
-	icon_state = "blue"
-	},
+    dir = 0;
+    icon_state = "blue"
+    },
 /area/awaymission/spacebattle/cruiser)
 "fL" = (
 /obj/effect/mob_spawn/human/corpse/syndicatesoldier,
@@ -1316,22 +1316,22 @@
 /obj/item/ammo_casing/c10mm,
 /obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/plasteel{
-	dir = 0;
-	icon_state = "blue"
-	},
+    dir = 0;
+    icon_state = "blue"
+    },
 /area/awaymission/spacebattle/cruiser)
 "fM" = (
 /obj/item/ammo_casing/c10mm,
 /turf/simulated/floor/plasteel{
-	dir = 8;
-	icon_state = "bluecorner"
-	},
+    dir = 8;
+    icon_state = "bluecorner"
+    },
 /area/awaymission/spacebattle/cruiser)
 "fN" = (
 /obj/machinery/computer/communications,
 /turf/simulated/floor/plasteel{
-	icon_state = "bluefull"
-	},
+    icon_state = "bluefull"
+    },
 /area/awaymission/spacebattle/cruiser)
 "ga" = (
 /obj/structure/closet/crate,
@@ -1340,8 +1340,8 @@
 /area/awaymission/spacebattle/cruiser)
 "gb" = (
 /obj/effect/mob_spawn/human/bridgeofficer{
-	name = "Robert Faver"
-	},
+    name = "Robert Faver"
+    },
 /obj/item/ammo_casing/shotgun,
 /obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/plasteel,
@@ -1364,46 +1364,46 @@
 /area/awaymission/spacebattle/cruiser)
 "gq" = (
 /obj/machinery/door_control{
-	id = "spacebattlestorage";
-	name = "Secure Storage";
-	pixel_x = 24
-	},
+    id = "spacebattlestorage";
+    name = "Secure Storage";
+    pixel_x = 24
+    },
 /turf/simulated/floor/plating,
 /area/awaymission/spacebattle/cruiser)
 "gr" = (
 /obj/machinery/computer/operating,
 /turf/simulated/floor/plasteel{
-	icon_state = "whitehall"
-	},
+    icon_state = "whitehall"
+    },
 /area/awaymission/spacebattle/cruiser)
 "gs" = (
 /obj/structure/table/reinforced,
 /obj/item/scalpel,
 /obj/item/circular_saw,
 /turf/simulated/floor/plasteel{
-	icon_state = "whitehall"
-	},
+    icon_state = "whitehall"
+    },
 /area/awaymission/spacebattle/cruiser)
 "gt" = (
 /obj/structure/table/reinforced,
 /obj/item/retractor,
 /turf/simulated/floor/plasteel{
-	icon_state = "whitehall"
-	},
+    icon_state = "whitehall"
+    },
 /area/awaymission/spacebattle/cruiser)
 "gu" = (
 /obj/structure/table/reinforced,
 /obj/item/hemostat,
 /turf/simulated/floor/plasteel{
-	icon_state = "whitehall"
-	},
+    icon_state = "whitehall"
+    },
 /area/awaymission/spacebattle/cruiser)
 "gv" = (
 /obj/structure/table/reinforced,
 /obj/item/scalpel,
 /turf/simulated/floor/plasteel{
-	icon_state = "whitehall"
-	},
+    icon_state = "whitehall"
+    },
 /area/awaymission/spacebattle/cruiser)
 "gw" = (
 /obj/machinery/vending/cigarette,
@@ -1423,15 +1423,15 @@
 /area/awaymission/spacebattle/cruiser)
 "gE" = (
 /obj/effect/mob_spawn/human/doctor{
-	name = "Adam Smith"
-	},
+    name = "Adam Smith"
+    },
 /obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/plasteel,
 /area/awaymission/spacebattle/cruiser)
 "gF" = (
 /turf/simulated/floor/plasteel{
-	icon_state = "white"
-	},
+    icon_state = "white"
+    },
 /area/awaymission/spacebattle/cruiser)
 "gG" = (
 /obj/machinery/vending/coffee,
@@ -1444,28 +1444,28 @@
 "gI" = (
 /obj/machinery/computer/security,
 /turf/simulated/floor/plasteel{
-	icon_state = "bluefull"
-	},
+    icon_state = "bluefull"
+    },
 /area/awaymission/spacebattle/cruiser)
 "gJ" = (
 /obj/machinery/computer/secure_data,
 /turf/simulated/floor/plasteel{
-	icon_state = "bluefull"
-	},
+    icon_state = "bluefull"
+    },
 /area/awaymission/spacebattle/cruiser)
 "gK" = (
 /obj/effect/mob_spawn/human/engineer/hardsuit{
-	name = "Jeremy Tailor"
-	},
+    name = "Jeremy Tailor"
+    },
 /obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/plating/airless,
 /area/awaymission/spacebattle/cruiser)
 "gL" = (
 /obj/machinery/porta_turret{
-	dir = 8;
-	emagged = 1;
-	installation = /obj/item/gun/energy/lasercannon
-	},
+    dir = 8;
+    emagged = 1;
+    installation = /obj/item/gun/energy/lasercannon
+    },
 /turf/simulated/floor/plating/airless,
 /area/awaymission/spacebattle/syndicate7)
 "gM" = (
@@ -1474,8 +1474,8 @@
 "gN" = (
 /obj/structure/shuttle/engine/heater,
 /obj/structure/window/reinforced{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/plating/airless,
 /area/awaymission/spacebattle/syndicate4)
 "gO" = (
@@ -1485,43 +1485,43 @@
 "gP" = (
 /obj/machinery/computer/operating,
 /turf/simulated/floor/plasteel{
-	icon_state = "white"
-	},
+    icon_state = "white"
+    },
 /area/awaymission/spacebattle/cruiser)
 "gQ" = (
 /obj/effect/mob_spawn/human/doctor{
-	name = "Allan Yoshimaru"
-	},
+    name = "Allan Yoshimaru"
+    },
 /obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/plasteel{
-	icon_state = "white"
-	},
+    icon_state = "white"
+    },
 /area/awaymission/spacebattle/cruiser)
 "gR" = (
 /obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/plasteel{
-	icon_state = "white"
-	},
+    icon_state = "white"
+    },
 /area/awaymission/spacebattle/cruiser)
 "gS" = (
 /obj/structure/chair{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/floor/wood,
 /area/awaymission/spacebattle/cruiser)
 "gT" = (
 /obj/structure/table/reinforced,
 /turf/simulated/floor/plasteel{
-	dir = 10;
-	icon_state = "blue"
-	},
+    dir = 10;
+    icon_state = "blue"
+    },
 /area/awaymission/spacebattle/cruiser)
 "gU" = (
 /obj/structure/table/reinforced,
 /turf/simulated/floor/plasteel{
-	dir = 0;
-	icon_state = "blue"
-	},
+    dir = 0;
+    icon_state = "blue"
+    },
 /area/awaymission/spacebattle/cruiser)
 "gY" = (
 /obj/structure/shuttle/engine/propulsion,
@@ -1536,8 +1536,8 @@
 "ha" = (
 /obj/item/circular_saw,
 /turf/simulated/floor/plasteel{
-	icon_state = "white"
-	},
+    icon_state = "white"
+    },
 /area/awaymission/spacebattle/cruiser)
 "hb" = (
 /obj/item/paper_bin,
@@ -1545,8 +1545,8 @@
 /area/awaymission/spacebattle/cruiser)
 "hc" = (
 /obj/effect/mob_spawn/human/engineer/hardsuit{
-	name = "Dan Hedricks"
-	},
+    name = "Dan Hedricks"
+    },
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/plating/airless,
@@ -1564,18 +1564,18 @@
 /area/awaymission/spacebattle/syndicate7)
 "hg" = (
 /obj/structure/shuttle/engine/heater{
-	dir = 4
-	},
+    dir = 4
+    },
 /obj/structure/window/reinforced{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/floor/plating/airless,
 /area/awaymission/spacebattle/syndicate7)
 "hh" = (
 /obj/structure/shuttle/engine/propulsion{
-	dir = 4;
-	icon_state = "propulsion_l"
-	},
+    dir = 4;
+    icon_state = "propulsion_l"
+    },
 /turf/simulated/floor/plating/airless,
 /area/awaymission/spacebattle/syndicate7)
 "hi" = (
@@ -1615,27 +1615,27 @@
 "hu" = (
 /obj/machinery/door/airlock/titanium,
 /turf/simulated/floor/plasteel{
-	icon_state = "white"
-	},
+    icon_state = "white"
+    },
 /area/awaymission/spacebattle/cruiser)
 "hv" = (
 /mob/living/simple_animal/hostile/syndicate/melee,
 /turf/simulated/floor/plasteel{
-	icon_state = "white"
-	},
+    icon_state = "white"
+    },
 /area/awaymission/spacebattle/cruiser)
 "hw" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/firstaid/regular,
 /turf/simulated/floor/plasteel{
-	icon_state = "white"
-	},
+    icon_state = "white"
+    },
 /area/awaymission/spacebattle/cruiser)
 "hB" = (
 /obj/structure/table/reinforced,
 /turf/simulated/floor/plasteel{
-	icon_state = "white"
-	},
+    icon_state = "white"
+    },
 /area/awaymission/spacebattle/cruiser)
 "hC" = (
 /obj/structure/bed,
@@ -1648,14 +1648,14 @@
 /area/awaymission/spacebattle/cruiser)
 "hE" = (
 /obj/effect/mob_spawn/human/engineer{
-	name = "William Gannon"
-	},
+    name = "William Gannon"
+    },
 /turf/simulated/floor/plasteel,
 /area/awaymission/spacebattle/cruiser)
 "hK" = (
 /obj/effect/mob_spawn/human/engineer{
-	name = "Javier Wismer"
-	},
+    name = "Javier Wismer"
+    },
 /turf/simulated/floor/plasteel,
 /area/awaymission/spacebattle/cruiser)
 "hL" = (
@@ -1664,8 +1664,8 @@
 /area/awaymission/spacebattle/syndicate7)
 "hM" = (
 /obj/structure/chair/comfy/shuttle{
-	dir = 8
-	},
+    dir = 8
+    },
 /mob/living/simple_animal/hostile/syndicate,
 /turf/simulated/floor/mineral/plastitanium/red,
 /area/awaymission/spacebattle/syndicate7)
@@ -1675,98 +1675,98 @@
 /area/awaymission/spacebattle/syndicate7)
 "hO" = (
 /obj/machinery/shower{
-	dir = 4
-	},
+    dir = 4
+    },
 /obj/item/bikehorn/rubberducky,
 /turf/simulated/floor/plasteel{
-	icon_state = "freezerfloor"
-	},
+    icon_state = "freezerfloor"
+    },
 /area/awaymission/spacebattle/cruiser)
 "hP" = (
 /turf/simulated/floor/plasteel{
-	icon_state = "freezerfloor"
-	},
+    icon_state = "freezerfloor"
+    },
 /area/awaymission/spacebattle/cruiser)
 "hQ" = (
 /obj/machinery/shower{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/floor/plasteel{
-	icon_state = "freezerfloor"
-	},
+    icon_state = "freezerfloor"
+    },
 /area/awaymission/spacebattle/cruiser)
 "hR" = (
 /obj/structure/toilet,
 /turf/simulated/floor/plasteel{
-	icon_state = "freezerfloor"
-	},
+    icon_state = "freezerfloor"
+    },
 /area/awaymission/spacebattle/cruiser)
 "hS" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/firstaid/fire,
 /turf/simulated/floor/plasteel{
-	icon_state = "white"
-	},
+    icon_state = "white"
+    },
 /area/awaymission/spacebattle/cruiser)
 "hU" = (
 /obj/machinery/door/airlock/titanium,
 /turf/simulated/floor/plasteel{
-	icon_state = "freezerfloor"
-	},
+    icon_state = "freezerfloor"
+    },
 /area/awaymission/spacebattle/cruiser)
 "hW" = (
 /obj/item/storage/firstaid/regular,
 /turf/simulated/floor/plasteel{
-	icon_state = "white"
-	},
+    icon_state = "white"
+    },
 /area/awaymission/spacebattle/cruiser)
 "hX" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/firstaid/o2,
 /turf/simulated/floor/plasteel{
-	icon_state = "white"
-	},
+    icon_state = "white"
+    },
 /area/awaymission/spacebattle/cruiser)
 "hY" = (
 /obj/machinery/shower{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/plasteel{
-	icon_state = "freezerfloor"
-	},
+    icon_state = "freezerfloor"
+    },
 /area/awaymission/spacebattle/cruiser)
 "hZ" = (
 /obj/machinery/shower{
-	dir = 8
-	},
+    dir = 8
+    },
 /obj/item/soap,
 /turf/simulated/floor/plasteel{
-	icon_state = "freezerfloor"
-	},
+    icon_state = "freezerfloor"
+    },
 /area/awaymission/spacebattle/cruiser)
 "ia" = (
 /mob/living/simple_animal/hostile/syndicate/ranged/space,
 /turf/simulated/floor/plasteel{
-	icon_state = "freezerfloor"
-	},
+    icon_state = "freezerfloor"
+    },
 /area/awaymission/spacebattle/cruiser)
 "ib" = (
 /obj/effect/mob_spawn/human/doctor{
-	name = "Herbert West"
-	},
+    name = "Herbert West"
+    },
 /obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/plasteel{
-	icon_state = "white"
-	},
+    icon_state = "white"
+    },
 /area/awaymission/spacebattle/cruiser)
 "ic" = (
 /obj/effect/mob_spawn/human/engineer{
-	name = "Carth Robinson"
-	},
+    name = "Carth Robinson"
+    },
 /obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/plasteel{
-	icon_state = "freezerfloor"
-	},
+    icon_state = "freezerfloor"
+    },
 /area/awaymission/spacebattle/cruiser)
 "id" = (
 /obj/item/ammo_casing/c10mm,
@@ -1774,41 +1774,41 @@
 /obj/item/ammo_casing/c10mm,
 /obj/item/ammo_casing/c10mm,
 /turf/simulated/floor/plasteel{
-	icon_state = "freezerfloor"
-	},
+    icon_state = "freezerfloor"
+    },
 /area/awaymission/spacebattle/cruiser)
 "ie" = (
 /obj/machinery/sleeper,
 /turf/simulated/floor/plasteel{
-	icon_state = "white"
-	},
+    icon_state = "white"
+    },
 /area/awaymission/spacebattle/cruiser)
 "ih" = (
 /obj/structure/sink{
-	dir = 4;
-	pixel_x = 11
-	},
+    dir = 4;
+    pixel_x = 11
+    },
 /turf/simulated/floor/plasteel{
-	icon_state = "freezerfloor"
-	},
+    icon_state = "freezerfloor"
+    },
 /area/awaymission/spacebattle/cruiser)
 "ii" = (
 /obj/machinery/sleeper,
 /turf/simulated/floor/plasteel{
-	dir = 1;
-	icon_state = "whitehall"
-	},
+    dir = 1;
+    icon_state = "whitehall"
+    },
 /area/awaymission/spacebattle/cruiser)
 "ik" = (
 /turf/simulated/floor/plasteel{
-	dir = 1;
-	icon_state = "whitehall"
-	},
+    dir = 1;
+    icon_state = "whitehall"
+    },
 /area/awaymission/spacebattle/cruiser)
 "il" = (
 /obj/effect/mob_spawn/human/engineer{
-	name = "Cyrion"
-	},
+    name = "Cyrion"
+    },
 /obj/item/flamethrower/full,
 /obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/plasteel,
@@ -1819,8 +1819,8 @@
 /area/awaymission/spacebattle/cruiser)
 "ip" = (
 /obj/effect/mob_spawn/human/engineer{
-	name = "Mercutio"
-	},
+    name = "Mercutio"
+    },
 /obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/plasteel,
 /area/awaymission/spacebattle/cruiser)
@@ -1870,16 +1870,16 @@
 /area/awaymission/spacebattle/syndicate5)
 "iI" = (
 /obj/structure/chair/comfy/shuttle{
-	dir = 1
-	},
+    dir = 1
+    },
 /mob/living/simple_animal/hostile/syndicate,
 /turf/simulated/floor/mineral/plastitanium/red,
 /area/awaymission/spacebattle/syndicate5)
 "iJ" = (
 /obj/structure/shuttle/engine/heater,
 /obj/structure/window/reinforced{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/plating/airless,
 /area/space/nearstation)
 "iK" = (
@@ -1893,8 +1893,8 @@
 "iO" = (
 /obj/structure/shuttle/engine/heater,
 /obj/structure/window/reinforced{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/plating/airless,
 /area/awaymission/spacebattle/syndicate5)
 "iP" = (
@@ -1917,8 +1917,8 @@
 /area/awaymission/spacebattle/syndicate6)
 "iW" = (
 /obj/structure/chair/comfy/shuttle{
-	dir = 1
-	},
+    dir = 1
+    },
 /mob/living/simple_animal/hostile/syndicate,
 /turf/simulated/floor/mineral/plastitanium/red,
 /area/awaymission/spacebattle/syndicate6)
@@ -1929,8 +1929,8 @@
 "ja" = (
 /obj/structure/shuttle/engine/heater,
 /obj/structure/window/reinforced{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/plating/airless,
 /area/awaymission/spacebattle/syndicate6)
 "jb" = (
@@ -1945,8 +1945,8 @@
 /area/awaymission/spacebattle/secret)
 "je" = (
 /turf/simulated/floor/plasteel{
-	icon_state = "alienvault"
-	},
+    icon_state = "alienvault"
+    },
 /area/awaymission/spacebattle/secret)
 "jf" = (
 /obj/machinery/door/airlock/plasma,
@@ -1954,30 +1954,30 @@
 /area/awaymission/spacebattle/secret)
 "zS" = (
 /obj/structure/shuttle/engine/propulsion{
-	dir = 4;
-	icon_state = "propulsion_l"
-	},
+    dir = 4;
+    icon_state = "propulsion_l"
+    },
 /turf/simulated/floor/plating/airless,
 /area/space/nearstation)
 "Jj" = (
 /obj/structure/shuttle/engine/propulsion{
-	dir = 1;
-	icon_state = "propulsion_l"
-	},
+    dir = 1;
+    icon_state = "propulsion_l"
+    },
 /turf/simulated/floor/plating/airless,
 /area/awaymission/spacebattle/syndicate2)
 "Jw" = (
 /obj/structure/shuttle/engine/propulsion{
-	dir = 1;
-	icon_state = "propulsion_r"
-	},
+    dir = 1;
+    icon_state = "propulsion_r"
+    },
 /turf/simulated/floor/plating/airless,
 /area/awaymission/spacebattle/syndicate2)
 "YV" = (
 /obj/structure/shuttle/engine/propulsion{
-	dir = 8;
-	icon_state = "burst_r"
-	},
+    dir = 8;
+    icon_state = "burst_r"
+    },
 /turf/simulated/floor/plating/airless,
 /area/awaymission/spacebattle/cruiser)
 

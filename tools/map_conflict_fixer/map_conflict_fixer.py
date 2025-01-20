@@ -104,8 +104,8 @@ def main(relative_root, tgm=0):
 
 output_tgm = None
 try:
-	output_tgm = int(sys.argv[2])
+    output_tgm = int(sys.argv[2])
 except ValueError:
-	output_tgm = 0
+    output_tgm = 0
 
 main(sys.argv[1], output_tgm)

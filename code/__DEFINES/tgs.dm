@@ -128,7 +128,7 @@
  * * minimum_required_security_level: The minimum required security level to run the game in which the DMAPI is integrated. Can be one of [TGS_SECURITY_ULTRASAFE], [TGS_SECURITY_SAFE], or [TGS_SECURITY_TRUSTED].
  */
 /world/proc/TgsNew(datum/tgs_event_handler/event_handler, minimum_required_security_level = TGS_SECURITY_ULTRASAFE)
-	return
+    return
 
 /**
  * Call this when your initializations are complete and your game is ready to play before any player interactions happen.
@@ -138,7 +138,7 @@
  * This function should not be called before ..() in [/world/proc/New].
  */
 /world/proc/TgsInitializationComplete()
-	return
+    return
 
 /// Put this at the start of [/world/proc/Topic].
 #define TGS_TOPIC var/tgs_topic_return = TgsTopic(args[1]); if(tgs_topic_return) return tgs_topic_return
@@ -147,44 +147,44 @@
  * Call this as late as possible in [world/proc/Reboot].
  */
 /world/proc/TgsReboot()
-	return
+    return
 
 // DATUM DEFINITIONS
 // All datums defined here should be considered read-only
 
 /// Represents git revision information.
 /datum/tgs_revision_information
-	/// Full SHA of the commit.
-	var/commit
-	/// ISO 8601 timestamp of when the commit was created
-	var/timestamp
-	/// Full sha of last known remote commit. This may be null if the TGS repository is not currently tracking a remote branch.
-	var/origin_commit
+    /// Full SHA of the commit.
+    var/commit
+    /// ISO 8601 timestamp of when the commit was created
+    var/timestamp
+    /// Full sha of last known remote commit. This may be null if the TGS repository is not currently tracking a remote branch.
+    var/origin_commit
 
 /// Represents a version.
 /datum/tgs_version
-	/// The suite/major version number
-	var/suite
+    /// The suite/major version number
+    var/suite
 
-	// This group of variables can be null to represent a wild card
-	/// The minor version number. null for wildcards
-	var/minor
-	/// The patch version number. null for wildcards
-	var/patch
+    // This group of variables can be null to represent a wild card
+    /// The minor version number. null for wildcards
+    var/minor
+    /// The patch version number. null for wildcards
+    var/patch
 
-	/// Legacy version number. Generally null
-	var/deprecated_patch
+    /// Legacy version number. Generally null
+    var/deprecated_patch
 
-	/// Unparsed string value
-	var/raw_parameter
-	/// String value minus prefix
-	var/deprefixed_parameter
+    /// Unparsed string value
+    var/raw_parameter
+    /// String value minus prefix
+    var/deprefixed_parameter
 
 /**
  * Returns [TRUE]/[FALSE] based on if the [/datum/tgs_version] contains wildcards.
  */
 /datum/tgs_version/proc/Wildcard()
-	return
+    return
 
 /**
  * Returns [TRUE]/[FALSE] based on if the [/datum/tgs_version] equals some other version.
@@ -192,50 +192,50 @@
  * other_version - The [/datum/tgs_version] to compare against.
  */
 /datum/tgs_version/proc/Equals(datum/tgs_version/other_version)
-	return
+    return
 
 /// Represents a merge of a GitHub pull request.
 /datum/tgs_revision_information/test_merge
-	/// The test merge number.
-	var/number
-	/// The test merge source's title when it was merged.
-	var/title
-	/// The test merge source's body when it was merged.
-	var/body
-	/// The Username of the test merge source's author.
-	var/author
-	/// An http URL to the test merge source.
-	var/url
-	/// The SHA of the test merge when that was merged.
-	var/head_commit
-	/// Optional comment left by the TGS user who initiated the merge.
-	var/comment
+    /// The test merge number.
+    var/number
+    /// The test merge source's title when it was merged.
+    var/title
+    /// The test merge source's body when it was merged.
+    var/body
+    /// The Username of the test merge source's author.
+    var/author
+    /// An http URL to the test merge source.
+    var/url
+    /// The SHA of the test merge when that was merged.
+    var/head_commit
+    /// Optional comment left by the TGS user who initiated the merge.
+    var/comment
 
 /// Represents a connected chat channel.
 /datum/tgs_chat_channel
-	/// TGS internal channel ID.
-	var/id
-	/// User friendly name of the channel.
-	var/friendly_name
-	/// Name of the chat connection. This is the IRC server address or the Discord guild.
-	var/connection_name
-	/// [TRUE]/[FALSE] based on if the server operator has marked this channel for game admins only.
-	var/is_admin_channel
-	/// [TRUE]/[FALSE] if the channel is a private message channel for a [/datum/tgs_chat_user].
-	var/is_private_channel
-	/// Tag string associated with the channel in TGS
-	var/custom_tag
+    /// TGS internal channel ID.
+    var/id
+    /// User friendly name of the channel.
+    var/friendly_name
+    /// Name of the chat connection. This is the IRC server address or the Discord guild.
+    var/connection_name
+    /// [TRUE]/[FALSE] based on if the server operator has marked this channel for game admins only.
+    var/is_admin_channel
+    /// [TRUE]/[FALSE] if the channel is a private message channel for a [/datum/tgs_chat_user].
+    var/is_private_channel
+    /// Tag string associated with the channel in TGS
+    var/custom_tag
 
 // Represents a chat user
 /datum/tgs_chat_user
-	/// TGS internal user ID.
-	var/id
-	// The user's display name.
-	var/friendly_name
-	// The string to use to ping this user in a message.
-	var/mention
-	/// The [/datum/tgs_chat_channel] the user was from
-	var/datum/tgs_chat_channel/channel
+    /// TGS internal user ID.
+    var/id
+    // The user's display name.
+    var/friendly_name
+    // The string to use to ping this user in a message.
+    var/mention
+    /// The [/datum/tgs_chat_channel] the user was from
+    var/datum/tgs_chat_channel/channel
 
 /**
  * User definable callback for handling TGS events.
@@ -243,17 +243,17 @@
  * event_code - One of the TGS_EVENT_ defines. Extra parameters will be documented in each
  */
 /datum/tgs_event_handler/proc/HandleEvent(event_code, ...)
-	set waitfor = FALSE
-	return
+    set waitfor = FALSE
+    return
 
 /// User definable chat command
 /datum/tgs_chat_command
-	/// The string to trigger this command on a chat bot. e.g `@bot name ...` or `!tgs name ...`
-	var/name = ""
-	/// The help text displayed for this command
-	var/help_text = ""
-	/// If this command should be available to game administrators only
-	var/admin_only = FALSE
+    /// The string to trigger this command on a chat bot. e.g `@bot name ...` or `!tgs name ...`
+    var/name = ""
+    /// The help text displayed for this command
+    var/help_text = ""
+    /// If this command should be available to game administrators only
+    var/admin_only = FALSE
 
 /**
  * Process command activation. Should return a string to respond to the issuer with.
@@ -262,23 +262,23 @@
  * params - The trimmed string following the command `/datum/tgs_chat_command/var/name].
  */
 /datum/tgs_chat_command/proc/Run(datum/tgs_chat_user/sender, params)
-	CRASH("[type] has no implementation for Run()")
+    CRASH("[type] has no implementation for Run()")
 
 // API FUNCTIONS
 
 /// Returns the maximum supported [/datum/tgs_version] of the DMAPI.
 /world/proc/TgsMaximumApiVersion()
-	return
+    return
 
 /// Returns the minimum supported [/datum/tgs_version] of the DMAPI.
 /world/proc/TgsMinimumApiVersion()
-	return
+    return
 
 /**
  * Returns [TRUE] if DreamDaemon was launched under TGS, the API matches, and was properly initialized. [FALSE] will be returned otherwise.
  */
 /world/proc/TgsAvailable()
-	return
+    return
 
 // No function below this succeeds if it TgsAvailable() returns FALSE or if TgsNew() has yet to be called.
 
@@ -289,7 +289,7 @@
  * If TGS has not requested a [TGS_REBOOT_MODE_SHUTDOWN] DreamDaemon will be launched again
  */
 /world/proc/TgsEndProcess()
-	return
+    return
 
 /**
  * Send a message to connected chats.
@@ -298,7 +298,7 @@
  * admin_only: If [TRUE], message will be sent to admin connected chats. Vice-versa applies.
  */
 /world/proc/TgsTargetedChatBroadcast(message, admin_only = FALSE)
-	return
+    return
 
 /**
  * Send a private message to a specific user.
@@ -307,7 +307,7 @@
  * user: The [/datum/tgs_chat_user] to PM.
  */
 /world/proc/TgsChatPrivateMessage(message, datum/tgs_chat_user/user)
-	return
+    return
 
 // The following functions will sleep if a call to TgsNew() is sleeping
 
@@ -318,35 +318,35 @@
  * channels - Optional list of [/datum/tgs_chat_channel]s to restrict the message to.
  */
 /world/proc/TgsChatBroadcast(message, list/channels = null)
-	return
+    return
 
 /// Returns the current [/datum/tgs_version] of TGS if it is running the server, null otherwise.
 /world/proc/TgsVersion()
-	return
+    return
 
 /// Returns the current [/datum/tgs_version] of the DMAPI being used if it was activated, null otherwise.
 /world/proc/TgsApiVersion()
-	return
+    return
 
 /// Returns the name of the TGS instance running the game if TGS is present, null otherwise.
 /world/proc/TgsInstanceName()
-	return
+    return
 
 /// Return the current [/datum/tgs_revision_information] of the running server if TGS is present, null otherwise.
 /world/proc/TgsRevision()
-	return
+    return
 
 /// Returns the current BYOND security level as a TGS_SECURITY_ define if TGS is present, null otherwise.
 /world/proc/TgsSecurityLevel()
-	return
+    return
 
 /// Returns a list of active [/datum/tgs_revision_information/test_merge]s if TGS is present, null otherwise.
 /world/proc/TgsTestMerges()
-	return
+    return
 
 /// Returns a list of connected [/datum/tgs_chat_channel]s if TGS is present, null otherwise.
 /world/proc/TgsChatChannelInfo()
-	return
+    return
 
 /*
 The MIT License

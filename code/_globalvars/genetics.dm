@@ -1,4 +1,4 @@
-	///////////
+    ///////////
 GLOBAL_VAR_INIT(blindblock, 0)
 GLOBAL_VAR_INIT(colourblindblock, 0)
 GLOBAL_VAR_INIT(deafblock, 0)

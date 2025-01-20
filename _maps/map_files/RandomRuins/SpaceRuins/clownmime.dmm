@@ -7,8 +7,8 @@
 /area/space/nearstation)
 "c" = (
 /obj/structure/shuttle/engine/heater{
-	dir = 1
-	},
+    dir = 1
+    },
 /obj/structure/window/reinforced,
 /turf/simulated/floor/plating/airless,
 /area/space/nearstation)
@@ -28,8 +28,8 @@
 /area/space/nearstation)
 "h" = (
 /obj/item/shard{
-	icon_state = "medium"
-	},
+    icon_state = "medium"
+    },
 /obj/effect/mob_spawn/human/mime/corpse,
 /turf/simulated/floor/plasteel/airless,
 /area/space/nearstation)
@@ -56,8 +56,8 @@
 /area/space/nearstation)
 "p" = (
 /obj/item/shard{
-	icon_state = "small"
-	},
+    icon_state = "small"
+    },
 /turf/simulated/floor/plating/asteroid/airless,
 /area/space/nearstation)
 "q" = (
@@ -77,8 +77,8 @@
 /area/space/nearstation)
 "t" = (
 /obj/effect/mob_spawn/human/mime/corpse{
-	name = "Mime Pilot"
-	},
+    name = "Mime Pilot"
+    },
 /turf/simulated/floor/plasteel/airless,
 /area/space/nearstation)
 "x" = (
@@ -96,31 +96,31 @@
 /area/space/nearstation)
 "z" = (
 /obj/structure/closet/crate{
-	icon_state = "crateopen";
-	opened = 1
-	},
+    icon_state = "crateopen";
+    opened = 1
+    },
 /obj/item/stack/ore/bananium,
 /obj/item/grenade/bananade,
 /turf/simulated/floor/plasteel/airless,
 /area/space/nearstation)
 "A" = (
 /obj/structure/shuttle/engine/heater{
-	dir = 4
-	},
+    dir = 4
+    },
 /obj/structure/window/reinforced{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/floor/plating/airless,
 /area/space/nearstation)
 "B" = (
 /obj/structure/shuttle/engine/propulsion{
-	dir = 4;
-	icon_state = "propulsion_l"
-	},
+    dir = 4;
+    icon_state = "propulsion_l"
+    },
 /obj/structure/shuttle/engine/propulsion{
-	dir = 4;
-	icon_state = "burst_r"
-	},
+    dir = 4;
+    icon_state = "burst_r"
+    },
 /turf/simulated/floor/plating/airless,
 /area/space/nearstation)
 "C" = (
@@ -133,9 +133,9 @@
 /area/space/nearstation)
 "E" = (
 /obj/structure/shuttle/engine/propulsion{
-	dir = 4;
-	icon_state = "propulsion_l"
-	},
+    dir = 4;
+    icon_state = "propulsion_l"
+    },
 /turf/simulated/floor/plating/airless,
 /area/space/nearstation)
 "F" = (
@@ -144,17 +144,17 @@
 /area/space/nearstation)
 "G" = (
 /obj/item/shard{
-	icon_state = "medium"
-	},
+    icon_state = "medium"
+    },
 /obj/structure/chair/comfy/shuttle{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/floor/plating/asteroid/airless,
 /area/space/nearstation)
 "H" = (
 /obj/effect/mob_spawn/human/clown/corpse{
-	name = "Clown Pilot"
-	},
+    name = "Clown Pilot"
+    },
 /turf/simulated/floor/plasteel/airless,
 /area/space/nearstation)
 "I" = (
@@ -168,14 +168,14 @@
 "K" = (
 /obj/item/shard,
 /obj/structure/chair/comfy/shuttle{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/floor/plasteel/airless,
 /area/space/nearstation)
 "L" = (
 /obj/item/shard{
-	icon_state = "medium"
-	},
+    icon_state = "medium"
+    },
 /turf/simulated/floor/plasteel/airless,
 /area/space/nearstation)
 "O" = (
@@ -196,13 +196,13 @@
 /area/space/nearstation)
 "R" = (
 /obj/structure/shuttle/engine/propulsion{
-	dir = 4;
-	icon_state = "propulsion_l"
-	},
+    dir = 4;
+    icon_state = "propulsion_l"
+    },
 /obj/structure/shuttle/engine/propulsion{
-	dir = 4;
-	icon_state = "propulsion_l"
-	},
+    dir = 4;
+    icon_state = "propulsion_l"
+    },
 /turf/simulated/floor/plating/airless,
 /area/space/nearstation)
 

@@ -14,10 +14,10 @@ dreamchecker = true
 
 [map_renderer]
 hide_invisible = [
-	"/obj/effect/landmark",
-	"/obj/effect/mapping_helpers",
-	"/obj/effect/spawner/random_barrier",
-	"/obj/effect/spawner/random_spawners",
+    "/obj/effect/landmark",
+    "/obj/effect/mapping_helpers",
+    "/obj/effect/spawner/random_barrier",
+    "/obj/effect/spawner/random_spawners",
 ]
 
 [map_renderer.fancy_layers]

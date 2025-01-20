@@ -7,54 +7,54 @@
 /area/shuttle/administration)
 "ad" = (
 /obj/machinery/door/poddoor/shutters{
-	density = 0;
-	dir = 1;
-	icon_state = "open";
-	id_tag = "Asclshutters";
-	name = "Blast Shutters";
-	opacity = 0
-	},
+    density = 0;
+    dir = 1;
+    icon_state = "open";
+    id_tag = "Asclshutters";
+    name = "Blast Shutters";
+    opacity = 0
+    },
 /obj/effect/spawner/window/shuttle,
 /turf/simulated/floor/plating,
 /area/shuttle/administration)
 "ah" = (
 /obj/structure/sign/lifestar{
-	name = "NHV Asclepius"
-	},
+    name = "NHV Asclepius"
+    },
 /turf/simulated/wall/mineral/titanium,
 /area/shuttle/administration)
 "ai" = (
 /obj/structure/fans/tiny,
 /obj/machinery/door/airlock/external,
 /obj/machinery/door/poddoor{
-	density = 0;
-	icon_state = "open";
-	id_tag = "asclblast";
-	name = "Blast Door";
-	opacity = 0
-	},
+    density = 0;
+    icon_state = "open";
+    id_tag = "asclblast";
+    name = "Blast Door";
+    opacity = 0
+    },
 /turf/simulated/floor/plating,
 /area/shuttle/administration)
 "aj" = (
 /obj/structure/fans/tiny,
 /obj/machinery/door/airlock/external,
 /obj/docking_port/mobile{
-	dir = 2;
-	dwidth = 9;
-	height = 18;
-	id = "admin";
-	name = "hospital";
-	roundstart_move = "cc_bay_1";
-	timid = 1;
-	width = 19
-	},
+    dir = 2;
+    dwidth = 9;
+    height = 18;
+    id = "admin";
+    name = "hospital";
+    roundstart_move = "cc_bay_1";
+    timid = 1;
+    width = 19
+    },
 /obj/machinery/door/poddoor{
-	density = 0;
-	icon_state = "open";
-	id_tag = "asclblast";
-	name = "Blast Door";
-	opacity = 0
-	},
+    density = 0;
+    icon_state = "open";
+    id_tag = "asclblast";
+    name = "Blast Door";
+    opacity = 0
+    },
 /turf/simulated/floor/plating,
 /area/shuttle/administration)
 "ap" = (
@@ -68,8 +68,8 @@
 "ar" = (
 /obj/machinery/chem_heater,
 /obj/machinery/light{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
 "as" = (
@@ -84,17 +84,17 @@
 /area/shuttle/administration)
 "au" = (
 /obj/structure/sign/chemistry{
-	pixel_y = 1
-	},
+    pixel_y = 1
+    },
 /turf/simulated/wall/mineral/titanium,
 /area/shuttle/administration)
 "av" = (
 /obj/structure/chair{
-	dir = 4
-	},
+    dir = 4
+    },
 /obj/structure/chair/comfy/shuttle{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
 "aw" = (
@@ -102,16 +102,16 @@
 /area/shuttle/administration)
 "ax" = (
 /obj/structure/chair{
-	dir = 8
-	},
+    dir = 8
+    },
 /obj/machinery/camera{
-	dir = 8;
-	name = "NHV Asclepius Lobby";
-	network = list("NHV Asclepius")
-	},
+    dir = 8;
+    name = "NHV Asclepius Lobby";
+    network = list("NHV Asclepius")
+    },
 /obj/structure/chair/comfy/shuttle{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
 "ay" = (
@@ -121,15 +121,15 @@
 /area/shuttle/administration)
 "az" = (
 /obj/machinery/clonepod{
-	biomass = 300
-	},
+    biomass = 300
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
 "aA" = (
 /obj/machinery/computer/cloning,
 /obj/machinery/light{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
 "aB" = (
@@ -142,32 +142,32 @@
 /area/shuttle/administration)
 "aF" = (
 /obj/structure/reagent_dispensers/fueltank/chem{
-	pixel_x = -32
-	},
+    pixel_x = -32
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
 "aG" = (
 /obj/structure/chair/comfy/shuttle{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
 "aH" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/brigdoor/westleft{
-	req_access_txt = "33"
-	},
+    req_access_txt = "33"
+    },
 /obj/structure/window/reinforced{
-	dir = 1;
-	layer = 2.9
-	},
+    dir = 1;
+    layer = 2.9
+    },
 /obj/structure/window/reinforced,
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
 "aI" = (
 /obj/machinery/light{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
 "aJ" = (
@@ -180,26 +180,26 @@
 /area/shuttle/administration)
 "aL" = (
 /obj/structure/shuttle/engine/heater{
-	dir = 4
-	},
+    dir = 4
+    },
 /obj/structure/window/plasmareinforced{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/floor/plating/airless,
 /area/shuttle/administration)
 "aM" = (
 /obj/structure/shuttle/engine/propulsion{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/plating/airless,
 /area/shuttle/administration)
 "aN" = (
 /obj/structure/table/reinforced,
 /obj/item/reagent_containers/dropper,
 /obj/item/reagent_containers/spray/cleaner{
-	desc = "Someone has crossed out the 'Space' from Space Cleaner and written in Chemistry. Scrawled on the back is, 'Okay, whoever filled this with polytrinic acid, it was only funny the first time. It was hard enough replacing the CMO's first cat!'";
-	name = "Chemistry Cleaner"
-	},
+    desc = "Someone has crossed out the 'Space' from Space Cleaner and written in Chemistry. Scrawled on the back is, 'Okay, whoever filled this with polytrinic acid, it was only funny the first time. It was hard enough replacing the CMO's first cat!'";
+    name = "Chemistry Cleaner"
+    },
 /obj/item/reagent_containers/glass/bucket,
 /obj/item/reagent_containers/glass/bucket,
 /obj/item/reagent_containers/glass/bucket,
@@ -216,20 +216,20 @@
 /area/shuttle/administration)
 "aQ" = (
 /obj/structure/chair{
-	dir = 4
-	},
+    dir = 4
+    },
 /obj/structure/chair/comfy/shuttle{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
 "aR" = (
 /obj/structure/chair{
-	dir = 8
-	},
+    dir = 8
+    },
 /obj/structure/chair/comfy/shuttle{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
 "aS" = (
@@ -238,17 +238,17 @@
 /obj/item/storage/box/beakers,
 /obj/machinery/reagentgrinder,
 /obj/machinery/camera{
-	dir = 4;
-	name = "NHV Asclepius Chemistry";
-	network = list("NHV Asclepius")
-	},
+    dir = 4;
+    name = "NHV Asclepius Chemistry";
+    network = list("NHV Asclepius")
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
 "aT" = (
 /obj/machinery/door/airlock/titanium/glass{
-	name = "Chemistry";
-	req_access_txt = "33"
-	},
+    name = "Chemistry";
+    req_access_txt = "33"
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
 "aU" = (
@@ -257,10 +257,10 @@
 /area/shuttle/administration)
 "aV" = (
 /obj/machinery/camera{
-	dir = 8;
-	name = "NHV Asclepius Cloning";
-	network = list("NHV Asclepius")
-	},
+    dir = 8;
+    name = "NHV Asclepius Cloning";
+    network = list("NHV Asclepius")
+    },
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
@@ -268,8 +268,8 @@
 /obj/machinery/iv_drip,
 /obj/item/reagent_containers/iv_bag,
 /obj/structure/reagent_dispensers/fueltank/chem{
-	pixel_x = -32
-	},
+    pixel_x = -32
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
 "aY" = (
@@ -278,8 +278,8 @@
 /area/shuttle/administration)
 "aZ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 6
-	},
+    dir = 6
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
 "ba" = (
@@ -308,8 +308,8 @@
 /area/shuttle/administration)
 "bf" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
 "bg" = (
@@ -333,8 +333,8 @@
 /area/shuttle/administration)
 "bi" = (
 /obj/machinery/atmospherics/unary/thermomachine/freezer{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
 "bj" = (
@@ -343,13 +343,13 @@
 /area/shuttle/administration)
 "bo" = (
 /obj/machinery/door/poddoor/shutters{
-	density = 0;
-	dir = 8;
-	icon_state = "open";
-	id_tag = "Asclshutters";
-	name = "Blast Shutters";
-	opacity = 0
-	},
+    density = 0;
+    dir = 8;
+    icon_state = "open";
+    id_tag = "Asclshutters";
+    name = "Blast Shutters";
+    opacity = 0
+    },
 /obj/effect/spawner/window/shuttle,
 /turf/simulated/floor/plating,
 /area/shuttle/administration)
@@ -359,67 +359,67 @@
 /area/shuttle/administration)
 "bq" = (
 /obj/machinery/camera{
-	c_tag = "Tech Storage";
-	name = "NHV Asclepius Command Center";
-	network = list("NHV Asclepius")
-	},
+    c_tag = "Tech Storage";
+    name = "NHV Asclepius Command Center";
+    network = list("NHV Asclepius")
+    },
 /obj/structure/chair{
-	dir = 8
-	},
+    dir = 8
+    },
 /obj/machinery/door_control{
-	dir = 4;
-	id = "Asclshutters";
-	name = "remote shutter control";
-	pixel_x = -5;
-	pixel_y = 35;
-	req_access = list(101)
-	},
+    dir = 4;
+    id = "Asclshutters";
+    name = "remote shutter control";
+    pixel_x = -5;
+    pixel_y = 35;
+    req_access = list(101)
+    },
 /obj/machinery/keycard_auth{
-	pixel_y = 24
-	},
+    pixel_y = 24
+    },
 /obj/machinery/door_control{
-	id = "asclblast";
-	name = "blast door control";
-	pixel_x = 5;
-	pixel_y = 35;
-	req_access = list(101)
-	},
+    id = "asclblast";
+    name = "blast door control";
+    pixel_x = 5;
+    pixel_y = 35;
+    req_access = list(101)
+    },
 /obj/structure/chair/comfy/shuttle{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
 "br" = (
 /obj/machinery/recharger/wallcharger{
-	pixel_y = 25
-	},
+    pixel_y = 25
+    },
 /obj/machinery/recharger/wallcharger{
-	pixel_y = 35
-	},
+    pixel_y = 35
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
 "bt" = (
 /obj/structure/sink{
-	dir = 8;
-	pixel_x = -12;
-	pixel_y = 2
-	},
+    dir = 8;
+    pixel_x = -12;
+    pixel_y = 2
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
 "bu" = (
 /obj/machinery/light{
-	dir = 1
-	},
+    dir = 1
+    },
 /obj/structure/closet/walllocker/emerglocker{
-	pixel_y = 32
-	},
+    pixel_y = 32
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
 "bv" = (
 /obj/machinery/vending/medical,
 /obj/machinery/light{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
 "bw" = (
@@ -444,8 +444,8 @@
 "by" = (
 /obj/machinery/computer/operating,
 /obj/machinery/light{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
 "bz" = (
@@ -458,16 +458,16 @@
 /area/shuttle/administration)
 "bC" = (
 /obj/machinery/computer/shuttle/admin{
-	name = "NHV Asclepius shuttle console"
-	},
+    name = "NHV Asclepius shuttle console"
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
 "bD" = (
 /obj/machinery/door/airlock/command{
-	name = "Command Center";
-	req_access = null;
-	req_access_txt = "19"
-	},
+    name = "Command Center";
+    req_access = null;
+    req_access_txt = "19"
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
 "bE" = (
@@ -480,47 +480,47 @@
 /area/shuttle/administration)
 "bG" = (
 /obj/machinery/camera{
-	dir = 4;
-	name = "NHV Asclepius OR 1";
-	network = list("NHV Asclepius")
-	},
+    dir = 4;
+    name = "NHV Asclepius OR 1";
+    network = list("NHV Asclepius")
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
 "bH" = (
 /obj/machinery/computer/camera_advanced/shuttle_docker/admin{
-	name = "NHV Asclepius navigation computer"
-	},
+    name = "NHV Asclepius navigation computer"
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
 "bI" = (
 /obj/machinery/door/airlock/titanium/glass{
-	name = "Operating Room";
-	req_access = null;
-	req_access_txt = "45"
-	},
+    name = "Operating Room";
+    req_access = null;
+    req_access_txt = "45"
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
 "bJ" = (
 /obj/structure/sink{
-	dir = 4;
-	pixel_x = 11
-	},
+    dir = 4;
+    pixel_x = 11
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
 "bL" = (
 /obj/machinery/computer/communications{
-	name = "NHV Asclepius Communications Console"
-	},
+    name = "NHV Asclepius Communications Console"
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
 "bM" = (
 /obj/structure/chair{
-	dir = 8
-	},
+    dir = 8
+    },
 /obj/machinery/light,
 /obj/structure/chair/comfy/shuttle{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
 "bO" = (
@@ -529,14 +529,14 @@
 /area/shuttle/administration)
 "bP" = (
 /obj/machinery/sleeper{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
 "bQ" = (
 /obj/structure/bed{
-	name = "Triage: High Priority"
-	},
+    name = "Triage: High Priority"
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
 "bR" = (
@@ -550,9 +550,9 @@
 /area/shuttle/administration)
 "bU" = (
 /obj/item/reagent_containers/spray/cleaner{
-	desc = "Someone has crossed out the Space from Space Cleaner and written in Surgery. 'Do not remove under punishment of death!!!' is scrawled on the back.";
-	name = "Surgery Cleaner"
-	},
+    desc = "Someone has crossed out the Space from Space Cleaner and written in Surgery. 'Do not remove under punishment of death!!!' is scrawled on the back.";
+    name = "Surgery Cleaner"
+    },
 /obj/structure/table/glass,
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
@@ -573,32 +573,32 @@
 /area/shuttle/administration)
 "ca" = (
 /obj/machinery/light{
-	dir = 8
-	},
+    dir = 8
+    },
 /obj/machinery/camera{
-	dir = 5;
-	name = "NHV Asclepius Central";
-	network = list("NHV Asclepius")
-	},
+    dir = 5;
+    name = "NHV Asclepius Central";
+    network = list("NHV Asclepius")
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
 "cb" = (
 /obj/machinery/light{
-	dir = 4
-	},
+    dir = 4
+    },
 /obj/structure/bed{
-	name = "Triage: High Priority"
-	},
+    name = "Triage: High Priority"
+    },
 /obj/machinery/iv_drip,
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
 "ce" = (
 /obj/machinery/portable_atmospherics/canister/oxygen{
-	name = "Canister: \[O2] (CRYO)"
-	},
+    name = "Canister: \[O2] (CRYO)"
+    },
 /obj/machinery/atmospherics/unary/portables_connector{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
 "cf" = (
@@ -609,32 +609,32 @@
 /area/shuttle/administration)
 "cg" = (
 /obj/machinery/portable_atmospherics/canister/oxygen{
-	name = "Canister: \[O2] (CRYO)"
-	},
+    name = "Canister: \[O2] (CRYO)"
+    },
 /obj/machinery/light{
-	dir = 1
-	},
+    dir = 1
+    },
 /obj/machinery/camera{
-	dir = 4;
-	name = "NHV Asclepius Cryo";
-	network = list("NHV Asclepius")
-	},
+    dir = 4;
+    name = "NHV Asclepius Cryo";
+    network = list("NHV Asclepius")
+    },
 /obj/machinery/atmospherics/unary/portables_connector,
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
 "ch" = (
 /obj/structure/table/glass,
 /obj/item/reagent_containers/spray/cleaner{
-	desc = "Someone has crossed out the Space from Space Cleaner and written in Surgery. 'Do not remove under punishment of death!!!' is scrawled on the back.";
-	name = "Surgery Cleaner"
-	},
+    desc = "Someone has crossed out the Space from Space Cleaner and written in Surgery. 'Do not remove under punishment of death!!!' is scrawled on the back.";
+    name = "Surgery Cleaner"
+    },
 /obj/machinery/cell_charger,
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
 "ci" = (
 /obj/structure/bed{
-	name = "Triage: High Priority"
-	},
+    name = "Triage: High Priority"
+    },
 /obj/machinery/iv_drip,
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
@@ -644,10 +644,10 @@
 /area/shuttle/administration)
 "ck" = (
 /obj/machinery/camera{
-	dir = 4;
-	name = "NHV Asclepius OR 2";
-	network = list("NHV Asclepius")
-	},
+    dir = 4;
+    name = "NHV Asclepius OR 2";
+    network = list("NHV Asclepius")
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
 "cl" = (
@@ -698,8 +698,8 @@
 /area/shuttle/administration)
 "cu" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 5
-	},
+    dir = 5
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
 "cv" = (
@@ -708,25 +708,25 @@
 /area/shuttle/administration)
 "cw" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
 "cx" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 9
-	},
+    dir = 9
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
 "qa" = (
 /obj/machinery/door/poddoor/shutters{
-	density = 0;
-	dir = 2;
-	icon_state = "open";
-	id_tag = "Asclshutters";
-	name = "Blast Shutters";
-	opacity = 0
-	},
+    density = 0;
+    dir = 2;
+    icon_state = "open";
+    id_tag = "Asclshutters";
+    name = "Blast Shutters";
+    opacity = 0
+    },
 /obj/effect/spawner/window/shuttle,
 /turf/simulated/floor/plating,
 /area/shuttle/administration)

@@ -20,8 +20,8 @@
 /area/shuttle/escape)
 "j" = (
 /obj/structure/chair/comfy/shuttle{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/plating,
 /area/shuttle/escape)
 "k" = (
@@ -31,11 +31,11 @@
 /area/shuttle/escape)
 "l" = (
 /obj/machinery/door/airlock/titanium{
-	aiControlDisabled = 1;
-	hackProof = 1;
-	id_tag = "s_docking_airlock";
-	name = "Shuttle Hatch"
-	},
+    aiControlDisabled = 1;
+    hackProof = 1;
+    id_tag = "s_docking_airlock";
+    name = "Shuttle Hatch"
+    },
 /turf/simulated/floor/plating,
 /area/shuttle/escape)
 "m" = (
@@ -43,9 +43,9 @@
 /area/shuttle/escape)
 "n" = (
 /obj/structure/window/reinforced{
-	dir = 1;
-	layer = 2.9
-	},
+    dir = 1;
+    layer = 2.9
+    },
 /obj/structure/table,
 /obj/item/storage/firstaid,
 /turf/simulated/floor/plating,
@@ -56,23 +56,23 @@
 /area/shuttle/escape)
 "p" = (
 /obj/structure/window/reinforced{
-	dir = 1;
-	layer = 2.9
-	},
+    dir = 1;
+    layer = 2.9
+    },
 /obj/structure/closet/emcloset,
 /turf/simulated/floor/plating,
 /area/shuttle/escape)
 "q" = (
 /obj/machinery/door/airlock/titanium{
-	aiControlDisabled = 1;
-	hackProof = 1;
-	id_tag = "s_docking_airlock";
-	name = "Shuttle Hatch"
-	},
+    aiControlDisabled = 1;
+    hackProof = 1;
+    id_tag = "s_docking_airlock";
+    name = "Shuttle Hatch"
+    },
 /obj/docking_port/mobile/emergency{
-	name = "Secure Transport Vessel 5";
-	timid = 1
-	},
+    name = "Secure Transport Vessel 5";
+    timid = 1
+    },
 /turf/simulated/floor/plating,
 /area/shuttle/escape)
 "r" = (
@@ -80,14 +80,14 @@
 /obj/structure/closet/crate,
 /obj/effect/spawner/lootdrop/maintenance,
 /obj/machinery/light/spot{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/plating,
 /area/shuttle/escape)
 "s" = (
 /obj/structure/chair/comfy/shuttle{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/plating,
 /area/shuttle/escape)
 "u" = (
@@ -109,21 +109,21 @@
 /obj/structure/shuttle/engine/heater,
 /obj/structure/window/reinforced,
 /obj/structure/window/reinforced{
-	dir = 1;
-	layer = 2.9
-	},
+    dir = 1;
+    layer = 2.9
+    },
 /turf/simulated/floor/plating,
 /area/shuttle/escape)
 "B" = (
 /obj/structure/shuttle/engine/propulsion{
-	icon_state = "burst_l"
-	},
+    icon_state = "burst_l"
+    },
 /turf/simulated/floor/plating/airless,
 /area/shuttle/escape)
 "C" = (
 /obj/structure/shuttle/engine/propulsion{
-	icon_state = "propulsion_r"
-	},
+    icon_state = "propulsion_r"
+    },
 /turf/simulated/floor/plating/airless,
 /area/shuttle/escape)
 

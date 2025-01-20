@@ -544,13 +544,13 @@ CREATE TABLE `connection_log` (
 --
 DROP TABLE IF EXISTS `changelog`;
 CREATE TABLE `changelog` (
-	`id` INT(11) NOT NULL AUTO_INCREMENT,
-	`pr_number` INT(11) NOT NULL,
-	`date_merged` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
-	`author` VARCHAR(32) NOT NULL,
-	`cl_type` ENUM('FIX','WIP','TWEAK','SOUNDADD','SOUNDDEL','CODEADD','CODEDEL','IMAGEADD','IMAGEDEL','SPELLCHECK','EXPERIMENT') NOT NULL,
-	`cl_entry` TEXT NOT NULL,
-	PRIMARY KEY (`id`)
+    `id` INT(11) NOT NULL AUTO_INCREMENT,
+    `pr_number` INT(11) NOT NULL,
+    `date_merged` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    `author` VARCHAR(32) NOT NULL,
+    `cl_type` ENUM('FIX','WIP','TWEAK','SOUNDADD','SOUNDDEL','CODEADD','CODEDEL','IMAGEADD','IMAGEDEL','SPELLCHECK','EXPERIMENT') NOT NULL,
+    `cl_entry` TEXT NOT NULL,
+    PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
@@ -592,10 +592,10 @@ CREATE TABLE `round` (
 -- Table structure for table `2fa_secrets`
 --
 CREATE TABLE `2fa_secrets` (
-	`ckey` VARCHAR(50) NOT NULL COLLATE 'utf8mb4_general_ci',
-	`secret` VARCHAR(64) NOT NULL COLLATE 'utf8mb4_general_ci',
-	`date_setup` DATETIME NOT NULL DEFAULT current_timestamp(),
-	`last_time` DATETIME NULL DEFAULT NULL,
-	PRIMARY KEY (`ckey`) USING BTREE
+    `ckey` VARCHAR(50) NOT NULL COLLATE 'utf8mb4_general_ci',
+    `secret` VARCHAR(64) NOT NULL COLLATE 'utf8mb4_general_ci',
+    `date_setup` DATETIME NOT NULL DEFAULT current_timestamp(),
+    `last_time` DATETIME NULL DEFAULT NULL,
+    PRIMARY KEY (`ckey`) USING BTREE
 )
 COLLATE='utf8mb4_general_ci' ENGINE=InnoDB;

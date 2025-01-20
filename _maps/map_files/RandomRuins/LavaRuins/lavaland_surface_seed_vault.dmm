@@ -7,10 +7,10 @@
 /area/lavaland/surface/outdoors)
 "c" = (
 /obj/machinery/door/airlock/external{
-	frequency = 1385;
-	id_tag = "seed_vault_inner";
-	locked = 1
-	},
+    frequency = 1385;
+    id_tag = "seed_vault_inner";
+    locked = 1
+    },
 /obj/structure/fans/tiny,
 /turf/simulated/floor/plasteel/freezer,
 /area/ruin/powered/seedvault)
@@ -31,16 +31,16 @@
 /area/ruin/powered/seedvault)
 "f" = (
 /obj/machinery/plantgenes/seedvault{
-	pixel_y = 6
-	},
+    pixel_y = 6
+    },
 /obj/structure/table/wood,
 /turf/simulated/floor/plasteel/freezer,
 /area/ruin/powered/seedvault)
 "g" = (
 /obj/structure/table/wood,
 /obj/machinery/smartfridge/disks{
-	pixel_y = 2
-	},
+    pixel_y = 2
+    },
 /turf/simulated/floor/plasteel/freezer,
 /area/ruin/powered/seedvault)
 "h" = (
@@ -60,8 +60,8 @@
 /area/ruin/powered/seedvault)
 "j" = (
 /obj/structure/shuttle/engine/propulsion{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/plating/asteroid/basalt/lava_land_surface,
 /area/lavaland/surface/outdoors)
 "k" = (
@@ -75,12 +75,12 @@
 /area/ruin/powered/seedvault)
 "m" = (
 /obj/machinery/embedded_controller/radio/airlock/access_controller{
-	frequency = 1385;
-	id_tag = "seed_vault";
-	pixel_y = 25;
-	tag_exterior_door = "seed_vault_outer";
-	tag_interior_door = "seed_vault_inner"
-	},
+    frequency = 1385;
+    id_tag = "seed_vault";
+    pixel_y = 25;
+    tag_exterior_door = "seed_vault_outer";
+    tag_interior_door = "seed_vault_inner"
+    },
 /turf/simulated/floor/plasteel/freezer,
 /area/ruin/powered/seedvault)
 "n" = (
@@ -137,10 +137,10 @@
 /area/ruin/powered/seedvault)
 "u" = (
 /obj/structure/sink{
-	dir = 8;
-	pixel_x = -12;
-	pixel_y = 2
-	},
+    dir = 8;
+    pixel_x = -12;
+    pixel_y = 2
+    },
 /turf/simulated/floor/plasteel/freezer,
 /area/ruin/powered/seedvault)
 "v" = (
@@ -153,8 +153,8 @@
 /area/ruin/powered/seedvault)
 "x" = (
 /obj/machinery/reagentgrinder{
-	pixel_y = 5
-	},
+    pixel_y = 5
+    },
 /obj/structure/table/glass,
 /obj/item/reagent_containers/glass/beaker/bluespace,
 /obj/item/reagent_containers/glass/beaker/bluespace,
@@ -164,26 +164,26 @@
 /area/ruin/powered/seedvault)
 "y" = (
 /obj/structure/sink{
-	dir = 4;
-	pixel_x = 11
-	},
+    dir = 4;
+    pixel_x = 11
+    },
 /turf/simulated/floor/plasteel/freezer,
 /area/ruin/powered/seedvault)
 "z" = (
 /obj/structure/fans/tiny,
 /obj/machinery/door/airlock/external{
-	frequency = 1385;
-	id_tag = "seed_vault_outer";
-	locked = 1
-	},
+    frequency = 1385;
+    id_tag = "seed_vault_outer";
+    locked = 1
+    },
 /turf/simulated/floor/plasteel/freezer,
 /area/ruin/powered/seedvault)
 "A" = (
 /obj/machinery/door/airlock/external{
-	frequency = 1385;
-	id_tag = "seed_vault_outer";
-	locked = 1
-	},
+    frequency = 1385;
+    id_tag = "seed_vault_outer";
+    locked = 1
+    },
 /obj/structure/fans/tiny,
 /turf/simulated/floor/plasteel/freezer,
 /area/ruin/powered/seedvault)
@@ -239,41 +239,41 @@
 /area/ruin/powered/seedvault)
 "L" = (
 /obj/machinery/access_button{
-	command = "cycle_interior";
-	frequency = 1385;
-	master_tag = "seed_vault";
-	name = "interior access button";
-	pixel_x = 25;
-	pixel_y = -25;
-	req_access_txt = null
-	},
+    command = "cycle_interior";
+    frequency = 1385;
+    master_tag = "seed_vault";
+    name = "interior access button";
+    pixel_x = 25;
+    pixel_y = -25;
+    req_access_txt = null
+    },
 /turf/simulated/floor/plasteel/freezer,
 /area/ruin/powered/seedvault)
 "M" = (
 /obj/structure/disposalpipe/trunk{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/floor/plating/asteroid/basalt/lava_land_surface,
 /area/lavaland/surface/outdoors)
 "N" = (
 /obj/structure/table/wood,
 /obj/item/storage/box/disks_plantgene,
 /obj/machinery/light{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/plasteel/freezer,
 /area/ruin/powered/seedvault)
 "O" = (
 /obj/machinery/light{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/plasteel/freezer,
 /area/ruin/powered/seedvault)
 "P" = (
 /obj/machinery/hydroponics/constructable,
 /obj/machinery/light{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/plasteel/freezer,
 /area/ruin/powered/seedvault)
 "Q" = (
@@ -281,26 +281,26 @@
 /area/ruin/powered/seedvault)
 "R" = (
 /obj/machinery/light{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/floor/plasteel/freezer,
 /area/ruin/powered/seedvault)
 "S" = (
 /obj/machinery/light{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/plasteel/freezer,
 /area/ruin/powered/seedvault)
 "T" = (
 /obj/machinery/access_button{
-	command = "cycle_exterior";
-	frequency = 1385;
-	master_tag = "seed_vault";
-	name = "exterior access button";
-	pixel_x = -25;
-	pixel_y = -25;
-	req_access_txt = null
-	},
+    command = "cycle_exterior";
+    frequency = 1385;
+    master_tag = "seed_vault";
+    name = "exterior access button";
+    pixel_x = -25;
+    pixel_y = -25;
+    req_access_txt = null
+    },
 /turf/simulated/floor/plating/asteroid/basalt/lava_land_surface,
 /area/lavaland/surface/outdoors)
 "U" = (
@@ -313,9 +313,9 @@
 /area/ruin/powered/seedvault)
 "W" = (
 /obj/structure/disposalpipe/segment{
-	dir = 1;
-	icon_state = "pipe-c"
-	},
+    dir = 1;
+    icon_state = "pipe-c"
+    },
 /turf/simulated/floor/plating/asteroid/basalt/lava_land_surface,
 /area/lavaland/surface/outdoors)
 "X" = (

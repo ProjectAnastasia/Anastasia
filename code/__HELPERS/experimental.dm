@@ -16,36 +16,36 @@
  * -2, parameter A is not a string
  */
 /proc/strpos(const/A, const/B)
-	if(istext(A) == 0 || length(A) < 1)
-		return -2
+    if(istext(A) == 0 || length(A) < 1)
+        return -2
 
-	if(istext(B) == 0 || length(B) > 1)
-		return -1
+    if(istext(B) == 0 || length(B) > 1)
+        return -1
 
-	var/i = findtext(A, B)
+    var/i = findtext(A, B)
 
-	if(0 == i)
-		return 0
+    if(0 == i)
+        return 0
 
-	while(i)
-		. = i
-		i = findtext(A, B, i + 1)
+    while(i)
+        . = i
+        i = findtext(A, B, i + 1)
 
 /proc/isInTypes(atom/Object, types)
-	var/prototype = Object.type
-	Object = null
+    var/prototype = Object.type
+    Object = null
 
-	for(var/type in params2list(types))
-		if(ispath(prototype, text2path(type)))
-			return 1
+    for(var/type in params2list(types))
+        if(ispath(prototype, text2path(type)))
+            return 1
 
-	return 0
+    return 0
 
 
 /obj/machinery/proc/getArea()
-	var/area/A = loc.loc
+    var/area/A = loc.loc
 
-	if(A != myArea)
-		myArea = A
+    if(A != myArea)
+        myArea = A
 
-	. = myArea
+    . = myArea

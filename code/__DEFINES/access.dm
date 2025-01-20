@@ -76,7 +76,7 @@
 
 #define ACCESS_WEAPONS 99 //Weapon authorization for secbots
 
-	//BEGIN CENTCOM ACCESS
+    //BEGIN CENTCOM ACCESS
 #define ACCESS_CENT_GENERAL 101//General facilities.
 #define ACCESS_CENT_LIVING 102//Living quarters.
 #define ACCESS_CENT_MEDICAL 103//Medical.

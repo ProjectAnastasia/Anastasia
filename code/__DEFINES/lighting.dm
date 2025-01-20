@@ -16,14 +16,14 @@
 
 // If I were you I'd leave this alone.
 #define LIGHTING_BASE_MATRIX \
-	list                     \
-	(                        \
-		1, 1, 1, 0, \
-		1, 1, 1, 0, \
-		1, 1, 1, 0, \
-		1, 1, 1, 0, \
-		0, 0, 0, 1           \
-	)                        \
+    list                     \
+    (                        \
+        1, 1, 1, 0, \
+        1, 1, 1, 0, \
+        1, 1, 1, 0, \
+        1, 1, 1, 0, \
+        0, 0, 0, 1           \
+    )                        \
 
 
 //Some defines to generalise colours used in lighting.
@@ -103,14 +103,14 @@
 /// Parse the hexadecimal color into lumcounts of each perspective.
 #define PARSE_LIGHT_COLOR(source) \
 do { \
-	if (source.light_color) { \
-		var/__light_color = source.light_color; \
-		source.lum_r = GETREDPART(__light_color) / 255; \
-		source.lum_g = GETGREENPART(__light_color) / 255; \
-		source.lum_b = GETBLUEPART(__light_color) / 255; \
-	} else { \
-		source.lum_r = 1; \
-		source.lum_g = 1; \
-		source.lum_b = 1; \
-	}; \
+    if (source.light_color) { \
+        var/__light_color = source.light_color; \
+        source.lum_r = GETREDPART(__light_color) / 255; \
+        source.lum_g = GETGREENPART(__light_color) / 255; \
+        source.lum_b = GETBLUEPART(__light_color) / 255; \
+    } else { \
+        source.lum_r = 1; \
+        source.lum_g = 1; \
+        source.lum_b = 1; \
+    }; \
 } while (FALSE)

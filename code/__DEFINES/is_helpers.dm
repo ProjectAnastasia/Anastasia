@@ -27,20 +27,20 @@
 #define is_pen(W) (istype(W, /obj/item/pen))
 
 GLOBAL_LIST_INIT(pointed_types, typecacheof(list(
-	/obj/item/pen,
-	/obj/item/screwdriver,
-	/obj/item/reagent_containers/syringe,
-	/obj/item/kitchen/utensil/fork)))
+    /obj/item/pen,
+    /obj/item/screwdriver,
+    /obj/item/reagent_containers/syringe,
+    /obj/item/kitchen/utensil/fork)))
 
 #define is_pointed(W) (is_type_in_typecache(W, GLOB.pointed_types))
 
 GLOBAL_LIST_INIT(glass_sheet_types, typecacheof(list(
-	/obj/item/stack/sheet/glass,
-	/obj/item/stack/sheet/rglass,
-	/obj/item/stack/sheet/plasmaglass,
-	/obj/item/stack/sheet/plasmarglass,
-	/obj/item/stack/sheet/titaniumglass,
-	/obj/item/stack/sheet/plastitaniumglass)))
+    /obj/item/stack/sheet/glass,
+    /obj/item/stack/sheet/rglass,
+    /obj/item/stack/sheet/plasmaglass,
+    /obj/item/stack/sheet/plasmarglass,
+    /obj/item/stack/sheet/titaniumglass,
+    /obj/item/stack/sheet/plastitaniumglass)))
 
 #define is_glass_sheet(O) (is_type_in_typecache(O, GLOB.glass_sheet_types))
 

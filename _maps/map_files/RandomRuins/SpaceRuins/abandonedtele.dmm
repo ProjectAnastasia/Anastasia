@@ -23,8 +23,8 @@
 /area/AIsattele)
 "g" = (
 /obj/item/shard{
-	icon_state = "medium"
-	},
+    icon_state = "medium"
+    },
 /turf/simulated/floor/plating/airless,
 /area/AIsattele)
 "h" = (
@@ -37,8 +37,8 @@
 /area/AIsattele)
 "j" = (
 /obj/effect/spawner/window/reinforced{
-	useFull = 0
-	},
+    useFull = 0
+    },
 /turf/simulated/floor/plating/airless,
 /area/AIsattele)
 "k" = (
@@ -73,8 +73,8 @@
 /area/AIsattele)
 "r" = (
 /obj/machinery/atmospherics/unary/portables_connector{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/plating/airless,
 /area/AIsattele)
 "s" = (
@@ -100,9 +100,9 @@
 /area/AIsattele)
 "x" = (
 /obj/item/storage/toolbox/electrical{
-	pixel_x = 1;
-	pixel_y = -1
-	},
+    pixel_x = 1;
+    pixel_y = -1
+    },
 /turf/simulated/floor/plating/airless,
 /area/AIsattele)
 "y" = (

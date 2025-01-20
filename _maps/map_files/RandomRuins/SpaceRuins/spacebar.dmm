@@ -42,12 +42,12 @@
 "am" = (
 /turf/simulated/wall,
 /area/ruin/powered{
-	name = "Space Bar"
-	})
+    name = "Space Bar"
+    })
 "ao" = (
 /obj/structure/chair/comfy/shuttle{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/mineral/titanium/blue/airless,
 /area/ruin/powered)
 "ap" = (
@@ -55,129 +55,129 @@
 /obj/structure/reagent_dispensers/beerkeg,
 /turf/simulated/floor/wood,
 /area/ruin/powered{
-	name = "Space Bar"
-	})
+    name = "Space Bar"
+    })
 "aq" = (
 /obj/structure/table,
 /obj/machinery/vending/boozeomat,
 /turf/simulated/floor/wood,
 /area/ruin/powered{
-	name = "Space Bar"
-	})
+    name = "Space Bar"
+    })
 "ar" = (
 /obj/structure/table,
 /obj/machinery/light/small{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/wood,
 /area/ruin/powered{
-	name = "Space Bar"
-	})
+    name = "Space Bar"
+    })
 "as" = (
 /turf/simulated/floor/wood,
 /area/ruin/powered{
-	name = "Space Bar"
-	})
+    name = "Space Bar"
+    })
 "at" = (
 /obj/structure/table,
 /obj/item/toy/figure/crew/bartender,
 /turf/simulated/floor/wood,
 /area/ruin/powered{
-	name = "Space Bar"
-	})
+    name = "Space Bar"
+    })
 "au" = (
 /obj/structure/table,
 /obj/item/reagent_containers/food/drinks/shaker,
 /turf/simulated/floor/wood,
 /area/ruin/powered{
-	name = "Space Bar"
-	})
+    name = "Space Bar"
+    })
 "av" = (
 /obj/effect/decal/remains/human,
 /turf/simulated/floor/wood,
 /area/ruin/powered{
-	name = "Space Bar"
-	})
+    name = "Space Bar"
+    })
 "aw" = (
 /obj/structure/reagent_dispensers/beerkeg,
 /turf/simulated/floor/wood,
 /area/ruin/powered{
-	name = "Space Bar"
-	})
+    name = "Space Bar"
+    })
 "ax" = (
 /turf/simulated/floor/mineral/titanium/blue/airless,
 /area/ruin/powered)
 "ay" = (
 /obj/machinery/door/airlock{
-	name = "Bar Storage";
-	req_access_txt = "25"
-	},
+    name = "Bar Storage";
+    req_access_txt = "25"
+    },
 /turf/simulated/floor/wood,
 /area/ruin/powered{
-	name = "Space Bar"
-	})
+    name = "Space Bar"
+    })
 "az" = (
 /obj/structure/table,
 /obj/machinery/reagentgrinder,
 /turf/simulated/floor/wood,
 /area/ruin/powered{
-	name = "Space Bar"
-	})
+    name = "Space Bar"
+    })
 "aA" = (
 /obj/structure/shuttle/engine/propulsion/burst,
 /turf/simulated/wall/mineral/titanium,
 /area/ruin/powered)
 "aB" = (
 /obj/machinery/door/airlock/titanium{
-	name = "Escape Pod Airlock"
-	},
+    name = "Escape Pod Airlock"
+    },
 /turf/simulated/floor/mineral/titanium/blue/airless,
 /area/ruin/powered)
 "aD" = (
 /obj/machinery/door_control{
-	id = "pod cycle";
-	name = "pod door cycle";
-	pixel_x = -26
-	},
+    id = "pod cycle";
+    name = "pod door cycle";
+    pixel_x = -26
+    },
 /turf/simulated/floor/wood,
 /area/ruin/powered{
-	name = "Space Bar"
-	})
+    name = "Space Bar"
+    })
 "aE" = (
 /obj/machinery/vending/boozeomat,
 /turf/simulated/floor/wood,
 /area/ruin/powered{
-	name = "Space Bar"
-	})
+    name = "Space Bar"
+    })
 "aF" = (
 /obj/structure/closet/secure_closet/freezer/kitchen,
 /turf/simulated/floor/wood,
 /area/ruin/powered{
-	name = "Space Bar"
-	})
+    name = "Space Bar"
+    })
 "aG" = (
 /obj/machinery/light/small,
 /obj/structure/table,
 /obj/machinery/kitchen_machine/microwave,
 /turf/simulated/floor/wood,
 /area/ruin/powered{
-	name = "Space Bar"
-	})
+    name = "Space Bar"
+    })
 "aH" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
 /turf/simulated/floor/wood,
 /area/ruin/powered{
-	name = "Space Bar"
-	})
+    name = "Space Bar"
+    })
 "aI" = (
 /obj/structure/table,
 /obj/item/stack/sheet/metal{
-	amount = 10
-	},
+    amount = 10
+    },
 /turf/simulated/floor/wood,
 /area/ruin/powered{
-	name = "Space Bar"
-	})
+    name = "Space Bar"
+    })
 "aJ" = (
 /turf/simulated/wall,
 /area/ruin/powered)
@@ -185,216 +185,216 @@
 /obj/structure/table,
 /turf/simulated/floor/wood,
 /area/ruin/powered{
-	name = "Space Bar"
-	})
+    name = "Space Bar"
+    })
 "aL" = (
 /obj/structure/table,
 /obj/item/reagent_containers/food/drinks/cans/beer,
 /obj/item/reagent_containers/glass/rag,
 /turf/simulated/floor/wood,
 /area/ruin/powered{
-	name = "Space Bar"
-	})
+    name = "Space Bar"
+    })
 "aM" = (
 /obj/machinery/door/airlock{
-	name = "Bar Storage";
-	req_access_txt = "25"
-	},
+    name = "Bar Storage";
+    req_access_txt = "25"
+    },
 /turf/simulated/floor/plasteel{
-	icon_state = "wood"
-	},
+    icon_state = "wood"
+    },
 /area/ruin/powered{
-	name = "Space Bar"
-	})
+    name = "Space Bar"
+    })
 "aN" = (
 /obj/structure/chair/stool/bar,
 /turf/simulated/floor/plasteel,
 /area/ruin/powered{
-	name = "Space Bar"
-	})
+    name = "Space Bar"
+    })
 "aO" = (
 /turf/simulated/floor/plasteel,
 /area/ruin/powered{
-	name = "Space Bar"
-	})
+    name = "Space Bar"
+    })
 "aP" = (
 /obj/machinery/light{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/plasteel,
 /area/ruin/powered{
-	name = "Space Bar"
-	})
+    name = "Space Bar"
+    })
 "aQ" = (
 /obj/structure/grille,
 /obj/structure/window/full/reinforced,
 /turf/simulated/floor/plating,
 /area/ruin/powered{
-	name = "Space Bar"
-	})
+    name = "Space Bar"
+    })
 "aR" = (
 /obj/structure/grille,
 /obj/structure/window/full/reinforced,
 /turf/simulated/wall,
 /area/ruin/powered{
-	name = "Space Bar"
-	})
+    name = "Space Bar"
+    })
 "aS" = (
 /obj/machinery/door/airlock/external,
 /turf/simulated/floor/plating,
 /area/ruin/powered{
-	name = "Space Bar"
-	})
+    name = "Space Bar"
+    })
 "aT" = (
 /turf/simulated/floor/plating,
 /area/ruin/powered{
-	name = "Space Bar"
-	})
+    name = "Space Bar"
+    })
 "aU" = (
 /obj/structure/chair{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/plasteel,
 /area/ruin/powered{
-	name = "Space Bar"
-	})
+    name = "Space Bar"
+    })
 "aV" = (
 /obj/structure/table/wood,
 /turf/simulated/floor/plasteel,
 /area/ruin/powered{
-	name = "Space Bar"
-	})
+    name = "Space Bar"
+    })
 "aW" = (
 /obj/structure/chair{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/floor/plasteel,
 /area/ruin/powered{
-	name = "Space Bar"
-	})
+    name = "Space Bar"
+    })
 "aX" = (
 /obj/machinery/light{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/floor/plasteel,
 /area/ruin/powered{
-	name = "Space Bar"
-	})
+    name = "Space Bar"
+    })
 "aY" = (
 /obj/structure/chair,
 /turf/simulated/floor/plasteel,
 /area/ruin/powered{
-	name = "Space Bar"
-	})
+    name = "Space Bar"
+    })
 "aZ" = (
 /obj/item/radio/beacon,
 /turf/simulated/floor/plasteel,
 /area/ruin/powered{
-	name = "Space Bar"
-	})
+    name = "Space Bar"
+    })
 "ba" = (
 /obj/machinery/vending/cola,
 /turf/simulated/floor/plasteel,
 /area/ruin/powered{
-	name = "Space Bar"
-	})
+    name = "Space Bar"
+    })
 "bb" = (
 /obj/machinery/vending/cigarette,
 /turf/simulated/floor/plasteel,
 /area/ruin/powered{
-	name = "Space Bar"
-	})
+    name = "Space Bar"
+    })
 "bc" = (
 /obj/machinery/vending/coffee,
 /turf/simulated/floor/plasteel,
 /area/ruin/powered{
-	name = "Space Bar"
-	})
+    name = "Space Bar"
+    })
 "bd" = (
 /obj/machinery/vending/snack,
 /obj/machinery/light,
 /turf/simulated/floor/plasteel,
 /area/ruin/powered{
-	name = "Space Bar"
-	})
+    name = "Space Bar"
+    })
 "be" = (
 /obj/structure/chair{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/plasteel,
 /area/ruin/powered{
-	name = "Space Bar"
-	})
+    name = "Space Bar"
+    })
 "bf" = (
 /obj/machinery/door/airlock{
-	name = "Unisex Bathroom"
-	},
+    name = "Unisex Bathroom"
+    },
 /turf/simulated/floor/plasteel,
 /area/ruin/powered{
-	name = "Space Bar"
-	})
+    name = "Space Bar"
+    })
 "bg" = (
 /obj/structure/urinal{
-	pixel_x = -32
-	},
+    pixel_x = -32
+    },
 /turf/simulated/floor/plasteel,
 /area/ruin/powered{
-	name = "Space Bar"
-	})
+    name = "Space Bar"
+    })
 "bh" = (
 /obj/structure/sink{
-	dir = 4;
-	pixel_x = 11
-	},
+    dir = 4;
+    pixel_x = 11
+    },
 /obj/structure/mirror{
-	pixel_x = 28
-	},
+    pixel_x = 28
+    },
 /turf/simulated/floor/plasteel,
 /area/ruin/powered{
-	name = "Space Bar"
-	})
+    name = "Space Bar"
+    })
 "bi" = (
 /obj/structure/table/wood,
 /obj/machinery/light{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/plasteel,
 /area/ruin/powered{
-	name = "Space Bar"
-	})
+    name = "Space Bar"
+    })
 "bj" = (
 /obj/machinery/light/small{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/floor/plasteel,
 /area/ruin/powered{
-	name = "Space Bar"
-	})
+    name = "Space Bar"
+    })
 "bk" = (
 /obj/structure/toilet{
-	dir = 4
-	},
+    dir = 4
+    },
 /obj/machinery/light/small{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/floor/plasteel,
 /area/ruin/powered{
-	name = "Space Bar"
-	})
+    name = "Space Bar"
+    })
 "bl" = (
 /obj/machinery/door/airlock{
-	name = "Toilet"
-	},
+    name = "Toilet"
+    },
 /turf/simulated/floor/plasteel,
 /area/ruin/powered{
-	name = "Space Bar"
-	})
+    name = "Space Bar"
+    })
 "bm" = (
 /obj/structure/glowshroom/single,
 /turf/simulated/floor/plasteel,
 /area/ruin/powered{
-	name = "Space Bar"
-	})
+    name = "Space Bar"
+    })
 "bn" = (
 /obj/machinery/door/airlock/external,
 /turf/simulated/floor/plating,
@@ -404,16 +404,16 @@
 /area/ruin/powered)
 "bq" = (
 /obj/machinery/door/poddoor/preopen{
-	id_tag = "pod cycle";
-	name = "airlock dock"
-	},
+    id_tag = "pod cycle";
+    name = "airlock dock"
+    },
 /turf/simulated/floor/plating,
 /area/ruin/powered)
 "br" = (
 /obj/machinery/door/poddoor{
-	id_tag = "pod cycle";
-	name = "airlock dock"
-	},
+    id_tag = "pod cycle";
+    name = "airlock dock"
+    },
 /turf/simulated/floor/plating,
 /area/ruin/powered)
 "bt" = (

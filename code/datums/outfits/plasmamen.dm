@@ -1,189 +1,189 @@
 /datum/outfit/plasmaman
-	name = "Plasmaman"
+    name = "Plasmaman"
 
-	head = /obj/item/clothing/head/helmet/space/plasmaman
-	uniform = /obj/item/clothing/under/plasmaman
-	r_hand = /obj/item/tank/internals/plasmaman/belt/full
-	mask = /obj/item/clothing/mask/breath
+    head = /obj/item/clothing/head/helmet/space/plasmaman
+    uniform = /obj/item/clothing/under/plasmaman
+    r_hand = /obj/item/tank/internals/plasmaman/belt/full
+    mask = /obj/item/clothing/mask/breath
 
 /datum/outfit/plasmaman/bar
-	name = "Plasmaman Bartender"
+    name = "Plasmaman Bartender"
 
-	head = /obj/item/clothing/head/helmet/space/plasmaman/white
-	uniform = /obj/item/clothing/under/plasmaman/enviroslacks
+    head = /obj/item/clothing/head/helmet/space/plasmaman/white
+    uniform = /obj/item/clothing/under/plasmaman/enviroslacks
 
 /datum/outfit/plasmaman/chef
-	name = "Plasmaman Chef"
+    name = "Plasmaman Chef"
 
-	head = /obj/item/clothing/head/helmet/space/plasmaman/chef
-	uniform = /obj/item/clothing/under/plasmaman/chef
+    head = /obj/item/clothing/head/helmet/space/plasmaman/chef
+    uniform = /obj/item/clothing/under/plasmaman/chef
 
 /datum/outfit/plasmaman/botany
-	name = "Plasmaman Botany"
+    name = "Plasmaman Botany"
 
-	head = /obj/item/clothing/head/helmet/space/plasmaman/botany
-	uniform = /obj/item/clothing/under/plasmaman/botany
+    head = /obj/item/clothing/head/helmet/space/plasmaman/botany
+    uniform = /obj/item/clothing/under/plasmaman/botany
 
 /datum/outfit/plasmaman/librarian
-	name = "Plasmaman Librarian"
+    name = "Plasmaman Librarian"
 
-	head = /obj/item/clothing/head/helmet/space/plasmaman/librarian
-	uniform = /obj/item/clothing/under/plasmaman/librarian
+    head = /obj/item/clothing/head/helmet/space/plasmaman/librarian
+    uniform = /obj/item/clothing/under/plasmaman/librarian
 
 /datum/outfit/plasmaman/chaplain
-	name = "Plasmaman Chaplain"
+    name = "Plasmaman Chaplain"
 
-	head = /obj/item/clothing/head/helmet/space/plasmaman/chaplain
-	uniform = /obj/item/clothing/under/plasmaman/chaplain
+    head = /obj/item/clothing/head/helmet/space/plasmaman/chaplain
+    uniform = /obj/item/clothing/under/plasmaman/chaplain
 
 /datum/outfit/plasmaman/janitor
-	name = "Plasmaman Janitor"
+    name = "Plasmaman Janitor"
 
-	head = /obj/item/clothing/head/helmet/space/plasmaman/janitor
-	uniform = /obj/item/clothing/under/plasmaman/janitor
+    head = /obj/item/clothing/head/helmet/space/plasmaman/janitor
+    uniform = /obj/item/clothing/under/plasmaman/janitor
 
 /datum/outfit/plasmaman/security
-	name = "Plasmaman Security"
+    name = "Plasmaman Security"
 
-	head = /obj/item/clothing/head/helmet/space/plasmaman/security
-	uniform = /obj/item/clothing/under/plasmaman/security
+    head = /obj/item/clothing/head/helmet/space/plasmaman/security
+    uniform = /obj/item/clothing/under/plasmaman/security
 
 /datum/outfit/plasmaman/detective
-	name = "Plasmaman Detective"
+    name = "Plasmaman Detective"
 
-	head = /obj/item/clothing/head/helmet/space/plasmaman/white
-	uniform = /obj/item/clothing/under/plasmaman/enviroslacks
-	l_ear = /obj/item/radio/headset/headset_sec
+    head = /obj/item/clothing/head/helmet/space/plasmaman/white
+    uniform = /obj/item/clothing/under/plasmaman/enviroslacks
+    l_ear = /obj/item/radio/headset/headset_sec
 
 /datum/outfit/plasmaman/warden
-	name = "Plasmaman Warden"
+    name = "Plasmaman Warden"
 
-	head = /obj/item/clothing/head/helmet/space/plasmaman/security/warden
-	uniform = /obj/item/clothing/under/plasmaman/security/warden
+    head = /obj/item/clothing/head/helmet/space/plasmaman/security/warden
+    uniform = /obj/item/clothing/under/plasmaman/security/warden
 
 /datum/outfit/plasmaman/hos
-	name = "Plasmaman Head of Security"
+    name = "Plasmaman Head of Security"
 
-	head = /obj/item/clothing/head/helmet/space/plasmaman/security/hos
-	uniform = /obj/item/clothing/under/plasmaman/security/hos
+    head = /obj/item/clothing/head/helmet/space/plasmaman/security/hos
+    uniform = /obj/item/clothing/under/plasmaman/security/hos
 
 /datum/outfit/plasmaman/cargo
-	name = "Plasmaman Cargo"
+    name = "Plasmaman Cargo"
 
-	head = /obj/item/clothing/head/helmet/space/plasmaman/cargo
-	uniform = /obj/item/clothing/under/plasmaman/cargo
+    head = /obj/item/clothing/head/helmet/space/plasmaman/cargo
+    uniform = /obj/item/clothing/under/plasmaman/cargo
 
 /datum/outfit/plasmaman/mining
-	name = "Plasmaman Mining"
+    name = "Plasmaman Mining"
 
-	head = /obj/item/clothing/head/helmet/space/plasmaman/mining
-	uniform = /obj/item/clothing/under/plasmaman/mining
+    head = /obj/item/clothing/head/helmet/space/plasmaman/mining
+    uniform = /obj/item/clothing/under/plasmaman/mining
 
 /datum/outfit/plasmaman/medical
-	name = "Plasmaman Medical"
+    name = "Plasmaman Medical"
 
-	head = /obj/item/clothing/head/helmet/space/plasmaman/medical
-	uniform = /obj/item/clothing/under/plasmaman/medical
+    head = /obj/item/clothing/head/helmet/space/plasmaman/medical
+    uniform = /obj/item/clothing/under/plasmaman/medical
 
 /datum/outfit/plasmaman/cmo
-	name = "Plasmaman Chief Medical Officer"
+    name = "Plasmaman Chief Medical Officer"
 
-	head = /obj/item/clothing/head/helmet/space/plasmaman/cmo
-	uniform = /obj/item/clothing/under/plasmaman/cmo
+    head = /obj/item/clothing/head/helmet/space/plasmaman/cmo
+    uniform = /obj/item/clothing/under/plasmaman/cmo
 
 /datum/outfit/plasmaman/viro
-	name = "Plasmaman Virology"
+    name = "Plasmaman Virology"
 
-	head = /obj/item/clothing/head/helmet/space/plasmaman/viro
-	uniform = /obj/item/clothing/under/plasmaman/viro
+    head = /obj/item/clothing/head/helmet/space/plasmaman/viro
+    uniform = /obj/item/clothing/under/plasmaman/viro
 
 /datum/outfit/plasmaman/chemist
-	name = "Plasmaman Chemist"
+    name = "Plasmaman Chemist"
 
-	head = /obj/item/clothing/head/helmet/space/plasmaman/chemist
-	uniform = /obj/item/clothing/under/plasmaman/chemist
+    head = /obj/item/clothing/head/helmet/space/plasmaman/chemist
+    uniform = /obj/item/clothing/under/plasmaman/chemist
 
 /datum/outfit/plasmaman/genetics
-	name = "Plasmaman Genetics"
+    name = "Plasmaman Genetics"
 
-	head = /obj/item/clothing/head/helmet/space/plasmaman/genetics
-	uniform = /obj/item/clothing/under/plasmaman/genetics
+    head = /obj/item/clothing/head/helmet/space/plasmaman/genetics
+    uniform = /obj/item/clothing/under/plasmaman/genetics
 
 /datum/outfit/plasmaman/science
-	name = "Plasmaman Science"
+    name = "Plasmaman Science"
 
-	head = /obj/item/clothing/head/helmet/space/plasmaman/science
-	uniform = /obj/item/clothing/under/plasmaman/science
+    head = /obj/item/clothing/head/helmet/space/plasmaman/science
+    uniform = /obj/item/clothing/under/plasmaman/science
 
 /datum/outfit/plasmaman/rd
-	name = "Plasmaman Research Director"
+    name = "Plasmaman Research Director"
 
-	head = /obj/item/clothing/head/helmet/space/plasmaman/rd
-	uniform = /obj/item/clothing/under/plasmaman/rd
+    head = /obj/item/clothing/head/helmet/space/plasmaman/rd
+    uniform = /obj/item/clothing/under/plasmaman/rd
 
 /datum/outfit/plasmaman/robotics
-	name = "Plasmaman Robotics"
+    name = "Plasmaman Robotics"
 
-	head = /obj/item/clothing/head/helmet/space/plasmaman/robotics
-	uniform = /obj/item/clothing/under/plasmaman/robotics
+    head = /obj/item/clothing/head/helmet/space/plasmaman/robotics
+    uniform = /obj/item/clothing/under/plasmaman/robotics
 
 /datum/outfit/plasmaman/engineering
-	name = "Plasmaman Engineering"
+    name = "Plasmaman Engineering"
 
-	head = /obj/item/clothing/head/helmet/space/plasmaman/engineering
-	uniform = /obj/item/clothing/under/plasmaman/engineering
+    head = /obj/item/clothing/head/helmet/space/plasmaman/engineering
+    uniform = /obj/item/clothing/under/plasmaman/engineering
 
 /datum/outfit/plasmaman/ce
-	name = "Plasmaman Chief Engineer"
+    name = "Plasmaman Chief Engineer"
 
-	head = /obj/item/clothing/head/helmet/space/plasmaman/engineering/ce
-	uniform = /obj/item/clothing/under/plasmaman/engineering/ce
+    head = /obj/item/clothing/head/helmet/space/plasmaman/engineering/ce
+    uniform = /obj/item/clothing/under/plasmaman/engineering/ce
 
 /datum/outfit/plasmaman/atmospherics
-	name = "Plasmaman Atmospherics"
+    name = "Plasmaman Atmospherics"
 
-	head = /obj/item/clothing/head/helmet/space/plasmaman/atmospherics
-	uniform = /obj/item/clothing/under/plasmaman/atmospherics
+    head = /obj/item/clothing/head/helmet/space/plasmaman/atmospherics
+    uniform = /obj/item/clothing/under/plasmaman/atmospherics
 
 /datum/outfit/plasmaman/mime
-	name = "Plasmamime"
+    name = "Plasmamime"
 
-	head = /obj/item/clothing/head/helmet/space/plasmaman/mime
-	uniform = /obj/item/clothing/under/plasmaman/mime
-	mask = /obj/item/clothing/mask/gas/mime
+    head = /obj/item/clothing/head/helmet/space/plasmaman/mime
+    uniform = /obj/item/clothing/under/plasmaman/mime
+    mask = /obj/item/clothing/mask/gas/mime
 
 /datum/outfit/plasmaman/clown
-	name = "Plasmaclown"
+    name = "Plasmaclown"
 
-	head = /obj/item/clothing/head/helmet/space/plasmaman/clown
-	uniform = /obj/item/clothing/under/plasmaman/clown
-	mask = /obj/item/clothing/mask/gas/clown_hat
+    head = /obj/item/clothing/head/helmet/space/plasmaman/clown
+    uniform = /obj/item/clothing/under/plasmaman/clown
+    mask = /obj/item/clothing/mask/gas/clown_hat
 
 /datum/outfit/plasmaman/hop
-	name = "Plasmaman Head of Personnel"
+    name = "Plasmaman Head of Personnel"
 
-	head = /obj/item/clothing/head/helmet/space/plasmaman/hop
-	uniform = /obj/item/clothing/under/plasmaman/hop
+    head = /obj/item/clothing/head/helmet/space/plasmaman/hop
+    uniform = /obj/item/clothing/under/plasmaman/hop
 
 /datum/outfit/plasmaman/captain
-	name = "Plasmaman Captain"
+    name = "Plasmaman Captain"
 
-	head = /obj/item/clothing/head/helmet/space/plasmaman/captain
-	uniform = /obj/item/clothing/under/plasmaman/captain
+    head = /obj/item/clothing/head/helmet/space/plasmaman/captain
+    uniform = /obj/item/clothing/under/plasmaman/captain
 
 /datum/outfit/plasmaman/blueshield
-	name = "Plasmaman Blueshield"
+    name = "Plasmaman Blueshield"
 
-	head = /obj/item/clothing/head/helmet/space/plasmaman/blueshield
-	uniform = /obj/item/clothing/under/plasmaman/blueshield
+    head = /obj/item/clothing/head/helmet/space/plasmaman/blueshield
+    uniform = /obj/item/clothing/under/plasmaman/blueshield
 
 /datum/outfit/plasmaman/wizard
-	name = "Plasmaman Wizard"
+    name = "Plasmaman Wizard"
 
-	head = /obj/item/clothing/head/helmet/space/plasmaman/wizard
-	uniform = /obj/item/clothing/under/plasmaman/wizard
+    head = /obj/item/clothing/head/helmet/space/plasmaman/wizard
+    uniform = /obj/item/clothing/under/plasmaman/wizard
 
 /datum/outfit/plasmaman/assistant
-	name = "Assistant Plasmaman"
-	head = /obj/item/clothing/head/helmet/space/plasmaman/assistant
-	uniform = /obj/item/clothing/under/plasmaman/assistant
+    name = "Assistant Plasmaman"
+    head = /obj/item/clothing/head/helmet/space/plasmaman/assistant
+    uniform = /obj/item/clothing/under/plasmaman/assistant

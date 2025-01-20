@@ -37,8 +37,8 @@
 /area/space)
 "o" = (
 /obj/machinery/door/airlock/command{
-	max_integrity = 40
-	},
+    max_integrity = 40
+    },
 /turf/simulated/floor/plating/burnt,
 /area/space)
 "p" = (
@@ -71,8 +71,8 @@
 "y" = (
 /obj/structure/lattice,
 /obj/structure/door_assembly/door_assembly_vault{
-	anchored = 1
-	},
+    anchored = 1
+    },
 /turf/simulated/floor/plating,
 /area/space)
 "z" = (
@@ -86,8 +86,8 @@
 /area/space)
 "B" = (
 /obj/item/shard{
-	icon_state = "small"
-	},
+    icon_state = "small"
+    },
 /turf/space,
 /area/space)
 "C" = (
@@ -109,19 +109,19 @@
 "G" = (
 /obj/structure/safe,
 /obj/item/stack/sheet/mineral/bananium{
-	amount = 5
-	},
+    amount = 5
+    },
 /obj/item/stack/ore/bluespace_crystal/refined{
-	amount = 3
-	},
+    amount = 3
+    },
 /obj/item/dnainjector/comic,
 /turf/simulated/floor/plasteel/airless,
 /area/space)
 "H" = (
 /obj/structure/table,
 /obj/item/shard{
-	icon_state = "medium"
-	},
+    icon_state = "medium"
+    },
 /turf/simulated/floor/plasteel/airless,
 /area/space)
 "I" = (
@@ -144,8 +144,8 @@
 /area/space)
 "O" = (
 /obj/item/shard{
-	icon_state = "small"
-	},
+    icon_state = "small"
+    },
 /turf/space,
 /area/template_noop)
 "P" = (
@@ -184,8 +184,8 @@
 /area/space)
 "Z" = (
 /obj/machinery/computer/pandemic{
-	circuit = /obj/effect/decal/cleanable/shreds
-	},
+    circuit = /obj/effect/decal/cleanable/shreds
+    },
 /turf/simulated/floor/plasteel/airless,
 /area/space)
 

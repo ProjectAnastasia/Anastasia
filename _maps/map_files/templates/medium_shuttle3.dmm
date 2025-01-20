@@ -4,170 +4,170 @@
 /area/space)
 "b" = (
 /obj/structure/shuttle/engine/propulsion{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/plating/airless,
 /area/ruin/powered{
-	name = "Shuttle"
-	})
+    name = "Shuttle"
+    })
 "c" = (
 /turf/simulated/wall/mineral/plastitanium,
 /area/ruin/powered{
-	name = "Shuttle"
-	})
+    name = "Shuttle"
+    })
 "d" = (
 /obj/structure/shuttle/engine/heater{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/plating/airless,
 /area/ruin/powered{
-	name = "Shuttle"
-	})
+    name = "Shuttle"
+    })
 "h" = (
 /turf/simulated/wall/mineral/titanium,
 /area/ruin/powered{
-	name = "Shuttle"
-	})
+    name = "Shuttle"
+    })
 "j" = (
 /obj/machinery/door/airlock/external,
 /turf/simulated/floor/plating,
 /area/ruin/powered{
-	name = "Shuttle"
-	})
+    name = "Shuttle"
+    })
 "k" = (
 /obj/machinery/power/smes/magical,
 /turf/simulated/floor/plasteel,
 /area/ruin/powered{
-	name = "Shuttle"
-	})
+    name = "Shuttle"
+    })
 "l" = (
 /turf/simulated/floor/plasteel,
 /area/ruin/powered{
-	name = "Shuttle"
-	})
+    name = "Shuttle"
+    })
 "m" = (
 /turf/simulated/floor/plating,
 /area/ruin/powered{
-	name = "Shuttle"
-	})
+    name = "Shuttle"
+    })
 "n" = (
 /obj/structure/shuttle/engine/propulsion{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/floor/plating/airless,
 /area/ruin/powered{
-	name = "Shuttle"
-	})
+    name = "Shuttle"
+    })
 "o" = (
 /obj/structure/shuttle/engine/heater{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/floor/plating/airless,
 /area/ruin/powered{
-	name = "Shuttle"
-	})
+    name = "Shuttle"
+    })
 "p" = (
 /obj/machinery/door/airlock/public/glass,
 /turf/simulated/floor/plasteel,
 /area/ruin/powered{
-	name = "Shuttle"
-	})
+    name = "Shuttle"
+    })
 "q" = (
 /obj/structure/shuttle/engine/heater{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/plating/airless,
 /area/ruin/powered{
-	name = "Shuttle"
-	})
+    name = "Shuttle"
+    })
 "r" = (
 /obj/structure/shuttle/engine/propulsion{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/plating/airless,
 /area/ruin/powered{
-	name = "Shuttle"
-	})
+    name = "Shuttle"
+    })
 "t" = (
 /obj/effect/spawner/window/reinforced,
 /turf/simulated/floor/plating,
 /area/ruin/powered{
-	name = "Shuttle"
-	})
+    name = "Shuttle"
+    })
 "v" = (
 /obj/structure/table,
 /turf/simulated/floor/plasteel{
-	icon_state = "whiteyellowfull"
-	},
+    icon_state = "whiteyellowfull"
+    },
 /area/ruin/powered{
-	name = "Shuttle"
-	})
+    name = "Shuttle"
+    })
 "w" = (
 /turf/simulated/floor/plasteel{
-	icon_state = "whiteyellowfull"
-	},
+    icon_state = "whiteyellowfull"
+    },
 /area/ruin/powered{
-	name = "Shuttle"
-	})
+    name = "Shuttle"
+    })
 "x" = (
 /obj/structure/chair/comfy/shuttle{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/floor/plasteel{
-	icon_state = "whiteyellowfull"
-	},
+    icon_state = "whiteyellowfull"
+    },
 /area/ruin/powered{
-	name = "Shuttle"
-	})
+    name = "Shuttle"
+    })
 "z" = (
 /obj/machinery/sleeper,
 /turf/simulated/floor/plasteel{
-	icon_state = "bluefull"
-	},
+    icon_state = "bluefull"
+    },
 /area/ruin/powered{
-	name = "Shuttle"
-	})
+    name = "Shuttle"
+    })
 "A" = (
 /turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
+    icon_state = "dark"
+    },
 /area/ruin/powered{
-	name = "Shuttle"
-	})
+    name = "Shuttle"
+    })
 "C" = (
 /obj/machinery/door/airlock/public/glass,
 /turf/simulated/floor/plating,
 /area/ruin/powered{
-	name = "Shuttle"
-	})
+    name = "Shuttle"
+    })
 "D" = (
 /turf/simulated/floor/plasteel{
-	icon_state = "bluefull"
-	},
+    icon_state = "bluefull"
+    },
 /area/ruin/powered{
-	name = "Shuttle"
-	})
+    name = "Shuttle"
+    })
 "E" = (
 /obj/structure/table,
 /obj/item/storage/firstaid,
 /turf/simulated/floor/plasteel{
-	icon_state = "bluefull"
-	},
+    icon_state = "bluefull"
+    },
 /area/ruin/powered{
-	name = "Shuttle"
-	})
+    name = "Shuttle"
+    })
 "F" = (
 /obj/structure/shuttle/engine/heater,
 /turf/simulated/floor/plating/airless,
 /area/ruin/powered{
-	name = "Shuttle"
-	})
+    name = "Shuttle"
+    })
 "G" = (
 /obj/structure/shuttle/engine/propulsion,
 /turf/simulated/floor/plating/airless,
 /area/ruin/powered{
-	name = "Shuttle"
-	})
+    name = "Shuttle"
+    })
 
 (1,1,1) = {"
 a

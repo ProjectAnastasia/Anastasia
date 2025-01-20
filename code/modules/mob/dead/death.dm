@@ -1,8 +1,8 @@
 /mob/dead/dust()	//ghosts can't be vaporised.
-	return
+    return
 
 /mob/dead/gib()		//ghosts can't be gibbed.
-	return
+    return
 
 /mob/dead
-	move_resist = INFINITY
+    move_resist = INFINITY

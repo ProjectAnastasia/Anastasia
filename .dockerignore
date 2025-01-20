@@ -26,14 +26,13 @@ testdata
 .gitignore
 #anastasia.dme
 CODE_OF_CONDUCT.md
-#COPYING
 Dockerfile
 dreamchecker.exe
+fix-tabs.exe
 #librust_g.so
-#LICENSE
 #LICENSE-AGPL3.txt
 #LICENSE-CC-BY-NC-SA.txt
-#LICENSE-GPL3.txt
+#LICENSE-CC-BY-SA.txt
 #README.md
 rust_g.dll
 SpacemanDMM.toml

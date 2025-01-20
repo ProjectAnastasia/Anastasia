@@ -22,38 +22,38 @@
 /area/ruin/powered)
 "g" = (
 /turf/simulated/floor/plating/asteroid{
-	name = "dirt"
-	},
+    name = "dirt"
+    },
 /area/ruin/powered)
 "h" = (
 /obj/item/shovel,
 /turf/simulated/floor/plating/asteroid{
-	name = "dirt"
-	},
+    name = "dirt"
+    },
 /area/ruin/powered)
 "i" = (
 /obj/item/reagent_containers/glass/bucket,
 /turf/simulated/floor/plating/asteroid{
-	name = "dirt"
-	},
+    name = "dirt"
+    },
 /area/ruin/powered)
 "j" = (
 /obj/structure/sink/puddle,
 /turf/simulated/floor/plating/asteroid{
-	name = "dirt"
-	},
+    name = "dirt"
+    },
 /area/ruin/powered)
 "k" = (
 /obj/structure/glowshroom/single,
 /turf/simulated/floor/plating/asteroid{
-	name = "dirt"
-	},
+    name = "dirt"
+    },
 /area/ruin/powered)
 "l" = (
 /obj/item/storage/toolbox/mechanical,
 /turf/simulated/floor/plating/asteroid{
-	name = "dirt"
-	},
+    name = "dirt"
+    },
 /area/ruin/powered)
 "m" = (
 /obj/structure/rack,
@@ -115,8 +115,8 @@
 /area/ruin/powered)
 "z" = (
 /obj/machinery/light/small{
-	dir = 4
-	},
+    dir = 4
+    },
 /obj/structure/tubes,
 /turf/simulated/floor/plating,
 /area/ruin/powered)
@@ -137,16 +137,16 @@
 /area/ruin/powered)
 "D" = (
 /obj/effect/decal/cleanable/blood/footprints{
-	dir = 1
-	},
+    dir = 1
+    },
 /obj/machinery/door/airlock/survival_pod/glass,
 /obj/structure/fans/tiny,
 /turf/simulated/floor/pod/dark,
 /area/ruin/powered)
 "E" = (
 /obj/structure/shuttle/engine/propulsion/burst{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/wall/mineral/titanium/interior,
 /area/ruin/powered)
 "F" = (
@@ -157,23 +157,23 @@
 /area/ruin/powered)
 "H" = (
 /obj/machinery/door/airlock/titanium{
-	name = "Escape Pod Airlock"
-	},
+    name = "Escape Pod Airlock"
+    },
 /turf/simulated/floor/mineral/titanium/blue,
 /area/ruin/powered)
 "I" = (
 /obj/structure/chair/comfy/shuttle{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/mineral/titanium/blue,
 /area/ruin/powered)
 "J" = (
 /obj/effect/spawner/window/shuttle,
 /turf/simulated/floor/plating{
-	nitrogen = 23;
-	oxygen = 14;
-	temperature = 300
-	},
+    nitrogen = 23;
+    oxygen = 14;
+    temperature = 300
+    },
 /area/ruin/powered)
 "K" = (
 /obj/effect/baseturf_helper,

@@ -7,17 +7,17 @@
 /area/ruin/powered)
 "e" = (
 /obj/structure/shuttle/engine/propulsion{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/floor/plating/airless,
 /area/ruin/powered)
 "f" = (
 /obj/structure/window/reinforced{
-	dir = 4
-	},
+    dir = 4
+    },
 /obj/structure/shuttle/engine/heater{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/floor/plating/airless,
 /area/ruin/powered)
 "g" = (
@@ -32,8 +32,8 @@
 /obj/structure/table,
 /obj/item/flashlight/lamp,
 /obj/machinery/light{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/mineral/titanium/purple,
 /area/ruin/powered)
 "j" = (
@@ -51,8 +51,8 @@
 /area/ruin/powered)
 "m" = (
 /obj/machinery/light{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/floor/mineral/titanium/purple,
 /area/ruin/powered)
 "n" = (
@@ -76,9 +76,9 @@
 /area/ruin/powered)
 "s" = (
 /obj/machinery/door/poddoor{
-	id_tag = "strange ship";
-	name = "Strange Ship Blast Door"
-	},
+    id_tag = "strange ship";
+    name = "Strange Ship Blast Door"
+    },
 /turf/simulated/floor/mineral/titanium/purple,
 /area/ruin/powered)
 "t" = (
@@ -91,8 +91,8 @@
 /area/ruin/powered)
 "v" = (
 /obj/structure/chair/comfy/shuttle{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/mineral/titanium/purple,
 /area/ruin/powered)
 "w" = (
@@ -103,10 +103,10 @@
 /area/ruin/powered)
 "x" = (
 /obj/machinery/door_control{
-	id = "strange ship";
-	name = "Strange Ship Door Control";
-	pixel_x = 6
-	},
+    id = "strange ship";
+    name = "Strange Ship Door Control";
+    pixel_x = 6
+    },
 /turf/simulated/wall/mineral/plastitanium,
 /area/ruin/powered)
 "y" = (

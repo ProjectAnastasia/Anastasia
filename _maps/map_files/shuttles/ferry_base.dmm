@@ -4,8 +4,8 @@
 /area/space)
 "b" = (
 /obj/structure/shuttle/engine/propulsion{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/wall/mineral/titanium,
 /area/shuttle/transport)
 "c" = (
@@ -17,11 +17,11 @@
 /area/shuttle/transport)
 "h" = (
 /obj/machinery/light/spot{
-	dir = 1
-	},
+    dir = 1
+    },
 /obj/structure/chair/comfy/shuttle{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/mineral/titanium/blue,
 /area/shuttle/transport)
 "i" = (
@@ -34,15 +34,15 @@
 /area/shuttle/transport)
 "k" = (
 /obj/machinery/light/spot{
-	dir = 1
-	},
+    dir = 1
+    },
 /obj/structure/chair/comfy/shuttle,
 /turf/simulated/floor/mineral/titanium/blue,
 /area/shuttle/transport)
 "l" = (
 /obj/machinery/door/airlock/titanium{
-	id_tag = "s_docking_airlock"
-	},
+    id_tag = "s_docking_airlock"
+    },
 /turf/simulated/floor/plating,
 /area/shuttle/transport)
 "m" = (
@@ -50,18 +50,18 @@
 /area/shuttle/transport)
 "n" = (
 /obj/machinery/door/airlock/titanium{
-	id_tag = "s_docking_airlock"
-	},
+    id_tag = "s_docking_airlock"
+    },
 /obj/docking_port/mobile{
-	dir = 8;
-	dwidth = 2;
-	height = 12;
-	id = "ferry";
-	name = "ferry shuttle";
-	roundstart_move = "ferry_away";
-	timid = 1;
-	width = 5
-	},
+    dir = 8;
+    dwidth = 2;
+    height = 12;
+    id = "ferry";
+    name = "ferry shuttle";
+    roundstart_move = "ferry_away";
+    timid = 1;
+    width = 5
+    },
 /turf/simulated/floor/plating,
 /area/shuttle/transport)
 "q" = (
@@ -75,15 +75,15 @@
 /area/shuttle/transport)
 "s" = (
 /obj/structure/chair/comfy/shuttle{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/mineral/titanium/blue,
 /area/shuttle/transport)
 "t" = (
 /obj/machinery/light/spot,
 /obj/structure/chair/comfy/shuttle{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/mineral/titanium/blue,
 /area/shuttle/transport)
 

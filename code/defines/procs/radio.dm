@@ -4,29 +4,29 @@
 #define TELECOMMS_RECEPTION_BOTH 3
 
 /proc/get_frequency_name(display_freq)
-	var/freq_text
+    var/freq_text
 
-	// the name of the channel
-	switch(display_freq)
-		if(SYND_FREQ)
-			freq_text = "#unkn"
-		if(SYNDTEAM_FREQ)
-			freq_text = "#unid"
-		else
-			for(var/channel in SSradio.radiochannels)
-				if(SSradio.radiochannels[channel] == display_freq)
-					freq_text = channel
-					break
+    // the name of the channel
+    switch(display_freq)
+        if(SYND_FREQ)
+            freq_text = "#unkn"
+        if(SYNDTEAM_FREQ)
+            freq_text = "#unid"
+        else
+            for(var/channel in SSradio.radiochannels)
+                if(SSradio.radiochannels[channel] == display_freq)
+                    freq_text = channel
+                    break
 
-	// --- If the frequency has not been assigned a name, just use the frequency as the name ---
-	if(!freq_text)
-		freq_text = format_frequency(display_freq)
+    // --- If the frequency has not been assigned a name, just use the frequency as the name ---
+    if(!freq_text)
+        freq_text = format_frequency(display_freq)
 
-	return freq_text
+    return freq_text
 
 /proc/get_message_server()
-	if(GLOB.message_servers)
-		for(var/obj/machinery/message_server/MS in GLOB.message_servers)
-			if(MS.active)
-				return MS
-	return null
+    if(GLOB.message_servers)
+        for(var/obj/machinery/message_server/MS in GLOB.message_servers)
+            if(MS.active)
+                return MS
+    return null

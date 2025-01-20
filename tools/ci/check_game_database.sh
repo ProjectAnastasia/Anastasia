@@ -31,10 +31,10 @@ expect_not_empty() {
 }
 
 # helper: run the query against the database
-    # --host="${DB_HOST:-127.0.0.1}" \
 query() {
     local sql_query="$1"
     mariadb --batch --skip-column-names \
+    --host="mariadb" \
     --user="root" \
     --password="root" \
     "anastasia_gamedb" \

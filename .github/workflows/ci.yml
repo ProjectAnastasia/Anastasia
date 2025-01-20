@@ -20,10 +20,7 @@ jobs:
 
   test:
     name: Test
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: ./.github/workflows/test_database.yml
+    uses: ./.github/workflows/test_database.yml
 
   test_database:
     name: 'Test Database'

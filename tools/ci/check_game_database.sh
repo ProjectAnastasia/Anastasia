@@ -113,6 +113,11 @@ query_text="select t.table_name from information_schema.tables t left join infor
 query_result=$(query "$query_text")
 expect_empty "$query_text" "$query_result"
 
+# Ensure no tables have a column of type `bit(1)`
+query_text="select table_name, column_name from information_schema.columns where table_schema = 'anastasia_gamedb' and data_type = 'bit' and character_maximum_length = 1;"
+query_result=$(query "$query_text")
+expect_empty "$query_text" "$query_result"
+
 
 # exit with error if any check failed
 if [[ $error_flag -ne 0 ]]; then

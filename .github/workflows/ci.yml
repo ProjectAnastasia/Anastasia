@@ -41,7 +41,7 @@ jobs:
         volumes:
           - /home/runner/work/Anastasia/Anastasia/SQL:/docker-entrypoint-initdb.d
         options: >-
-          --health-cmd "mysqladmin ping"
+          --health-cmd "mysqladmin ping --host mariadb --port 3306"
           --health-interval 10s
           --health-retries 10
           --health-timeout 5s

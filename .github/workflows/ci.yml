@@ -26,7 +26,6 @@ jobs:
       - run: echo "LGTM!"
 
   test_database:
-    name: 'Test Database'
     uses: ./.github/workflows/test_database.yml
 
   build:

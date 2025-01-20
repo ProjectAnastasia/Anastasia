@@ -17,6 +17,7 @@ bin
 #sound
 SQL
 #strings
+testdata
 #tgui
 #tools
 #_build_dependencies.sh

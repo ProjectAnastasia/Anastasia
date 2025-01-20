@@ -81,12 +81,12 @@ query_result=$(query "$query_text")
 expect_empty "$query_text" "$query_result"
 
 # Ensure all columns have the proper text encoding and collation set
-query_text="select table_name, column_name, character_set_name, collation_name from information_schema.columns where table_schema = 'anastasia_gamedb' and ((character_set_name is not null and character_set_name <> 'utf8mb4') or (collation_name is not null and collation_name <> 'utf8mb4_uca1400_ai_ci'));";
+query_text="select table_name, column_name, character_set_name, collation_name from information_schema.columns where table_schema = 'anastasia_gamedb' and ((character_set_name is not null and character_set_name <> 'utf8mb4') or (collation_name is not null and collation_name <> 'utf8mb4_uca1400_ai_ci');";
 query_result=$(query "$query_text")
 expect_empty "$query_text" "$query_result"
 
 # Ensure all tables are using the InnoDB engine
-query_text="select table_name, engine from information_schema.tables where table_schema = 'anastasia_gamedb' and engine <> 'MInnoDB';";
+query_text="select table_name, engine from information_schema.tables where table_schema = 'anastasia_gamedb' and engine <> 'InnoDB';";
 query_result=$(query "$query_text")
 expect_empty "$query_text" "$query_result"
 

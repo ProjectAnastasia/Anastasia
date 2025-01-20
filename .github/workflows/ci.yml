@@ -19,14 +19,14 @@ jobs:
       - run: python3 tools/ci/check_line_endings.py
 
   test:
-    name: Unit Test
+    name: Test
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - run: echo "LGTM!"
 
   test_database:
-    name: Integration Test
+    name: Test
     uses: ./.github/workflows/test_database.yml
 
   build:

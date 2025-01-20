@@ -28,6 +28,7 @@ testdata
 CODE_OF_CONDUCT.md
 Dockerfile
 dreamchecker.exe
+fix-tabs.exe
 #librust_g.so
 #LICENSE-AGPL3.txt
 #LICENSE-CC-BY-NC-SA.txt

@@ -22,7 +22,6 @@ CREATE TABLE `bad_table` (
   `date_updated` datetime NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
   `uuid` uuid NOT NULL DEFAULT uuid(),
   `version` int(11) NOT NULL DEFAULT 0,
-  KEY (`id`),
-  -- UNIQUE KEY (`ckey`)
-  PRIMARY KEY (`ckey`)
+  PRIMARY KEY (`id`),
+  UNIQUE KEY (`ckey`)
 );

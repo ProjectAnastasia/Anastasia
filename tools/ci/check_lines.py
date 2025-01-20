@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-# check_line_endings.py
+# check_lines.py
 
 import glob
 import os
 import sys
 
+TAB_INDENT = b'\t'
 WINDOWS_NEWLINE = b'\r\n'
 
 FILES_TO_READ = []
@@ -26,38 +27,44 @@ FILES_TO_READ.extend(glob.glob(r"**/*.toml", recursive=True))
 FILES_TO_READ.extend(glob.glob(r"**/*.ts", recursive=True))
 FILES_TO_READ.extend(glob.glob(r"**/*.txt", recursive=True))
 FILES_TO_READ.extend(glob.glob(r"**/*.yml", recursive=True))
-#for i in FILES_TO_READ:
-#    if os.path.isdir(i):
-#        FILES_TO_READ.remove(i)
 
 
-def _reader(filepath):
-    data = open(filepath, "rb")
-    return data
+def report(files, condition):
+    if files:
+        print(f"\nFound files with {condition}.")
+        files.sort()
+        for i in files:
+            print(i)
+        return True
+
+    print(f"\nFound no files with {condition}.")
+    return False
 
 
 def main():
-    filelist = []
-    foundfiles = False
+    tab_files = []
+    win_files = []
 
     for file in FILES_TO_READ:
-        data = _reader(file)
+        data = open(file, "rb")
         lines = data.readlines()
         for line in lines:
+            if line.startswith(TAB_INDENT):
+                tab_files.append(file)
+                break
             if line.endswith(WINDOWS_NEWLINE):
-                filelist.append(file)
-                foundfiles = True
+                win_files.append(file)
                 break
         data.close()
 
-    if not foundfiles:
-        print("No CRLF files found.")
-        sys.exit(0)
-    else:
-        print("Found files with suspected CRLF type.")
-        for i in filelist:
-            print(i)
+    exit_flag = False
+    exit_flag |= report(tab_files, "tab indents")
+    exit_flag |= report(win_files, "Windows line endings")
+
+    if exit_flag:
         sys.exit(1)
+
+    sys.exit(0)
 
 
 if __name__ == "__main__":

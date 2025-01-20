@@ -11,8 +11,10 @@ expect_empty() {
 
     if [[ -n "$query_result" ]]; then
         echo "ERROR: Query result is not empty, but was expected to be empty."
-        echo "SQL Query: $sql_query"
-        echo "Query Result:\n $query_result"
+        echo "SQL Query:"
+        echo "$sql_query"
+        echo "Query Result:"
+        echo "$query_result"
         error_flag=1
     fi
 }

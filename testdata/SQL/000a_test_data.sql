@@ -20,9 +20,9 @@ CREATE TABLE `bad_table` (
   `last_time` datetime DEFAULT NULL,
   `date_created` datetime NOT NULL DEFAULT current_timestamp(),
   `date_updated` datetime NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
-  -- `uuid` uuid NOT NULL DEFAULT uuid(),
+  `uuid` uuid NOT NULL DEFAULT uuid(),
   `version` int(11) NOT NULL DEFAULT 0,
-  -- PRIMARY KEY (`id`),
+  KEY (`id`),
   -- UNIQUE KEY (`ckey`)
   PRIMARY KEY (`ckey`)
 );

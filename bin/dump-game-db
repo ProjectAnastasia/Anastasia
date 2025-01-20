@@ -19,8 +19,9 @@ docker run \
     --tty=true \
     mariadb:latest \
     mariadb-dump \
+    --complete-insert \
     --host 127.0.0.1 \
     --user root \
-    -p${SQL_ROOT_PASSWORD} \
+    --password="${SQL_ROOT_PASSWORD}" \
     ${SQL_DATABASE} \
     > "${OUTPUT_FILE}"

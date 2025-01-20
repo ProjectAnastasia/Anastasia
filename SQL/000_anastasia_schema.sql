@@ -576,7 +576,7 @@ CREATE TABLE `privacy` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `ckey` varchar(32) NOT NULL,
   `datetime` datetime NOT NULL,
-  `consent` bit(1) NOT NULL,
+  `consent` tinyint(1) NOT NULL,
   `date_created` datetime NOT NULL DEFAULT current_timestamp(),
   `date_updated` datetime NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
   `uuid` uuid NOT NULL DEFAULT uuid(),

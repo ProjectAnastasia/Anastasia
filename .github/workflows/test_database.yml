@@ -26,5 +26,6 @@ jobs:
           -v ${GITHUB_WORKSPACE}/SQL:/docker-entrypoint-initdb.d:ro
 
     steps:
+      - uses: actions/checkout@v4
       - run: sudo apt update && sudo apt install -y mariadb-client
       - run: tools/ci/check_game_database.sh

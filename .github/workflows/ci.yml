@@ -1,3 +1,4 @@
+# ci.yml
 name: CI
 
 on:
@@ -22,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: echo "LGTM!"
+      - uses: ./.github/workflows/test_database.yml
 
   build:
     name: Build

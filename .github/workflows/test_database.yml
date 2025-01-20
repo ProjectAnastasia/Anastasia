@@ -1,0 +1,30 @@
+# test_database.yml
+name: Test
+on:
+  workflow_call:
+
+jobs:
+  test_database:
+    name: Database
+    runs-on: ubuntu-latest
+
+    services:
+      mariadb:
+        image: mariadb:latest  # 11.6.2 as of this writing
+        env:
+          MARIADB_DATABASE: "anastasia_gamedb"
+          MARIADB_PASSWORD: "ss13"
+          MARIADB_ROOT_PASSWORD: "root"
+          MARIADB_USER: "ss13"
+        ports:
+          - 3306
+        options: >
+          --health-cmd "mysqladmin ping"
+          --health-interval 10s
+          --health-retries 10
+          --health-timeout 5s
+          -v ${GITHUB_WORKSPACE}/SQL:/docker-entrypoint-initdb.d:ro
+
+    steps:
+      - run: sudo apt update && sudo apt install -y mariadb-client
+      - run: tools/ci/check_game_database.sh

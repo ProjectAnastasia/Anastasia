@@ -13,7 +13,7 @@ INSERT INTO `db_metadata` (`sql_version`) VALUES (0);
 
 DROP TABLE IF EXISTS `bad_table`;
 CREATE TABLE `bad_table` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `id` int(11) NOT NULL,
   `ckey` varchar(50) NOT NULL,
   `secret` varchar(64) NOT NULL,
   `date_setup` datetime NOT NULL DEFAULT current_timestamp(),

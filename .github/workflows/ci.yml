@@ -16,6 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: tools/ci/check_grep.sh
+      - run: python3 tools/ci/check_json.py
       - run: python3 tools/ci/check_line_endings.py
 
   test:

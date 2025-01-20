@@ -113,14 +113,14 @@
 
 #define RANGE_TURFS(RADIUS, CENTER) \
   block( \
-	locate(max(CENTER.x-(RADIUS),1),		  max(CENTER.y-(RADIUS),1),		  CENTER.z), \
-	locate(min(CENTER.x+(RADIUS),world.maxx), min(CENTER.y+(RADIUS),world.maxy), CENTER.z) \
+    locate(max(CENTER.x-(RADIUS),1),		  max(CENTER.y-(RADIUS),1),		  CENTER.z), \
+    locate(min(CENTER.x+(RADIUS),world.maxx), min(CENTER.y+(RADIUS),world.maxy), CENTER.z) \
   )
 
 #define FOR_DVIEW(type, range, center, invis_flags) \
-	GLOB.dview_mob.loc = center; \
-	GLOB.dview_mob.see_invisible = invis_flags; \
-	for(type in view(range, GLOB.dview_mob))
+    GLOB.dview_mob.loc = center; \
+    GLOB.dview_mob.see_invisible = invis_flags; \
+    for(type in view(range, GLOB.dview_mob))
 #define END_FOR_DVIEW GLOB.dview_mob.loc = null
 
 //Turf locational stuff
@@ -239,68 +239,68 @@
                                0.2,0.2,0.6)
 
 /*
-	Used for wire name appearances. Replaces the color name on the left with the one on the right.
-	The color on the left is the one used as the actual color of the wire, but it doesn't look good when written.
-	So, we need to replace the name to something that looks better.
+    Used for wire name appearances. Replaces the color name on the left with the one on the right.
+    The color on the left is the one used as the actual color of the wire, but it doesn't look good when written.
+    So, we need to replace the name to something that looks better.
 */
 #define LIST_COLOR_RENAME 				\
-	list(								\
-		"rebeccapurple" = "dark purple",\
-		"darkslategrey" = "dark grey",	\
-		"darkolivegreen"= "dark green",	\
-		"darkslateblue" = "dark blue",	\
-		"darkkhaki" 	= "khaki",		\
-		"darkseagreen" 	= "light green",\
-		"midnightblue" 	= "blue",		\
-		"lightgrey" 	= "light grey",	\
-		"darkgrey" 		= "dark grey",	\
-		"steelblue" 	= "blue",		\
-		"goldenrod"	 	= "gold"		\
-	)
+    list(								\
+        "rebeccapurple" = "dark purple",\
+        "darkslategrey" = "dark grey",	\
+        "darkolivegreen"= "dark green",	\
+        "darkslateblue" = "dark blue",	\
+        "darkkhaki" 	= "khaki",		\
+        "darkseagreen" 	= "light green",\
+        "midnightblue" 	= "blue",		\
+        "lightgrey" 	= "light grey",	\
+        "darkgrey" 		= "dark grey",	\
+        "steelblue" 	= "blue",		\
+        "goldenrod"	 	= "gold"		\
+    )
 
 /// Pure Black and white colorblindness. Every species except Vulpkanins and Tajarans will have this.
 #define GREYSCALE_COLOR_REPLACE		\
-	list(							\
-		"red"		= "grey",		\
-		"blue"		= "grey",		\
-		"green"		= "grey",		\
-		"orange"	= "light grey",	\
-		"brown"		= "grey",		\
-		"gold"		= "light grey",	\
-		"cyan"		= "silver",		\
-		"magenta"	= "grey",		\
-		"purple"	= "grey",		\
-		"pink"		= "light grey"	\
-	)
+    list(							\
+        "red"		= "grey",		\
+        "blue"		= "grey",		\
+        "green"		= "grey",		\
+        "orange"	= "light grey",	\
+        "brown"		= "grey",		\
+        "gold"		= "light grey",	\
+        "cyan"		= "silver",		\
+        "magenta"	= "grey",		\
+        "purple"	= "grey",		\
+        "pink"		= "light grey"	\
+    )
 
 /// Red colorblindness. Vulpkanins/Wolpins have this.
 #define PROTANOPIA_COLOR_REPLACE		\
-	list(								\
-		"red"		= "darkolivegreen",	\
-		"green"		= "darkslategrey",	\
-		"orange"	= "goldenrod",		\
-		"gold"		= "goldenrod", 		\
-		"brown"		= "darkolivegreen",	\
-		"cyan"		= "steelblue",		\
-		"magenta"	= "blue",			\
-		"purple"	= "darkslategrey",	\
-		"pink"		= "beige"			\
-	)
+    list(								\
+        "red"		= "darkolivegreen",	\
+        "green"		= "darkslategrey",	\
+        "orange"	= "goldenrod",		\
+        "gold"		= "goldenrod", 		\
+        "brown"		= "darkolivegreen",	\
+        "cyan"		= "steelblue",		\
+        "magenta"	= "blue",			\
+        "purple"	= "darkslategrey",	\
+        "pink"		= "beige"			\
+    )
 
 /// Yellow-Blue colorblindness. Tajarans/Farwas have this.
 #define TRITANOPIA_COLOR_REPLACE		\
-	list(								\
-		"red"		= "rebeccapurple",	\
-		"blue"		= "darkslateblue",	\
-		"green"		= "darkolivegreen",	\
-		"orange"	= "darkkhaki",		\
-		"gold"		= "darkkhaki",		\
-		"brown"		= "rebeccapurple",	\
-		"cyan"		= "darkseagreen",	\
-		"magenta"	= "darkslateblue",	\
-		"purple"	= "darkslateblue",	\
-		"pink"		= "lightgrey"		\
-	)
+    list(								\
+        "red"		= "rebeccapurple",	\
+        "blue"		= "darkslateblue",	\
+        "green"		= "darkolivegreen",	\
+        "orange"	= "darkkhaki",		\
+        "gold"		= "darkkhaki",		\
+        "brown"		= "rebeccapurple",	\
+        "cyan"		= "darkseagreen",	\
+        "magenta"	= "darkslateblue",	\
+        "purple"	= "darkslateblue",	\
+        "pink"		= "lightgrey"		\
+    )
 
 //Gun trigger guards
 #define TRIGGER_GUARD_ALLOW_ALL -1

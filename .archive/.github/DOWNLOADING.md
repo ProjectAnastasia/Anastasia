@@ -56,8 +56,8 @@ If you are connecting from localhost to your own test server, you should automat
 ```toml
 # Note that your ranks must be cased properly, usernames can be normal keys or ckey
 admin_assignments = [
-	{ckey = "Admin1", rank = "Hosting Provider"},
-	{ckey = "Admin2", rank = "Game Admin"},
+    {ckey = "Admin1", rank = "Hosting Provider"},
+    {ckey = "Admin2", rank = "Game Admin"},
 ]
 ```
 

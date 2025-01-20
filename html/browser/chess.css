@@ -19,5 +19,5 @@
           .sprite-queen_white{ background-position: 0 -855px; width: 45px; height: 45px; } 
           .sprite-rook_black{ background-position: 0 -950px; width: 45px; height: 45px; } 
           .sprite-rook_white{ background-position: 0 -1045px; width: 45px; height: 45px; }
-		   background-image:url(background.png) no-repeat center center fixed;
-		   background-size:cover;
+           background-image:url(background.png) no-repeat center center fixed;
+           background-size:cover;

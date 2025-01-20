@@ -18,7 +18,7 @@
  * * datum/ui_state/state - The state used to determine status. (OPTIONAL)
  */
 /datum/proc/ui_interact(mob/user, ui_key = "main", datum/tgui/ui = null, force_open = FALSE, datum/tgui/master_ui = null, datum/ui_state/state = GLOB.default_state)
-	return FALSE // Not implemented.
+    return FALSE // Not implemented.
 
 /**
  * public
@@ -29,7 +29,7 @@
  * * mob/user - The mob interacting with the UI.
  */
 /datum/proc/ui_data(mob/user)
-	return list() // Not implemented.
+    return list() // Not implemented.
 
 /**
  * public
@@ -43,7 +43,7 @@
  * * mob/user - The mob interacting with the UI.
  */
 /datum/proc/ui_static_data(mob/user)
-	return list()
+    return list()
 
 /**
  * public
@@ -55,11 +55,11 @@
  * * ui_key - Key of the UI to be updated. (OPTIONAL)
  */
 /datum/proc/update_static_data(mob/user, datum/tgui/ui, ui_key = "main")
-	ui = SStgui.try_update_ui(user, src, ui_key, ui)
-	// If there was no ui to update, there's no static data to update either.
-	if(!ui)
-		return
-	ui.push_data(null, ui_static_data(user), TRUE)
+    ui = SStgui.try_update_ui(user, src, ui_key, ui)
+    // If there was no ui to update, there's no static data to update either.
+    if(!ui)
+        return
+    ui.push_data(null, ui_static_data(user), TRUE)
 
 /**
  * public
@@ -72,9 +72,9 @@
  * * list/params - A list of parameters attached to the button.
  */
 /datum/proc/ui_act(action, list/params, datum/tgui/ui, datum/ui_state/state)
-	// If UI is not interactive or usr calling Topic is not the UI user, bail.
-	if(!ui || ui.status != STATUS_INTERACTIVE)
-		return TRUE
+    // If UI is not interactive or usr calling Topic is not the UI user, bail.
+    if(!ui || ui.status != STATUS_INTERACTIVE)
+        return TRUE
 
 /**
  * public
@@ -90,7 +90,7 @@
  * * html - The html base text.
  */
 /datum/proc/ui_base_html(html)
-	return html
+    return html
 
 /**
  * private
@@ -100,7 +100,7 @@
  * and be a part of another object.
  */
 /datum/proc/ui_host(mob/user)
-	return src // Default src.
+    return src // Default src.
 
 /**
  * global
@@ -133,16 +133,16 @@
  * * uid - The UI that was closed.
  */
 /client/verb/uiclose(uid as text)
-	// Name the verb, and hide it from the user panel.
-	set name = "uiclose"
-	set hidden = TRUE
+    // Name the verb, and hide it from the user panel.
+    set name = "uiclose"
+    set hidden = TRUE
 
-	// Get the UI based on the UID.
-	var/datum/tgui/ui = locateUID(uid)
+    // Get the UI based on the UID.
+    var/datum/tgui/ui = locateUID(uid)
 
-	// If we found the UI, close it.
-	if(istype(ui))
-		ui.close()
-		// Unset machine just to be sure.
-		if(src && src.mob)
-			src.mob.unset_machine()
+    // If we found the UI, close it.
+    if(istype(ui))
+        ui.close()
+        // Unset machine just to be sure.
+        if(src && src.mob)
+            src.mob.unset_machine()

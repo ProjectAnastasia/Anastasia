@@ -7,8 +7,8 @@
 /area/shuttle/escape)
 "ac" = (
 /obj/effect/spawner/window/reinforced{
-	color = "red"
-	},
+    color = "red"
+    },
 /turf/simulated/floor/plating,
 /area/shuttle/escape)
 "ad" = (
@@ -17,14 +17,14 @@
 /area/shuttle/escape)
 "ae" = (
 /obj/machinery/computer/security{
-	network = list("SS13","Telecomms","Research Outpost","Mining Outpost")
-	},
+    network = list("SS13","Telecomms","Research Outpost","Mining Outpost")
+    },
 /turf/simulated/floor/engine/cult,
 /area/shuttle/escape)
 "af" = (
 /obj/structure/chair/comfy/shuttle{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/engine/cult,
 /area/shuttle/escape)
 "ag" = (
@@ -41,26 +41,26 @@
 "ak" = (
 /obj/machinery/computer/crew,
 /obj/machinery/status_display{
-	pixel_y = 30
-	},
+    pixel_y = 30
+    },
 /turf/simulated/floor/engine/cult,
 /area/shuttle/escape)
 "al" = (
 /obj/structure/closet/walllocker/emerglocker{
-	pixel_x = -28
-	},
+    pixel_x = -28
+    },
 /obj/structure/chair/comfy/shuttle{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/engine/cult,
 /area/shuttle/escape)
 "am" = (
 /obj/structure/closet/walllocker/emerglocker{
-	pixel_x = 28
-	},
+    pixel_x = 28
+    },
 /obj/structure/chair/comfy/shuttle{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/engine/cult,
 /area/shuttle/escape)
 "an" = (
@@ -69,8 +69,8 @@
 /area/shuttle/escape)
 "ao" = (
 /obj/structure/chair/comfy/shuttle{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/floor/engine/cult,
 /area/shuttle/escape)
 "ap" = (
@@ -79,8 +79,8 @@
 /area/shuttle/escape)
 "aq" = (
 /obj/structure/chair/comfy/shuttle{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/engine/cult,
 /area/shuttle/escape)
 "ar" = (
@@ -89,36 +89,36 @@
 /area/shuttle/escape)
 "as" = (
 /obj/effect/decal/remains/human{
-	desc = "This guy seemed to have died in terrible way! Half his remains are dust.";
-	name = "Human remains"
-	},
+    desc = "This guy seemed to have died in terrible way! Half his remains are dust.";
+    name = "Human remains"
+    },
 /obj/structure/chair/comfy/shuttle{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/engine/cult,
 /area/shuttle/escape)
 "at" = (
 /obj/machinery/status_display{
-	pixel_y = 30
-	},
+    pixel_y = 30
+    },
 /obj/machinery/light/spot{
-	dir = 1
-	},
+    dir = 1
+    },
 /obj/effect/decal/remains/human{
-	desc = "This guy seemed to have died in terrible way! Half his remains are dust.";
-	name = "Human remains"
-	},
+    desc = "This guy seemed to have died in terrible way! Half his remains are dust.";
+    name = "Human remains"
+    },
 /obj/structure/chair/comfy/shuttle,
 /turf/simulated/floor/engine/cult,
 /area/shuttle/escape)
 "au" = (
 /obj/effect/decal/remains/human{
-	desc = "This guy seemed to have died in terrible way! Half his remains are dust.";
-	name = "Human remains"
-	},
+    desc = "This guy seemed to have died in terrible way! Half his remains are dust.";
+    name = "Human remains"
+    },
 /obj/structure/chair/comfy/shuttle{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/floor/engine/cult,
 /area/shuttle/escape)
 "av" = (
@@ -127,24 +127,24 @@
 /area/shuttle/escape)
 "aw" = (
 /obj/machinery/status_display{
-	pixel_y = 30
-	},
+    pixel_y = 30
+    },
 /obj/machinery/light/spot{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/engine/cult,
 /area/shuttle/escape)
 "ax" = (
 /obj/structure/closet/walllocker/emerglocker{
-	pixel_x = -28
-	},
+    pixel_x = -28
+    },
 /obj/effect/decal/remains/human{
-	desc = "This guy seemed to have died in terrible way! Half his remains are dust.";
-	name = "Human remains"
-	},
+    desc = "This guy seemed to have died in terrible way! Half his remains are dust.";
+    name = "Human remains"
+    },
 /obj/structure/chair/comfy/shuttle{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/engine/cult,
 /area/shuttle/escape)
 "ay" = (
@@ -157,48 +157,48 @@
 /area/shuttle/escape)
 "aA" = (
 /obj/structure/closet/walllocker/emerglocker{
-	pixel_x = 28
-	},
+    pixel_x = 28
+    },
 /turf/simulated/floor/engine/cult,
 /area/shuttle/escape)
 "aB" = (
 /obj/effect/decal/remains/human{
-	desc = "This guy seemed to have died in terrible way! Half his remains are dust.";
-	name = "Human remains"
-	},
+    desc = "This guy seemed to have died in terrible way! Half his remains are dust.";
+    name = "Human remains"
+    },
 /obj/structure/chair/comfy/shuttle{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/engine/cult,
 /area/shuttle/escape)
 "aC" = (
 /obj/item/radio/intercom{
-	dir = 4;
-	pixel_x = 28
-	},
+    dir = 4;
+    pixel_x = 28
+    },
 /obj/effect/decal/remains/human{
-	desc = "This guy seemed to have died in terrible way! Half his remains are dust.";
-	name = "Human remains"
-	},
+    desc = "This guy seemed to have died in terrible way! Half his remains are dust.";
+    name = "Human remains"
+    },
 /obj/structure/chair/comfy/shuttle{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/floor/engine/cult,
 /area/shuttle/escape)
 "aD" = (
 /obj/effect/spawner/window/reinforced{
-	color = "red"
-	},
+    color = "red"
+    },
 /turf/simulated/wall/cult,
 /area/shuttle/escape)
 "aE" = (
 /obj/docking_port/mobile/emergency{
-	dwidth = 11;
-	height = 13;
-	name = "Shuttle 667";
-	timid = 1;
-	width = 24
-	},
+    dwidth = 11;
+    height = 13;
+    name = "Shuttle 667";
+    timid = 1;
+    width = 24
+    },
 /obj/machinery/door/airlock/cult/friendly,
 /turf/simulated/floor/engine/cult,
 /area/shuttle/escape)
@@ -208,12 +208,12 @@
 /area/shuttle/escape)
 "aG" = (
 /obj/item/radio/intercom{
-	dir = 8;
-	pixel_x = -28
-	},
+    dir = 8;
+    pixel_x = -28
+    },
 /obj/machinery/light/spot{
-	dir = 8
-	},
+    dir = 8
+    },
 /obj/item/flag/cult,
 /turf/simulated/floor/engine/cult,
 /area/shuttle/escape)
@@ -227,11 +227,11 @@
 /area/shuttle/escape)
 "aJ" = (
 /obj/structure/closet/walllocker/emerglocker{
-	pixel_x = 28
-	},
+    pixel_x = 28
+    },
 /obj/machinery/light/spot{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/engine/cult,
 /area/shuttle/escape)
 "aK" = (
@@ -261,8 +261,8 @@
 /obj/item/extinguisher,
 /obj/item/crowbar,
 /obj/machinery/light/spot{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/floor/engine/cult,
 /area/shuttle/escape)
 "aQ" = (
@@ -272,15 +272,15 @@
 /area/shuttle/escape)
 "aS" = (
 /obj/machinery/status_display{
-	pixel_y = -30
-	},
+    pixel_y = -30
+    },
 /obj/machinery/light/spot,
 /turf/simulated/floor/engine/cult,
 /area/shuttle/escape)
 "aU" = (
 /obj/effect/spawner/window/reinforced{
-	color = "red"
-	},
+    color = "red"
+    },
 /turf/space,
 /area/shuttle/escape)
 "aV" = (
@@ -294,21 +294,21 @@
 "aX" = (
 /obj/structure/table,
 /obj/item/storage/firstaid/o2{
-	layer = 2.8;
-	pixel_x = 4;
-	pixel_y = 6
-	},
+    layer = 2.8;
+    pixel_x = 4;
+    pixel_y = 6
+    },
 /obj/item/storage/firstaid/regular{
-	pixel_x = 2;
-	pixel_y = 6
-	},
+    pixel_x = 2;
+    pixel_y = 6
+    },
 /obj/item/storage/firstaid/regular{
-	pixel_x = -2;
-	pixel_y = 4
-	},
+    pixel_x = -2;
+    pixel_y = 4
+    },
 /obj/item/bodybag{
-	pixel_x = 5
-	},
+    pixel_x = 5
+    },
 /turf/simulated/floor/engine/cult,
 /area/shuttle/escape)
 "aY" = (
@@ -321,8 +321,8 @@
 /area/shuttle/escape)
 "bb" = (
 /obj/machinery/light/spot{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/engine/cult,
 /area/shuttle/escape)
 "bc" = (
@@ -346,16 +346,16 @@
 /area/shuttle/escape)
 "bg" = (
 /obj/machinery/sleeper{
-	dir = 1;
-	icon_state = "sleeper"
-	},
+    dir = 1;
+    icon_state = "sleeper"
+    },
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/simulated/floor/engine/cult,
 /area/shuttle/escape)
 "bh" = (
 /obj/structure/window/reinforced{
-	dir = 1
-	},
+    dir = 1
+    },
 /obj/structure/shuttle/engine/heater,
 /obj/structure/cult/forge,
 /turf/simulated/floor/plating/airless,
@@ -363,8 +363,8 @@
 "bi" = (
 /obj/structure/shuttle/engine/heater,
 /obj/structure/window/reinforced{
-	dir = 1
-	},
+    dir = 1
+    },
 /obj/structure/cult/forge,
 /turf/simulated/floor/plating/airless,
 /area/shuttle/escape)

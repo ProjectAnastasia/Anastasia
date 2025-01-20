@@ -41,8 +41,8 @@
 /area/template_noop)
 "l" = (
 /obj/item/stack/cable_coil{
-	amount = 10
-	},
+    amount = 10
+    },
 /turf/space,
 /area/template_noop)
 "m" = (

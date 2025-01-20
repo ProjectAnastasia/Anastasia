@@ -11,16 +11,16 @@
 "af" = (
 /obj/machinery/sleeper,
 /obj/machinery/light{
-	dir = 1
-	},
+    dir = 1
+    },
 /obj/effect/decal/remains/human,
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/abandoned)
 "ak" = (
 /obj/structure/shuttle/engine/propulsion{
-	dir = 4;
-	icon_state = "burst_r"
-	},
+    dir = 4;
+    icon_state = "burst_r"
+    },
 /turf/simulated/floor/plating/airless,
 /area/shuttle/abandoned)
 "am" = (
@@ -30,24 +30,24 @@
 "an" = (
 /obj/structure/table,
 /obj/item/storage/firstaid/regular{
-	pixel_x = 6;
-	pixel_y = -5
-	},
+    pixel_x = 6;
+    pixel_y = -5
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/abandoned)
 "aq" = (
 /obj/structure/shuttle/engine/heater{
-	dir = 4
-	},
+    dir = 4
+    },
 /obj/structure/window/reinforced{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/floor/plating/airless,
 /area/shuttle/abandoned)
 "ar" = (
 /obj/structure/shuttle/engine/propulsion{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/plating/airless,
 /area/shuttle/abandoned)
 "at" = (
@@ -59,8 +59,8 @@
 /area/shuttle/abandoned)
 "aw" = (
 /obj/structure/computerframe{
-	anchored = 1
-	},
+    anchored = 1
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/abandoned)
 "ax" = (
@@ -69,20 +69,20 @@
 /area/shuttle/abandoned)
 "aA" = (
 /obj/machinery/door/airlock/public/glass{
-	name = "Hibernation Pods"
-	},
+    name = "Hibernation Pods"
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/abandoned)
 "aB" = (
 /obj/machinery/light/small{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/floor/plating,
 /area/shuttle/abandoned)
 "aC" = (
 /obj/structure/chair/comfy/shuttle{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/abandoned)
 "aD" = (
@@ -95,9 +95,9 @@
 /area/shuttle/abandoned)
 "aG" = (
 /obj/item/stock_parts/cell{
-	charge = 100;
-	maxcharge = 15000
-	},
+    charge = 100;
+    maxcharge = 15000
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/abandoned)
 "aH" = (
@@ -106,34 +106,34 @@
 /area/shuttle/abandoned)
 "aJ" = (
 /obj/structure/shuttle/engine/propulsion{
-	dir = 4;
-	icon_state = "burst_l"
-	},
+    dir = 4;
+    icon_state = "burst_l"
+    },
 /turf/simulated/floor/plating/airless,
 /area/shuttle/abandoned)
 "aK" = (
 /obj/machinery/door/airlock/titanium,
 /obj/docking_port/mobile{
-	dir = 8;
-	dwidth = 10;
-	height = 35;
-	id = "whiteship";
-	name = "NT Medical Ship";
-	roundstart_move = null;
-	width = 21
-	},
+    dir = 8;
+    dwidth = 10;
+    height = 35;
+    id = "whiteship";
+    name = "NT Medical Ship";
+    roundstart_move = null;
+    width = 21
+    },
 /obj/docking_port/stationary/whiteship{
-	dir = 8;
-	id = "whiteship_away";
-	name = "Deep Space"
-	},
+    dir = 8;
+    id = "whiteship_away";
+    name = "Deep Space"
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/abandoned)
 "aM" = (
 /obj/structure/table,
 /obj/machinery/light{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/abandoned)
 "aO" = (
@@ -142,8 +142,8 @@
 /area/shuttle/abandoned)
 "aP" = (
 /obj/machinery/light_switch{
-	pixel_x = 27
-	},
+    pixel_x = 27
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/abandoned)
 "aQ" = (
@@ -157,8 +157,8 @@
 /area/shuttle/abandoned)
 "aT" = (
 /obj/machinery/light{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/abandoned)
 "aU" = (
@@ -172,8 +172,8 @@
 /area/shuttle/abandoned)
 "aX" = (
 /obj/machinery/light/small{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/abandoned)
 "aY" = (
@@ -183,8 +183,8 @@
 /area/shuttle/abandoned)
 "ba" = (
 /obj/machinery/light{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/abandoned)
 "bb" = (
@@ -195,14 +195,14 @@
 "bc" = (
 /obj/effect/decal/remains/human,
 /obj/structure/chair/comfy/shuttle{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/abandoned)
 "bd" = (
 /obj/machinery/door/airlock/public/glass{
-	name = "Living Module"
-	},
+    name = "Living Module"
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/abandoned)
 "be" = (
@@ -211,8 +211,8 @@
 /area/shuttle/abandoned)
 "bf" = (
 /obj/machinery/light/small{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/abandoned)
 "bg" = (
@@ -228,18 +228,18 @@
 /area/shuttle/abandoned)
 "bm" = (
 /obj/machinery/light_switch{
-	pixel_x = 27
-	},
+    pixel_x = 27
+    },
 /obj/machinery/light{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/abandoned)
 "bn" = (
 /obj/item/gps/ruin{
-	gpstag = "NT Medical Ship";
-	pixel_x = -32
-	},
+    gpstag = "NT Medical Ship";
+    pixel_x = -32
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/abandoned)
 "bo" = (
@@ -253,8 +253,8 @@
 /area/shuttle/abandoned)
 "bq" = (
 /obj/structure/computerframe{
-	anchored = 1
-	},
+    anchored = 1
+    },
 /obj/item/stack/cable_coil/cut,
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/abandoned)
@@ -285,8 +285,8 @@
 /area/shuttle/abandoned)
 "bx" = (
 /obj/effect/decal/cleanable/blood{
-	amount = 0
-	},
+    amount = 0
+    },
 /turf/simulated/floor/plating,
 /area/shuttle/abandoned)
 "by" = (
@@ -295,8 +295,8 @@
 /area/shuttle/abandoned)
 "bz" = (
 /obj/machinery/door/airlock/public/glass{
-	name = "Pod Bay"
-	},
+    name = "Pod Bay"
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/abandoned)
 "bB" = (
@@ -306,16 +306,16 @@
 "bC" = (
 /obj/structure/spacepoddoor,
 /obj/machinery/door/poddoor/multi_tile/two_tile_ver{
-	id_tag = "whiteshippoddoor"
-	},
+    id_tag = "whiteshippoddoor"
+    },
 /turf/simulated/floor/plating,
 /area/shuttle/abandoned)
 "bD" = (
 /obj/machinery/door_control{
-	id = "whiteshippoddoor";
-	name = "Pod Door Control";
-	pixel_y = -24
-	},
+    id = "whiteshippoddoor";
+    name = "Pod Door Control";
+    pixel_y = -24
+    },
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/abandoned)
 "bE" = (

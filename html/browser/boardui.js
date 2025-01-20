@@ -30,7 +30,7 @@ function UINewGame() {
 }
 
 function UIClose() {
-	window.location = "byond://?src=" + hSrc + ";close=1";
+    window.location = "byond://?src=" + hSrc + ";close=1";
 }
 
 function EnsureAnalysisStopped() {
@@ -157,7 +157,7 @@ function SearchAndRedraw() {
     if (InitializeBackgroundEngine()) {
         g_backgroundEngine.postMessage("search " + g_timeout);
     } else {
-	Search(FinishMove, 99, null);
+    Search(FinishMove, 99, null);
     }
 }
 

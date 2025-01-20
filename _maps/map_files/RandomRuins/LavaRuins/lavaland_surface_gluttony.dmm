@@ -61,14 +61,14 @@
 "r" = (
 /obj/effect/gluttony,
 /obj/machinery/light/small{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/plasteel/freezer,
 /area/ruin/powered/gluttony)
 "t" = (
 /obj/machinery/light/small{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/plasteel/freezer,
 /area/ruin/powered/gluttony)
 "v" = (
@@ -78,14 +78,14 @@
 "z" = (
 /obj/item/trash/plate,
 /obj/machinery/light/small{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/floor/plasteel/freezer,
 /area/ruin/powered/gluttony)
 "A" = (
 /obj/machinery/light/small{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/plasteel/freezer,
 /area/ruin/powered/gluttony)
 "R" = (

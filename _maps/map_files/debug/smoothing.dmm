@@ -31,8 +31,8 @@
 /area/start)
 "j" = (
 /obj/effect/landmark{
-	name = "Observer-Start"
-	},
+    name = "Observer-Start"
+    },
 /turf/simulated/floor/plating,
 /area/centcom)
 "k" = (

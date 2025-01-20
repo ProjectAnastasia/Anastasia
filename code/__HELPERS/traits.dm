@@ -12,17 +12,17 @@
  * * source - The source of the trait which is being added.
  */
 #define ADD_TRAIT(target, trait, source) \
-	do { \
-		LAZYINITLIST(target.status_traits); \
+    do { \
+        LAZYINITLIST(target.status_traits); \
 \
-		if(!target.status_traits[trait]) { \
-			target.status_traits[trait] = list(source); \
-		} else { \
-			target.status_traits[trait] |= list(source); \
-		} \
+        if(!target.status_traits[trait]) { \
+            target.status_traits[trait] = list(source); \
+        } else { \
+            target.status_traits[trait] |= list(source); \
+        } \
 \
-		SEND_SIGNAL(target, SIGNAL_ADDTRAIT(trait), trait); \
-	} while (0)
+        SEND_SIGNAL(target, SIGNAL_ADDTRAIT(trait), trait); \
+    } while (0)
 
 /**
  * Removes a status trait from a target datum.
@@ -34,23 +34,23 @@
  * * sources - If specified, only remove the trait if it is from this source. (Lists Supported)
  */
 #define REMOVE_TRAIT(target, trait, sources) \
-	do { \
-		if(target.status_traits && target.status_traits[trait]) { \
-			var/list/SOURCES = sources; \
-			if(sources && !islist(sources)) { \
-				SOURCES = list(sources); \
-			} \
+    do { \
+        if(target.status_traits && target.status_traits[trait]) { \
+            var/list/SOURCES = sources; \
+            if(sources && !islist(sources)) { \
+                SOURCES = list(sources); \
+            } \
 \
-			for(var/TRAIT_SOURCE in target.status_traits[trait]) { \
-				if((!SOURCES && (TRAIT_SOURCE != ROUNDSTART_TRAIT)) || (TRAIT_SOURCE in SOURCES)) { \
-					if(length(target.status_traits[trait]) == 1) { \
-						SEND_SIGNAL(target, SIGNAL_REMOVETRAIT(trait), trait); \
-					} \
-					LAZYREMOVEASSOC(target.status_traits, trait, TRAIT_SOURCE); \
-				} \
-			} \
-		} \
-	} while (0)
+            for(var/TRAIT_SOURCE in target.status_traits[trait]) { \
+                if((!SOURCES && (TRAIT_SOURCE != ROUNDSTART_TRAIT)) || (TRAIT_SOURCE in SOURCES)) { \
+                    if(length(target.status_traits[trait]) == 1) { \
+                        SEND_SIGNAL(target, SIGNAL_REMOVETRAIT(trait), trait); \
+                    } \
+                    LAZYREMOVEASSOC(target.status_traits, trait, TRAIT_SOURCE); \
+                } \
+            } \
+        } \
+    } while (0)
 
 /**
  * Removes all status traits from a target datum which were NOT added by `sources`.
@@ -60,25 +60,25 @@
  * * sources - The trait source which is being searched for.
  */
 #define REMOVE_TRAITS_NOT_IN(target, sources) \
-	do { \
-		if(target.status_traits) { \
-			var/list/SOURCES = sources; \
-			if(!islist(sources)) { \
-				SOURCES = list(sources); \
-			} \
+    do { \
+        if(target.status_traits) { \
+            var/list/SOURCES = sources; \
+            if(!islist(sources)) { \
+                SOURCES = list(sources); \
+            } \
 \
-			for(var/TRAIT in target.status_traits) { \
-				target.status_traits[TRAIT] &= SOURCES; \
-				if(!length(target.status_traits[TRAIT])) { \
-					target.status_traits -= TRAIT; \
-					SEND_SIGNAL(target, SIGNAL_REMOVETRAIT(TRAIT), TRAIT); \
-				} \
-			} \
-			if(!length(target.status_traits)) { \
-				target.status_traits = null; \
-			} \
-		} \
-	} while (0)
+            for(var/TRAIT in target.status_traits) { \
+                target.status_traits[TRAIT] &= SOURCES; \
+                if(!length(target.status_traits[TRAIT])) { \
+                    target.status_traits -= TRAIT; \
+                    SEND_SIGNAL(target, SIGNAL_REMOVETRAIT(TRAIT), TRAIT); \
+                } \
+            } \
+            if(!length(target.status_traits)) { \
+                target.status_traits = null; \
+            } \
+        } \
+    } while (0)
 
 /**
  * Removes all status traits from a target datum which were added by `sources`.
@@ -88,35 +88,35 @@
  * * sources - The trait source which is being searched for.
  */
 #define REMOVE_TRAITS_IN(target, sources) \
-	do { \
-		if(target.status_traits) { \
-			var/list/SOURCES = sources; \
-			if(!islist(sources)) { \
-				SOURCES = list(sources); \
-			} \
+    do { \
+        if(target.status_traits) { \
+            var/list/SOURCES = sources; \
+            if(!islist(sources)) { \
+                SOURCES = list(sources); \
+            } \
 \
-			for(var/TRAIT in target.status_traits) { \
-				target.status_traits[TRAIT] -= SOURCES; \
-				if(!length(target.status_traits[TRAIT])) { \
-					target.status_traits -= TRAIT; \
-					SEND_SIGNAL(target, SIGNAL_REMOVETRAIT(TRAIT)); \
-				} \
-			} \
-			if(!length(target.status_traits)) { \
-				target.status_traits = null; \
-			} \
-		} \
-	} while (0)
+            for(var/TRAIT in target.status_traits) { \
+                target.status_traits[TRAIT] -= SOURCES; \
+                if(!length(target.status_traits[TRAIT])) { \
+                    target.status_traits -= TRAIT; \
+                    SEND_SIGNAL(target, SIGNAL_REMOVETRAIT(TRAIT)); \
+                } \
+            } \
+            if(!length(target.status_traits)) { \
+                target.status_traits = null; \
+            } \
+        } \
+    } while (0)
 
 
 #define HAS_TRAIT(target, trait) (target.status_traits ? (target.status_traits[trait] ? TRUE : FALSE) : FALSE)
 #define HAS_TRAIT_FROM(target, trait, source) (target.status_traits ? (target.status_traits[trait] ? (source in target.status_traits[trait]) : FALSE) : FALSE)
 #define HAS_TRAIT_FROM_ONLY(target, trait, source) (\
-	target.status_traits ?\
-		(target.status_traits[trait] ?\
-			((source in target.status_traits[trait]) && (length(target.status_traits) == 1))\
-			: FALSE)\
-		: FALSE)
+    target.status_traits ?\
+        (target.status_traits[trait] ?\
+            ((source in target.status_traits[trait]) && (length(target.status_traits) == 1))\
+            : FALSE)\
+        : FALSE)
 #define HAS_TRAIT_NOT_FROM(target, trait, source) (target.status_traits ? (target.status_traits[trait] ? (length(target.status_traits[trait] - source) > 0) : FALSE) : FALSE)
 
 /*

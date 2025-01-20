@@ -4,30 +4,30 @@
 *
 ******************************************/
 html, body {
-	padding: 0;
-	margin: 0;
-	height: 100%;
-	color: #fff;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    color: #fff;
 }
 body {
-	background: #151515;
+    background: #151515;
     font-family: Verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 9pt;
     line-height: 1.2;
-	overflow-x: hidden;
-	overflow-y: scroll;
-	word-wrap: break-word;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    word-wrap: break-word;
 }
 h1, h2, h3, h4, h5, h6 {color: #06f; font-family: Georgia, Verdana, sans-serif;}
 
 img {
-	margin: 0;
-	padding: 0;
-	line-height: 1;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
 }
 img.icon {
-	width: 16px;
-	height: 16px;
+    width: 16px;
+    height: 16px;
 }
 a {color: #06f;}
 a:visited {color: #ff00ff;}
@@ -46,73 +46,73 @@ a.popt {text-decoration: none;}
 *
 ******************************************/
 #loading {
-	position: fixed;
-	width: 300px;
-	height: 150px;
-	text-align: center;
-	left: 50%;
-	top: 50%;
-	margin: -75px 0 0 -150px;
+    position: fixed;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    margin: -75px 0 0 -150px;
 }
 #loading i {display: block; padding-bottom: 3px;}
 
 #messages {
-	font-size: 14px;
-	padding: 3px;
-	margin: 0;
-	word-wrap: break-word;
+    font-size: 14px;
+    padding: 3px;
+    margin: 0;
+    word-wrap: break-word;
 }
 #newMessages {
-	position: fixed;
-	display: block;
-	bottom: 0;
-	right: 0;
-	padding: 8px;
-	background: #ddd;
-	text-decoration: none;
+    position: fixed;
+    display: block;
+    bottom: 0;
+    right: 0;
+    padding: 8px;
+    background: #ddd;
+    text-decoration: none;
     font-variant: small-caps;
     font-size: 1.1em;
     font-weight: bold;
-	color: #333;
+    color: #333;
 }
 #newMessages:hover {background: #ccc;}
 #newMessages i {vertical-align: middle; padding-left: 3px;}
 #ping {
-	position: fixed;
-	top: 0;
-	right: 40px;
-	width: 45px;
-	background: #ddd;
-	color: #000;
-	height: 30px;
-	padding: 8px 0 2px 0;
+    position: fixed;
+    top: 0;
+    right: 40px;
+    width: 45px;
+    background: #ddd;
+    color: #000;
+    height: 30px;
+    padding: 8px 0 2px 0;
 }
 #ping i {display: block; text-align: center;}
 #ping .ms {
-	display: block;
-	text-align: center;
-	font-size: 8pt;
-	color: #000;
-	padding-top: 2px;
+    display: block;
+    text-align: center;
+    font-size: 8pt;
+    color: #000;
+    padding-top: 2px;
 }
 #options {
-	position: fixed;
-	top: 0;
-	right: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
 }
 #options a {
-	background: #ddd;
+    background: #ddd;
     height: 30px;
-	padding: 5px 0;
-	display: block;
-	color: #333;
-	text-decoration: none;
+    padding: 5px 0;
+    display: block;
+    color: #333;
+    text-decoration: none;
     line-height: 28px;
     border-top: 1px solid #b4b4b4;
 }
 #options a:hover {background: #ccc;}
 #options .toggle {
-	width: 40px;
+    width: 40px;
     background: #ccc;
     border-top: 0;
     float: right;
@@ -122,51 +122,51 @@ a.popt {text-decoration: none;}
 #options .sub.scroll {overflow-y: scroll;}
 #options .sub a {padding: 5px 0 5px 8px; line-height: 30px; font-size: 0.9em; clear: both;}
 #options .sub span {
-	display: block;
-	line-height: 30px;
-	float: left;
+    display: block;
+    line-height: 30px;
+    float: left;
 }
 #options .sub i {
-	display: block;
-	padding: 0 5px;
-	font-size: 1.1em;
-	width: 22px;
-	text-align: center;
-	line-height: 30px;
-	float: right;
+    display: block;
+    padding: 0 5px;
+    font-size: 1.1em;
+    width: 22px;
+    text-align: center;
+    line-height: 30px;
+    float: right;
 }
 #options .decreaseFont {border-top: 0;}
 
 /* POPUPS */
 .popup {
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	background: #ddd;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background: #ddd;
 }
 .popup .close {
-	position: absolute;
-	background: #aaa;
-	top: 0;
-	right: 0;
-	color: #333;
-	text-decoration: none;
-	z-index: 2;
-	padding: 0 10px;
-	height: 30px;
-	line-height: 30px;
+    position: absolute;
+    background: #aaa;
+    top: 0;
+    right: 0;
+    color: #333;
+    text-decoration: none;
+    z-index: 2;
+    padding: 0 10px;
+    height: 30px;
+    line-height: 30px;
 }
 .popup .close:hover {background: #999;}
 .popup .head {
-	background: #999;
-	color: #ddd;
-	padding: 0 10px;
-	height: 30px;
-	line-height: 30px;
-	text-transform: uppercase;
-	font-size: 0.9em;
-	font-weight: bold;
-	border-bottom: 2px solid green;
+    background: #999;
+    color: #ddd;
+    padding: 0 10px;
+    height: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: bold;
+    border-bottom: 2px solid green;
 }
 .popup input {border: 1px solid #999; background: #fff; margin: 0; padding: 5px; outline: none; color: #333;}
 .popup input[type=text]:hover, .popup input[type=text]:active, .popup input[type=text]:focus {border-color: green;}
@@ -184,20 +184,20 @@ a.popt {text-decoration: none;}
 
 /* ADMIN CONTEXT MENU */
 .contextMenu {
-	background-color: #ddd;
-	position: fixed;
-	margin: 2px;
-	width: 150px;
+    background-color: #ddd;
+    position: fixed;
+    margin: 2px;
+    width: 150px;
 }
 .contextMenu a {
-	display: block;
-	padding: 2px 5px;
-	text-decoration: none;
-	color: #333;
+    display: block;
+    padding: 2px 5px;
+    text-decoration: none;
+    color: #333;
 }
 
 .contextMenu a:hover {
-	background-color: #ccc;
+    background-color: #ccc;
 }
 
 /* ADMIN FILTER MESSAGES MENU */
@@ -247,9 +247,9 @@ h1, h2, h3, h4, h5, h6	{color: #06f;font-family: Georgia, Verdana, sans-serif;}
 em						{font-style: normal;	font-weight: bold;}
 .motd					{color: #638500;	font-family: Verdana, sans-serif;}
 .motd h1, .motd h2, .motd h3, .motd h4, .motd h5, .motd h6
-						{color: #638500;	text-decoration: underline;}
+                        {color: #638500;	text-decoration: underline;}
 .motd a, .motd a:link, .motd a:visited, .motd a:active, .motd a:hover
-						{color: #638500;}
+                        {color: #638500;}
 .darkmblue 				{color: #6685f5;}
 .prefix					{					font-weight: bold;}
 .ooc					{					font-weight: bold;}

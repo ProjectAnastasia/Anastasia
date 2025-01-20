@@ -5,37 +5,37 @@
     over_hair = 1
 
 /datum/sprite_accessory/head_accessory/ipc/ipc_antennae
-	name = "Antennae"
-	icon_state = "antennae"
+    name = "Antennae"
+    icon_state = "antennae"
 
 /datum/sprite_accessory/head_accessory/ipc/ipc_tv_antennae
-	name = "T.V. Antennae"
-	icon_state = "tvantennae"
+    name = "T.V. Antennae"
+    icon_state = "tvantennae"
 
 /datum/sprite_accessory/head_accessory/ipc/ipc_tesla_antennae
-	name = "Tesla Antennae"
-	icon_state = "tesla"
+    name = "Tesla Antennae"
+    icon_state = "tesla"
 
 /datum/sprite_accessory/head_accessory/ipc/ipc_light
-	name = "Head Light"
-	icon_state = "light"
+    name = "Head Light"
+    icon_state = "light"
 
 /datum/sprite_accessory/head_accessory/ipc/ipc_side_lights
-	name = "Side Lights"
-	icon_state = "sidelights"
+    name = "Side Lights"
+    icon_state = "sidelights"
 
 /datum/sprite_accessory/head_accessory/ipc/ipc_side_cyber_head
-	name = "Cyber Pipes"
-	icon_state = "cyberhead"
+    name = "Cyber Pipes"
+    icon_state = "cyberhead"
 
 /datum/sprite_accessory/head_accessory/ipc/ipc_side_antlers
-	name = "Antlers"
-	icon_state = "antlers"
+    name = "Antlers"
+    icon_state = "antlers"
 
 /datum/sprite_accessory/head_accessory/ipc/ipc_side_drone_eyes
-	name = "Drone Eyes"
-	icon_state = "droneeyes"
+    name = "Drone Eyes"
+    icon_state = "droneeyes"
 
 /datum/sprite_accessory/head_accessory/ipc/ipc_crowned
-	name = "Crowned"
-	icon_state = "crowned"
+    name = "Crowned"
+    icon_state = "crowned"

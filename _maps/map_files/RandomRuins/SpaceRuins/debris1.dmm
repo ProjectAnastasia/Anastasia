@@ -9,8 +9,8 @@
 "c" = (
 /obj/structure/lattice,
 /obj/structure/disposalpipe/broken{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/space,
 /area/space)
 "d" = (
@@ -23,14 +23,14 @@
 /area/space)
 "g" = (
 /obj/structure/disposalpipe/broken{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/space,
 /area/space)
 "h" = (
 /obj/structure/disposalpipe/broken{
-	dir = 8
-	},
+    dir = 8
+    },
 /obj/item/stack/cable_coil/cut,
 /turf/space,
 /area/space)
@@ -59,10 +59,10 @@
 /area/template_noop)
 "t" = (
 /obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
-	},
+    d1 = 2;
+    d2 = 8;
+    icon_state = "2-8"
+    },
 /turf/space,
 /area/space)
 "u" = (
@@ -92,17 +92,17 @@
 /area/space)
 "C" = (
 /obj/structure/disposalpipe/broken{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/space,
 /area/space)
 "D" = (
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8";
-	tag = ""
-	},
+    d1 = 4;
+    d2 = 8;
+    icon_state = "4-8";
+    tag = ""
+    },
 /turf/simulated/floor/plating/burnt,
 /area/space)
 "E" = (
@@ -136,16 +136,16 @@
 /area/space)
 "O" = (
 /obj/machinery/power/apc/worn_out{
-	pixel_y = -24
-	},
+    pixel_y = -24
+    },
 /obj/structure/cable,
 /turf/simulated/floor/plating,
 /area/space)
 "Q" = (
 /obj/effect/decal/cleanable/shreds{
-	pixel_x = 4;
-	pixel_y = 3
-	},
+    pixel_x = 4;
+    pixel_y = 3
+    },
 /turf/simulated/floor/plating,
 /area/space)
 "T" = (

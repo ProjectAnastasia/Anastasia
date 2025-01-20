@@ -4,71 +4,71 @@
 /area/space)
 "ab" = (
 /obj/machinery/shieldwallgen{
-	active = 2;
-	anchored = 1;
-	power = 1
-	},
+    active = 2;
+    anchored = 1;
+    power = 1
+    },
 /obj/structure/cable{
-	d2 = 4;
-	icon_state = "0-4"
-	},
+    d2 = 4;
+    icon_state = "0-4"
+    },
 /turf/simulated/floor/plating,
 /area/ruin/unpowered)
 "ac" = (
 /obj/structure/grille,
 /obj/structure/window/full/reinforced,
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
+    d1 = 4;
+    d2 = 8;
+    icon_state = "4-8"
+    },
 /turf/simulated/floor/plating,
 /area/ruin/unpowered)
 "ad" = (
 /obj/machinery/shieldwallgen{
-	active = 2;
-	anchored = 1;
-	power = 1
-	},
+    active = 2;
+    anchored = 1;
+    power = 1
+    },
 /obj/structure/cable{
-	d2 = 2;
-	icon_state = "0-2"
-	},
+    d2 = 2;
+    icon_state = "0-2"
+    },
 /obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
-	},
+    d1 = 2;
+    d2 = 8;
+    icon_state = "2-8"
+    },
 /turf/simulated/floor/plating,
 /area/ruin/unpowered)
 "ae" = (
 /obj/machinery/shieldwallgen{
-	active = 2;
-	anchored = 1;
-	power = 1
-	},
+    active = 2;
+    anchored = 1;
+    power = 1
+    },
 /obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4";
-	tag = ""
-	},
+    d1 = 2;
+    d2 = 4;
+    icon_state = "2-4";
+    tag = ""
+    },
 /obj/structure/cable{
-	d2 = 2;
-	icon_state = "0-2"
-	},
+    d2 = 2;
+    icon_state = "0-2"
+    },
 /turf/simulated/floor/plating,
 /area/ruin/unpowered)
 "af" = (
 /obj/machinery/shieldwallgen{
-	active = 2;
-	anchored = 1;
-	power = 1
-	},
+    active = 2;
+    anchored = 1;
+    power = 1
+    },
 /obj/structure/cable{
-	d2 = 8;
-	icon_state = "0-8"
-	},
+    d2 = 8;
+    icon_state = "0-8"
+    },
 /turf/simulated/floor/plating,
 /area/ruin/unpowered)
 "ag" = (
@@ -90,10 +90,10 @@
 /obj/structure/grille,
 /obj/structure/window/full/reinforced,
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
+    d1 = 1;
+    d2 = 2;
+    icon_state = "1-2"
+    },
 /turf/simulated/floor/plating,
 /area/ruin/unpowered)
 "al" = (
@@ -119,8 +119,8 @@
 /area/ruin/unpowered)
 "ap" = (
 /mob/living/simple_animal/hostile/asteroid/goldgrub{
-	will_burrow = 0
-	},
+    will_burrow = 0
+    },
 /turf/simulated/floor/plating/asteroid/airless,
 /area/ruin/unpowered)
 "aq" = (
@@ -158,11 +158,11 @@
 /obj/item/clothing/mask/surgical,
 /obj/item/razor,
 /obj/machinery/light{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
+    icon_state = "dark"
+    },
 /area/ruin/unpowered)
 "ay" = (
 /turf/simulated/floor/plasteel,
@@ -170,16 +170,16 @@
 "az" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/box/syringes{
-	pixel_x = 5;
-	pixel_y = 5
-	},
+    pixel_x = 5;
+    pixel_y = 5
+    },
 /obj/item/storage/box/beakers,
 /obj/machinery/light{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
+    icon_state = "dark"
+    },
 /area/ruin/unpowered)
 "aA" = (
 /obj/structure/flora/ausbushes/ywflowers,
@@ -196,139 +196,139 @@
 /area/ruin/unpowered)
 "aD" = (
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
+    d1 = 4;
+    d2 = 8;
+    icon_state = "4-8"
+    },
 /obj/machinery/door/airlock/highsecurity{
-	name = "Bio Containment";
-	req_one_access_txt = "47"
-	},
+    name = "Bio Containment";
+    req_one_access_txt = "47"
+    },
 /turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
+    icon_state = "dark"
+    },
 /area/ruin/unpowered)
 "aE" = (
 /obj/machinery/shieldwallgen{
-	active = 2;
-	anchored = 1;
-	power = 1
-	},
+    active = 2;
+    anchored = 1;
+    power = 1
+    },
 /obj/structure/cable{
-	d2 = 2;
-	icon_state = "0-2"
-	},
+    d2 = 2;
+    icon_state = "0-2"
+    },
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
+    d1 = 1;
+    d2 = 2;
+    icon_state = "1-2"
+    },
 /obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
-	},
+    d1 = 2;
+    d2 = 8;
+    icon_state = "2-8"
+    },
 /obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4";
-	tag = ""
-	},
+    d1 = 2;
+    d2 = 4;
+    icon_state = "2-4";
+    tag = ""
+    },
 /turf/simulated/floor/plating,
 /area/ruin/unpowered)
 "aF" = (
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
+    d1 = 4;
+    d2 = 8;
+    icon_state = "4-8"
+    },
 /turf/simulated/wall/r_wall,
 /area/ruin/unpowered)
 "aG" = (
 /obj/structure/table/reinforced,
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
+    d1 = 4;
+    d2 = 8;
+    icon_state = "4-8"
+    },
 /obj/item/gun/energy/floragun,
 /turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
+    icon_state = "dark"
+    },
 /area/ruin/unpowered)
 "aH" = (
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
+    d1 = 4;
+    d2 = 8;
+    icon_state = "4-8"
+    },
 /turf/simulated/floor/plasteel,
 /area/ruin/unpowered)
 "aI" = (
 /obj/structure/table/reinforced,
 /obj/machinery/computer/med_data/laptop,
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
+    d1 = 4;
+    d2 = 8;
+    icon_state = "4-8"
+    },
 /turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
+    icon_state = "dark"
+    },
 /area/ruin/unpowered)
 "aJ" = (
 /obj/machinery/shieldwallgen{
-	active = 2;
-	anchored = 1;
-	power = 1
-	},
+    active = 2;
+    anchored = 1;
+    power = 1
+    },
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
+    d1 = 4;
+    d2 = 8;
+    icon_state = "4-8"
+    },
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8";
-	tag = ""
-	},
+    d1 = 1;
+    d2 = 8;
+    icon_state = "1-8";
+    tag = ""
+    },
 /obj/structure/cable{
-	d2 = 8;
-	icon_state = "0-8"
-	},
+    d2 = 8;
+    icon_state = "0-8"
+    },
 /turf/simulated/floor/plating,
 /area/ruin/unpowered)
 "aK" = (
 /obj/structure/window/reinforced{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/space,
 /area/space/nearstation)
 "aL" = (
 /turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
+    icon_state = "dark"
+    },
 /area/ruin/unpowered)
 "aM" = (
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
+    d1 = 1;
+    d2 = 2;
+    icon_state = "1-2"
+    },
 /turf/simulated/wall/r_wall,
 /area/ruin/unpowered)
 "aN" = (
 /obj/structure/table/reinforced,
 /obj/item/folder,
 /turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
+    icon_state = "dark"
+    },
 /area/ruin/unpowered)
 "aO" = (
 /obj/structure/chair/office/light{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/floor/plasteel,
 /area/ruin/unpowered)
 "aP" = (
@@ -336,189 +336,189 @@
 /obj/item/reagent_containers/glass/bottle/liver_enhance_virion,
 /obj/item/reagent_containers/dropper,
 /turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
+    icon_state = "dark"
+    },
 /area/ruin/unpowered)
 "aQ" = (
 /obj/structure/window/reinforced{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/space,
 /area/space/nearstation)
 "aR" = (
 /obj/machinery/light/small{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
+    icon_state = "dark"
+    },
 /area/ruin/unpowered)
 "aS" = (
 /obj/machinery/power/apc/worn_out{
-	dir = 8;
-	pixel_x = -24
-	},
+    dir = 8;
+    pixel_x = -24
+    },
 /obj/structure/cable{
-	d2 = 4;
-	icon_state = "0-4"
-	},
+    d2 = 4;
+    icon_state = "0-4"
+    },
 /obj/structure/rack,
 /obj/item/melee/baton/cattleprod,
 /obj/effect/spawner/lootdrop/maintenance,
 /turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
+    icon_state = "dark"
+    },
 /area/ruin/unpowered)
 "aT" = (
 /obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
-	},
+    d1 = 2;
+    d2 = 8;
+    icon_state = "2-8"
+    },
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
+    d1 = 1;
+    d2 = 2;
+    icon_state = "1-2"
+    },
 /obj/structure/rack,
 /obj/item/clothing/suit/space/hardsuit/medical,
 /obj/item/tank/internals/emergency_oxygen/double,
 /turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
+    icon_state = "dark"
+    },
 /area/ruin/unpowered)
 "aU" = (
 /obj/structure/rack,
 /obj/item/crowbar,
 /obj/item/shield/riot,
 /obj/machinery/light{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
+    icon_state = "dark"
+    },
 /area/ruin/unpowered)
 "aV" = (
 /obj/machinery/smartfridge/secure/chemistry,
 /turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
+    icon_state = "dark"
+    },
 /area/ruin/unpowered)
 "aW" = (
 /obj/structure/table/reinforced,
 /obj/item/gun/syringe,
 /turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
+    icon_state = "dark"
+    },
 /area/ruin/unpowered)
 "aX" = (
 /obj/structure/table/reinforced,
 /obj/item/grenade/chem_grenade/antiweed{
-	pixel_x = 3;
-	pixel_y = 5
-	},
+    pixel_x = 3;
+    pixel_y = 5
+    },
 /obj/item/grenade/chem_grenade/antiweed{
-	pixel_x = 4
-	},
+    pixel_x = 4
+    },
 /obj/item/grenade/chem_grenade/antiweed{
-	pixel_x = -3;
-	pixel_y = -1
-	},
+    pixel_x = -3;
+    pixel_y = -1
+    },
 /obj/machinery/light{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
+    icon_state = "dark"
+    },
 /area/ruin/unpowered)
 "aY" = (
 /obj/structure/table/reinforced,
 /obj/item/gun/energy/temperature,
 /turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
+    icon_state = "dark"
+    },
 /area/ruin/unpowered)
 "aZ" = (
 /obj/structure/table/reinforced,
 /obj/item/cultivator,
 /obj/item/shovel,
 /turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
+    icon_state = "dark"
+    },
 /area/ruin/unpowered)
 "ba" = (
 /obj/machinery/light/small{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
+    icon_state = "dark"
+    },
 /area/ruin/unpowered)
 "bb" = (
 /obj/machinery/door/airlock/hatch{
-	name = "Bio-Research Station"
-	},
+    name = "Bio-Research Station"
+    },
 /turf/simulated/floor/plasteel,
 /area/ruin/unpowered)
 "bc" = (
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
+    d1 = 1;
+    d2 = 2;
+    icon_state = "1-2"
+    },
 /turf/simulated/floor/plasteel,
 /area/ruin/unpowered)
 "bd" = (
 /obj/machinery/power/terminal,
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
+    d1 = 1;
+    d2 = 2;
+    icon_state = "1-2"
+    },
 /turf/simulated/floor/plasteel,
 /area/ruin/unpowered)
 "be" = (
 /obj/structure/reagent_dispensers/fueltank,
 /turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
+    icon_state = "dark"
+    },
 /area/ruin/unpowered)
 "bf" = (
 /obj/machinery/power/smes/magical{
-	desc = "A high-capacity superconducting magnetic energy storage (SMES) unit.";
-	name = "power storage unit"
-	},
+    desc = "A high-capacity superconducting magnetic energy storage (SMES) unit.";
+    name = "power storage unit"
+    },
 /obj/structure/cable,
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
+    d1 = 1;
+    d2 = 2;
+    icon_state = "1-2"
+    },
 /turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
+    icon_state = "dark"
+    },
 /area/ruin/unpowered)
 "bg" = (
 /obj/structure/reagent_dispensers/watertank,
 /obj/machinery/light,
 /turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
+    icon_state = "dark"
+    },
 /area/ruin/unpowered)
 "bh" = (
 /obj/machinery/disposal,
 /obj/structure/disposalpipe/trunk,
 /turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
+    icon_state = "dark"
+    },
 /area/ruin/unpowered)
 "bi" = (
 /obj/structure/table/reinforced,
 /obj/item/reagent_containers/hypospray/autoinjector/stimpack,
 /obj/item/reagent_containers/glass/bottle/mutagen,
 /turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
+    icon_state = "dark"
+    },
 /area/ruin/unpowered)
 "bj" = (
 /obj/structure/table/reinforced,
@@ -531,58 +531,58 @@
 /obj/item/circular_saw,
 /obj/machinery/light,
 /turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
+    icon_state = "dark"
+    },
 /area/ruin/unpowered)
 "bk" = (
 /obj/machinery/optable,
 /turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
+    icon_state = "dark"
+    },
 /area/ruin/unpowered)
 "bl" = (
 /obj/machinery/computer/operating,
 /turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
+    icon_state = "dark"
+    },
 /area/ruin/unpowered)
 "bm" = (
 /obj/structure/closet/wardrobe/toxins_white,
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
+    icon_state = "dark"
+    },
 /area/ruin/unpowered)
 "bn" = (
 /obj/structure/table/reinforced,
 /obj/item/reagent_containers/food/snacks/carrotfries,
 /turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
+    icon_state = "dark"
+    },
 /area/ruin/unpowered)
 "bo" = (
 /obj/machinery/shieldwallgen{
-	active = 2;
-	anchored = 1;
-	power = 1
-	},
+    active = 2;
+    anchored = 1;
+    power = 1
+    },
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
+    d1 = 1;
+    d2 = 2;
+    icon_state = "1-2"
+    },
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8";
-	tag = ""
-	},
+    d1 = 1;
+    d2 = 8;
+    icon_state = "1-8";
+    tag = ""
+    },
 /obj/structure/cable,
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
+    d1 = 1;
+    d2 = 4;
+    icon_state = "1-4"
+    },
 /turf/simulated/floor/plating,
 /area/ruin/unpowered)
 "bp" = (
@@ -590,15 +590,15 @@
 /obj/item/bedsheet/green,
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
+    icon_state = "dark"
+    },
 /area/ruin/unpowered)
 "bq" = (
 /obj/item/stack/cable_coil/cut,
 /obj/item/stack/tile/plasteel{
-	pixel_x = 3;
-	pixel_y = -4
-	},
+    pixel_x = 3;
+    pixel_y = -4
+    },
 /obj/item/wirecutters,
 /turf/simulated/floor/plating,
 /area/ruin/unpowered)
@@ -606,37 +606,37 @@
 /obj/structure/table/reinforced,
 /obj/machinery/kitchen_machine/microwave,
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
+    d1 = 4;
+    d2 = 8;
+    icon_state = "4-8"
+    },
 /turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
+    icon_state = "dark"
+    },
 /area/ruin/unpowered)
 "bs" = (
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
+    d1 = 4;
+    d2 = 8;
+    icon_state = "4-8"
+    },
 /obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
-	},
+    d1 = 2;
+    d2 = 8;
+    icon_state = "2-8"
+    },
 /obj/structure/cable{
-	d2 = 8;
-	icon_state = "0-8"
-	},
+    d2 = 8;
+    icon_state = "0-8"
+    },
 /obj/machinery/shieldwallgen,
 /turf/simulated/floor/plating,
 /area/ruin/unpowered)
 "bt" = (
 /obj/structure/cable{
-	d2 = 8;
-	icon_state = "0-8"
-	},
+    d2 = 8;
+    icon_state = "0-8"
+    },
 /obj/machinery/shieldwallgen,
 /turf/simulated/floor/plating,
 /area/ruin/unpowered)
@@ -649,8 +649,8 @@
 /area/ruin/unpowered)
 "bw" = (
 /obj/machinery/light{
-	dir = 1
-	},
+    dir = 1
+    },
 /mob/living/simple_animal/hostile/carp,
 /turf/simulated/floor/plating,
 /area/ruin/unpowered)
@@ -660,30 +660,30 @@
 /area/ruin/unpowered)
 "by" = (
 /obj/structure/disposalpipe/segment{
-	dir = 4;
-	icon_state = "pipe-c"
-	},
+    dir = 4;
+    icon_state = "pipe-c"
+    },
 /turf/simulated/wall/r_wall,
 /area/ruin/unpowered)
 "bz" = (
 /obj/machinery/space_heater,
 /obj/structure/disposalpipe/segment{
-	dir = 8;
-	icon_state = "pipe-c"
-	},
+    dir = 8;
+    icon_state = "pipe-c"
+    },
 /obj/machinery/light{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
+    icon_state = "dark"
+    },
 /area/ruin/unpowered)
 "bA" = (
 /obj/structure/table/reinforced,
 /obj/machinery/juicer,
 /turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
+    icon_state = "dark"
+    },
 /area/ruin/unpowered)
 "bB" = (
 /obj/structure/alien/weeds,
@@ -692,15 +692,15 @@
 "bC" = (
 /obj/structure/alien/weeds/node,
 /obj/machinery/light{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/plating,
 /area/ruin/unpowered)
 "bD" = (
 /obj/item/clothing/mask/facehugger{
-	icon_state = "facehugger_dead";
-	stat = 2
-	},
+    icon_state = "facehugger_dead";
+    stat = 2
+    },
 /turf/simulated/floor/plating,
 /area/ruin/unpowered)
 "bE" = (
@@ -725,8 +725,8 @@
 /area/ruin/unpowered)
 "bJ" = (
 /mob/living/simple_animal/crab{
-	faction = list("carp")
-	},
+    faction = list("carp")
+    },
 /turf/simulated/floor/plating,
 /area/ruin/unpowered)
 "bK" = (
@@ -735,21 +735,21 @@
 /area/space/nearstation)
 "bL" = (
 /obj/machinery/light/small{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/floor/plasteel,
 /area/ruin/unpowered)
 "bM" = (
 /obj/machinery/light/small{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/plasteel,
 /area/ruin/unpowered)
 "bN" = (
 /obj/structure/grille/broken,
 /obj/item/shard{
-	icon_state = "small"
-	},
+    icon_state = "small"
+    },
 /turf/simulated/floor/plating,
 /area/ruin/unpowered)
 "bO" = (
@@ -762,32 +762,32 @@
 /area/space/nearstation)
 "bQ" = (
 /obj/machinery/shieldwallgen{
-	active = 2;
-	anchored = 1;
-	power = 1
-	},
+    active = 2;
+    anchored = 1;
+    power = 1
+    },
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8";
-	tag = ""
-	},
+    d1 = 1;
+    d2 = 8;
+    icon_state = "1-8";
+    tag = ""
+    },
 /obj/structure/cable,
 /turf/simulated/floor/plating,
 /area/ruin/unpowered)
 "bR" = (
 /obj/structure/disposalpipe/trunk{
-	dir = 1
-	},
+    dir = 1
+    },
 /obj/structure/disposaloutlet,
 /turf/simulated/floor/plating,
 /area/space/nearstation)
 "bS" = (
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
+    d1 = 1;
+    d2 = 4;
+    icon_state = "1-4"
+    },
 /obj/structure/cable,
 /obj/machinery/shieldwallgen,
 /turf/simulated/floor/plating,
@@ -795,8 +795,8 @@
 "bT" = (
 /obj/structure/grille,
 /obj/item/shard{
-	icon_state = "medium"
-	},
+    icon_state = "medium"
+    },
 /turf/simulated/floor/plating,
 /area/ruin/unpowered)
 "bU" = (

@@ -14,9 +14,9 @@ UPDATE `player` SET `toggles_2` = `toggles_2` + 32 WHERE `afk_watch` = 1;
 
 # Remove the old columns
 ALTER TABLE `player`
-	DROP COLUMN `randomslot`,
-	DROP COLUMN `nanoui_fancy`,
-	DROP COLUMN `show_ghostitem_attack`,
-	DROP COLUMN `windowflashing`,
-	DROP COLUMN `ghost_anonsay`,
-	DROP COLUMN `afk_watch`;
+    DROP COLUMN `randomslot`,
+    DROP COLUMN `nanoui_fancy`,
+    DROP COLUMN `show_ghostitem_attack`,
+    DROP COLUMN `windowflashing`,
+    DROP COLUMN `ghost_anonsay`,
+    DROP COLUMN `afk_watch`;

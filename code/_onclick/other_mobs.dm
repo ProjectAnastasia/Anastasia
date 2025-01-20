@@ -1,113 +1,113 @@
 /*
-	Humans:
-	Adds an exception for gloves, to allow special glove types like the ninja ones.
+    Humans:
+    Adds an exception for gloves, to allow special glove types like the ninja ones.
 
-	Otherwise pretty standard.
+    Otherwise pretty standard.
 */
 /mob/living/carbon/human/UnarmedAttack(atom/A, proximity)
-	// Special glove functions:
-	// If the gloves do anything, have them return 1 to stop
-	// normal attack_hand() here.
-	var/obj/item/clothing/gloves/G = gloves // not typecast specifically enough in defines
-	if(proximity && istype(G) && G.Touch(A, 1))
-		return
+    // Special glove functions:
+    // If the gloves do anything, have them return 1 to stop
+    // normal attack_hand() here.
+    var/obj/item/clothing/gloves/G = gloves // not typecast specifically enough in defines
+    if(proximity && istype(G) && G.Touch(A, 1))
+        return
 
-	if(HAS_TRAIT(src, TRAIT_HULK))
-		if(proximity) //no telekinetic hulk attack
-			if(A.attack_hulk(src))
-				return
+    if(HAS_TRAIT(src, TRAIT_HULK))
+        if(proximity) //no telekinetic hulk attack
+            if(A.attack_hulk(src))
+                return
 
-	if(buckled && isstructure(buckled))
-		var/obj/structure/S = buckled
-		if(S.prevents_buckled_mobs_attacking())
-			return
+    if(buckled && isstructure(buckled))
+        var/obj/structure/S = buckled
+        if(S.prevents_buckled_mobs_attacking())
+            return
 
-	A.attack_hand(src)
+    A.attack_hand(src)
 
 /atom/proc/attack_hand(mob/user as mob)
-	return
+    return
 
 /*
 /mob/living/carbon/human/RestrainedClickOn(atom/A) -- Handled by carbons
-	return
+    return
 */
 
 /mob/living/carbon/RestrainedClickOn(atom/A)
-	return 0
+    return 0
 
 /mob/living/carbon/human/RangedAttack(atom/A, params)
-	. = ..()
-	if(gloves)
-		var/obj/item/clothing/gloves/G = gloves
-		if(istype(G) && G.Touch(A, 0)) // for magic gloves
-			return
+    . = ..()
+    if(gloves)
+        var/obj/item/clothing/gloves/G = gloves
+        if(istype(G) && G.Touch(A, 0)) // for magic gloves
+            return
 
-	if(HAS_TRAIT(src, TRAIT_LASEREYES) && a_intent == INTENT_HARM)
-		LaserEyes(A)
+    if(HAS_TRAIT(src, TRAIT_LASEREYES) && a_intent == INTENT_HARM)
+        LaserEyes(A)
 
-	if(HAS_TRAIT(src, TRAIT_TELEKINESIS))
-		A.attack_tk(src)
+    if(HAS_TRAIT(src, TRAIT_TELEKINESIS))
+        A.attack_tk(src)
 
-	if(isturf(A) && get_dist(src, A) <= 1)
-		Move_Pulled(A)
+    if(isturf(A) && get_dist(src, A) <= 1)
+        Move_Pulled(A)
 
 /*
-	Animals & All Unspecified
+    Animals & All Unspecified
 */
 /mob/living/UnarmedAttack(atom/A)
-	A.attack_animal(src)
+    A.attack_animal(src)
 
 /mob/living/simple_animal/hostile/UnarmedAttack(atom/A)
-	target = A
-	AttackingTarget()
+    target = A
+    AttackingTarget()
 
 /atom/proc/attack_animal(mob/user)
-	return
+    return
 
 /mob/living/RestrainedClickOn(atom/A)
-	return
+    return
 
 /*
-	Aliens
-	Defaults to same as monkey in most places
+    Aliens
+    Defaults to same as monkey in most places
 */
 /mob/living/carbon/alien/UnarmedAttack(atom/A)
-	A.attack_alien(src)
+    A.attack_alien(src)
 
 /atom/proc/attack_alien(mob/living/carbon/alien/user)
-	attack_hand(user)
+    attack_hand(user)
 
 /mob/living/carbon/alien/RestrainedClickOn(atom/A)
-	return
+    return
 
 // Babby aliens
 /mob/living/carbon/alien/larva/UnarmedAttack(atom/A)
-	A.attack_larva(src)
+    A.attack_larva(src)
 
 /atom/proc/attack_larva(mob/user)
-	return
+    return
 
 
 /*
-	Slimes
-	Nothing happening here
+    Slimes
+    Nothing happening here
 */
 /mob/living/simple_animal/slime/UnarmedAttack(atom/A)
-	A.attack_slime(src)
+    A.attack_slime(src)
 
 /atom/proc/attack_slime(mob/user)
-	return
+    return
 
 /mob/living/simple_animal/slime/RestrainedClickOn(atom/A)
-	return
+    return
 
 /*
-	New Players:
-	Have no reason to click on anything at all.
+    New Players:
+    Have no reason to click on anything at all.
 */
 /mob/new_player/ClickOn()
-	return
+    return
 
 // pAIs are not intended to interact with anything in the world
 /mob/living/silicon/pai/UnarmedAttack(atom/A)
-	return
+    return

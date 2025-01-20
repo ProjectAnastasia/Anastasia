@@ -8,40 +8,40 @@
 "c" = (
 /obj/item/paper/fluff/stations/lavaland/sloth/note,
 /turf/simulated/floor/sepia{
-	slowdown = 10
-	},
+    slowdown = 10
+    },
 /area/ruin/unpowered/misc_lavaruin)
 "d" = (
 /turf/simulated/floor/sepia{
-	slowdown = 10
-	},
+    slowdown = 10
+    },
 /area/ruin/unpowered/misc_lavaruin)
 "e" = (
 /obj/machinery/door/airlock/wood,
 /obj/structure/fans/tiny/invisible,
 /turf/simulated/floor/sepia{
-	slowdown = 10
-	},
+    slowdown = 10
+    },
 /area/ruin/unpowered/misc_lavaruin)
 "f" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/snacks/grown/citrus/orange,
 /turf/simulated/floor/sepia{
-	slowdown = 10
-	},
+    slowdown = 10
+    },
 /area/ruin/unpowered/misc_lavaruin)
 "g" = (
 /obj/structure/bed,
 /obj/item/bedsheet/brown,
 /turf/simulated/floor/sepia{
-	slowdown = 10
-	},
+    slowdown = 10
+    },
 /area/ruin/unpowered/misc_lavaruin)
 "h" = (
 /obj/effect/baseturf_helper/lava_land/surface,
 /turf/simulated/floor/sepia{
-	slowdown = 10
-	},
+    slowdown = 10
+    },
 /area/ruin/unpowered/misc_lavaruin)
 
 (1,1,1) = {"

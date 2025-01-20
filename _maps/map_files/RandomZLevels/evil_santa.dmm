@@ -7,38 +7,38 @@
 /area/awaymission/challenge/main)
 "ac" = (
 /turf/simulated/floor/snow{
-	carbon_dioxide = 21.8366;
-	nitrogen = 0;
-	oxygen = 82.1472;
-	temperature = 73
-	},
+    carbon_dioxide = 21.8366;
+    nitrogen = 0;
+    oxygen = 82.1472;
+    temperature = 73
+    },
 /area/awaymission/challenge/main)
 "ad" = (
 /mob/living/simple_animal/hostile/winter/snowman/ranged,
 /turf/simulated/floor/snow{
-	carbon_dioxide = 21.8366;
-	nitrogen = 0;
-	oxygen = 82.1472;
-	temperature = 73
-	},
+    carbon_dioxide = 21.8366;
+    nitrogen = 0;
+    oxygen = 82.1472;
+    temperature = 73
+    },
 /area/awaymission/challenge/main)
 "ae" = (
 /obj/structure/flora/tree/pine,
 /turf/simulated/floor/snow{
-	carbon_dioxide = 21.8366;
-	nitrogen = 0;
-	oxygen = 82.1472;
-	temperature = 73
-	},
+    carbon_dioxide = 21.8366;
+    nitrogen = 0;
+    oxygen = 82.1472;
+    temperature = 73
+    },
 /area/awaymission/challenge/main)
 "af" = (
 /obj/structure/snowman,
 /turf/simulated/floor/snow{
-	carbon_dioxide = 21.8366;
-	nitrogen = 0;
-	oxygen = 82.1472;
-	temperature = 73
-	},
+    carbon_dioxide = 21.8366;
+    nitrogen = 0;
+    oxygen = 82.1472;
+    temperature = 73
+    },
 /area/awaymission/challenge/main)
 "ag" = (
 /turf/simulated/wall,
@@ -46,11 +46,11 @@
 "ah" = (
 /mob/living/simple_animal/hostile/tree,
 /turf/simulated/floor/snow{
-	carbon_dioxide = 21.8366;
-	nitrogen = 0;
-	oxygen = 82.1472;
-	temperature = 73
-	},
+    carbon_dioxide = 21.8366;
+    nitrogen = 0;
+    oxygen = 82.1472;
+    temperature = 73
+    },
 /area/awaymission/challenge/main)
 "ai" = (
 /obj/structure/dresser,
@@ -67,11 +67,11 @@
 "al" = (
 /obj/structure/flora/grass/both,
 /turf/simulated/floor/snow{
-	carbon_dioxide = 21.8366;
-	nitrogen = 0;
-	oxygen = 82.1472;
-	temperature = 73
-	},
+    carbon_dioxide = 21.8366;
+    nitrogen = 0;
+    oxygen = 82.1472;
+    temperature = 73
+    },
 /area/awaymission/challenge/main)
 "am" = (
 /turf/simulated/floor/plasteel,
@@ -83,20 +83,20 @@
 "ao" = (
 /obj/structure/flora/rock/pile,
 /turf/simulated/floor/snow{
-	carbon_dioxide = 21.8366;
-	nitrogen = 0;
-	oxygen = 82.1472;
-	temperature = 73
-	},
+    carbon_dioxide = 21.8366;
+    nitrogen = 0;
+    oxygen = 82.1472;
+    temperature = 73
+    },
 /area/awaymission/challenge/main)
 "ap" = (
 /obj/structure/flora/tree/dead,
 /turf/simulated/floor/snow{
-	carbon_dioxide = 21.8366;
-	nitrogen = 0;
-	oxygen = 82.1472;
-	temperature = 73
-	},
+    carbon_dioxide = 21.8366;
+    nitrogen = 0;
+    oxygen = 82.1472;
+    temperature = 73
+    },
 /area/awaymission/challenge/main)
 "aq" = (
 /obj/structure/mineral_door/wood,
@@ -124,24 +124,24 @@
 "av" = (
 /mob/living/simple_animal/hostile/winter/reindeer,
 /turf/simulated/floor/snow{
-	carbon_dioxide = 21.8366;
-	nitrogen = 0;
-	oxygen = 82.1472;
-	temperature = 73
-	},
+    carbon_dioxide = 21.8366;
+    nitrogen = 0;
+    oxygen = 82.1472;
+    temperature = 73
+    },
 /area/awaymission/challenge/main)
 "aw" = (
 /obj/machinery/porta_turret/syndicate/grenade{
-	desc = "Winterized 40mm grenade launcher defense turret. If you've had this much time to look at it, you're probably already dead.";
-	faction = "winter";
-	name = "winterized mounted grenade launcher (40mm)"
-	},
+    desc = "Winterized 40mm grenade launcher defense turret. If you've had this much time to look at it, you're probably already dead.";
+    faction = "winter";
+    name = "winterized mounted grenade launcher (40mm)"
+    },
 /turf/simulated/floor/snow{
-	carbon_dioxide = 21.8366;
-	nitrogen = 0;
-	oxygen = 82.1472;
-	temperature = 73
-	},
+    carbon_dioxide = 21.8366;
+    nitrogen = 0;
+    oxygen = 82.1472;
+    temperature = 73
+    },
 /area/awaymission/challenge/main)
 "ax" = (
 /obj/structure/chair/stool,
@@ -185,61 +185,61 @@
 /area/awaymission/challenge/main)
 "aG" = (
 /obj/machinery/porta_turret/syndicate/exterior{
-	desc = "Winterized exterior defense turret chambered for 7.62 rounds. Designed to down intruders with heavy calliber bullets.";
-	faction = "winter";
-	name = "winterized machine gun turret (7.62)"
-	},
+    desc = "Winterized exterior defense turret chambered for 7.62 rounds. Designed to down intruders with heavy calliber bullets.";
+    faction = "winter";
+    name = "winterized machine gun turret (7.62)"
+    },
 /turf/simulated/floor/snow{
-	carbon_dioxide = 21.8366;
-	nitrogen = 0;
-	oxygen = 82.1472;
-	temperature = 73
-	},
+    carbon_dioxide = 21.8366;
+    nitrogen = 0;
+    oxygen = 82.1472;
+    temperature = 73
+    },
 /area/awaymission/challenge/main)
 "aH" = (
 /mob/living/simple_animal/hostile/winter/snowman,
 /turf/simulated/floor/snow{
-	carbon_dioxide = 21.8366;
-	nitrogen = 0;
-	oxygen = 82.1472;
-	temperature = 73
-	},
+    carbon_dioxide = 21.8366;
+    nitrogen = 0;
+    oxygen = 82.1472;
+    temperature = 73
+    },
 /area/awaymission/challenge/main)
 "aI" = (
 /obj/structure/flora/bush,
 /turf/simulated/floor/snow{
-	carbon_dioxide = 21.8366;
-	nitrogen = 0;
-	oxygen = 82.1472;
-	temperature = 73
-	},
+    carbon_dioxide = 21.8366;
+    nitrogen = 0;
+    oxygen = 82.1472;
+    temperature = 73
+    },
 /area/awaymission/challenge/main)
 "aJ" = (
 /obj/item/pickaxe/gold,
 /turf/simulated/floor/snow{
-	carbon_dioxide = 21.8366;
-	nitrogen = 0;
-	oxygen = 82.1472;
-	temperature = 73
-	},
+    carbon_dioxide = 21.8366;
+    nitrogen = 0;
+    oxygen = 82.1472;
+    temperature = 73
+    },
 /area/awaymission/challenge/main)
 "aK" = (
 /obj/structure/flora/grass/green,
 /turf/simulated/floor/snow{
-	carbon_dioxide = 21.8366;
-	nitrogen = 0;
-	oxygen = 82.1472;
-	temperature = 73
-	},
+    carbon_dioxide = 21.8366;
+    nitrogen = 0;
+    oxygen = 82.1472;
+    temperature = 73
+    },
 /area/awaymission/challenge/main)
 "aL" = (
 /obj/structure/boulder,
 /turf/simulated/floor/snow{
-	carbon_dioxide = 21.8366;
-	nitrogen = 0;
-	oxygen = 82.1472;
-	temperature = 73
-	},
+    carbon_dioxide = 21.8366;
+    nitrogen = 0;
+    oxygen = 82.1472;
+    temperature = 73
+    },
 /area/awaymission/challenge/main)
 "aM" = (
 /turf/simulated/wall/rust,
@@ -247,21 +247,21 @@
 "aN" = (
 /obj/structure/inflatable/door,
 /obj/effect/decal/snow/clean/edge{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/plasteel{
-	icon_plating = "asteroid";
-	icon_state = "asteroid";
-	name = "Asteroid"
-	},
+    icon_plating = "asteroid";
+    icon_state = "asteroid";
+    name = "Asteroid"
+    },
 /area/awaymission/challenge/main)
 "aO" = (
 /obj/structure/girder/displaced,
 /turf/simulated/floor/plasteel{
-	icon_plating = "asteroid";
-	icon_state = "asteroid";
-	name = "Asteroid"
-	},
+    icon_plating = "asteroid";
+    icon_state = "asteroid";
+    name = "Asteroid"
+    },
 /area/awaymission/challenge/main)
 "aP" = (
 /turf/simulated/wall/mineral/titanium,
@@ -271,90 +271,90 @@
 /obj/structure/fans/tiny,
 /obj/effect/decal/warning_stripes/yellow,
 /turf/simulated/floor/plasteel{
-	icon_state = "bar"
-	},
+    icon_state = "bar"
+    },
 /area/awaymission/challenge/main)
 "aV" = (
 /turf/simulated/floor/plasteel{
-	icon_plating = "asteroid";
-	icon_state = "asteroid";
-	name = "Asteroid"
-	},
+    icon_plating = "asteroid";
+    icon_state = "asteroid";
+    name = "Asteroid"
+    },
 /area/awaymission/challenge/main)
 "aW" = (
 /obj/structure/girder,
 /turf/simulated/floor/plasteel{
-	icon_plating = "asteroid";
-	icon_state = "asteroid";
-	name = "Asteroid"
-	},
+    icon_plating = "asteroid";
+    icon_state = "asteroid";
+    name = "Asteroid"
+    },
 /area/awaymission/challenge/main)
 "aY" = (
 /turf/simulated/floor/plasteel{
-	icon_state = "cafeteria"
-	},
+    icon_state = "cafeteria"
+    },
 /area/awaymission/challenge/main)
 "aZ" = (
 /turf/simulated/floor/plasteel{
-	icon_state = "bar"
-	},
+    icon_state = "bar"
+    },
 /area/awaymission/challenge/main)
 "ba" = (
 /obj/effect/decal/cleanable/ash,
 /turf/simulated/floor/plasteel{
-	icon_plating = "asteroid";
-	icon_state = "asteroid";
-	name = "Asteroid"
-	},
+    icon_plating = "asteroid";
+    icon_state = "asteroid";
+    name = "Asteroid"
+    },
 /area/awaymission/challenge/main)
 "bc" = (
 /obj/effect/decal/straw/medium,
 /obj/effect/decal/remains/human,
 /turf/simulated/floor/plasteel{
-	icon_plating = "asteroid";
-	icon_state = "asteroid";
-	name = "Asteroid"
-	},
+    icon_plating = "asteroid";
+    icon_state = "asteroid";
+    name = "Asteroid"
+    },
 /area/awaymission/challenge/main)
 "bd" = (
 /obj/item/paper/journal_scrap_3,
 /turf/simulated/floor/plasteel{
-	icon_plating = "asteroid";
-	icon_state = "asteroid";
-	name = "Asteroid"
-	},
+    icon_plating = "asteroid";
+    icon_state = "asteroid";
+    name = "Asteroid"
+    },
 /area/awaymission/challenge/main)
 "be" = (
 /obj/structure/sink/puddle,
 /turf/simulated/floor/plasteel{
-	icon_plating = "asteroid";
-	icon_state = "asteroid";
-	name = "Asteroid"
-	},
+    icon_plating = "asteroid";
+    icon_state = "asteroid";
+    name = "Asteroid"
+    },
 /area/awaymission/challenge/main)
 "bf" = (
 /mob/living/simple_animal/hostile/winter/santa/stage_1,
 /turf/simulated/floor/plasteel{
-	icon_state = "cafeteria"
-	},
+    icon_state = "cafeteria"
+    },
 /area/awaymission/challenge/main)
 "bj" = (
 /obj/structure/flora/rock,
 /turf/simulated/floor/snow{
-	carbon_dioxide = 21.8366;
-	nitrogen = 0;
-	oxygen = 82.1472;
-	temperature = 73
-	},
+    carbon_dioxide = 21.8366;
+    nitrogen = 0;
+    oxygen = 82.1472;
+    temperature = 73
+    },
 /area/awaymission/challenge/main)
 "bk" = (
 /obj/structure/flora/grass/brown,
 /turf/simulated/floor/snow{
-	carbon_dioxide = 21.8366;
-	nitrogen = 0;
-	oxygen = 82.1472;
-	temperature = 73
-	},
+    carbon_dioxide = 21.8366;
+    nitrogen = 0;
+    oxygen = 82.1472;
+    temperature = 73
+    },
 /area/awaymission/challenge/main)
 "bl" = (
 /obj/machinery/chem_heater,
@@ -411,11 +411,11 @@
 /area/awaymission/challenge/main)
 "bx" = (
 /obj/machinery/porta_turret/syndicate/interior{
-	desc = "Winterized interior defense turret chambered for .45 rounds and mounted on a wall. Designed to down intruders without damaging the hull.";
-	faction = "winter";
-	name = "wall mounted machine gun turret (.45)";
-	pixel_y = 27
-	},
+    desc = "Winterized interior defense turret chambered for .45 rounds and mounted on a wall. Designed to down intruders without damaging the hull.";
+    faction = "winter";
+    name = "wall mounted machine gun turret (.45)";
+    pixel_y = 27
+    },
 /turf/simulated/floor/plasteel,
 /area/awaymission/challenge/main)
 "by" = (
@@ -429,20 +429,20 @@
 "bz" = (
 /obj/item/clothing/head/cone,
 /turf/simulated/floor/snow{
-	carbon_dioxide = 21.8366;
-	nitrogen = 0;
-	oxygen = 82.1472;
-	temperature = 73
-	},
+    carbon_dioxide = 21.8366;
+    nitrogen = 0;
+    oxygen = 82.1472;
+    temperature = 73
+    },
 /area/awaymission/challenge/main)
 "bA" = (
 /mob/living/simple_animal/walrus,
 /turf/simulated/floor/snow{
-	carbon_dioxide = 21.8366;
-	nitrogen = 0;
-	oxygen = 82.1472;
-	temperature = 73
-	},
+    carbon_dioxide = 21.8366;
+    nitrogen = 0;
+    oxygen = 82.1472;
+    temperature = 73
+    },
 /area/awaymission/challenge/main)
 "bB" = (
 /obj/structure/closet/toolcloset,
@@ -460,14 +460,14 @@
 /obj/structure/fans/tiny,
 /obj/effect/decal/warning_stripes/yellow,
 /turf/simulated/floor/plasteel{
-	icon_state = "cafeteria"
-	},
+    icon_state = "cafeteria"
+    },
 /area/awaymission/challenge/main)
 "bF" = (
 /obj/machinery/door/poddoor{
-	id_tag = "challenge";
-	name = "Gateway Shutters"
-	},
+    id_tag = "challenge";
+    name = "Gateway Shutters"
+    },
 /obj/structure/fans/tiny,
 /obj/effect/decal/warning_stripes/yellow,
 /turf/simulated/floor/plasteel,
@@ -482,32 +482,32 @@
 /area/awaymission/challenge/start)
 "bI" = (
 /obj/machinery/door/poddoor{
-	id_tag = "challenge";
-	name = "Gateway Shutters"
-	},
+    id_tag = "challenge";
+    name = "Gateway Shutters"
+    },
 /obj/effect/decal/warning_stripes/yellow,
 /turf/simulated/floor/plasteel,
 /area/awaymission/challenge/start)
 "bJ" = (
 /obj/machinery/door_control{
-	id = "challenge";
-	name = "Gateway Lockdown";
-	pixel_x = -4;
-	pixel_y = 26
-	},
+    id = "challenge";
+    name = "Gateway Lockdown";
+    pixel_x = -4;
+    pixel_y = 26
+    },
 /obj/effect/decal/warning_stripes/northeastcorner,
 /turf/simulated/floor/plasteel,
 /area/awaymission/challenge/start)
 "bK" = (
 /obj/effect/landmark{
-	name = "awaystart"
-	},
+    name = "awaystart"
+    },
 /turf/simulated/floor/greengrid,
 /area/awaymission/challenge/start)
 "bL" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 5
-	},
+    dir = 5
+    },
 /turf/simulated/floor/plasteel,
 /area/awaymission/challenge/start)
 "bM" = (
@@ -517,26 +517,26 @@
 /area/awaymission/challenge/start)
 "bN" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 9
-	},
+    dir = 9
+    },
 /turf/simulated/floor/plasteel,
 /area/awaymission/challenge/start)
 "bO" = (
 /obj/machinery/gateway{
-	dir = 9
-	},
+    dir = 9
+    },
 /turf/simulated/floor/bluegrid,
 /area/awaymission/challenge/start)
 "bP" = (
 /obj/machinery/gateway{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/bluegrid,
 /area/awaymission/challenge/start)
 "bQ" = (
 /obj/machinery/gateway{
-	dir = 5
-	},
+    dir = 5
+    },
 /turf/simulated/floor/bluegrid,
 /area/awaymission/challenge/start)
 "bR" = (
@@ -544,21 +544,21 @@
 /area/awaymission/challenge/main)
 "bS" = (
 /obj/machinery/atmospherics/unary/vent_pump{
-	on = 1
-	},
+    on = 1
+    },
 /turf/simulated/floor/plasteel,
 /area/awaymission/challenge/start)
 "bT" = (
 /obj/structure/dispenser/oxygen{
-	starting_oxygen_tanks = 9
-	},
+    starting_oxygen_tanks = 9
+    },
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/plasteel,
 /area/awaymission/challenge/start)
 "bU" = (
 /obj/machinery/gateway{
-	dir = 8
-	},
+    dir = 8
+    },
 /turf/simulated/floor/bluegrid,
 /area/awaymission/challenge/start)
 "bV" = (
@@ -567,40 +567,40 @@
 /area/awaymission/challenge/start)
 "bW" = (
 /obj/machinery/gateway{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/bluegrid,
 /area/awaymission/challenge/start)
 "bX" = (
 /obj/machinery/power/smes/magical,
 /obj/structure/cable{
-	d2 = 4;
-	icon_state = "0-4"
-	},
+    d2 = 4;
+    icon_state = "0-4"
+    },
 /turf/simulated/floor/plating,
 /area/awaymission/challenge/main)
 "bY" = (
 /obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8";
-	tag = ""
-	},
+    d1 = 2;
+    d2 = 8;
+    icon_state = "2-8";
+    tag = ""
+    },
 /obj/structure/cable{
-	d2 = 8;
-	icon_state = "0-8"
-	},
+    d2 = 8;
+    icon_state = "0-8"
+    },
 /obj/machinery/power/apc/noalarm{
-	dir = 4;
-	name = "Worn-out APC";
-	pixel_x = 24
-	},
+    dir = 4;
+    name = "Worn-out APC";
+    pixel_x = 24
+    },
 /turf/simulated/floor/plating,
 /area/awaymission/challenge/main)
 "bZ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 6
-	},
+    dir = 6
+    },
 /turf/simulated/floor/plasteel,
 /area/awaymission/challenge/start)
 "ca" = (
@@ -610,20 +610,20 @@
 "cb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/plasteel,
 /area/awaymission/challenge/start)
 "cc" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 10
-	},
+    dir = 10
+    },
 /turf/simulated/floor/plasteel,
 /area/awaymission/challenge/start)
 "cd" = (
 /obj/machinery/gateway{
-	dir = 10
-	},
+    dir = 10
+    },
 /turf/simulated/floor/bluegrid,
 /area/awaymission/challenge/start)
 "ce" = (
@@ -632,8 +632,8 @@
 /area/awaymission/challenge/start)
 "cf" = (
 /obj/machinery/gateway{
-	dir = 6
-	},
+    dir = 6
+    },
 /turf/simulated/floor/bluegrid,
 /area/awaymission/challenge/start)
 "cg" = (
@@ -641,30 +641,30 @@
 /area/awaymission/challenge/main)
 "ch" = (
 /obj/machinery/power/terminal{
-	dir = 1
-	},
+    dir = 1
+    },
 /obj/structure/cable{
-	d2 = 4;
-	icon_state = "0-4"
-	},
+    d2 = 4;
+    icon_state = "0-4"
+    },
 /turf/simulated/floor/plating,
 /area/awaymission/challenge/main)
 "ci" = (
 /obj/structure/cable{
-	d2 = 8;
-	icon_state = "0-8"
-	},
+    d2 = 8;
+    icon_state = "0-8"
+    },
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8";
-	tag = ""
-	},
+    d1 = 1;
+    d2 = 8;
+    icon_state = "1-8";
+    tag = ""
+    },
 /obj/machinery/power/apc/noalarm{
-	dir = 4;
-	name = "Worn-out APC";
-	pixel_x = 24
-	},
+    dir = 4;
+    name = "Worn-out APC";
+    pixel_x = 24
+    },
 /turf/simulated/floor/plating,
 /area/awaymission/challenge/start)
 "cj" = (
@@ -673,14 +673,14 @@
 /area/awaymission/challenge/start)
 "ck" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/plasteel,
 /area/awaymission/challenge/start)
 "cl" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 9
-	},
+    dir = 9
+    },
 /turf/simulated/floor/plasteel,
 /area/awaymission/challenge/start)
 "cm" = (
@@ -713,8 +713,8 @@
 /area/awaymission/challenge/start)
 "cp" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 5
-	},
+    dir = 5
+    },
 /turf/simulated/floor/plasteel,
 /area/awaymission/challenge/start)
 "cq" = (
@@ -723,14 +723,14 @@
 /area/awaymission/challenge/start)
 "cr" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 6
-	},
+    dir = 6
+    },
 /turf/simulated/wall/indestructible/syndicate,
 /area/awaymission/challenge/start)
 "cs" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/universal{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/wall/indestructible/syndicate,
 /area/awaymission/challenge/start)
 "ct" = (
@@ -739,15 +739,15 @@
 /area/awaymission/challenge/start)
 "cu" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 10;
-	initialize_directions = 10
-	},
+    dir = 10;
+    initialize_directions = 10
+    },
 /turf/simulated/wall/indestructible/syndicate,
 /area/awaymission/challenge/start)
 "cv" = (
 /obj/machinery/atmospherics/unary/tank/air{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/plating,
 /area/awaymission/challenge/start)
 "cw" = (
@@ -755,8 +755,8 @@
 /area/space)
 "cx" = (
 /obj/machinery/atmospherics/unary/outlet_injector/on{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/plating/airless,
 /area/awaymission/challenge/start)
 "cy" = (
@@ -766,11 +766,11 @@
 /area/awaymission/challenge/start)
 "cz" = (
 /obj/machinery/door_control{
-	id = "challenge";
-	name = "Gateway Lockdown";
-	pixel_x = -4;
-	pixel_y = 26
-	},
+    id = "challenge";
+    name = "Gateway Lockdown";
+    pixel_x = -4;
+    pixel_y = 26
+    },
 /obj/effect/decal/warning_stripes/northwestcorner,
 /turf/simulated/floor/plasteel,
 /area/awaymission/challenge/start)

@@ -16,8 +16,8 @@
 "g" = (
 /obj/structure/table,
 /obj/machinery/door_control{
-	id = "mecha cargo"
-	},
+    id = "mecha cargo"
+    },
 /turf/simulated/floor/mineral/titanium/blue/airless,
 /area/ruin/powered)
 "h" = (
@@ -41,8 +41,8 @@
 /area/ruin/powered)
 "m" = (
 /obj/structure/chair/comfy/shuttle{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/mineral/titanium/blue/airless,
 /area/ruin/powered)
 "n" = (
@@ -84,10 +84,10 @@
 /area/ruin/powered)
 "y" = (
 /obj/machinery/door/poddoor{
-	id_tag = "mecha cargo";
-	name = "Cargo Bay Door";
-	tag = ""
-	},
+    id_tag = "mecha cargo";
+    name = "Cargo Bay Door";
+    tag = ""
+    },
 /turf/simulated/floor/mineral/titanium/airless,
 /area/ruin/powered)
 "z" = (
@@ -100,9 +100,9 @@
 /area/ruin/powered)
 "B" = (
 /obj/item/stack/tile/plasteel{
-	pixel_x = 7;
-	pixel_y = 8
-	},
+    pixel_x = 7;
+    pixel_y = 8
+    },
 /turf/simulated/floor/plating/airless,
 /area/ruin/powered)
 "C" = (
@@ -122,9 +122,9 @@
 /area/ruin/powered)
 "G" = (
 /obj/item/stack/tile/plasteel{
-	pixel_x = 7;
-	pixel_y = 8
-	},
+    pixel_x = 7;
+    pixel_y = 8
+    },
 /obj/effect/decal/cleanable/blood/gibs/robot,
 /turf/simulated/floor/mineral/titanium/yellow/airless,
 /area/ruin/powered)

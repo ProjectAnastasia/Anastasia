@@ -1,15 +1,15 @@
 .jobs {
-	width: 400px;
-	margin: 0 auto;
+    width: 400px;
+    margin: 0 auto;
 }
 
 .jobsColumn {
-	float: left;
-	width: 200px;
-	text-align: center;
+    float: left;
+    width: 200px;
+    text-align: center;
 }
 
 .commandPosition {
-	font-weight: bold;
+    font-weight: bold;
 }
 

@@ -20,14 +20,14 @@
 "g" = (
 /obj/item/shard,
 /obj/item/paper{
-	info = "Extraction was successful! The disguise was perfect, the clowns never knew what hit 'em! Once I get back to base with the bananium samples I'll be rich, I tell you! RICH!"
-	},
+    info = "Extraction was successful! The disguise was perfect, the clowns never knew what hit 'em! Once I get back to base with the bananium samples I'll be rich, I tell you! RICH!"
+    },
 /turf/simulated/floor/plating,
 /area/ruin/unpowered)
 "h" = (
 /obj/item/stack/sheet/mineral/bananium{
-	amount = 15
-	},
+    amount = 15
+    },
 /turf/simulated/floor/plating,
 /area/ruin/unpowered)
 "i" = (
@@ -46,8 +46,8 @@
 /area/ruin/unpowered)
 "m" = (
 /obj/machinery/door/airlock/titanium{
-	name = "Escape Pod Airlock"
-	},
+    name = "Escape Pod Airlock"
+    },
 /turf/simulated/floor/mineral/titanium/blue,
 /area/ruin/unpowered)
 

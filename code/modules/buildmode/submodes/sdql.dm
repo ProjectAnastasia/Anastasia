@@ -1,9 +1,9 @@
 // SKELETON CODE, not yet functional
 
 /datum/buildmode_mode/sdql
-	key = "sdql"
+    key = "sdql"
 
-	var/sdql_command = "SELECT /turf IN"
+    var/sdql_command = "SELECT /turf IN"
 
 /datum/buildmode_mode/sdql/show_help(mob/user)
 

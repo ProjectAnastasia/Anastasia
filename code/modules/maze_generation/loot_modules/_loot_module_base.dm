@@ -1,7 +1,7 @@
 /obj/effect/mazegen/module_loot
-	name = "maze loot"
-	/// Probability for this to spawn in a dead end at all. 0-100%. I dont recommend using values higher than 10
-	var/spawn_probability = 0
+    name = "maze loot"
+    /// Probability for this to spawn in a dead end at all. 0-100%. I dont recommend using values higher than 10
+    var/spawn_probability = 0
 
 /**
   * Loot spawner proc
@@ -13,4 +13,4 @@
   * * T - The turf loot will be spawned on
   */
 /obj/effect/mazegen/module_loot/proc/spawn_loot(turf/T)
-	CRASH("spawn_loot() not overriden for [type]")
+    CRASH("spawn_loot() not overriden for [type]")

@@ -53,30 +53,30 @@
 //The gamemode specific ones are just so the gamemodes can query whether a player is old enough
 //(in game days played) to play that role
 GLOBAL_LIST_INIT(special_roles, list(
-	ROLE_ABDUCTOR = /datum/game_mode/abduction, 		// Abductor
-	ROLE_BLOB = /datum/game_mode/blob, 					// Blob
-	ROLE_CHANGELING = /datum/game_mode/changeling, 		// Changeling
-	ROLE_BORER, 										// Cortical borer
-	ROLE_CULTIST = /datum/game_mode/cult, 				// Cultist
-	ROLE_GSPIDER, 										// Giant spider
-	ROLE_GUARDIAN, 										// Guardian
-	ROLE_MORPH, 										// Morph
-	ROLE_OPERATIVE = /datum/game_mode/nuclear, 			// Operative
-	ROLE_PAI, 											// PAI
-	ROLE_POSIBRAIN, 									// Positronic brain
-	ROLE_REVENANT, 										// Revenant
-	ROLE_REV = /datum/game_mode/revolution, 			// Revolutionary
-	ROLE_SENTIENT, 										// Sentient animal
-	ROLE_SHADOWLING = /datum/game_mode/shadowling, 		// Shadowling
-	ROLE_DEMON, 										// Slaguther demon
-	ROLE_NINJA, 										// Space ninja
-	ROLE_TRADER, 										// Trader
-	ROLE_TRAITOR = /datum/game_mode/traitor, 			// Traitor
-	ROLE_VAMPIRE = /datum/game_mode/vampire, 			// Vampire
-	ROLE_RAIDER = /datum/game_mode/heist, 				// Vox raider
-	ROLE_ALIEN, 										// Xenomorph
-	ROLE_WIZARD = /datum/game_mode/wizard 				// Wizard
-	// UNUSED/BROKEN ANTAGS
+    ROLE_ABDUCTOR = /datum/game_mode/abduction, 		// Abductor
+    ROLE_BLOB = /datum/game_mode/blob, 					// Blob
+    ROLE_CHANGELING = /datum/game_mode/changeling, 		// Changeling
+    ROLE_BORER, 										// Cortical borer
+    ROLE_CULTIST = /datum/game_mode/cult, 				// Cultist
+    ROLE_GSPIDER, 										// Giant spider
+    ROLE_GUARDIAN, 										// Guardian
+    ROLE_MORPH, 										// Morph
+    ROLE_OPERATIVE = /datum/game_mode/nuclear, 			// Operative
+    ROLE_PAI, 											// PAI
+    ROLE_POSIBRAIN, 									// Positronic brain
+    ROLE_REVENANT, 										// Revenant
+    ROLE_REV = /datum/game_mode/revolution, 			// Revolutionary
+    ROLE_SENTIENT, 										// Sentient animal
+    ROLE_SHADOWLING = /datum/game_mode/shadowling, 		// Shadowling
+    ROLE_DEMON, 										// Slaguther demon
+    ROLE_NINJA, 										// Space ninja
+    ROLE_TRADER, 										// Trader
+    ROLE_TRAITOR = /datum/game_mode/traitor, 			// Traitor
+    ROLE_VAMPIRE = /datum/game_mode/vampire, 			// Vampire
+    ROLE_RAIDER = /datum/game_mode/heist, 				// Vox raider
+    ROLE_ALIEN, 										// Xenomorph
+    ROLE_WIZARD = /datum/game_mode/wizard 				// Wizard
+    // UNUSED/BROKEN ANTAGS
 //	ROLE_HOG_GOD = /datum/game_mode/hand_of_god,
 //	ROLE_HOG_CULTIST = /datum/game_mode/hand_of_god,
 //	ROLE_MONKEY = /datum/game_mode/monkey, Sooner or later these are going to get ported

@@ -78,7 +78,7 @@ export const CrewManifest = (props, context) => {
   // HOW TO USE THIS THING
   /*
   	GLOB.data_core.get_manifest_json()
-	  data["manifest"] = GLOB.PDA_Manifest
+      data["manifest"] = GLOB.PDA_Manifest
   */
   // And thats it
 

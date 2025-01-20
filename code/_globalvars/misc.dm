@@ -21,11 +21,11 @@ GLOBAL_DATUM_INIT(command_announcer, /obj/item/radio/intercom/command, create_co
   return
 
 GLOBAL_LIST_INIT(paper_tag_whitelist, list("center","p","div","span","h1","h2","h3","h4","h5","h6","hr","pre",	\
-	"big","small","font","i","u","b","s","sub","sup","tt","br","hr","ol","ul","li","caption","col",	\
-	"table","td","th","tr"))
+    "big","small","font","i","u","b","s","sub","sup","tt","br","hr","ol","ul","li","caption","col",	\
+    "table","td","th","tr"))
 GLOBAL_LIST_INIT(paper_blacklist, list("java","onblur","onchange","onclick","ondblclick","onfocus","onkeydown",	\
-	"onkeypress","onkeyup","onload","onmousedown","onmousemove","onmouseout","onmouseover",	\
-	"onmouseup","onreset","onselect","onsubmit","onunload"))
+    "onkeypress","onkeyup","onload","onmousedown","onmousemove","onmouseout","onmouseover",	\
+    "onmouseup","onreset","onselect","onsubmit","onunload"))
 
 //Reverse of dir
 GLOBAL_LIST_INIT(reverse_dir, list(2, 1, 3, 8, 10, 9, 11, 4, 6, 5, 7, 12, 14, 13, 15, 32, 34, 33, 35, 40, 42, 41, 43, 36, 38, 37, 39, 44, 46, 45, 47, 16, 18, 17, 19, 24, 26, 25, 27, 20, 22, 21, 23, 28, 30, 29, 31, 48, 50, 49, 51, 56, 58, 57, 59, 52, 54, 53, 55, 60, 62, 61, 63))

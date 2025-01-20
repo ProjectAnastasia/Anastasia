@@ -46,169 +46,169 @@ research holder datum.
 
 /datum/research								//Holder for all the existing, archived, and known tech. Individual to console.
 
-									//Datum/tech go here.
-									// Possible is a list of direct datum references
-									// known is a list of id -> datum mappings
-	var/list/possible_tech = list()			//List of all tech in the game that players have access to (barring special events).
-	var/list/known_tech = list()				//List of locally known tech.
-	var/list/possible_designs = list()		//List of all designs
-	var/list/known_designs = list()			//List of available designs
+                                    //Datum/tech go here.
+                                    // Possible is a list of direct datum references
+                                    // known is a list of id -> datum mappings
+    var/list/possible_tech = list()			//List of all tech in the game that players have access to (barring special events).
+    var/list/known_tech = list()				//List of locally known tech.
+    var/list/possible_designs = list()		//List of all designs
+    var/list/known_designs = list()			//List of available designs
 
 /datum/research/New()		//Insert techs into possible_tech here. Known_tech automatically updated.
-	// MON DIEU!!!
-	// These are semi-global, but not TOTALLY global?
-	// Using research disks, you can get techs/designs from one research datum
-	// onto another. What consequences this could have, I am presently unsure, but
-	// I imagine nothing good.
-	for(var/T in subtypesof(/datum/tech))
-		possible_tech += new T(src)
-	for(var/D in subtypesof(/datum/design))
-		possible_designs += new D(src)
-	RefreshResearch()
+    // MON DIEU!!!
+    // These are semi-global, but not TOTALLY global?
+    // Using research disks, you can get techs/designs from one research datum
+    // onto another. What consequences this could have, I am presently unsure, but
+    // I imagine nothing good.
+    for(var/T in subtypesof(/datum/tech))
+        possible_tech += new T(src)
+    for(var/D in subtypesof(/datum/design))
+        possible_designs += new D(src)
+    RefreshResearch()
 
 
 
 //Checks to see if tech has all the required pre-reqs.
 //Input: datum/tech; Output: 0/1 (false/true)
 /datum/research/proc/TechHasReqs(datum/tech/T)
-	if(T.req_tech.len == 0)
-		return TRUE
-	for(var/req in T.req_tech)
-		var/datum/tech/known = known_tech[req]
-		if(!known || known.level < T.req_tech[req])
-			return FALSE
-	return TRUE
+    if(T.req_tech.len == 0)
+        return TRUE
+    for(var/req in T.req_tech)
+        var/datum/tech/known = known_tech[req]
+        if(!known || known.level < T.req_tech[req])
+            return FALSE
+    return TRUE
 
 //Checks to see if design has all the required pre-reqs.
 //Input: datum/design; Output: 0/1 (false/true)
 /datum/research/proc/DesignHasReqs(datum/design/D)
-	if(D.req_tech.len == 0)
-		return TRUE
-	for(var/req in D.req_tech)
-		var/datum/tech/known = known_tech[req]
-		if(!known || known.level < D.req_tech[req])
-			return FALSE
-	return TRUE
+    if(D.req_tech.len == 0)
+        return TRUE
+    for(var/req in D.req_tech)
+        var/datum/tech/known = known_tech[req]
+        if(!known || known.level < D.req_tech[req])
+            return FALSE
+    return TRUE
 
 //Adds a tech to known_tech list. Checks to make sure there aren't duplicates and updates existing tech's levels if needed.
 //Input: datum/tech; Output: Null
 /datum/research/proc/AddTech2Known(datum/tech/T)
-	if(T.id in known_tech)
-		var/datum/tech/known = known_tech[T.id]
-		if(T.level > known.level)
-			known.level = T.level
-		return
-	known_tech[T.id] = T
+    if(T.id in known_tech)
+        var/datum/tech/known = known_tech[T.id]
+        if(T.level > known.level)
+            known.level = T.level
+        return
+    known_tech[T.id] = T
 
 /datum/research/proc/CanAddDesign2Known(datum/design/D)
-	if (D.id in known_designs)
-		return FALSE
-	return TRUE
+    if (D.id in known_designs)
+        return FALSE
+    return TRUE
 
 /datum/research/proc/AddDesign2Known(datum/design/D)
-	if(!CanAddDesign2Known(D))
-		return
-	// Global datums make me nervous
-	known_designs[D.id] = D
+    if(!CanAddDesign2Known(D))
+        return
+    // Global datums make me nervous
+    known_designs[D.id] = D
 
 //Refreshes known_tech and known_designs list.
 //Input/Output: n/a
 /datum/research/proc/RefreshResearch()
-	for(var/datum/tech/PT in possible_tech)
-		if(TechHasReqs(PT))
-			AddTech2Known(PT)
-	for(var/datum/design/PD in possible_designs)
-		if(DesignHasReqs(PD))
-			AddDesign2Known(PD)
-	for(var/v in known_tech)
-		var/datum/tech/T = known_tech[v]
-		T.level = clamp(T.level, 0, 20)
+    for(var/datum/tech/PT in possible_tech)
+        if(TechHasReqs(PT))
+            AddTech2Known(PT)
+    for(var/datum/design/PD in possible_designs)
+        if(DesignHasReqs(PD))
+            AddDesign2Known(PD)
+    for(var/v in known_tech)
+        var/datum/tech/T = known_tech[v]
+        T.level = clamp(T.level, 0, 20)
 
 //Refreshes the levels of a given tech.
 //Input: Tech's ID and Level; Output: null
 /datum/research/proc/UpdateTech(ID, level)
-	var/datum/tech/KT = known_tech[ID]
-	if(KT)
-		if(KT.level <= level)
-			// Will bump the tech to (value_of_target) automatically -
-			// after that it'll bump it up by 1 until it's greater
-			// than the source tech
-			KT.level = max((KT.level + 1), level)
-			SSblackbox.log_research(KT.name, KT.level)
+    var/datum/tech/KT = known_tech[ID]
+    if(KT)
+        if(KT.level <= level)
+            // Will bump the tech to (value_of_target) automatically -
+            // after that it'll bump it up by 1 until it's greater
+            // than the source tech
+            KT.level = max((KT.level + 1), level)
+            SSblackbox.log_research(KT.name, KT.level)
 
 //Checks if the origin level can raise current tech levels
 //Input: Tech's ID and Level; Output: TRUE for yes, FALSE for no
 /datum/research/proc/IsTechHigher(ID, level)
-	var/datum/tech/KT = known_tech[ID]
-	if(KT)
-		if(KT.level <= level)
-			return TRUE
-		else
-			return FALSE
+    var/datum/tech/KT = known_tech[ID]
+    if(KT)
+        if(KT.level <= level)
+            return TRUE
+        else
+            return FALSE
 
 /datum/research/proc/FindDesignByID(id)
-	return known_designs[id]
+    return known_designs[id]
 
 // A common task is for one research datum to copy over its techs and designs
 // and update them on another research datum.
 // Arguments:
 // `other` - The research datum to send designs and techs to
 /datum/research/proc/push_data(datum/research/other)
-	for(var/v in known_tech)
-		var/datum/tech/T = known_tech[v]
-		other.AddTech2Known(T)
-	for(var/v in known_designs)
-		var/datum/design/D = known_designs[v]
-		other.AddDesign2Known(D)
-	other.RefreshResearch()
+    for(var/v in known_tech)
+        var/datum/tech/T = known_tech[v]
+        other.AddTech2Known(T)
+    for(var/v in known_designs)
+        var/datum/design/D = known_designs[v]
+        other.AddDesign2Known(D)
+    other.RefreshResearch()
 
 
 //Autolathe files
 /datum/research/autolathe
 
 /datum/research/autolathe/DesignHasReqs(datum/design/D)
-	return D && (D.build_type & AUTOLATHE) && ("initial" in D.category)
+    return D && (D.build_type & AUTOLATHE) && ("initial" in D.category)
 
 /datum/research/autolathe/CanAddDesign2Known(datum/design/design)
-	// Specifically excludes circuit imprinter and mechfab
-	if(design.locked || !(design.build_type & (AUTOLATHE|PROTOLATHE|CRAFTLATHE)))
-		return FALSE
+    // Specifically excludes circuit imprinter and mechfab
+    if(design.locked || !(design.build_type & (AUTOLATHE|PROTOLATHE|CRAFTLATHE)))
+        return FALSE
 
-	for(var/mat in design.materials)
-		if(mat != MAT_METAL && mat != MAT_GLASS)
-			return FALSE
+    for(var/mat in design.materials)
+        if(mat != MAT_METAL && mat != MAT_GLASS)
+            return FALSE
 
-	return ..()
+    return ..()
 
 //Biogenerator files
 /datum/research/biogenerator/New()
-	for(var/T in (subtypesof(/datum/tech)))
-		possible_tech += new T(src)
-	for(var/path in subtypesof(/datum/design))
-		var/datum/design/D = new path(src)
-		possible_designs += D
-		if((D.build_type & BIOGENERATOR) && ("initial" in D.category))
-			AddDesign2Known(D)
+    for(var/T in (subtypesof(/datum/tech)))
+        possible_tech += new T(src)
+    for(var/path in subtypesof(/datum/design))
+        var/datum/design/D = new path(src)
+        possible_designs += D
+        if((D.build_type & BIOGENERATOR) && ("initial" in D.category))
+            AddDesign2Known(D)
 
 /datum/research/biogenerator/CanAddDesign2Known(datum/design/D)
-	if(!(D.build_type & BIOGENERATOR))
-		return FALSE
-	return ..()
+    if(!(D.build_type & BIOGENERATOR))
+        return FALSE
+    return ..()
 
 //Smelter files
 /datum/research/smelter/New()
-	for(var/T in (subtypesof(/datum/tech)))
-		possible_tech += new T(src)
-	for(var/path in subtypesof(/datum/design))
-		var/datum/design/D = new path(src)
-		possible_designs += D
-		if((D.build_type & SMELTER) && ("initial" in D.category))
-			AddDesign2Known(D)
+    for(var/T in (subtypesof(/datum/tech)))
+        possible_tech += new T(src)
+    for(var/path in subtypesof(/datum/design))
+        var/datum/design/D = new path(src)
+        possible_designs += D
+        if((D.build_type & SMELTER) && ("initial" in D.category))
+            AddDesign2Known(D)
 
 /datum/research/smelter/CanAddDesign2Known(datum/design/D)
-	if(!(D.build_type & SMELTER))
-		return FALSE
-	return ..()
+    if(!(D.build_type & SMELTER))
+        return FALSE
+    return ..()
 
 /***************************************************************
 **						Technology Datums					  **
@@ -216,205 +216,205 @@ research holder datum.
 ***************************************************************/
 
 /datum/tech	//Datum of individual technologies.
-	var/name = "name"					//Name of the technology.
-	var/desc = "description"			//General description of what it does and what it makes.
-	var/id = "id"						//An easily referenced ID. Must be alphanumeric, lower-case, and no symbols.
-	var/level = 1						//A simple number scale of the research level. Level 0 = Secret tech.
-	var/max_level = 1          // Maximum level this can be at (for job objectives)
-	var/rare = 1						//How much CentCom wants to get that tech. Used in supply shuttle tech cost calculation.
-	var/list/req_tech = list()			//List of ids associated values of techs required to research this tech. "id" = #
+    var/name = "name"					//Name of the technology.
+    var/desc = "description"			//General description of what it does and what it makes.
+    var/id = "id"						//An easily referenced ID. Must be alphanumeric, lower-case, and no symbols.
+    var/level = 1						//A simple number scale of the research level. Level 0 = Secret tech.
+    var/max_level = 1          // Maximum level this can be at (for job objectives)
+    var/rare = 1						//How much CentCom wants to get that tech. Used in supply shuttle tech cost calculation.
+    var/list/req_tech = list()			//List of ids associated values of techs required to research this tech. "id" = #
 
 
 //Trunk Technologies (don't require any other techs and you start knowning them).
 
 /datum/tech/materials
-	name = "Materials Research"
-	desc = "Development of new and improved materials."
-	id = "materials"
-	max_level = 7
+    name = "Materials Research"
+    desc = "Development of new and improved materials."
+    id = "materials"
+    max_level = 7
 
 /datum/tech/engineering
-	name = "Engineering Research"
-	desc = "Development of new and improved engineering parts and methods."
-	id = "engineering"
-	max_level = 7
+    name = "Engineering Research"
+    desc = "Development of new and improved engineering parts and methods."
+    id = "engineering"
+    max_level = 7
 
 /datum/tech/plasmatech
-	name = "Plasma Research"
-	desc = "Research into the mysterious substance colloqually known as 'plasma'."
-	id = "plasmatech"
-	max_level = 7
-	rare = 3
+    name = "Plasma Research"
+    desc = "Research into the mysterious substance colloqually known as 'plasma'."
+    id = "plasmatech"
+    max_level = 7
+    rare = 3
 
 /datum/tech/powerstorage
-	name = "Power Manipulation Technology"
-	desc = "The various technologies behind the storage and generation of electicity."
-	id = "powerstorage"
-	max_level = 7
+    name = "Power Manipulation Technology"
+    desc = "The various technologies behind the storage and generation of electicity."
+    id = "powerstorage"
+    max_level = 7
 
 /datum/tech/bluespace
-	name = "'Blue-space' Research"
-	desc = "Research into the sub-reality known as 'blue-space'."
-	id = "bluespace"
-	max_level = 7
-	rare = 2
+    name = "'Blue-space' Research"
+    desc = "Research into the sub-reality known as 'blue-space'."
+    id = "bluespace"
+    max_level = 7
+    rare = 2
 
 /datum/tech/biotech
-	name = "Biological Technology"
-	desc = "Research into the deeper mysteries of life and organic substances."
-	id = "biotech"
-	max_level = 7
+    name = "Biological Technology"
+    desc = "Research into the deeper mysteries of life and organic substances."
+    id = "biotech"
+    max_level = 7
 
 /datum/tech/combat
-	name = "Combat Systems Research"
-	desc = "The development of offensive and defensive systems."
-	id = "combat"
-	max_level = 7
+    name = "Combat Systems Research"
+    desc = "The development of offensive and defensive systems."
+    id = "combat"
+    max_level = 7
 
 /datum/tech/magnets
-	name = "Electromagnetic Spectrum Research"
-	desc = "Research into the electromagnetic spectrum. No clue how they actually work, though."
-	id = "magnets"
-	max_level = 7
+    name = "Electromagnetic Spectrum Research"
+    desc = "Research into the electromagnetic spectrum. No clue how they actually work, though."
+    id = "magnets"
+    max_level = 7
 
 /datum/tech/programming
-	name = "Data Theory Research"
-	desc = "The development of new computer and artificial intelligence and data storage systems."
-	id = "programming"
-	max_level = 7
+    name = "Data Theory Research"
+    desc = "The development of new computer and artificial intelligence and data storage systems."
+    id = "programming"
+    max_level = 7
 
 /datum/tech/toxins //not meant to be raised by deconstruction, do not give objects toxins as an origin_tech
-	name = "Toxins Research"
-	desc = "Research into plasma based explosive devices. Upgrade through testing explosives in the toxins lab."
-	id = "toxins"
-	max_level = 7
-	rare = 2
+    name = "Toxins Research"
+    desc = "Research into plasma based explosive devices. Upgrade through testing explosives in the toxins lab."
+    id = "toxins"
+    max_level = 7
+    rare = 2
 
 /datum/tech/syndicate
-	name = "Illegal Technologies Research"
-	desc = "The study of technologies that violate standard Nanotrasen regulations."
-	id = "syndicate"
-	max_level = 0 // Don't count towards maxed research, since it's illegal.
-	rare = 4
+    name = "Illegal Technologies Research"
+    desc = "The study of technologies that violate standard Nanotrasen regulations."
+    id = "syndicate"
+    max_level = 0 // Don't count towards maxed research, since it's illegal.
+    rare = 4
 
 /datum/tech/abductor
-	name = "Alien Technologies Research"
-	desc = "The study of technologies used by the advanced alien race known as Abductors."
-	id = "abductor"
-	rare = 5
-	level = 0
+    name = "Alien Technologies Research"
+    desc = "The study of technologies used by the advanced alien race known as Abductors."
+    id = "abductor"
+    rare = 5
+    level = 0
 
 /*
 datum/tech/arcane
-	name = "Arcane Research"
-	desc = "Research into the occult and arcane field for use in practical science"
-	id = "arcane"
-	level = 0 //It didn't become "secret" as advertised.
+    name = "Arcane Research"
+    desc = "Research into the occult and arcane field for use in practical science"
+    id = "arcane"
+    level = 0 //It didn't become "secret" as advertised.
 
 //Branch Techs
 datum/tech/explosives
-	name = "Explosives Research"
-	desc = "The creation and application of explosive materials."
-	id = "explosives"
-	req_tech = list("materials" = 3)
+    name = "Explosives Research"
+    desc = "The creation and application of explosive materials."
+    id = "explosives"
+    req_tech = list("materials" = 3)
 
 datum/tech/generators
-	name = "Power Generation Technology"
-	desc = "Research into more powerful and more reliable sources."
-	id = "generators"
-	req_tech = list("powerstorage" = 2)
+    name = "Power Generation Technology"
+    desc = "Research into more powerful and more reliable sources."
+    id = "generators"
+    req_tech = list("powerstorage" = 2)
 
 datum/tech/robotics
-	name = "Robotics Technology"
-	desc = "The development of advanced automated, autonomous machines."
-	id = "robotics"
-	req_tech = list("materials" = 3, "programming" = 3)
+    name = "Robotics Technology"
+    desc = "The development of advanced automated, autonomous machines."
+    id = "robotics"
+    req_tech = list("materials" = 3, "programming" = 3)
 */
 
 /datum/tech/proc/getCost(current_level = null)
-	// Calculates tech disk's supply points sell cost
-	if(!current_level)
-		current_level = initial(level)
+    // Calculates tech disk's supply points sell cost
+    if(!current_level)
+        current_level = initial(level)
 
-	if(current_level >= level)
-		return 0
+    if(current_level >= level)
+        return 0
 
-	var/cost = 0
-	for(var/i=current_level+1, i<=level, i++)
-		if(i == initial(level))
-			continue
-		cost += i*5*rare
+    var/cost = 0
+    for(var/i=current_level+1, i<=level, i++)
+        if(i == initial(level))
+            continue
+        cost += i*5*rare
 
-	return cost
+    return cost
 
 /obj/item/disk/tech_disk
-	name = "\improper Technology Disk"
-	desc = "A disk for storing technology data for further research."
-	icon_state = "datadisk2"
-	materials = list(MAT_METAL=30, MAT_GLASS=10)
-	var/datum/tech/stored
-	var/default_name = "\improper Technology Disk"
-	var/default_desc = "A disk for storing technology data for further research."
+    name = "\improper Technology Disk"
+    desc = "A disk for storing technology data for further research."
+    icon_state = "datadisk2"
+    materials = list(MAT_METAL=30, MAT_GLASS=10)
+    var/datum/tech/stored
+    var/default_name = "\improper Technology Disk"
+    var/default_desc = "A disk for storing technology data for further research."
 
 /obj/item/disk/tech_disk/Initialize(mapload)
-	. = ..()
-	pixel_x = rand(-5, 5)
-	pixel_y = rand(-5, 5)
+    . = ..()
+    pixel_x = rand(-5, 5)
+    pixel_y = rand(-5, 5)
 
 /obj/item/disk/tech_disk/proc/load_tech(datum/tech/T)
-	name = "[default_name] \[[T]\]"
-	desc = T.desc + "\n <span class='notice'>Level: [T.level]</span>"
-	// NOTE: This is just a reference to the tech on the system it grabbed it from
-	// This seems highly fragile
-	stored = T
+    name = "[default_name] \[[T]\]"
+    desc = T.desc + "\n <span class='notice'>Level: [T.level]</span>"
+    // NOTE: This is just a reference to the tech on the system it grabbed it from
+    // This seems highly fragile
+    stored = T
 
 /obj/item/disk/tech_disk/proc/wipe_tech()
-	name = default_name
-	desc = default_desc
-	stored = null
+    name = default_name
+    desc = default_desc
+    stored = null
 
 /obj/item/disk/design_disk
-	name = "\improper Component Design Disk"
-	desc = "A disk for storing device design data for construction in lathes."
-	icon_state = "datadisk2"
-	materials = list(MAT_METAL=100, MAT_GLASS=100)
-	var/datum/design/blueprint
-	// I'm doing this so that disk paths with pre-loaded designs don't get weird names
-	// Otherwise, I'd use "initial()"
-	var/default_name = "\improper Component Design Disk"
-	var/default_desc = "A disk for storing device design data for construction in lathes."
+    name = "\improper Component Design Disk"
+    desc = "A disk for storing device design data for construction in lathes."
+    icon_state = "datadisk2"
+    materials = list(MAT_METAL=100, MAT_GLASS=100)
+    var/datum/design/blueprint
+    // I'm doing this so that disk paths with pre-loaded designs don't get weird names
+    // Otherwise, I'd use "initial()"
+    var/default_name = "\improper Component Design Disk"
+    var/default_desc = "A disk for storing device design data for construction in lathes."
 
 /obj/item/disk/design_disk/Initialize(mapload)
-	. = ..()
-	pixel_x = rand(-5, 5)
-	pixel_y = rand(-5, 5)
+    . = ..()
+    pixel_x = rand(-5, 5)
+    pixel_y = rand(-5, 5)
 
 /obj/item/disk/design_disk/proc/load_blueprint(datum/design/D)
-	name = "[default_name] \[[D]\]"
-	desc = D.desc
-	// NOTE: This is just a reference to the design on the system it grabbed it from
-	// This seems highly fragile
-	blueprint = D
+    name = "[default_name] \[[D]\]"
+    desc = D.desc
+    // NOTE: This is just a reference to the design on the system it grabbed it from
+    // This seems highly fragile
+    blueprint = D
 
 /obj/item/disk/design_disk/proc/wipe_blueprint()
-	name = default_name
-	desc = default_desc
-	blueprint = null
+    name = default_name
+    desc = default_desc
+    blueprint = null
 
 /obj/item/disk/design_disk/golem_shell
-	name = "golem creation disk"
-	desc = "A gift from the Liberator."
-	icon_state = "datadisk1"
+    name = "golem creation disk"
+    desc = "A gift from the Liberator."
+    icon_state = "datadisk1"
 
 /obj/item/disk/design_disk/golem_shell/Initialize()
-	. = ..()
-	var/datum/design/golem_shell/G = new
-	blueprint = G
+    . = ..()
+    var/datum/design/golem_shell/G = new
+    blueprint = G
 
 /datum/research/autolathe/syndicate/New()
-	// Used by syndi autolathe in syndie space base ruin. Removes methods of contacting main station.
-	. = ..()
-	known_designs -= "intercom_electronics"
-	known_designs -= "radio_headset"
-	known_designs -= "bounced_radio"
-	known_designs -= "newscaster_frame"
+    // Used by syndi autolathe in syndie space base ruin. Removes methods of contacting main station.
+    . = ..()
+    known_designs -= "intercom_electronics"
+    known_designs -= "radio_headset"
+    known_designs -= "bounced_radio"
+    known_designs -= "newscaster_frame"

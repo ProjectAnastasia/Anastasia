@@ -9,14 +9,14 @@ GLOBAL_LIST_INIT(alldirs2, list(NORTHEAST, NORTHWEST, SOUTHEAST, SOUTHWEST, NORT
 GLOBAL_LIST_INIT(diagonals, list(NORTHEAST, NORTHWEST, SOUTHEAST, SOUTHWEST))
 
 GLOBAL_LIST(global_map) // This is the array of zlevels | list(list(1,5),list(4,3)) | becomes a 2D array of zlevels
-	//Resulting sector map looks like
-	//|_1_|_4_|
-	//|_5_|_3_|
-	//
-	//1 - SS13
-	//4 - Derelict
-	//3 - AI satellite
-	//5 - empty space
+    //Resulting sector map looks like
+    //|_1_|_4_|
+    //|_5_|_3_|
+    //
+    //1 - SS13
+    //4 - Derelict
+    //3 - AI satellite
+    //5 - empty space
 
 GLOBAL_LIST_EMPTY(wizardstart)
 GLOBAL_LIST_EMPTY(newplayer_start)

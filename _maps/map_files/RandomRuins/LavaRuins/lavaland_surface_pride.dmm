@@ -14,14 +14,14 @@
 /area/ruin/powered/pride)
 "e" = (
 /obj/structure/mirror{
-	pixel_x = -32
-	},
+    pixel_x = -32
+    },
 /turf/simulated/floor/mineral/silver,
 /area/ruin/powered/pride)
 "f" = (
 /obj/structure/mirror{
-	pixel_x = 32
-	},
+    pixel_x = 32
+    },
 /turf/simulated/floor/mineral/silver,
 /area/ruin/powered/pride)
 "g" = (
@@ -29,39 +29,39 @@
 /area/ruin/powered/pride)
 "j" = (
 /obj/structure/mirror{
-	pixel_x = -32
-	},
+    pixel_x = -32
+    },
 /obj/machinery/light/small{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/mineral/silver,
 /area/ruin/powered/pride)
 "k" = (
 /obj/structure/mirror{
-	pixel_x = 32
-	},
+    pixel_x = 32
+    },
 /obj/machinery/light/small{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/mineral/silver,
 /area/ruin/powered/pride)
 "l" = (
 /obj/structure/mirror{
-	pixel_x = -32
-	},
+    pixel_x = -32
+    },
 /obj/machinery/light/small{
-	brightness_range = 3;
-	dir = 8
-	},
+    brightness_range = 3;
+    dir = 8
+    },
 /turf/simulated/floor/mineral/silver,
 /area/ruin/powered/pride)
 "m" = (
 /obj/structure/mirror{
-	pixel_x = 32
-	},
+    pixel_x = 32
+    },
 /obj/machinery/light/small{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/mineral/silver,
 /area/ruin/powered/pride)
 "r" = (
@@ -79,8 +79,8 @@
 /obj/machinery/door/airlock/diamond,
 /obj/structure/fans/tiny/invisible,
 /turf/simulated/floor/mineral/silver{
-	blocks_air = 1
-	},
+    blocks_air = 1
+    },
 /area/ruin/powered/pride)
 
 (1,1,1) = {"

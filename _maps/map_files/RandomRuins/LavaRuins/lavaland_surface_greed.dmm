@@ -16,51 +16,51 @@
 /obj/structure/table/wood/poker,
 /obj/item/gun/projectile/revolver/russian/soul,
 /obj/machinery/light/small{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/carpet{
-	icon_state = "carpetsymbol"
-	},
+    icon_state = "carpetsymbol"
+    },
 /area/ruin/powered/greed)
 "f" = (
 /obj/structure/cursed_slot_machine,
 /turf/simulated/floor/carpet{
-	icon_state = "carpetsymbol"
-	},
+    icon_state = "carpetsymbol"
+    },
 /area/ruin/powered/greed)
 "g" = (
 /obj/structure/table/wood/poker,
 /obj/item/coin/mythril,
 /obj/machinery/light/small{
-	dir = 1
-	},
+    dir = 1
+    },
 /turf/simulated/floor/carpet{
-	icon_state = "carpetsymbol"
-	},
+    icon_state = "carpetsymbol"
+    },
 /area/ruin/powered/greed)
 "h" = (
 /obj/structure/table/wood/poker,
 /obj/item/coin/diamond,
 /turf/simulated/floor/carpet{
-	icon_state = "carpetsymbol"
-	},
+    icon_state = "carpetsymbol"
+    },
 /area/ruin/powered/greed)
 "i" = (
 /turf/simulated/floor/carpet{
-	icon_state = "carpetsymbol"
-	},
+    icon_state = "carpetsymbol"
+    },
 /area/ruin/powered/greed)
 "j" = (
 /obj/structure/table/wood/poker,
 /obj/item/coin/adamantine,
 /turf/simulated/floor/carpet{
-	icon_state = "carpetsymbol"
-	},
+    icon_state = "carpetsymbol"
+    },
 /area/ruin/powered/greed)
 "k" = (
 /obj/machinery/computer/arcade/battle{
-	emagged = 1
-	},
+    emagged = 1
+    },
 /turf/simulated/floor/engine/cult,
 /area/ruin/powered/greed)
 "l" = (
@@ -89,9 +89,9 @@
 /obj/item/stack/spacecash/c20,
 /obj/item/stack/spacecash/c50,
 /obj/machinery/light/small{
-	brightness_range = 3;
-	dir = 8
-	},
+    brightness_range = 3;
+    dir = 8
+    },
 /turf/simulated/floor/engine/cult,
 /area/ruin/powered/greed)
 "r" = (
@@ -112,8 +112,8 @@
 /obj/item/stack/spacecash/c100,
 /obj/item/stack/spacecash/c1000,
 /obj/machinery/light/small{
-	dir = 4
-	},
+    dir = 4
+    },
 /turf/simulated/floor/engine/cult,
 /area/ruin/powered/greed)
 "v" = (

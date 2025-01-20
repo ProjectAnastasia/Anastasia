@@ -17,7 +17,7 @@
 #define EMPED		16		// temporary broken by EMP pulse
 
 /*
-	Shuttles
+    Shuttles
 */
 
 // these define the time taken for the shuttle to get to SS13
@@ -51,7 +51,7 @@
 #define SHUTTLE_RIPPLE_FADEIN 50
 
 /*
-	Logic
+    Logic
 */
 //	State						When to Use														Example
 #define LOGIC_OFF 0		//Use this for when you want it to stay off						(continuous signal, lever)

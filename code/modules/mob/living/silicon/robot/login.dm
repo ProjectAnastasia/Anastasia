@@ -1,4 +1,4 @@
 /mob/living/silicon/robot/Login()
-	..()
-	regenerate_icons()
-	show_laws(0)
+    ..()
+    regenerate_icons()
+    show_laws(0)

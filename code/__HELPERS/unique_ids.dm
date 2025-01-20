@@ -26,14 +26,14 @@ GLOBAL_LIST_EMPTY(uid_log)
   * Returns the UID of the datum
   */
 /datum/proc/UID()
-	if(!unique_datum_id)
-		var/tag_backup = tag
-		tag = null // Grab the raw ref, not the tag
-		// num2text can output 8 significant figures max. If we go above 10 million UIDs in a round, shit breaks
-		unique_datum_id = "\ref[src]_[num2text(GLOB.next_unique_datum_id++, 8)]"
-		tag = tag_backup
-		GLOB.uid_log[type]++
-	return unique_datum_id
+    if(!unique_datum_id)
+        var/tag_backup = tag
+        tag = null // Grab the raw ref, not the tag
+        // num2text can output 8 significant figures max. If we go above 10 million UIDs in a round, shit breaks
+        unique_datum_id = "\ref[src]_[num2text(GLOB.next_unique_datum_id++, 8)]"
+        tag = tag_backup
+        GLOB.uid_log[type]++
+    return unique_datum_id
 
 /**
   * Locates a datum based off of the UID
@@ -42,19 +42,19 @@ GLOBAL_LIST_EMPTY(uid_log)
   * Returns the datum, if found
   */
 /proc/locateUID(uid)
-	if(!istext(uid))
-		return null
+    if(!istext(uid))
+        return null
 
-	var/splitat = findlasttext(uid, "_")
+    var/splitat = findlasttext(uid, "_")
 
-	if(!splitat)
-		return null
+    if(!splitat)
+        return null
 
-	var/datum/D = locate(copytext(uid, 1, splitat))
+    var/datum/D = locate(copytext(uid, 1, splitat))
 
-	if(D && D.unique_datum_id == uid)
-		return D
-	return null
+    if(D && D.unique_datum_id == uid)
+        return D
+    return null
 
 /**
   * Opens a lof of UIDs
@@ -62,17 +62,17 @@ GLOBAL_LIST_EMPTY(uid_log)
   * In-round ability to view what has created a UID, and how many times a UID for that path has been declared
   */
 /client/proc/uid_log()
-	set name = "View UID Log"
-	set category = "Debug"
-	set desc = "Shows the log of created UIDs this round"
+    set name = "View UID Log"
+    set category = "Debug"
+    set desc = "Shows the log of created UIDs this round"
 
-	if(!check_rights(R_DEBUG))
-		return
+    if(!check_rights(R_DEBUG))
+        return
 
-	var/list/sorted = sortTim(GLOB.uid_log, cmp=/proc/cmp_numeric_dsc, associative = TRUE)
-	var/list/text = list("<h1>UID Log</h1>", "<p>Current UID: [GLOB.next_unique_datum_id]</p>", "<ul>")
-	for(var/key in sorted)
-		text += "<li>[key] - [sorted[key]]</li>"
+    var/list/sorted = sortTim(GLOB.uid_log, cmp=/proc/cmp_numeric_dsc, associative = TRUE)
+    var/list/text = list("<h1>UID Log</h1>", "<p>Current UID: [GLOB.next_unique_datum_id]</p>", "<ul>")
+    for(var/key in sorted)
+        text += "<li>[key] - [sorted[key]]</li>"
 
-	text += "</ul>"
-	usr << browse(text.Join(), "window=uidlog")
+    text += "</ul>"
+    usr << browse(text.Join(), "window=uidlog")

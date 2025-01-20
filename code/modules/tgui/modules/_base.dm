@@ -7,15 +7,15 @@ This is useful for things such as the power monitor, which needs to exist on a p
 Code is pretty much ripped verbatim from nano modules, but with un-needed stuff removed
 */
 /datum/ui_module
-	var/name
-	var/datum/host
+    var/name
+    var/datum/host
 
 /datum/ui_module/New(datum/_host)
-	host = _host
+    host = _host
 
 /datum/ui_module/ui_host()
-	return host ? host : src
+    return host ? host : src
 
 /datum/ui_module/ui_close(mob/user)
-	if(host)
-		host.ui_close(user)
+    if(host)
+        host.ui_close(user)

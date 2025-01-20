@@ -8,22 +8,22 @@
   *
   */
 SUBSYSTEM_DEF(persistent_data)
-	name = "Persistent Data"
-	init_order = INIT_ORDER_PERSISTENCE // -95 | Loads after EVERYTHING else
-	flags = SS_NO_FIRE
-	/// List of atoms registered into the subsystem for persistent data storage. Can be anything at all
-	var/list/registered_atoms = list()
+    name = "Persistent Data"
+    init_order = INIT_ORDER_PERSISTENCE // -95 | Loads after EVERYTHING else
+    flags = SS_NO_FIRE
+    /// List of atoms registered into the subsystem for persistent data storage. Can be anything at all
+    var/list/registered_atoms = list()
 
 /datum/controller/subsystem/persistent_data/Initialize()
-	// Load all the data of registered atoms
-	for(var/atom/A in registered_atoms)
-		A.persistent_load()
-	return ..()
+    // Load all the data of registered atoms
+    for(var/atom/A in registered_atoms)
+        A.persistent_load()
+    return ..()
 
 /datum/controller/subsystem/persistent_data/Shutdown()
-	// Save all the data of registered atoms
-	for(var/atom/A in registered_atoms)
-		A.persistent_save()
+    // Save all the data of registered atoms
+    for(var/atom/A in registered_atoms)
+        A.persistent_save()
 
 
 /**
@@ -36,9 +36,9 @@ SUBSYSTEM_DEF(persistent_data)
   * * A - Atom to register
   */
 /datum/controller/subsystem/persistent_data/proc/register(atom/A)
-	registered_atoms |= A
-	if(initialized)
-		A.persistent_load()
+    registered_atoms |= A
+    if(initialized)
+        A.persistent_load()
 
 /**
   * Atom Persistent Loader
@@ -46,7 +46,7 @@ SUBSYSTEM_DEF(persistent_data)
   * Overridden on every atom which needs to load persistent data
   */
 /atom/proc/persistent_load()
-	stack_trace("peristent_load() called on an atom which does not have persistent data storage!")
+    stack_trace("peristent_load() called on an atom which does not have persistent data storage!")
 
 /**
   * Atom Persistent Saver
@@ -54,5 +54,5 @@ SUBSYSTEM_DEF(persistent_data)
   * Overridden on every atom which needs to save persistent data
   */
 /atom/proc/persistent_save()
-	stack_trace("peristent_save() called on an atom which does not have persistent data storage!")
+    stack_trace("peristent_save() called on an atom which does not have persistent data storage!")
 

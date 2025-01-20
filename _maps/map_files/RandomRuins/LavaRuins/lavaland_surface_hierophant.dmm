@@ -7,9 +7,9 @@
 /area/ruin/unpowered/hierophant)
 "c" = (
 /obj/effect/light_emitter{
-	light_power = 5;
-	light_range = 3
-	},
+    light_power = 5;
+    light_range = 3
+    },
 /turf/simulated/floor/indestructible/hierophant,
 /area/ruin/unpowered/hierophant)
 "d" = (
@@ -21,9 +21,9 @@
 /area/ruin/unpowered/hierophant)
 "f" = (
 /obj/effect/light_emitter{
-	light_power = 5;
-	light_range = 3
-	},
+    light_power = 5;
+    light_range = 3
+    },
 /turf/simulated/floor/indestructible/hierophant/two,
 /area/ruin/unpowered/hierophant)
 "g" = (

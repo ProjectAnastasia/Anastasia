@@ -1,16 +1,16 @@
 <!-- TOC depth:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Shuttle system](#shuttle-system)
-	- [Introduction](#introduction)
-	- [Docking ports](#docking-ports)
-		- [/obj/docking_port](#obj-docking_port)
-			- [Variables](#variables)
-		- [/obj/docking_port/mobile](#objdockingportmobile)
-		- [/obj/docking_port/mobile](#objdockingportmobile)
-	- [Modifications](#modifications)
-		- [Shuttle Controller](#shuttle-controller)
-		- [Airlocks](#airlocks)
-		- [Initialization](#initialization)
+    - [Introduction](#introduction)
+    - [Docking ports](#docking-ports)
+        - [/obj/docking_port](#obj-docking_port)
+            - [Variables](#variables)
+        - [/obj/docking_port/mobile](#objdockingportmobile)
+        - [/obj/docking_port/mobile](#objdockingportmobile)
+    - [Modifications](#modifications)
+        - [Shuttle Controller](#shuttle-controller)
+        - [Airlocks](#airlocks)
+        - [Initialization](#initialization)
 <!-- /TOC -->
 
  # Important note:

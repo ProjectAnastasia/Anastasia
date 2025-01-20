@@ -8,3 +8,21 @@
 
 DELETE FROM `db_metadata`;
 INSERT INTO `db_metadata` (`sql_version`) VALUES (0);
+
+-- TODO: just testing, remove this before merge
+
+DROP TABLE IF EXISTS `bad_table`;
+CREATE TABLE `bad_table` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `ckey` varchar(50) NOT NULL,
+  `secret` varchar(64) NOT NULL,
+  `date_setup` datetime NOT NULL DEFAULT current_timestamp(),
+  `last_time` datetime DEFAULT NULL,
+  `date_created` datetime NOT NULL DEFAULT current_timestamp(),
+  `date_updated` datetime NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  -- `uuid` uuid NOT NULL DEFAULT uuid(),
+  `version` int(11) NOT NULL DEFAULT 0,
+  -- PRIMARY KEY (`id`),
+  -- UNIQUE KEY (`ckey`)
+  PRIMARY KEY (`ckey`),
+);

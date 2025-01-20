@@ -43,7 +43,7 @@ jobs:
           --health-interval 10s
           --health-retries 10
           --health-timeout 5s
-          -v ${GITHUB_WORKSPACE}/SQL:/docker-entrypoint-initdb.d:ro
+          -v ${GITHUB_WORKSPACE}/SQL:/docker-entrypoint-initdb.d
 
     steps:
       - uses: actions/checkout@v4

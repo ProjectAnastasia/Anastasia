@@ -6,7 +6,21 @@ on:
 
 jobs:
   test:
-    name: Test
+    name: 'Test Database'
     runs-on: ubuntu-latest
+
+    services:
+      mariadb:
+        image: mariadb:latest  # 11.6.2 as of this writing
+        env:
+          MARIADB_DATABASE: "anastasia_gamedb"
+          MARIADB_ROOT_PASSWORD: "root"
+        ports:
+          - 3306:3306
+
     steps:
-      - run: echo "Workflow Call LGTM!"
+      - uses: actions/checkout@v4
+      - run: sudo apt update && sudo apt install -y mariadb-client
+      - run: cp -v testdata/SQL/* SQL/.
+      - run: tools/ci/apply_sql_scripts.sh
+      - run: tools/ci/check_game_database.sh

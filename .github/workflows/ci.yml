@@ -37,13 +37,14 @@ jobs:
           MARIADB_ROOT_PASSWORD: "root"
           MARIADB_USER: "ss13"
         ports:
-          - 3306
+          - 3306:3306
+        volumes:
+          - /home/runner/work/Anastasia/Anastasia/SQL:/docker-entrypoint-initdb.d
         options: >
           --health-cmd "mysqladmin ping"
           --health-interval 10s
           --health-retries 10
           --health-timeout 5s
-          -v ${GITHUB_WORKSPACE}/SQL:/docker-entrypoint-initdb.d
 
     steps:
       - uses: actions/checkout@v4

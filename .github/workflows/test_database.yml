@@ -1,0 +1,12 @@
+# test_database.yml
+name: Test Workflow Call
+
+on:
+  workflow_call:
+
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Workflow Call LGTM!"

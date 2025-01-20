@@ -22,7 +22,8 @@ jobs:
     name: Test
     runs-on: ubuntu-latest
     steps:
-      - run: echo "LGTM!"
+      - uses: actions/checkout@v4
+      - uses: ./.github/workflows/test_database.yml
 
   test_database:
     name: 'Test Database'
@@ -33,18 +34,18 @@ jobs:
         image: mariadb:latest  # 11.6.2 as of this writing
         env:
           MARIADB_DATABASE: "anastasia_gamedb"
-          MARIADB_PASSWORD: "ss13"
+          # MARIADB_PASSWORD: "ss13"
           MARIADB_ROOT_PASSWORD: "root"
-          MARIADB_USER: "ss13"
+          # MARIADB_USER: "ss13"
         ports:
           - 3306:3306
-        volumes:
-          - /home/runner/work/Anastasia/Anastasia/SQL:/docker-entrypoint-initdb.d
-        options: >-
-          --health-cmd "mysqladmin ping --host mariadb --port 3306"
-          --health-interval 10s
-          --health-retries 10
-          --health-timeout 5s
+        # volumes:
+        #   - /home/runner/work/Anastasia/Anastasia/SQL:/docker-entrypoint-initdb.d
+        # options: >-
+        #   --health-cmd "mysqladmin ping --host mariadb --port 3306"
+        #   --health-interval 10s
+        #   --health-retries 10
+        #   --health-timeout 5s
 
     steps:
       - uses: actions/checkout@v4

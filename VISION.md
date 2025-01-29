@@ -11,7 +11,8 @@ a weary worker, or a scheming opportunist, everyone has a role to play in keepin
 
 **Soviet Atmosphere**  
 Inspired by late-Soviet aesthetics, bureaucracy, and daily struggles--grim, clunky, and sometimes
-absurd. It’s all for the fun of the setting, not a history lesson or political statement.
+absurd.
+It’s all for the fun of the setting, not a history lesson or political statement.
 
 **Engaging Roleplay**  
 Get into character, tell stories, and keep it moving. No walls of text.

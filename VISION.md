@@ -18,7 +18,8 @@ It’s all for the fun of the setting, not a history lesson or political stateme
 Get into character, tell stories, and keep it moving. No walls of text.
 
 **Classic Combat**  
-Bringing back old-school stun-based fights. No bullet-sponging stamina combat.
+Bringing back old-school stun-based fights. No bullet-sponging stamina combat. No drawn-out stamina
+fights--if you get the drop on someone, it matters. Quick, brutal, and to the point.
 
 **Explore the Void**  
 Brave cosmonauts can take space pods beyond the station to explore, salvage wrecks, or disappear
@@ -36,7 +37,3 @@ Keep it clean, comrade.
 **HRP**  
 We love immersive roleplay, but it’s all about enjoying the experience without the pressure of
 super long paragraphs and no action.
-
-**Stamina Combat**  
-We’re sticking to the old-school stun-based combat. No drawn-out stamina fights--if you get the
-drop on someone, it matters. Quick, brutal, and to the point.

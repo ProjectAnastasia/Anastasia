@@ -6,7 +6,7 @@ seems one meltdown away from disaster. But the work must go on. Whether you're a
 a weary worker, or a scheming opportunist, everyone has a role to play in keeping the station
 (and themselves) in one piece.
 
-## What To Expect:
+## What To Expect
 
 **Soviet Atmosphere**  
 Inspired by late-Soviet aesthetics, bureaucracy, and daily struggles—grim, clunky, and sometimes
@@ -26,15 +26,15 @@ into the unknown.
 A portal to unknown worlds, offering scientists the chance to recover rare artifacts; valuable,
 dangerous, and vital for research.
 
-## What NOT To Expect:
+## What NOT To Expect
 
-**ERP**
+**ERP**  
 Keep it clean, comrade.
 
-**HRP**
+**HRP**  
 We love immersive roleplay, but it’s all about enjoying the experience without the pressure of
 super long paragraphs and no action.
 
-**Stamina Combat**
+**Stamina Combat**  
 We’re sticking to the old-school stun-based combat. No drawn-out stamina fights--if you get the
 drop on someone, it matters. Quick, brutal, and to the point.

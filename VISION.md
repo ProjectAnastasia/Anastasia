@@ -18,8 +18,8 @@ It’s all for the fun of the setting, not a history lesson or political stateme
 Get into character, tell stories, and keep it moving. No walls of text.
 
 **Classic Combat**  
-Bringing back old-school stun-based fights. No bullet-sponging stamina combat. No drawn-out stamina
-fights--if you get the drop on someone, it matters. Quick, brutal, and to the point.
+Bringing back old-school stun-based fights. No bullet-sponging stamina combat--if you get the drop
+on someone, it matters. Quick, brutal, and to the point.
 
 **Explore the Void**  
 Brave cosmonauts can take space pods beyond the station to explore, salvage wrecks, or disappear
@@ -37,3 +37,32 @@ Keep it clean, comrade.
 **HRP**  
 We love immersive roleplay, but it’s all about enjoying the experience without the pressure of
 super long paragraphs and no action.
+
+**Powergaming & Min-Maxing**  
+This isn’t a competition. Play your role, not just the mechanics. Winning at all costs is neither
+glorious nor fun.
+
+**Modern Convenience**  
+The station is held together by duct tape and stubbornness. Don’t expect sleek, user-friendly
+tech—everything is a little janky, a little slow, and a little unpredictable.
+
+**Competent Leadership**  
+Your department head might be a washed-up officer coasting on old favors. Your captain might
+be an out-of-touch bureaucrat more concerned with paperwork than safety. Expect flawed leadership,
+not flawless efficiency.
+
+**Nanotrasen Corporate Culture**  
+No NT here, tovarishch. The Union runs on collective struggle, not corporate greed. No bluesuits,
+no loyalty implants—just state-issued incompetence and the ever-present hand of the Party.
+
+**A Station That Works Properly**  
+The equipment is ancient, the bureaucracy is sluggish, and everything is held together by desperation
+and ingenuity. A smoothly running station is a utopian dream.
+
+**A Safe Work Environment**  
+Between reactor leaks, faulty wiring, and the occasional political purge, safety regulations
+are more of a suggestion than a reality.
+
+**Simple Solutions**  
+Every problem has at least three layers of unnecessary paperwork, outdated procedures, and
+someone in a bad mood making things worse.

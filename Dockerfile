@@ -41,7 +41,7 @@ RUN dpkg --add-architecture i386 \
     zlib1g:i386 \
     libstdc++6:i386 \
     && rm -rf /var/lib/apt/lists/*
-RUN useradd -ms /bin/bash ss13
+RUN useradd --uid 1002 --gid 1002 --create-home --shell /bin/bash ss13
 COPY --chown=ss13:ss13 --from=byond_build /build/_maps /anastasia/_maps
 COPY --chown=ss13:ss13 --from=byond_build /build/goon /anastasia/goon
 COPY --chown=ss13:ss13 --from=byond_build /build/html /anastasia/html

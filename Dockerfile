@@ -41,21 +41,19 @@ RUN dpkg --add-architecture i386 \
     zlib1g:i386 \
     libstdc++6:i386 \
     && rm -rf /var/lib/apt/lists/*
-RUN useradd --uid 1002 --user-group --create-home --shell /bin/bash ss13
-COPY --chown=ss13:ss13 --from=byond_build /build/_maps /anastasia/_maps
-COPY --chown=ss13:ss13 --from=byond_build /build/goon /anastasia/goon
-COPY --chown=ss13:ss13 --from=byond_build /build/html /anastasia/html
-COPY --chown=ss13:ss13 --from=byond_build /build/strings /anastasia/strings
-COPY --chown=ss13:ss13 --from=byond_build /build/anastasia.dmb /anastasia/anastasia.dmb
-COPY --chown=ss13:ss13 --from=byond_build /build/anastasia.rsc /anastasia/anastasia.rsc
-COPY --chown=ss13:ss13 --from=byond_build /build/librust_g.so /anastasia/librust_g.so
-COPY --chown=ss13:ss13 --from=byond_build /usr/local/byond /byond
-COPY --chown=ss13:ss13 --from=mariadb_library /usr/lib/i386-linux-gnu/libmariadb.so /anastasia/libmariadb.so
-COPY --chown=ss13:ss13 --from=tgui_build /build/tgui/packages/tgui/public /anastasia/tgui/packages/tgui/public
+COPY --from=byond_build /build/_maps /anastasia/_maps
+COPY --from=byond_build /build/goon /anastasia/goon
+COPY --from=byond_build /build/html /anastasia/html
+COPY --from=byond_build /build/strings /anastasia/strings
+COPY --from=byond_build /build/anastasia.dmb /anastasia/anastasia.dmb
+COPY --from=byond_build /build/anastasia.rsc /anastasia/anastasia.rsc
+COPY --from=byond_build /build/librust_g.so /anastasia/librust_g.so
+COPY --from=byond_build /usr/local/byond /byond
+COPY --from=mariadb_library /usr/lib/i386-linux-gnu/libmariadb.so /anastasia/libmariadb.so
+COPY --from=tgui_build /build/tgui/packages/tgui/public /anastasia/tgui/packages/tgui/public
 ENV LD_LIBRARY_PATH="/anastasia:/byond/bin"
 ENV PATH="/byond/bin:${PATH}"
 # EXPOSE 7777
 # VOLUME [ "/anastasia/config", "/anastasia/data" ]
-USER ss13
 WORKDIR /anastasia
 ENTRYPOINT [ "DreamDaemon", "anastasia.dmb", "-port", "7777", "-trusted", "-close", "-verbose" ]

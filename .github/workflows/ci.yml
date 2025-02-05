@@ -27,11 +27,27 @@ jobs:
       - run: echo "LGTM!"
 
   test_database:
-    name: Test
-    uses: ./.github/workflows/test_database.yml
+    name: "Test Database"
+    runs-on: ubuntu-latest
+
+    services:
+      mariadb:
+        image: mariadb:latest
+        env:
+          MARIADB_DATABASE: "anastasia_gamedb"
+          MARIADB_ROOT_PASSWORD: "root"
+        ports:
+          - 3306:3306
+
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt update && sudo apt install -y mariadb-client
+      - run: cp -v testdata/SQL/* SQL/.
+      - run: tools/ci/apply_sql_scripts.sh
+      - run: tools/ci/check_game_database.sh
 
   build:
-    name: Build
+    name: "Build Docker Image"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
